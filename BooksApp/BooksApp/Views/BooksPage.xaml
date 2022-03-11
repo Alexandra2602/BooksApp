@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooksApp.Views.BooksPage">
+    <StackLayout Padding="05" BackgroundColor="Ivory">
+        <ListView x:Name="MyListView"  RowHeight="55"  ItemsSource="{Binding books}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Margin="5" VerticalOptions="CenterAndExpand" >
+                           <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Grid.Column="0">
+                                <Image Source="{Binding Image}" HorizontalOptions="StartAndExpand" HeightRequest="50" WidthRequest="50" Aspect="AspectFit"  ></Image>
+                            </StackLayout>
+                            <StackLayout Grid.Column="1">
+                                <Label Text="{Binding Title}" FontSize="18" TextColor="black" HorizontalOptions="StartAndExpand" Margin="-5,-5,0,0" />
+                                <Label Text="{Binding Author}" FontSize="16" TextColor="black" HorizontalOptions="StartAndExpand" Margin="-5,-5,0,0"/>
+                            </StackLayout>
+                            <StackLayout>
+                               
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>    
+  
+            
+            
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
