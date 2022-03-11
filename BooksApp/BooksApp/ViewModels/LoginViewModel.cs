@@ -72,7 +72,7 @@ namespace BooksApp.ViewModels
             this.IsRunning = true;
             this.IsEnabled = false;
 
-            if (this.Email !="ale@yahoo.com" || this.Password!="1234")
+            if (this.Email !="test@yahoo.com" || this.Password!="1234")
             {
                 this.IsRunning = false;
                 this.IsEnabled = true;
@@ -99,7 +99,7 @@ namespace BooksApp.ViewModels
             this.IsRemembered = true;
             this.IsEnabled = true;
 
-            this.Email = "ale@yahoo.com";
+            this.Email = "test@yahoo.com";
             this.Password = "1234";
         }
 

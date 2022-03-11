@@ -21,7 +21,8 @@ namespace BooksApp.Views
         private ObservableCollection<Book> myrootobject;
         public BooksPage()
         {
-            
+            InitializeComponent();
+            BindingContext = this;
 
             var assembly = typeof(BooksPage).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream("BooksApp.books.json");
