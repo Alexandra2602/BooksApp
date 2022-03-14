@@ -37,7 +37,30 @@ namespace BooksApp.Views
             }
         }
 
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var searchresult = myrootobject.Where(c => c.Title.ToLower().Contains(Search1.Text.ToLower()) ||c.Author.ToLower().Contains(Search1.Text.ToLower()));
+           
+            MyListView.ItemsSource = searchresult;
         }
+
+         async private void MyListView_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        {
+            Book tappedbook = e.Item as Book;
+            if (tappedbook == null)
+                return;
+
+        }
+
+        async void MyListView_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            var bookDetailPage = new BookDetailPage(e.SelectedItem as Book);
+            await Navigation.PushAsync(bookDetailPage);
+
+        }
+
+    
+    }
 
     }
         

@@ -26,6 +26,8 @@ namespace BooksApp.Models
         public int YearPublished { get; set; }
 
         public string Image { get; set; }
+        
+
     }
 
     public class BookList

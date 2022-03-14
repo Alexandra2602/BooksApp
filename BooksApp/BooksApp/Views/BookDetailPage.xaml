@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooksApp.Views.BookDetailPage"
+             Title="Book detail">
+    <ContentPage.Content >
+        <StackLayout BackgroundColor="#e0cc94">
+            <Frame VerticalOptions="CenterAndExpand" Padding="5" Margin="10,90,10,100"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe" HeightRequest="600">
+                <Grid >
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0" >
+                        <Image Source="{x:Binding Book.Image}"  Margin="-12,10,0,0" HeightRequest="170" WidthRequest="150" Aspect="AspectFit"/>
+
+                    </StackLayout>
+                    <Label  TextColor="Black" FontAttributes="Bold" Margin="-17,5,0,0" Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Title:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,5,0,0" Grid.Row="1" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Author:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,5,0,0" Grid.Row="2" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Publisher:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,5,0,0" Grid.Row="3" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Year Published:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,5,0,0" Grid.Row="4" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Number of pages :</Label>
+                    
+             
+                    <Label Text="{x:Binding Book.Title}" Grid.Row="0" Grid.Column="2"   TextColor="Black" FontSize="16" />
+                    <Label Text="{x:Binding Book.Author}" Grid.Row="1" Grid.Column="2"   TextColor="Black" FontSize="16"/>
+                    <Label Text="{x:Binding Book.Publisher}" Grid.Row="2" Grid.Column="2" TextColor="Black" FontSize="16"/>
+                    <Label Text="{x:Binding Book.YearPublished}" Grid.Row="3" Grid.Column="2"  TextColor="Black" FontSize="16"/>
+                    <Label Text="{x:Binding Book.NumberOfPages}" Grid.Row="4" Grid.Column="2" TextColor="Black" FontSize="16"/>
+                
+          
+            
+        </Grid>
+        </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

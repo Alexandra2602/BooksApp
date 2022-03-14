@@ -26,14 +26,18 @@
                 </StackLayout>
                 <Label Text="Forgot your password?" HorizontalOptions="Center"  TextColor="Blue" VerticalOptions="CenterAndExpand"/>
                 <StackLayout Margin="20,0" Orientation="Horizontal">
-                     <Button Text="Login" BackgroundColor="Navy" TextColor="White" BorderRadius="23" HeightRequest="46" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Command="{Binding LoginCommand}" IsEnabled="{Binding IsEnabled, Mode=TwoWay}">
+                    <Button Text="Login" BackgroundColor="Navy" TextColor="White" BorderRadius="23" HeightRequest="46" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  IsEnabled="{Binding IsEnabled, Mode=TwoWay}">
                     </Button>
                     <Button Text="Register" BackgroundColor="Purple" TextColor="White" BorderRadius="23" HeightRequest="46" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" IsEnabled="{Binding IsEnabled, Mode=TwoWay}">
                     </Button>
             </StackLayout>
         
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="EndAndExpand">
-                <Image Source="facebook.png" WidthRequest="100"></Image>
+                <Image Source="facebook.png" WidthRequest="100">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LoginFacebookCommand}"/>
+                        </Image.GestureRecognizers>
+                </Image>
                 <Image Source="instagram.png" WidthRequest="80"></Image>
                 <Image Source="twitter.png" WidthRequest="80"></Image>
 

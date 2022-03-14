@@ -18,6 +18,7 @@ namespace BooksApp.ViewModels
             get;
             set;
         }
+     
         #endregion
         #region Constructors
         public MainViewModel()
