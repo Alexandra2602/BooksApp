@@ -39,12 +39,12 @@ namespace BooksApp.Views
 
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
-            var searchresult = myrootobject.Where(c => c.Title.ToLower().Contains(Search1.Text.ToLower()) ||c.Author.ToLower().Contains(Search1.Text.ToLower()));
-           
+            var searchresult = myrootobject.Where(c => c.Title.ToLower().Contains(Search1.Text.ToLower()) || c.Author.ToLower().Contains(Search1.Text.ToLower()));
+
             MyListView.ItemsSource = searchresult;
         }
 
-         async private void MyListView_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        async private void MyListView_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
         {
             Book tappedbook = e.Item as Book;
             if (tappedbook == null)
@@ -59,9 +59,28 @@ namespace BooksApp.Views
 
         }
 
-    
-    }
+        async void Top_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TopPage());
+        }
+        async void Home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BooksPage());
+        }
+        async void New_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NewsPage());
+        }
+        async void Calendar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalendarPage());
+        }
+        async void Profile_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage());
+        }
 
     }
+}
         
     

@@ -61,7 +61,7 @@
       <Version>3.2.0</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -90,7 +90,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bookclub2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bookclub2.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BooksApp\BooksApp.csproj">
@@ -99,145 +99,145 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\facebook.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\facebook.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\instagram.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\instagram.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\twitter.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\twitter.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\memories_of_a_gheisa.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\memories_of_a_gheisa.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\five_love.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\five_love.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\big_fiv.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\big_fiv.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\a_thousand_suns.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\a_thousand_suns.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\abc_murders.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\abc_murders.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\all_those_things.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\all_those_things.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\and_then_were_none.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\and_then_were_none.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\atomic_habits.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\atomic_habits.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\begin_again.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\begin_again.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\big_little_lies.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\big_little_lies.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\crawdads.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\crawdads.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\crooked_house.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\crooked_house.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\death_nile.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\death_nile.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\factfulness.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\factfulness.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hate_u_give.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\hate_u_give.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\homo_deus.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\homo_deus.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hope.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\hope.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hopeless.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\hopeless.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\how_to_stop_time.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\how_to_stop_time.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\kite_runner.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\kite_runner.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\lean_in.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\lean_in.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\lessons.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\lessons.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\man_brown_suite.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\man_brown_suite.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\mans_search.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\mans_search.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\midnight_library.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\midnight_library.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\murder_announced.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\murder_announced.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\nervous_planet.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\nervous_planet.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\orient_express.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\orient_express.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\outliers.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\outliers.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\reasons_to_stay.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\reasons_to_stay.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\rich_dad.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\rich_dad.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\sapiens.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\sapiens.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\secrets_of_millionaire.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\secrets_of_millionaire.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\seven_days.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\seven_days.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\seven_husbands.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\seven_husbands.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\silent_patient.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\silent_patient.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\slammed.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\slammed.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\small_fry.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\small_fry.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\the_humans.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\the_humans.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\the_man_happy.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\the_man_happy.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\the_molecule_of_more.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\the_molecule_of_more.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\think_like_a_monk.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\think_like_a_monk.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ugly_love.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\ugly_love.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\why_cafe.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\why_cafe.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\sageata.png" />
@@ -271,6 +271,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\sageata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\new1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\home2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\top.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
