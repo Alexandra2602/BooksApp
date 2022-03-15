@@ -39,8 +39,6 @@ namespace BooksApp.Views
             }
         }
 
-
-
         async void Top_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TopPage());

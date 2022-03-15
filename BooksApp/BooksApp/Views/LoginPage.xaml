@@ -19,8 +19,10 @@
                 <ActivityIndicator VerticalOptions="CenterAndExpand" IsRunning="{Binding IsRunning, Mode=TwoWay }">
                 </ActivityIndicator>
                 <StackLayout Margin="10,0" Orientation="Horizontal" VerticalOptions="CenterAndExpand">
-                    <Label Text="Remember me on this device" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
-                    <Switch HorizontalOptions="End" IsToggled="{Binding IsRemembered, Mode=TwoWay}"/>
+                    <Button Text="Remember me " BackgroundColor="Transparent" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Clicked="Remember_Clicked">
+                    </Button>
+                    <Button Text="Do not remember me " BackgroundColor="Transparent" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Clicked="Not_Remember_Clicked"/>
+                    <Switch x:Name="RandomSwitch" HorizontalOptions="End" IsToggled="{Binding IsRemembered, Mode=TwoWay}"/>
                 </StackLayout>
                 <Label Text="Forgot your password?" HorizontalOptions="Center"  TextColor="Blue" VerticalOptions="CenterAndExpand"/>
                 <StackLayout Margin="20,0" Orientation="Horizontal">
