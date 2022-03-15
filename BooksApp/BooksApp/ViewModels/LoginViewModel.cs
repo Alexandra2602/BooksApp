@@ -1,18 +1,11 @@
-﻿using BooksApp.Views;
-using GalaSoft.MvvmLight.Command;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Text;
-using System.Windows.Input;
-using Xamarin.Forms;
 
 namespace BooksApp.ViewModels
 {
-    public class LoginViewModel : BaseViewModel
+    class LoginViewModel : BaseViewModel
     {
-
-
         #region Attributes
         private string email;
         private string password;
@@ -28,82 +21,21 @@ namespace BooksApp.ViewModels
         }
         public string Password
         {
-           get { return this.password; }
-           set { SetValue(ref this.password, value); }
-        }
-
-        public bool IsRunning
-        {
-            get { return this.isRunning; }
-            set { SetValue(ref this.isRunning, value); }
-        }
-        public bool IsRemembered
-        {
-            get;
-            set;
+            get { return this.password; }
+            set { SetValue(ref this.password, value); }
         }
         public bool IsEnabled
         {
             get { return this.isEnabled; }
             set { SetValue(ref this.isEnabled, value); }
         }
-        #endregion
-
-        #region Commands
-        public ICommand LoginCommand
+        public bool IsRemembered
         {
-            get
-            {
-                return new RelayCommand(Login);
-            }
-        }
-        private async void Login()
-        {
-            if (string.IsNullOrEmpty (this.Email))
-            {
-                await Application.Current.MainPage.DisplayAlert("Error","You must enter an email.","Accept");
-                return;
-            }
-            if (string.IsNullOrEmpty(this.Password))
-            {
-                await Application.Current.MainPage.DisplayAlert("Error", "You must enter a password.", "Accept");
-                return;
-            }
-            this.IsRunning = true;
-            this.IsEnabled = false;
-
-            if (this.Email !="test@yahoo.com" || this.Password!="1234")
-            {
-                this.IsRunning = false;
-                this.IsEnabled = true;
-                await Application.Current.MainPage.DisplayAlert("Error", "Email or password incorect.", "Accept");
-                this.Password = string.Empty;
-                return;
-            }
-
-            this.IsRunning = false;
-            this.IsEnabled = true;
-
-            this.Email = string.Empty;
-            this.Password = string.Empty;
-
-            MainViewModel.GetInstance().Books = new BooksViewModel();
-            await Application.Current.MainPage.Navigation.PushAsync(new BooksPage());
-                
-        }
-        #endregion
-
-        #region Constructors
-        public LoginViewModel()
-        {
-            this.IsRemembered = true;
-            this.IsEnabled = true;
-
-            this.Email = "test@yahoo.com";
-            this.Password = "1234";
+            get;
+            set;
         }
 
         #endregion
+
     }
 }
- 

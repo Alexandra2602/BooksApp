@@ -7,11 +7,7 @@ namespace BooksApp.ViewModels
     public class MainViewModel
     {
         #region ViewModels
-        public LoginViewModel Login
-        {
-            get;
-            set;
-        }
+  
 
         public BooksViewModel Books
         {
@@ -21,11 +17,11 @@ namespace BooksApp.ViewModels
      
         #endregion
         #region Constructors
-        public MainViewModel()
+        /*public MainViewModel()
         {
             instance = this;
             this.Login = new LoginViewModel();
-        }
+        } */
         #endregion
 
         #region Singleton
