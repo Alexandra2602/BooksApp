@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.CalendarPage">
-
     <ContentPage.Content>
 
         <Grid BackgroundColor="Wheat">
@@ -40,8 +40,16 @@
                     <Button Image="profile.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Profile_Clicked"/>
                     <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
                 </StackLayout>
-            </Grid>
-        </Grid>
 
+
+
+            </Grid>
+
+            <StackLayout>
+                <Label HorizontalOptions="CenterAndExpand" TextColor="#855438" Padding="5,5,5,15" FontSize="15" VerticalOptions="CenterAndExpand" Text="Keep track of the books that you finished"/>
+                <controls:Calendar x:Name="calendar"  DatesTextColor="#855438" DatesBackgroundColorOutsideMonth="Wheat" DatesTextColorOutsideMonth="#bbbbb9" DatesBackgroundColor="Wheat" OuterBorderWidth="0" MinimumHeightRequest="500" WeekdaysTextColor="DarkSlateGray" WeekdaysFontSize="18" WeekdaysShow="True"  BorderColor="Transparent" VerticalOptions="StartAndExpand"  Padding="10,0,10,0" HorizontalOptions="FillAndExpand" StartDay="Monday" SelectedBorderWidth="4"  BorderWidth="1" DateClicked="Calendar_DateClicked" DateCommand="{Binding DateChosen}" SelectedDate="{Binding Date}" ShowNumberOfWeek="false"   SpecialDates="{Binding Attendances}" TitleLeftArrowTextColor="#855438" TitleRightArrowTextColor="#855438" TitleLabelTextColor="#855438" TitleLabelFontAttributes="None" />
+
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
