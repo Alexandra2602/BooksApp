@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BooksApp.Tables;
+using SQLite;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,16 +19,17 @@ namespace BooksApp.Views
         {
             InitializeComponent();
         }
-       async void Image_Clicked(object sender, EventArgs e)
+        string imagePath;
+        async void Image_Clicked(object sender, EventArgs e)
         {
-            var result= await MediaPicker.PickPhotoAsync(new MediaPickerOptions
+            var result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
             {
                 Title = "Please pick a photo"
             });
-            if(result!=null)
+            if (result != null)
             {
-            var stream = await result.OpenReadAsync();
-            resultImage.Source = ImageSource.FromStream(() => stream);
+                var stream = await result.OpenReadAsync();
+                resultImage.Source = ImageSource.FromStream(() => stream);
             }
         }
         async void Image2_Clicked(object sender, EventArgs e)
@@ -36,30 +39,67 @@ namespace BooksApp.Views
             {
                 var stream = await result.OpenReadAsync();
                 resultImage.Source = ImageSource.FromStream(() => stream);
+                imagePath = result.FullPath;
             }
         }
 
-        async void Top_Clicked(object sender, EventArgs e)
+        async void Save_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TopPage());
-        }
-        async void Home_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new BooksPage());
-        }
-        async void New_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new NewsPage());
-        }
-        async void Calendar_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new CalendarPage());
-        }
-        async void Profile_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProfilePage());
+            try
+            {
+                RegUserTable user = new RegUserTable()
+                {
+                    imagePath = imagePath
+                };
+
+
+                using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+                {
+                    conn.CreateTable<RegUserTable>();
+                    int rows = conn.Insert(user);
+
+
+                    if (rows > 0)
+                        DisplayAlert("Uspjesno", "Oglas Predan", "OK");
+                    else
+                        DisplayAlert("Neuspjesno", "Oglas nije predan", "OK");
+                }
+
+            }
+            catch (NullReferenceException nre)
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
-       
+                async void Top_Clicked(object sender, EventArgs e)
+                {
+                    await Navigation.PushAsync(new TopPage());
+                }
+                async void Home_Clicked(object sender, EventArgs e)
+                {
+                    await Navigation.PushAsync(new BooksPage());
+                }
+                async void New_Clicked(object sender, EventArgs e)
+                {
+                    await Navigation.PushAsync(new NewsPage());
+                }
+                async void Calendar_Clicked(object sender, EventArgs e)
+                {
+                    await Navigation.PushAsync(new CalendarPage());
+                }
+                async void Profile_Clicked(object sender, EventArgs e)
+                {
+                    await Navigation.PushAsync(new ProfilePage());
+                }
+
+
+            }
+
+      
     }
-}
+    

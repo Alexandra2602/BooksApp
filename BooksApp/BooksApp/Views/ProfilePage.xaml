@@ -2,8 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.ProfilePage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Save" Text="Save" Clicked="Save_Clicked"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         
+            
             <Grid BackgroundColor="Wheat">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -19,6 +23,8 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
+                
+                
                 <StackLayout Spacing="0" Grid.Column="0" BackgroundColor="#e0cc94" >
                     <Button Image="home2.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Home_Clicked"/>
                     <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
@@ -39,15 +45,35 @@
                     <Button Image="profile.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Profile_Clicked"/>
                     <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
                 </StackLayout>
+
+              
             </Grid>
             <StackLayout>
-                <Frame BackgroundColor="#e0cc94" Padding="24" CornerRadius="0">
-                <Label Text="MediaPicker" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
-                </Frame>
-                <Button Text="Pick Image" Clicked="Image_Clicked"/>
-                <Button Text="Take Image " Clicked="Image2_Clicked"/>
-                <Image x:Name="resultImage"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="110"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="160"/>
+                    </Grid.RowDefinitions>
+                    <Button Text="pick image" Clicked="Image_Clicked" Grid.Row="1" Grid.Column="0"/>
+                    <Button Text="Take Image " Clicked="Image2_Clicked" Grid.Row="2" Grid.Column="0"/>
+                    <Image x:Name="resultImage" Source="{Binding ImagePath}" Grid.Row="1" Grid.Column="0"/>
 
+                    <Label Text="About me" Grid.Row="0" Grid.Column="1" FontSize="17" TextColor="#855438" Margin="15,5,-10,0"/>
+                    <Image Source="creion2" Grid.Row="0" Grid.Column="2"  />
+                    <Image Source="bifa" Grid.Row="0" Grid.Column="3" WidthRequest="50"/>
+                    
+                    
+                    <Frame Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Padding="5" Margin="5,5"  CornerRadius="15" BackgroundColor="#e8ddbe">
+                        <Editor x:Name="editor" Grid.Row="1" Grid.Column="1" HeightRequest="120"  MaxLength="200" FontSize="13" CharacterSpacing="2" />
+                    </Frame>
+                </Grid>
             </StackLayout>
         </Grid>
         

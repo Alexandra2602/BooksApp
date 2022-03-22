@@ -69,6 +69,35 @@ namespace BooksApp.Droid
 			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_text_tab_size = global::BooksApp.Droid.Resource.Dimension.month_text_tab_size;
 			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewalldaytext = global::BooksApp.Droid.Resource.String.sfcalendar_inlineviewalldaytext;
 			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext = global::BooksApp.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingControlValue = global::BooksApp.Droid.Resource.Attribute.ratingControlValue;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingEnableAutoSize = global::BooksApp.Droid.Resource.Attribute.ratingEnableAutoSize;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingItemCount = global::BooksApp.Droid.Resource.Attribute.ratingItemCount;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingItemSize = global::BooksApp.Droid.Resource.Attribute.ratingItemSize;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingItemSpacing = global::BooksApp.Droid.Resource.Attribute.ratingItemSpacing;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingPrecision = global::BooksApp.Droid.Resource.Attribute.ratingPrecision;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingRatedFill = global::BooksApp.Droid.Resource.Attribute.ratingRatedFill;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingRatedStroke = global::BooksApp.Droid.Resource.Attribute.ratingRatedStroke;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingRatedStrokeWidth = global::BooksApp.Droid.Resource.Attribute.ratingRatedStrokeWidth;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingUnratedFill = global::BooksApp.Droid.Resource.Attribute.ratingUnratedFill;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingUnratedStroke = global::BooksApp.Droid.Resource.Attribute.ratingUnratedStroke;
+			global::Com.Syncfusion.Rating.Resource.Attribute.ratingUnratedStrokeWidth = global::BooksApp.Droid.Resource.Attribute.ratingUnratedStrokeWidth;
+			global::Com.Syncfusion.Rating.Resource.Id.exact = global::BooksApp.Droid.Resource.Id.exact;
+			global::Com.Syncfusion.Rating.Resource.Id.half = global::BooksApp.Droid.Resource.Id.half;
+			global::Com.Syncfusion.Rating.Resource.Id.standard = global::BooksApp.Droid.Resource.Id.standard;
+			global::Com.Syncfusion.Rating.Resource.String.library_name = global::BooksApp.Droid.Resource.String.library_name;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating = global::BooksApp.Droid.Resource.Styleable.SfRating;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingControlValue = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingControlValue;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingEnableAutoSize = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingEnableAutoSize;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingItemCount = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingItemCount;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingItemSize = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingItemSize;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingItemSpacing = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingItemSpacing;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingPrecision = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingPrecision;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingRatedFill = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingRatedFill;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingRatedStroke = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingRatedStroke;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingRatedStrokeWidth = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingRatedStrokeWidth;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingUnratedFill = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingUnratedFill;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingUnratedStroke = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingUnratedStroke;
+			global::Com.Syncfusion.Rating.Resource.Styleable.SfRating_ratingUnratedStrokeWidth = global::BooksApp.Droid.Resource.Styleable.SfRating_ratingUnratedStrokeWidth;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::BooksApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::BooksApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::BooksApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -7510,6 +7539,2652 @@ namespace BooksApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::BooksApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::BooksApp.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::BooksApp.Droid.Resource.Xml.standalone_badge_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_in = global::BooksApp.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_out = global::BooksApp.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_grow_fade_in_from_bottom = global::BooksApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_enter = global::BooksApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_exit = global::BooksApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::BooksApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_bottom = global::BooksApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_top = global::BooksApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_bottom = global::BooksApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_top = global::BooksApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_tooltip_enter = global::BooksApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_tooltip_exit = global::BooksApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::BooksApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::BooksApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::BooksApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::BooksApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::BooksApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::BooksApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::BooksApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::BooksApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::BooksApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::BooksApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::BooksApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::BooksApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_in = global::BooksApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_out = global::BooksApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_in = global::BooksApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_out = global::BooksApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.EnterFromLeft = global::BooksApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.EnterFromRight = global::BooksApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.ExitToLeft = global::BooksApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.ExitToRight = global::BooksApp.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_appbar_state_list_animator = global::BooksApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_fab_hide_motion_spec = global::BooksApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_fab_show_motion_spec = global::BooksApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_btn_state_list_anim = global::BooksApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::BooksApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_chip_state_list_anim = global::BooksApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_hide_motion_spec = global::BooksApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_show_motion_spec = global::BooksApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::BooksApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::BooksApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarDivider = global::BooksApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarItemBackground = global::BooksApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarPopupTheme = global::BooksApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSize = global::BooksApp.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSplitStyle = global::BooksApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarStyle = global::BooksApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabBarStyle = global::BooksApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabStyle = global::BooksApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabTextStyle = global::BooksApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTheme = global::BooksApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarWidgetTheme = global::BooksApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionButtonStyle = global::BooksApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionDropDownStyle = global::BooksApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionLayout = global::BooksApp.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextAppearance = global::BooksApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextColor = global::BooksApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeBackground = global::BooksApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseButtonStyle = global::BooksApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseDrawable = global::BooksApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCopyDrawable = global::BooksApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCutDrawable = global::BooksApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeFindDrawable = global::BooksApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePasteDrawable = global::BooksApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePopupWindowStyle = global::BooksApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSelectAllDrawable = global::BooksApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeShareDrawable = global::BooksApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSplitBackground = global::BooksApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeStyle = global::BooksApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeWebSearchDrawable = global::BooksApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowButtonStyle = global::BooksApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowMenuStyle = global::BooksApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionProviderClass = global::BooksApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionViewClass = global::BooksApp.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.activityChooserViewStyle = global::BooksApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogButtonGroupStyle = global::BooksApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogCenterButtons = global::BooksApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogStyle = global::BooksApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogTheme = global::BooksApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.allowStacking = global::BooksApp.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alpha = global::BooksApp.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alphabeticModifiers = global::BooksApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowHeadLength = global::BooksApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowShaftLength = global::BooksApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoCompleteTextViewStyle = global::BooksApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMaxTextSize = global::BooksApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMinTextSize = global::BooksApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizePresetSizes = global::BooksApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeStepGranularity = global::BooksApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeTextType = global::BooksApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.background = global::BooksApp.Droid.Resource.Attribute.background;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundSplit = global::BooksApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundStacked = global::BooksApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTint = global::BooksApp.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTintMode = global::BooksApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.barLength = global::BooksApp.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_autoHide = global::BooksApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_fitToContents = global::BooksApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_hideable = global::BooksApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_overlapTop = global::BooksApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_peekHeight = global::BooksApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_skipCollapsed = global::BooksApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderlessButtonStyle = global::BooksApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderWidth = global::BooksApp.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomAppBarStyle = global::BooksApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomNavigationStyle = global::BooksApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetDialogTheme = global::BooksApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetStyle = global::BooksApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxBackgroundColor = global::BooksApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxBackgroundMode = global::BooksApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCollapsedPaddingTop = global::BooksApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusBottomEnd = global::BooksApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusBottomStart = global::BooksApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusTopEnd = global::BooksApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusTopStart = global::BooksApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxStrokeColor = global::BooksApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxStrokeWidth = global::BooksApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarButtonStyle = global::BooksApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNegativeButtonStyle = global::BooksApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNeutralButtonStyle = global::BooksApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarPositiveButtonStyle = global::BooksApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarStyle = global::BooksApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonCompat = global::BooksApp.Droid.Resource.Attribute.buttonCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonGravity = global::BooksApp.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonIconDimen = global::BooksApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonPanelSideLayout = global::BooksApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyle = global::BooksApp.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyleSmall = global::BooksApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTint = global::BooksApp.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTintMode = global::BooksApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardBackgroundColor = global::BooksApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardCornerRadius = global::BooksApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardElevation = global::BooksApp.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardMaxElevation = global::BooksApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardPreventCornerOverlap = global::BooksApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardUseCompatPadding = global::BooksApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardViewStyle = global::BooksApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkboxStyle = global::BooksApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedChip = global::BooksApp.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIcon = global::BooksApp.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIconEnabled = global::BooksApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIconVisible = global::BooksApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedTextViewStyle = global::BooksApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipBackgroundColor = global::BooksApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipCornerRadius = global::BooksApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipEndPadding = global::BooksApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipGroupStyle = global::BooksApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIcon = global::BooksApp.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconEnabled = global::BooksApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconSize = global::BooksApp.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconTint = global::BooksApp.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconVisible = global::BooksApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipMinHeight = global::BooksApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacing = global::BooksApp.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacingHorizontal = global::BooksApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacingVertical = global::BooksApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStandaloneStyle = global::BooksApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStartPadding = global::BooksApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStrokeColor = global::BooksApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStrokeWidth = global::BooksApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStyle = global::BooksApp.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIcon = global::BooksApp.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconEnabled = global::BooksApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconEndPadding = global::BooksApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconSize = global::BooksApp.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconStartPadding = global::BooksApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconTint = global::BooksApp.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconVisible = global::BooksApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeItemLayout = global::BooksApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseContentDescription = global::BooksApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleGravity = global::BooksApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleTextAppearance = global::BooksApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseIcon = global::BooksApp.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collectionViewStyle = global::BooksApp.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.color = global::BooksApp.Droid.Resource.Attribute.color;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorAccent = global::BooksApp.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorBackgroundFloating = global::BooksApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorButtonNormal = global::BooksApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlActivated = global::BooksApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlHighlight = global::BooksApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlNormal = global::BooksApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorError = global::BooksApp.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimary = global::BooksApp.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimaryDark = global::BooksApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorSecondary = global::BooksApp.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorSwitchThumbNormal = global::BooksApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.commitIcon = global::BooksApp.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentDescription = global::BooksApp.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEnd = global::BooksApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEndWithActions = global::BooksApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetLeft = global::BooksApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetRight = global::BooksApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStart = global::BooksApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStartWithNavigation = global::BooksApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPadding = global::BooksApp.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingBottom = global::BooksApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingLeft = global::BooksApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingRight = global::BooksApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingTop = global::BooksApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentScrim = global::BooksApp.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.controlBackground = global::BooksApp.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.coordinatorLayoutStyle = global::BooksApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cornerRadius = global::BooksApp.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterEnabled = global::BooksApp.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterMaxLength = global::BooksApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterOverflowTextAppearance = global::BooksApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterTextAppearance = global::BooksApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.customNavigationLayout = global::BooksApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.defaultQueryHint = global::BooksApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogCornerRadius = global::BooksApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogPreferredPadding = global::BooksApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogTheme = global::BooksApp.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.displayOptions = global::BooksApp.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.divider = global::BooksApp.Droid.Resource.Attribute.divider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerHorizontal = global::BooksApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerPadding = global::BooksApp.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerVertical = global::BooksApp.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableBottomCompat = global::BooksApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableEndCompat = global::BooksApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableLeftCompat = global::BooksApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableRightCompat = global::BooksApp.Droid.Resource.Attribute.drawableRightCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableSize = global::BooksApp.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableStartCompat = global::BooksApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTint = global::BooksApp.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTintMode = global::BooksApp.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTopCompat = global::BooksApp.Droid.Resource.Attribute.drawableTopCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawerArrowStyle = global::BooksApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropdownListPreferredItemHeight = global::BooksApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropDownListViewStyle = global::BooksApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextBackground = global::BooksApp.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextColor = global::BooksApp.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextStyle = global::BooksApp.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.elevation = global::BooksApp.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.enforceMaterialTheme = global::BooksApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.enforceTextAppearance = global::BooksApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorEnabled = global::BooksApp.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorTextAppearance = global::BooksApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::BooksApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expanded = global::BooksApp.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleGravity = global::BooksApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMargin = global::BooksApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginBottom = global::BooksApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginEnd = global::BooksApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginStart = global::BooksApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginTop = global::BooksApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleTextAppearance = global::BooksApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabAlignmentMode = global::BooksApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleMargin = global::BooksApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleRoundedCornerRadius = global::BooksApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleVerticalOffset = global::BooksApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCustomSize = global::BooksApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabSize = global::BooksApp.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollEnabled = global::BooksApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::BooksApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::BooksApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalThumbDrawable = global::BooksApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalTrackDrawable = global::BooksApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.firstBaselineToTopHeight = global::BooksApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.floatingActionButtonStyle = global::BooksApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.font = global::BooksApp.Droid.Resource.Attribute.font;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontFamily = global::BooksApp.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderAuthority = global::BooksApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderCerts = global::BooksApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchStrategy = global::BooksApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchTimeout = global::BooksApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderPackage = global::BooksApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderQuery = global::BooksApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontStyle = global::BooksApp.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontVariationSettings = global::BooksApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontWeight = global::BooksApp.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.foregroundInsidePadding = global::BooksApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.gapBetweenBars = global::BooksApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.goIcon = global::BooksApp.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.headerLayout = global::BooksApp.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.height = global::BooksApp.Droid.Resource.Attribute.height;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperText = global::BooksApp.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperTextEnabled = global::BooksApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperTextTextAppearance = global::BooksApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideMotionSpec = global::BooksApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideOnContentScroll = global::BooksApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideOnScroll = global::BooksApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintAnimationEnabled = global::BooksApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintEnabled = global::BooksApp.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintTextAppearance = global::BooksApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeAsUpIndicator = global::BooksApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeLayout = global::BooksApp.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hoveredFocusedTranslationZ = global::BooksApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.icon = global::BooksApp.Droid.Resource.Attribute.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconEndPadding = global::BooksApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconGravity = global::BooksApp.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconifiedByDefault = global::BooksApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconPadding = global::BooksApp.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconSize = global::BooksApp.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconStartPadding = global::BooksApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTint = global::BooksApp.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTintMode = global::BooksApp.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.imageButtonStyle = global::BooksApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.indeterminateProgressStyle = global::BooksApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.initialActivityCount = global::BooksApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.insetForeground = global::BooksApp.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.isLightTheme = global::BooksApp.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemBackground = global::BooksApp.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemHorizontalPadding = global::BooksApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemHorizontalTranslationEnabled = global::BooksApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconPadding = global::BooksApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconSize = global::BooksApp.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconTint = global::BooksApp.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemPadding = global::BooksApp.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemSpacing = global::BooksApp.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearance = global::BooksApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearanceActive = global::BooksApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearanceInactive = global::BooksApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextColor = global::BooksApp.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.keylines = global::BooksApp.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.labelVisibilityMode = global::BooksApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lastBaselineToBottomHeight = global::BooksApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout = global::BooksApp.Droid.Resource.Attribute.layout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layoutManager = global::BooksApp.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchor = global::BooksApp.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchorGravity = global::BooksApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_behavior = global::BooksApp.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseMode = global::BooksApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseParallaxMultiplier = global::BooksApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_dodgeInsetEdges = global::BooksApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_insetEdge = global::BooksApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_keyline = global::BooksApp.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollFlags = global::BooksApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollInterpolator = global::BooksApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.liftOnScroll = global::BooksApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lineHeight = global::BooksApp.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lineSpacing = global::BooksApp.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceBackgroundIndicator = global::BooksApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::BooksApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::BooksApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listDividerAlertDialog = global::BooksApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listItemLayout = global::BooksApp.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listLayout = global::BooksApp.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listMenuViewStyle = global::BooksApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPopupWindowStyle = global::BooksApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeight = global::BooksApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightLarge = global::BooksApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightSmall = global::BooksApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingEnd = global::BooksApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingLeft = global::BooksApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingRight = global::BooksApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingStart = global::BooksApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logo = global::BooksApp.Droid.Resource.Attribute.logo;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logoDescription = global::BooksApp.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.materialButtonStyle = global::BooksApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.materialCardViewStyle = global::BooksApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxActionInlineWidth = global::BooksApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxButtonHeight = global::BooksApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxImageSize = global::BooksApp.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.measureWithLargestChild = global::BooksApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.menu = global::BooksApp.Droid.Resource.Attribute.menu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.multiChoiceItemLayout = global::BooksApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationContentDescription = global::BooksApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationIcon = global::BooksApp.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationMode = global::BooksApp.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationViewStyle = global::BooksApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.numericModifiers = global::BooksApp.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.overlapAnchor = global::BooksApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingBottomNoButtons = global::BooksApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingEnd = global::BooksApp.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingStart = global::BooksApp.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingTopNoTitle = global::BooksApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelBackground = global::BooksApp.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListTheme = global::BooksApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListWidth = global::BooksApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleContentDescription = global::BooksApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleDrawable = global::BooksApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleEnabled = global::BooksApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTint = global::BooksApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTintMode = global::BooksApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupMenuStyle = global::BooksApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupTheme = global::BooksApp.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupWindowStyle = global::BooksApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.preserveIconSpacing = global::BooksApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.pressedTranslationZ = global::BooksApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarPadding = global::BooksApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarStyle = global::BooksApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryBackground = global::BooksApp.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryHint = global::BooksApp.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.radioButtonStyle = global::BooksApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyle = global::BooksApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleIndicator = global::BooksApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleSmall = global::BooksApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.recyclerViewStyle = global::BooksApp.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.reverseLayout = global::BooksApp.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.rippleColor = global::BooksApp.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimAnimationDuration = global::BooksApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimBackground = global::BooksApp.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimVisibleHeightTrigger = global::BooksApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrollViewStyle = global::BooksApp.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchHintIcon = global::BooksApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchIcon = global::BooksApp.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchViewStyle = global::BooksApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.seekBarStyle = global::BooksApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackground = global::BooksApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackgroundBorderless = global::BooksApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showAsAction = global::BooksApp.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showDividers = global::BooksApp.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showMotionSpec = global::BooksApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showText = global::BooksApp.Droid.Resource.Attribute.showText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showTitle = global::BooksApp.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleChoiceItemLayout = global::BooksApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleLine = global::BooksApp.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleSelection = global::BooksApp.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.snackbarButtonStyle = global::BooksApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.snackbarStyle = global::BooksApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spanCount = global::BooksApp.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinBars = global::BooksApp.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerDropDownItemStyle = global::BooksApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerStyle = global::BooksApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.splitTrack = global::BooksApp.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.srcCompat = global::BooksApp.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.stackFromEnd = global::BooksApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_above_anchor = global::BooksApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsed = global::BooksApp.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsible = global::BooksApp.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_liftable = global::BooksApp.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_lifted = global::BooksApp.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarBackground = global::BooksApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarScrim = global::BooksApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.strokeColor = global::BooksApp.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.strokeWidth = global::BooksApp.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subMenuArrow = global::BooksApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.submitBackground = global::BooksApp.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitle = global::BooksApp.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextAppearance = global::BooksApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextColor = global::BooksApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextStyle = global::BooksApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.suggestionRowLayout = global::BooksApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchMinWidth = global::BooksApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchPadding = global::BooksApp.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchStyle = global::BooksApp.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchTextAppearance = global::BooksApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabBackground = global::BooksApp.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabContentStart = global::BooksApp.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabGravity = global::BooksApp.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIconTint = global::BooksApp.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIconTintMode = global::BooksApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicator = global::BooksApp.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorAnimationDuration = global::BooksApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorColor = global::BooksApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorFullWidth = global::BooksApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorGravity = global::BooksApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorHeight = global::BooksApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabInlineLabel = global::BooksApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMaxWidth = global::BooksApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMinWidth = global::BooksApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMode = global::BooksApp.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPadding = global::BooksApp.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingBottom = global::BooksApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingEnd = global::BooksApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingStart = global::BooksApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingTop = global::BooksApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabRippleColor = global::BooksApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabSelectedTextColor = global::BooksApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabStyle = global::BooksApp.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextAppearance = global::BooksApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextColor = global::BooksApp.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabUnboundedRipple = global::BooksApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAllCaps = global::BooksApp.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceBody1 = global::BooksApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceBody2 = global::BooksApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceButton = global::BooksApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceCaption = global::BooksApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline1 = global::BooksApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline2 = global::BooksApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline3 = global::BooksApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline4 = global::BooksApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline5 = global::BooksApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline6 = global::BooksApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceLargePopupMenu = global::BooksApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItem = global::BooksApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSecondary = global::BooksApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSmall = global::BooksApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceOverline = global::BooksApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearancePopupMenuHeader = global::BooksApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::BooksApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultTitle = global::BooksApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSmallPopupMenu = global::BooksApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSubtitle1 = global::BooksApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSubtitle2 = global::BooksApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorAlertDialogListItem = global::BooksApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorSearchUrl = global::BooksApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textEndPadding = global::BooksApp.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textInputStyle = global::BooksApp.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textLocale = global::BooksApp.Droid.Resource.Attribute.textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textStartPadding = global::BooksApp.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.theme = global::BooksApp.Droid.Resource.Attribute.theme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thickness = global::BooksApp.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTextPadding = global::BooksApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTint = global::BooksApp.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTintMode = global::BooksApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMark = global::BooksApp.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTint = global::BooksApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTintMode = global::BooksApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tint = global::BooksApp.Droid.Resource.Attribute.tint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tintMode = global::BooksApp.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.title = global::BooksApp.Droid.Resource.Attribute.title;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleEnabled = global::BooksApp.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargin = global::BooksApp.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginBottom = global::BooksApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginEnd = global::BooksApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargins = global::BooksApp.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginStart = global::BooksApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginTop = global::BooksApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextAppearance = global::BooksApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextColor = global::BooksApp.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextStyle = global::BooksApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarId = global::BooksApp.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarNavigationButtonStyle = global::BooksApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarStyle = global::BooksApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipForegroundColor = global::BooksApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipFrameBackground = global::BooksApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipText = global::BooksApp.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.track = global::BooksApp.Droid.Resource.Attribute.track;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTint = global::BooksApp.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTintMode = global::BooksApp.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ttcIndex = global::BooksApp.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.useCompatPadding = global::BooksApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.viewInflaterClass = global::BooksApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.voiceIcon = global::BooksApp.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBar = global::BooksApp.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBarOverlay = global::BooksApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionModeOverlay = global::BooksApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMajor = global::BooksApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMinor = global::BooksApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMajor = global::BooksApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMinor = global::BooksApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMajor = global::BooksApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMinor = global::BooksApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowNoTitle = global::BooksApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_action_bar_embed_tabs = global::BooksApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_allow_stacked_button_bar = global::BooksApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::BooksApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::BooksApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::BooksApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_light = global::BooksApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_borderless_text_material = global::BooksApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_text_material = global::BooksApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_color_highlight_material = global::BooksApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_dark = global::BooksApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_light = global::BooksApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_dark = global::BooksApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_light = global::BooksApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_dark = global::BooksApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_light = global::BooksApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text = global::BooksApp.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_normal = global::BooksApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_pressed = global::BooksApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_selected = global::BooksApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_dark = global::BooksApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_light = global::BooksApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_btn_checkable = global::BooksApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_default = global::BooksApp.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_edittext = global::BooksApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_seek_thumb = global::BooksApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_spinner = global::BooksApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_switch_track = global::BooksApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_dark = global::BooksApp.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_light = global::BooksApp.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_dark = global::BooksApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_light = global::BooksApp.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_dark = global::BooksApp.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_light = global::BooksApp.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_dark = global::BooksApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_light = global::BooksApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_dark = global::BooksApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_light = global::BooksApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_dark = global::BooksApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_light = global::BooksApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_bg_grey = global::BooksApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_divider_color = global::BooksApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_text_color = global::BooksApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_title_color = global::BooksApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_dark = global::BooksApp.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_light = global::BooksApp.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_dark_background = global::BooksApp.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_light_background = global::BooksApp.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_end_color = global::BooksApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_start_color = global::BooksApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_bottom_navigation_shadow_color = global::BooksApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_default_color_primary = global::BooksApp.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_default_color_primary_dark = global::BooksApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_error = global::BooksApp.Droid.Resource.Color.design_error;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_end_color = global::BooksApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_mid_color = global::BooksApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_start_color = global::BooksApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_inner_color = global::BooksApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_outer_color = global::BooksApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_inner_color = global::BooksApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_outer_color = global::BooksApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_snackbar_background_color = global::BooksApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_dark = global::BooksApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_light = global::BooksApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_dark = global::BooksApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_light = global::BooksApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.error_color_material_dark = global::BooksApp.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.error_color_material_light = global::BooksApp.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_dark = global::BooksApp.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_light = global::BooksApp.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_dark = global::BooksApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_light = global::BooksApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_800 = global::BooksApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_900 = global::BooksApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_950 = global::BooksApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_200 = global::BooksApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_500 = global::BooksApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_100 = global::BooksApp.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_300 = global::BooksApp.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_50 = global::BooksApp.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_600 = global::BooksApp.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_800 = global::BooksApp.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_850 = global::BooksApp.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_900 = global::BooksApp.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::BooksApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_bottom_nav_item_tint = global::BooksApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_bg_color_selector = global::BooksApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_ripple_color = global::BooksApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_stroke_color_selector = global::BooksApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_btn_ripple_color = global::BooksApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_color_disabled = global::BooksApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_color_selector = global::BooksApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_transparent_bg_color = global::BooksApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_background_color = global::BooksApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_close_icon_tint = global::BooksApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_ripple_color = global::BooksApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_text_color = global::BooksApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_fab_ripple_color = global::BooksApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_scrim_color = global::BooksApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_colored_ripple_color = global::BooksApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_icon_color_selector = global::BooksApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::BooksApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::BooksApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_ripple_color = global::BooksApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_default_box_stroke_color = global::BooksApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_disabled_color = global::BooksApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::BooksApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::BooksApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_text_btn_text_color_selector = global::BooksApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_action_color_filter = global::BooksApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_icon_bg_color = global::BooksApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_material_background_media_default_color = global::BooksApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_dark = global::BooksApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_light = global::BooksApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_dark = global::BooksApp.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_light = global::BooksApp.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_dark = global::BooksApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_light = global::BooksApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_dark = global::BooksApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_light = global::BooksApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_dark = global::BooksApp.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_light = global::BooksApp.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_dark = global::BooksApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_light = global::BooksApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_dark = global::BooksApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_light = global::BooksApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_dark = global::BooksApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_light = global::BooksApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_dark = global::BooksApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_light = global::BooksApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_dark = global::BooksApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_light = global::BooksApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_dark = global::BooksApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_light = global::BooksApp.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_height_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_elevation_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_max_height = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::BooksApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_height_material = global::BooksApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_material = global::BooksApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::BooksApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::BooksApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_alert_dialog_button_dimen = global::BooksApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_horizontal_material = global::BooksApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_vertical_material = global::BooksApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_horizontal_material = global::BooksApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_vertical_material = global::BooksApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::BooksApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_config_prefDialogWidth = global::BooksApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_corner_material = global::BooksApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_inset_material = global::BooksApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_padding_material = global::BooksApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_corner_radius_material = global::BooksApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_major = global::BooksApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_minor = global::BooksApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_major = global::BooksApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_minor = global::BooksApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::BooksApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::BooksApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_major = global::BooksApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_minor = global::BooksApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_material = global::BooksApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_top_material = global::BooksApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_title_divider_material = global::BooksApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_dark = global::BooksApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_light = global::BooksApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_icon_width = global::BooksApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::BooksApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::BooksApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::BooksApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::BooksApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_top_material = global::BooksApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_floating_window_z = global::BooksApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_large_material = global::BooksApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_material = global::BooksApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_small_material = global::BooksApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::BooksApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_panel_menu_list_width = global::BooksApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_progress_bar_height_material = global::BooksApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_height = global::BooksApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_width = global::BooksApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_background_height_material = global::BooksApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::BooksApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_select_dialog_padding_start_material = global::BooksApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_switch_padding = global::BooksApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_1_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_2_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_button_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_caption_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_1_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_2_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_3_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_4_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_headline_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_large_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_medium_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_header_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_small_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subhead_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::BooksApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material = global::BooksApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material_toolbar = global::BooksApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.browser_actions_context_menu_max_width = global::BooksApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.browser_actions_context_menu_min_padding = global::BooksApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_compat_inset_shadow = global::BooksApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_elevation = global::BooksApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_radius = global::BooksApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_horizontal_material = global::BooksApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_vertical_material = global::BooksApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_horizontal_material = global::BooksApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_vertical_material = global::BooksApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_control_corner_material = global::BooksApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_notification_large_icon_max_height = global::BooksApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_notification_large_icon_max_width = global::BooksApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_appbar_elevation = global::BooksApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_text_size = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_elevation = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_height = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_icon_size = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_max_width = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_min_width = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_margin = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_shadow_height = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_text_size = global::BooksApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::BooksApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_peek_height_min = global::BooksApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_border_width = global::BooksApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_elevation = global::BooksApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_image_size = global::BooksApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_mini = global::BooksApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_normal = global::BooksApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_translation_z_hovered_focused = global::BooksApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_translation_z_pressed = global::BooksApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_elevation = global::BooksApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_padding = global::BooksApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_size = global::BooksApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_item_horizontal_padding = global::BooksApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_item_icon_padding = global::BooksApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_max_width = global::BooksApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_padding_bottom = global::BooksApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_separator_vertical_padding = global::BooksApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_action_inline_max_width = global::BooksApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_background_corner_radius = global::BooksApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_elevation = global::BooksApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::BooksApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_max_width = global::BooksApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_min_width = global::BooksApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_horizontal = global::BooksApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical = global::BooksApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::BooksApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_text_size = global::BooksApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_max_width = global::BooksApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_scrollable_min_width = global::BooksApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size = global::BooksApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size_2line = global::BooksApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_textinput_caption_translate_y = global::BooksApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_dark = global::BooksApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_light = global::BooksApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_default_thickness = global::BooksApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_margin = global::BooksApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_minimum_range = global::BooksApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_colored = global::BooksApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_dark = global::BooksApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_light = global::BooksApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_dark = global::BooksApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_light = global::BooksApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_dark = global::BooksApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_light = global::BooksApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::BooksApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::BooksApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::BooksApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::BooksApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::BooksApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::BooksApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::BooksApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_height = global::BooksApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_corner_radius = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_disabled_elevation = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_disabled_z = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_elevation = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_focused_z = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_hovered_z = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_icon_padding = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_inset = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_letter_spacing = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_bottom = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_left = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_right = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_top = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_pressed_z = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_stroke_size = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_size = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_z = global::BooksApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_card_elevation = global::BooksApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_card_spacing = global::BooksApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_chip_pressed_translation_z = global::BooksApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_chip_text_size = global::BooksApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_elevation = global::BooksApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::BooksApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_translation_z_pressed = global::BooksApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_elevation = global::BooksApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::BooksApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_item_icon_padding = global::BooksApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::BooksApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_snackbar_margin = global::BooksApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::BooksApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::BooksApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::BooksApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::BooksApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::BooksApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::BooksApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_toolbar_default_height = global::BooksApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_icon_size = global::BooksApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_text_size = global::BooksApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_big_circle_margin = global::BooksApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_content_margin_start = global::BooksApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_height = global::BooksApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_width = global::BooksApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_main_column_padding_top = global::BooksApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_media_narrow_margin = global::BooksApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_icon_size = global::BooksApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_side_padding_top = global::BooksApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_background_padding = global::BooksApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_size_as_large = global::BooksApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_subtext_size = global::BooksApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad = global::BooksApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad_large_text = global::BooksApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_corner_radius = global::BooksApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_horizontal_padding = global::BooksApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_margin = global::BooksApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::BooksApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_threshold = global::BooksApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_vertical_padding = global::BooksApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_non_touch = global::BooksApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_touch = global::BooksApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_action_bar_item_background_material = global::BooksApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_borderless_material = global::BooksApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_material = global::BooksApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_material_anim = global::BooksApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::BooksApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::BooksApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_colored_material = global::BooksApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_default_mtrl_shape = global::BooksApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_material = global::BooksApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_material_anim = global::BooksApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::BooksApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::BooksApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::BooksApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::BooksApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_internal_bg = global::BooksApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_material = global::BooksApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_control_background_material = global::BooksApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_dialog_material_background = global::BooksApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_edit_text_material = global::BooksApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_ab_back_material = global::BooksApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::BooksApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_clear_material = global::BooksApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_go_search_api_material = global::BooksApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::BooksApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_overflow_material = global::BooksApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::BooksApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_search_api_material = global::BooksApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_black_16dp = global::BooksApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_black_36dp = global::BooksApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_black_48dp = global::BooksApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_half_black_16dp = global::BooksApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_half_black_36dp = global::BooksApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_half_black_48dp = global::BooksApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_voice_search_api_material = global::BooksApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_dark = global::BooksApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_light = global::BooksApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_divider_material = global::BooksApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_focused_holo = global::BooksApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_longpressed_holo = global::BooksApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_dark = global::BooksApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_light = global::BooksApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::BooksApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::BooksApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::BooksApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::BooksApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_dark = global::BooksApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_light = global::BooksApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::BooksApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_popup_background_mtrl_mult = global::BooksApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_indicator_material = global::BooksApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_material = global::BooksApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_small_material = global::BooksApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::BooksApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::BooksApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_thumb_material = global::BooksApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_tick_mark_material = global::BooksApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_track_material = global::BooksApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::BooksApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_textfield_background_material = global::BooksApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_thumb_material = global::BooksApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_material = global::BooksApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::BooksApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_material = global::BooksApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_cursor_material = global::BooksApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::BooksApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::BooksApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::BooksApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::BooksApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::BooksApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::BooksApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_vector_test = global::BooksApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_hide_password = global::BooksApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_show_password = global::BooksApp.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_checked_mtrl = global::BooksApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::BooksApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::BooksApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::BooksApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_off_mtrl = global::BooksApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::BooksApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_on_mtrl = global::BooksApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::BooksApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_bottom_navigation_item_background = global::BooksApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_fab_background = global::BooksApp.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility = global::BooksApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility_off = global::BooksApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_password_eye = global::BooksApp.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_snackbar_background = global::BooksApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_checked_black = global::BooksApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_checked_circle = global::BooksApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_close_circle = global::BooksApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.mtrl_tabs_default_indicator = global::BooksApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.navigation_empty_icon = global::BooksApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_action_background = global::BooksApp.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg = global::BooksApp.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low = global::BooksApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_normal = global::BooksApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_pressed = global::BooksApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal = global::BooksApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal_pressed = global::BooksApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_icon_background = global::BooksApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_bg = global::BooksApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_low_bg = global::BooksApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_tile_bg = global::BooksApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notify_panel_notification_icon_bg = global::BooksApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_dark = global::BooksApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_light = global::BooksApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_action_clickable_span = global::BooksApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_0 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_1 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_10 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_11 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_12 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_13 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_14 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_15 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_16 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_17 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_18 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_19 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_2 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_20 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_21 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_22 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_23 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_24 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_25 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_26 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_27 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_28 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_29 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_3 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_30 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_31 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_4 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_5 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_6 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_7 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_8 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_9 = global::BooksApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action0 = global::BooksApp.Droid.Resource.Id.action0;
+			global::Xamarin.Plugin.Calendar.Resource.Id.actions = global::BooksApp.Droid.Resource.Id.actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar = global::BooksApp.Droid.Resource.Id.action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_activity_content = global::BooksApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_container = global::BooksApp.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_root = global::BooksApp.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_spinner = global::BooksApp.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_subtitle = global::BooksApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_title = global::BooksApp.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_container = global::BooksApp.Droid.Resource.Id.action_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_context_bar = global::BooksApp.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_divider = global::BooksApp.Droid.Resource.Id.action_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_image = global::BooksApp.Droid.Resource.Id.action_image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_divider = global::BooksApp.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_presenter = global::BooksApp.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar = global::BooksApp.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar_stub = global::BooksApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_close_button = global::BooksApp.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_text = global::BooksApp.Droid.Resource.Id.action_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.activity_chooser_view_content = global::BooksApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.add = global::BooksApp.Droid.Resource.Id.add;
+			global::Xamarin.Plugin.Calendar.Resource.Id.alertTitle = global::BooksApp.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.all = global::BooksApp.Droid.Resource.Id.all;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ALT = global::BooksApp.Droid.Resource.Id.ALT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.always = global::BooksApp.Droid.Resource.Id.always;
+			global::Xamarin.Plugin.Calendar.Resource.Id.async = global::BooksApp.Droid.Resource.Id.async;
+			global::Xamarin.Plugin.Calendar.Resource.Id.auto = global::BooksApp.Droid.Resource.Id.auto;
+			global::Xamarin.Plugin.Calendar.Resource.Id.beginning = global::BooksApp.Droid.Resource.Id.beginning;
+			global::Xamarin.Plugin.Calendar.Resource.Id.blocking = global::BooksApp.Droid.Resource.Id.blocking;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottom = global::BooksApp.Droid.Resource.Id.bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottomtab_navarea = global::BooksApp.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottomtab_tabbar = global::BooksApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_header_text = global::BooksApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_items = global::BooksApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_item_icon = global::BooksApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_item_text = global::BooksApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_view = global::BooksApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.buttonPanel = global::BooksApp.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.cancel_action = global::BooksApp.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center = global::BooksApp.Droid.Resource.Id.center;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_horizontal = global::BooksApp.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_vertical = global::BooksApp.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.checkbox = global::BooksApp.Droid.Resource.Id.checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@checked = global::BooksApp.Droid.Resource.Id.@checked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.chronometer = global::BooksApp.Droid.Resource.Id.chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_horizontal = global::BooksApp.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_vertical = global::BooksApp.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.collapseActionView = global::BooksApp.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.container = global::BooksApp.Droid.Resource.Id.container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.content = global::BooksApp.Droid.Resource.Id.content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.contentPanel = global::BooksApp.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.coordinator = global::BooksApp.Droid.Resource.Id.coordinator;
+			global::Xamarin.Plugin.Calendar.Resource.Id.CTRL = global::BooksApp.Droid.Resource.Id.CTRL;
+			global::Xamarin.Plugin.Calendar.Resource.Id.custom = global::BooksApp.Droid.Resource.Id.custom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.customPanel = global::BooksApp.Droid.Resource.Id.customPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.decor_content_parent = global::BooksApp.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Plugin.Calendar.Resource.Id.default_activity_button = global::BooksApp.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_bottom_sheet = global::BooksApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area = global::BooksApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area_stub = global::BooksApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_text = global::BooksApp.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_navigation_view = global::BooksApp.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.dialog_button = global::BooksApp.Droid.Resource.Id.dialog_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.disableHome = global::BooksApp.Droid.Resource.Id.disableHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.edit_query = global::BooksApp.Droid.Resource.Id.edit_query;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end = global::BooksApp.Droid.Resource.Id.end;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end_padder = global::BooksApp.Droid.Resource.Id.end_padder;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlways = global::BooksApp.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlwaysCollapsed = global::BooksApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.exitUntilCollapsed = global::BooksApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expanded_menu = global::BooksApp.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expand_activities_button = global::BooksApp.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill = global::BooksApp.Droid.Resource.Id.fill;
+			global::Xamarin.Plugin.Calendar.Resource.Id.filled = global::BooksApp.Droid.Resource.Id.filled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_horizontal = global::BooksApp.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_vertical = global::BooksApp.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@fixed = global::BooksApp.Droid.Resource.Id.@fixed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.flyoutcontent_appbar = global::BooksApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.forever = global::BooksApp.Droid.Resource.Id.forever;
+			global::Xamarin.Plugin.Calendar.Resource.Id.FUNCTION = global::BooksApp.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ghost_view = global::BooksApp.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ghost_view_holder = global::BooksApp.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Plugin.Calendar.Resource.Id.group_divider = global::BooksApp.Droid.Resource.Id.group_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.home = global::BooksApp.Droid.Resource.Id.home;
+			global::Xamarin.Plugin.Calendar.Resource.Id.homeAsUp = global::BooksApp.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon = global::BooksApp.Droid.Resource.Id.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon_group = global::BooksApp.Droid.Resource.Id.icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ifRoom = global::BooksApp.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.image = global::BooksApp.Droid.Resource.Id.image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.info = global::BooksApp.Droid.Resource.Id.info;
+			global::Xamarin.Plugin.Calendar.Resource.Id.italic = global::BooksApp.Droid.Resource.Id.italic;
+			global::Xamarin.Plugin.Calendar.Resource.Id.item_touch_helper_previous_elevation = global::BooksApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Id.labeled = global::BooksApp.Droid.Resource.Id.labeled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.largeLabel = global::BooksApp.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.left = global::BooksApp.Droid.Resource.Id.left;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line1 = global::BooksApp.Droid.Resource.Id.line1;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line3 = global::BooksApp.Droid.Resource.Id.line3;
+			global::Xamarin.Plugin.Calendar.Resource.Id.listMode = global::BooksApp.Droid.Resource.Id.listMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.list_item = global::BooksApp.Droid.Resource.Id.list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_appbar = global::BooksApp.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_tablayout = global::BooksApp.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_toolbar = global::BooksApp.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_viewpager = global::BooksApp.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Plugin.Calendar.Resource.Id.masked = global::BooksApp.Droid.Resource.Id.masked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.media_actions = global::BooksApp.Droid.Resource.Id.media_actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.message = global::BooksApp.Droid.Resource.Id.message;
+			global::Xamarin.Plugin.Calendar.Resource.Id.META = global::BooksApp.Droid.Resource.Id.META;
+			global::Xamarin.Plugin.Calendar.Resource.Id.middle = global::BooksApp.Droid.Resource.Id.middle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mini = global::BooksApp.Droid.Resource.Id.mini;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mtrl_child_content_container = global::BooksApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mtrl_internal_children_alpha_tag = global::BooksApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Plugin.Calendar.Resource.Id.multiply = global::BooksApp.Droid.Resource.Id.multiply;
+			global::Xamarin.Plugin.Calendar.Resource.Id.navigation_header_container = global::BooksApp.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.never = global::BooksApp.Droid.Resource.Id.never;
+			global::Xamarin.Plugin.Calendar.Resource.Id.none = global::BooksApp.Droid.Resource.Id.none;
+			global::Xamarin.Plugin.Calendar.Resource.Id.normal = global::BooksApp.Droid.Resource.Id.normal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_background = global::BooksApp.Droid.Resource.Id.notification_background;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column = global::BooksApp.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column_container = global::BooksApp.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.off = global::BooksApp.Droid.Resource.Id.off;
+			global::Xamarin.Plugin.Calendar.Resource.Id.on = global::BooksApp.Droid.Resource.Id.on;
+			global::Xamarin.Plugin.Calendar.Resource.Id.outline = global::BooksApp.Droid.Resource.Id.outline;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parallax = global::BooksApp.Droid.Resource.Id.parallax;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parentPanel = global::BooksApp.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parent_matrix = global::BooksApp.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Plugin.Calendar.Resource.Id.pin = global::BooksApp.Droid.Resource.Id.pin;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_circular = global::BooksApp.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_horizontal = global::BooksApp.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.radio = global::BooksApp.Droid.Resource.Id.radio;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right = global::BooksApp.Droid.Resource.Id.right;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_icon = global::BooksApp.Droid.Resource.Id.right_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_side = global::BooksApp.Droid.Resource.Id.right_side;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_non_transition_alpha = global::BooksApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_overlay_view = global::BooksApp.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.screen = global::BooksApp.Droid.Resource.Id.screen;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scroll = global::BooksApp.Droid.Resource.Id.scroll;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollable = global::BooksApp.Droid.Resource.Id.scrollable;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorDown = global::BooksApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorUp = global::BooksApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollView = global::BooksApp.Droid.Resource.Id.scrollView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_badge = global::BooksApp.Droid.Resource.Id.search_badge;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_bar = global::BooksApp.Droid.Resource.Id.search_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_button = global::BooksApp.Droid.Resource.Id.search_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_close_btn = global::BooksApp.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_edit_frame = global::BooksApp.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_go_btn = global::BooksApp.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_mag_icon = global::BooksApp.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_plate = global::BooksApp.Droid.Resource.Id.search_plate;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_src_text = global::BooksApp.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_voice_btn = global::BooksApp.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.selected = global::BooksApp.Droid.Resource.Id.selected;
+			global::Xamarin.Plugin.Calendar.Resource.Id.select_dialog_listview = global::BooksApp.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shellcontent_appbar = global::BooksApp.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shellcontent_toolbar = global::BooksApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SHIFT = global::BooksApp.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shortcut = global::BooksApp.Droid.Resource.Id.shortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showCustom = global::BooksApp.Droid.Resource.Id.showCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showHome = global::BooksApp.Droid.Resource.Id.showHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showTitle = global::BooksApp.Droid.Resource.Id.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.sliding_tabs = global::BooksApp.Droid.Resource.Id.sliding_tabs;
+			global::Xamarin.Plugin.Calendar.Resource.Id.smallLabel = global::BooksApp.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_action = global::BooksApp.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_text = global::BooksApp.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snap = global::BooksApp.Droid.Resource.Id.snap;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snapMargins = global::BooksApp.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Id.spacer = global::BooksApp.Droid.Resource.Id.spacer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.split_action_bar = global::BooksApp.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_atop = global::BooksApp.Droid.Resource.Id.src_atop;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_in = global::BooksApp.Droid.Resource.Id.src_in;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_over = global::BooksApp.Droid.Resource.Id.src_over;
+			global::Xamarin.Plugin.Calendar.Resource.Id.start = global::BooksApp.Droid.Resource.Id.start;
+			global::Xamarin.Plugin.Calendar.Resource.Id.status_bar_latest_event_content = global::BooksApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.stretch = global::BooksApp.Droid.Resource.Id.stretch;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submenuarrow = global::BooksApp.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submit_area = global::BooksApp.Droid.Resource.Id.submit_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SYM = global::BooksApp.Droid.Resource.Id.SYM;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tabMode = global::BooksApp.Droid.Resource.Id.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_actions = global::BooksApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_clickable_spans = global::BooksApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_heading = global::BooksApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_pane_title = global::BooksApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_screen_reader_focusable = global::BooksApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_transition_group = global::BooksApp.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_unhandled_key_event_manager = global::BooksApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_unhandled_key_listeners = global::BooksApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text = global::BooksApp.Droid.Resource.Id.text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text2 = global::BooksApp.Droid.Resource.Id.text2;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_counter = global::BooksApp.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_error = global::BooksApp.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_helper_text = global::BooksApp.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoButtons = global::BooksApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoTitle = global::BooksApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textStart = global::BooksApp.Droid.Resource.Id.textStart;
+			global::Xamarin.Plugin.Calendar.Resource.Id.time = global::BooksApp.Droid.Resource.Id.time;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title = global::BooksApp.Droid.Resource.Id.title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.titleDividerNoCustom = global::BooksApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title_template = global::BooksApp.Droid.Resource.Id.title_template;
+			global::Xamarin.Plugin.Calendar.Resource.Id.toolbar = global::BooksApp.Droid.Resource.Id.toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.top = global::BooksApp.Droid.Resource.Id.top;
+			global::Xamarin.Plugin.Calendar.Resource.Id.topPanel = global::BooksApp.Droid.Resource.Id.topPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.touch_outside = global::BooksApp.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_current_scene = global::BooksApp.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_layout_save = global::BooksApp.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_position = global::BooksApp.Droid.Resource.Id.transition_position;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_scene_layoutid_cache = global::BooksApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_transform = global::BooksApp.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@unchecked = global::BooksApp.Droid.Resource.Id.@unchecked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.uniform = global::BooksApp.Droid.Resource.Id.uniform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.unlabeled = global::BooksApp.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.up = global::BooksApp.Droid.Resource.Id.up;
+			global::Xamarin.Plugin.Calendar.Resource.Id.useLogo = global::BooksApp.Droid.Resource.Id.useLogo;
+			global::Xamarin.Plugin.Calendar.Resource.Id.view_offset_helper = global::BooksApp.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Plugin.Calendar.Resource.Id.visible = global::BooksApp.Droid.Resource.Id.visible;
+			global::Xamarin.Plugin.Calendar.Resource.Id.withText = global::BooksApp.Droid.Resource.Id.withText;
+			global::Xamarin.Plugin.Calendar.Resource.Id.wrap_content = global::BooksApp.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityDefaultDur = global::BooksApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityShortDur = global::BooksApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.app_bar_elevation_anim_duration = global::BooksApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.bottom_sheet_slide_duration = global::BooksApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.cancel_button_image_alpha = global::BooksApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.config_tooltipAnimTime = global::BooksApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.design_snackbar_text_max_lines = global::BooksApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.design_tab_indicator_anim_duration_ms = global::BooksApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.hide_password_duration = global::BooksApp.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_btn_anim_delay_ms = global::BooksApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_btn_anim_duration_ms = global::BooksApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_chip_anim_duration = global::BooksApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::BooksApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.show_password_duration = global::BooksApp.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.status_bar_notification_info_maxnum = global::BooksApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::BooksApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::BooksApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::BooksApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::BooksApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::BooksApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::BooksApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.fast_out_slow_in = global::BooksApp.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_fast_out_linear_in = global::BooksApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_fast_out_slow_in = global::BooksApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_linear = global::BooksApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_linear_out_slow_in = global::BooksApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_title_item = global::BooksApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_up_container = global::BooksApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_item_layout = global::BooksApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_layout = global::BooksApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_bar = global::BooksApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_close_item_material = global::BooksApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view = global::BooksApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view_list_item = global::BooksApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_button_bar_material = global::BooksApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_material = global::BooksApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_title_material = global::BooksApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_cascading_menu_item_layout = global::BooksApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_dialog_title_material = global::BooksApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_expanded_menu_layout = global::BooksApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_checkbox = global::BooksApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_icon = global::BooksApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_layout = global::BooksApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_radio = global::BooksApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_header_item_layout = global::BooksApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_item_layout = global::BooksApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_content_include = global::BooksApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple = global::BooksApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::BooksApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_toolbar = global::BooksApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::BooksApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_view = global::BooksApp.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_select_dialog_material = global::BooksApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_tooltip = global::BooksApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.BottomTabLayout = global::BooksApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.browser_actions_context_menu_page = global::BooksApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.browser_actions_context_menu_row = global::BooksApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.custom_dialog = global::BooksApp.Droid.Resource.Layout.custom_dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_navigation_item = global::BooksApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_sheet_dialog = global::BooksApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar = global::BooksApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar_include = global::BooksApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_icon = global::BooksApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_text = global::BooksApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_menu_item_action_area = global::BooksApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item = global::BooksApp.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_header = global::BooksApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_separator = global::BooksApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_subheader = global::BooksApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu = global::BooksApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu_item = global::BooksApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FallbackTabbarDoNotUse = global::BooksApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FallbackToolbarDoNotUse = global::BooksApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FlyoutContent = global::BooksApp.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.mtrl_layout_snackbar = global::BooksApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.mtrl_layout_snackbar_include = global::BooksApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action = global::BooksApp.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action_tombstone = global::BooksApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_action = global::BooksApp.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_cancel_action = global::BooksApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media = global::BooksApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_custom = global::BooksApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow = global::BooksApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow_custom = global::BooksApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_custom_big = global::BooksApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_icon_group = global::BooksApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_lines_media = global::BooksApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media = global::BooksApp.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media_custom = global::BooksApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_chronometer = global::BooksApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_time = global::BooksApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.RootLayout = global::BooksApp.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_item_material = global::BooksApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_multichoice_material = global::BooksApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_singlechoice_material = global::BooksApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.ShellContent = global::BooksApp.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.support_simple_spinner_dropdown_item = global::BooksApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.Tabbar = global::BooksApp.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.Toolbar = global::BooksApp.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_home_description = global::BooksApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_up_description = global::BooksApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_menu_overflow_description = global::BooksApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_mode_done = global::BooksApp.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activitychooserview_choose_application = global::BooksApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activity_chooser_view_see_all = global::BooksApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_off = global::BooksApp.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_on = global::BooksApp.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_alt_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_ctrl_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_delete_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_enter_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_function_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_meta_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_shift_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_space_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_sym_shortcut_label = global::BooksApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_prepend_shortcut_label = global::BooksApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_clear = global::BooksApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_query = global::BooksApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_search = global::BooksApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_submit = global::BooksApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_voice = global::BooksApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_search_hint = global::BooksApp.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with = global::BooksApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with_application = global::BooksApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_toolbar_collapse_description = global::BooksApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.appbar_scrolling_view_behavior = global::BooksApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.bottom_sheet_behavior = global::BooksApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.character_counter_content_description = global::BooksApp.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.character_counter_pattern = global::BooksApp.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Plugin.Calendar.Resource.String.fab_transformation_scrim_behavior = global::BooksApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.fab_transformation_sheet_behavior = global::BooksApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.hide_bottom_view_on_scroll_behavior = global::BooksApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.mtrl_chip_close_icon_content_description = global::BooksApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.overflow_tab_title = global::BooksApp.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Plugin.Calendar.Resource.String.password_toggle_content_description = global::BooksApp.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye = global::BooksApp.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_strike_through = global::BooksApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_visible = global::BooksApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_strike_through = global::BooksApp.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.search_menu_title = global::BooksApp.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Plugin.Calendar.Resource.String.status_bar_notification_info_overflow = global::BooksApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat = global::BooksApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat_Light = global::BooksApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_DropDownUp = global::BooksApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Tooltip = global::BooksApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_Design_BottomSheetDialog = global::BooksApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AppCompatDialogStyle = global::BooksApp.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat = global::BooksApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::BooksApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Tooltip = global::BooksApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_CardView = global::BooksApp.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::BooksApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::BooksApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::BooksApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::BooksApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents = global::BooksApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::BooksApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::BooksApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::BooksApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::BooksApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BooksApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::BooksApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::BooksApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::BooksApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V28_Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V28_Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::BooksApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::BooksApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::BooksApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::BooksApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_EditText = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_TextView = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::BooksApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_Design_TabLayout = global::BooksApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_Chip = global::BooksApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::BooksApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::BooksApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView = global::BooksApp.Droid.Resource.Style.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Dark = global::BooksApp.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Light = global::BooksApp.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.collectionViewTheme = global::BooksApp.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.MainTheme = global::BooksApp.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.MainTheme_Base = global::BooksApp.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat = global::BooksApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents = global::BooksApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Dialog = global::BooksApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Light = global::BooksApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::BooksApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::BooksApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::BooksApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat = global::BooksApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat = global::BooksApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::BooksApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::BooksApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::BooksApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::BooksApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::BooksApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.scrollViewScrollBars = global::BooksApp.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Plugin.Calendar.Resource.Style.scrollViewTheme = global::BooksApp.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body1 = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body2 = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Button = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Caption = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display1 = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display2 = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display3 = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display4 = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Headline = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Menu = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Tooltip = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BooksApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Media = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::BooksApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Error = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_HelperText = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Hint = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Tab = global::BooksApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Button = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Caption = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Chip = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Overline = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::BooksApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BooksApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BooksApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::BooksApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Light = global::BooksApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BooksApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat = global::BooksApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_CompactMenu = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_NoActionBar = global::BooksApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design = global::BooksApp.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_BottomSheetDialog = global::BooksApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light = global::BooksApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::BooksApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_NoActionBar = global::BooksApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_NoActionBar = global::BooksApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Bridge = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_CompactMenu = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_NoActionBar = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::BooksApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionMode = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Colored = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Small = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_EditText = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ImageButton = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_SearchView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListMenuView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_Menu = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupWindow = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_TextView = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::BooksApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionContainer = global::BooksApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionText = global::BooksApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_AppBarLayout = global::BooksApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomNavigationView = global::BooksApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomSheet_Modal = global::BooksApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_CollapsingToolbar = global::BooksApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_FloatingActionButton = global::BooksApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_NavigationView = global::BooksApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::BooksApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_Snackbar = global::BooksApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TabLayout = global::BooksApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TextInputLayout = global::BooksApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_Icon = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_CardView = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_ChipGroup = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Action = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_NavigationView = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Snackbar = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TabLayout = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Toolbar = global::BooksApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Support_CoordinatorLayout = global::BooksApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar = global::BooksApp.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout = global::BooksApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::BooksApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_background = global::BooksApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundSplit = global::BooksApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundStacked = global::BooksApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEnd = global::BooksApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::BooksApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetLeft = global::BooksApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetRight = global::BooksApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStart = global::BooksApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::BooksApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_customNavigationLayout = global::BooksApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_displayOptions = global::BooksApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_divider = global::BooksApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_elevation = global::BooksApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_height = global::BooksApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_hideOnContentScroll = global::BooksApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::BooksApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeLayout = global::BooksApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_icon = global::BooksApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::BooksApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_itemPadding = global::BooksApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_logo = global::BooksApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_navigationMode = global::BooksApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_popupTheme = global::BooksApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarPadding = global::BooksApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarStyle = global::BooksApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitle = global::BooksApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitleTextStyle = global::BooksApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_title = global::BooksApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_titleTextStyle = global::BooksApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView = global::BooksApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::BooksApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuView = global::BooksApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode = global::BooksApp.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_background = global::BooksApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_backgroundSplit = global::BooksApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_closeItemLayout = global::BooksApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_height = global::BooksApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_subtitleTextStyle = global::BooksApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_titleTextStyle = global::BooksApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView = global::BooksApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::BooksApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::BooksApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog = global::BooksApp.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_android_layout = global::BooksApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_buttonIconDimen = global::BooksApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::BooksApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listItemLayout = global::BooksApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listLayout = global::BooksApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::BooksApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_showTitle = global::BooksApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::BooksApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::BooksApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout = global::BooksApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates = global::BooksApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::BooksApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::BooksApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_liftable = global::BooksApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_lifted = global::BooksApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_background = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_elevation = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_expanded = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_liftOnScroll = global::BooksApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView = global::BooksApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_android_src = global::BooksApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_srcCompat = global::BooksApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tint = global::BooksApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tintMode = global::BooksApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar = global::BooksApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_android_thumb = global::BooksApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMark = global::BooksApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::BooksApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::BooksApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::BooksApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTint = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTintMode = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_fontFamily = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_lineHeight = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_textAllCaps = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_textLocale = global::BooksApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSize = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorAccent = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorError = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimary = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_controlBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogTheme = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerVertical = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextColor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_switchStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBar = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::BooksApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar = global::BooksApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_backgroundTint = global::BooksApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::BooksApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleMargin = global::BooksApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::BooksApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::BooksApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_hideOnScroll = global::BooksApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_elevation = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemBackground = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemIconSize = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemIconTint = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemTextColor = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_menu = global::BooksApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout = global::BooksApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::BooksApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::BooksApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::BooksApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::BooksApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout = global::BooksApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout_allowStacking = global::BooksApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView = global::BooksApp.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minHeight = global::BooksApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minWidth = global::BooksApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardBackgroundColor = global::BooksApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardCornerRadius = global::BooksApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardElevation = global::BooksApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardMaxElevation = global::BooksApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardPreventCornerOverlap = global::BooksApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardUseCompatPadding = global::BooksApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPadding = global::BooksApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingBottom = global::BooksApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingLeft = global::BooksApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingRight = global::BooksApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingTop = global::BooksApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip = global::BooksApp.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup = global::BooksApp.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_checkedChip = global::BooksApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacing = global::BooksApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::BooksApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacingVertical = global::BooksApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_singleLine = global::BooksApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_singleSelection = global::BooksApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_checkable = global::BooksApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_ellipsize = global::BooksApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_maxWidth = global::BooksApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_text = global::BooksApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_textAppearance = global::BooksApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIcon = global::BooksApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIconEnabled = global::BooksApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIconVisible = global::BooksApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipBackgroundColor = global::BooksApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipCornerRadius = global::BooksApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipEndPadding = global::BooksApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIcon = global::BooksApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconEnabled = global::BooksApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconSize = global::BooksApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconTint = global::BooksApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconVisible = global::BooksApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipMinHeight = global::BooksApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStartPadding = global::BooksApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStrokeColor = global::BooksApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStrokeWidth = global::BooksApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIcon = global::BooksApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconEnabled = global::BooksApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconEndPadding = global::BooksApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconSize = global::BooksApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconStartPadding = global::BooksApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconTint = global::BooksApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconVisible = global::BooksApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_hideMotionSpec = global::BooksApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_iconEndPadding = global::BooksApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_iconStartPadding = global::BooksApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_rippleColor = global::BooksApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_showMotionSpec = global::BooksApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_textEndPadding = global::BooksApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_textStartPadding = global::BooksApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_title = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::BooksApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem = global::BooksApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_alpha = global::BooksApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_alpha = global::BooksApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_color = global::BooksApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton = global::BooksApp.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_android_button = global::BooksApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonCompat = global::BooksApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTint = global::BooksApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTintMode = global::BooksApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_keylines = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::BooksApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_barLength = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_color = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_spinBars = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_thickness = global::BooksApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTint = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_borderWidth = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_elevation = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_fabCustomSize = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_fabSize = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_maxImageSize = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_rippleColor = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_showMotionSpec = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::BooksApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout = global::BooksApp.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout_itemSpacing = global::BooksApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout_lineSpacing = global::BooksApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily = global::BooksApp.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_font = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_font = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontStyle = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontWeight = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_ttcIndex = global::BooksApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderAuthority = global::BooksApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderCerts = global::BooksApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BooksApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BooksApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderPackage = global::BooksApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderQuery = global::BooksApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout = global::BooksApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::BooksApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::BooksApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::BooksApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor = global::BooksApp.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem = global::BooksApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem_android_color = global::BooksApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem_android_offset = global::BooksApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerColor = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerX = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerY = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endColor = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endX = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endY = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_gradientRadius = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startColor = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startX = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startY = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_tileMode = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_type = global::BooksApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ItemsViewRendererTheme = global::BooksApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::BooksApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_divider = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_showDividers = global::BooksApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow = global::BooksApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::BooksApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::BooksApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton = global::BooksApp.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetBottom = global::BooksApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetLeft = global::BooksApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetRight = global::BooksApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetTop = global::BooksApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_backgroundTint = global::BooksApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_backgroundTintMode = global::BooksApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_cornerRadius = global::BooksApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_icon = global::BooksApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconGravity = global::BooksApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconPadding = global::BooksApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconSize = global::BooksApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconTint = global::BooksApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconTintMode = global::BooksApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_rippleColor = global::BooksApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_strokeColor = global::BooksApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_strokeWidth = global::BooksApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView = global::BooksApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView_strokeColor = global::BooksApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView_strokeWidth = global::BooksApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup = global::BooksApp.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::BooksApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_enabled = global::BooksApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_id = global::BooksApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_menuCategory = global::BooksApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_orderInCategory = global::BooksApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_visible = global::BooksApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem = global::BooksApp.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionLayout = global::BooksApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionProviderClass = global::BooksApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionViewClass = global::BooksApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_alphabeticModifiers = global::BooksApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checkable = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checked = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_enabled = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_icon = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_id = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_menuCategory = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_numericShortcut = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_onClick = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_orderInCategory = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_title = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_titleCondensed = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_visible = global::BooksApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_contentDescription = global::BooksApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTint = global::BooksApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTintMode = global::BooksApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_numericModifiers = global::BooksApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_showAsAction = global::BooksApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_tooltipText = global::BooksApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView = global::BooksApp.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_headerBackground = global::BooksApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_horizontalDivider = global::BooksApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemBackground = global::BooksApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::BooksApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemTextAppearance = global::BooksApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_verticalDivider = global::BooksApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::BooksApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_preserveIconSpacing = global::BooksApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_subMenuArrow = global::BooksApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView = global::BooksApp.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_background = global::BooksApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::BooksApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_maxWidth = global::BooksApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_elevation = global::BooksApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_headerLayout = global::BooksApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemBackground = global::BooksApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemHorizontalPadding = global::BooksApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemIconPadding = global::BooksApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemIconTint = global::BooksApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextAppearance = global::BooksApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextColor = global::BooksApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_menu = global::BooksApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow = global::BooksApp.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState = global::BooksApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::BooksApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::BooksApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupBackground = global::BooksApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_overlapAnchor = global::BooksApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView = global::BooksApp.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::BooksApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::BooksApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView = global::BooksApp.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_clipToPadding = global::BooksApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_descendantFocusability = global::BooksApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_orientation = global::BooksApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollEnabled = global::BooksApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::BooksApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::BooksApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::BooksApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::BooksApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_layoutManager = global::BooksApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_reverseLayout = global::BooksApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_spanCount = global::BooksApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_stackFromEnd = global::BooksApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout = global::BooksApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::BooksApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout = global::BooksApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::BooksApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollViewRendererTheme = global::BooksApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::BooksApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView = global::BooksApp.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_focusable = global::BooksApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_imeOptions = global::BooksApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_inputType = global::BooksApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_maxWidth = global::BooksApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_closeIcon = global::BooksApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_commitIcon = global::BooksApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_defaultQueryHint = global::BooksApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_goIcon = global::BooksApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_iconifiedByDefault = global::BooksApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_layout = global::BooksApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryBackground = global::BooksApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryHint = global::BooksApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchHintIcon = global::BooksApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchIcon = global::BooksApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_submitBackground = global::BooksApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_suggestionRowLayout = global::BooksApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_voiceIcon = global::BooksApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar = global::BooksApp.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout = global::BooksApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::BooksApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_elevation = global::BooksApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::BooksApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar_snackbarButtonStyle = global::BooksApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar_snackbarStyle = global::BooksApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner = global::BooksApp.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_dropDownWidth = global::BooksApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_entries = global::BooksApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_popupBackground = global::BooksApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_prompt = global::BooksApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_popupTheme = global::BooksApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable = global::BooksApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawableItem = global::BooksApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawableItem_android_drawable = global::BooksApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_constantSize = global::BooksApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_dither = global::BooksApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::BooksApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::BooksApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_variablePadding = global::BooksApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_visible = global::BooksApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat = global::BooksApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOff = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOn = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_thumb = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_showText = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_splitTrack = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchMinWidth = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchPadding = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTint = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTintMode = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_track = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTint = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTintMode = global::BooksApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem = global::BooksApp.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_icon = global::BooksApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_layout = global::BooksApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_text = global::BooksApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout = global::BooksApp.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabBackground = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabContentStart = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabGravity = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIconTint = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIconTintMode = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicator = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorColor = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorGravity = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabInlineLabel = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMaxWidth = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMinWidth = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMode = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPadding = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingBottom = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingEnd = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingStart = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingTop = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabRippleColor = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextAppearance = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextColor = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabUnboundedRipple = global::BooksApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance = global::BooksApp.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_fontFamily = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowColor = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDx = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDy = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowRadius = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColor = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorHint = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorLink = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textFontWeight = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textSize = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textStyle = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_typeface = global::BooksApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_fontFamily = global::BooksApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_fontVariationSettings = global::BooksApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_textAllCaps = global::BooksApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_textLocale = global::BooksApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout = global::BooksApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_hint = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_textColorHint = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxStrokeColor = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterEnabled = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterMaxLength = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorEnabled = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperText = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperTextEnabled = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintEnabled = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTint = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::BooksApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement = global::BooksApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::BooksApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::BooksApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::BooksApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar = global::BooksApp.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_gravity = global::BooksApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_minHeight = global::BooksApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_buttonGravity = global::BooksApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseContentDescription = global::BooksApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseIcon = global::BooksApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEnd = global::BooksApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::BooksApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetLeft = global::BooksApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetRight = global::BooksApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStart = global::BooksApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::BooksApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logo = global::BooksApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logoDescription = global::BooksApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_maxButtonHeight = global::BooksApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_menu = global::BooksApp.Droid.Resource.Styleable.Toolbar_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationContentDescription = global::BooksApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationIcon = global::BooksApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_popupTheme = global::BooksApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitle = global::BooksApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::BooksApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextColor = global::BooksApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_title = global::BooksApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargin = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginBottom = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginEnd = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargins = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginStart = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginTop = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextAppearance = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextColor = global::BooksApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View = global::BooksApp.Droid.Resource.Styleable.View;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper = global::BooksApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_android_background = global::BooksApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::BooksApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::BooksApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat = global::BooksApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_id = global::BooksApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BooksApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_layout = global::BooksApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_focusable = global::BooksApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_theme = global::BooksApp.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingEnd = global::BooksApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingStart = global::BooksApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_theme = global::BooksApp.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -9120,571 +11795,607 @@ namespace BooksApp.Droid
 			public const int ratingBarStyleSmall = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int recyclerViewStyle = 2130903509;
+			public const int ratingControlValue = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int reverseLayout = 2130903510;
+			public const int ratingEnableAutoSize = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int rippleColor = 2130903511;
+			public const int ratingItemCount = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int scrimAnimationDuration = 2130903512;
+			public const int ratingItemSize = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int scrimBackground = 2130903513;
+			public const int ratingItemSpacing = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int scrimVisibleHeightTrigger = 2130903514;
+			public const int ratingPrecision = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int scrollViewStyle = 2130903515;
+			public const int ratingRatedFill = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int searchHintIcon = 2130903516;
+			public const int ratingRatedStroke = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int searchIcon = 2130903517;
+			public const int ratingRatedStrokeWidth = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int searchViewStyle = 2130903518;
+			public const int ratingUnratedFill = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int seekBarStyle = 2130903519;
+			public const int ratingUnratedStroke = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int selectableItemBackground = 2130903520;
+			public const int ratingUnratedStrokeWidth = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int selectableItemBackgroundBorderless = 2130903521;
+			public const int recyclerViewStyle = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int selectionRequired = 2130903522;
+			public const int reverseLayout = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int shapeAppearance = 2130903523;
+			public const int rippleColor = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int shapeAppearanceLargeComponent = 2130903524;
+			public const int scrimAnimationDuration = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int shapeAppearanceMediumComponent = 2130903525;
+			public const int scrimBackground = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int shapeAppearanceOverlay = 2130903526;
+			public const int scrimVisibleHeightTrigger = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int shapeAppearanceSmallComponent = 2130903527;
+			public const int scrollViewStyle = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int showAsAction = 2130903528;
+			public const int searchHintIcon = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int showDividers = 2130903529;
+			public const int searchIcon = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int showMotionSpec = 2130903530;
+			public const int searchViewStyle = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int showText = 2130903531;
+			public const int seekBarStyle = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int showTitle = 2130903532;
+			public const int selectableItemBackground = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int shrinkMotionSpec = 2130903533;
+			public const int selectableItemBackgroundBorderless = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int singleChoiceItemLayout = 2130903534;
+			public const int selectionRequired = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int singleLine = 2130903535;
+			public const int shapeAppearance = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int singleSelection = 2130903536;
+			public const int shapeAppearanceLargeComponent = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int sliderStyle = 2130903537;
+			public const int shapeAppearanceMediumComponent = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int snackbarButtonStyle = 2130903538;
+			public const int shapeAppearanceOverlay = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int snackbarStyle = 2130903539;
+			public const int shapeAppearanceSmallComponent = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int snackbarTextViewStyle = 2130903540;
+			public const int showAsAction = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int spanCount = 2130903541;
+			public const int showDividers = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int spinBars = 2130903542;
+			public const int showMotionSpec = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int spinnerDropDownItemStyle = 2130903543;
+			public const int showText = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int spinnerStyle = 2130903544;
+			public const int showTitle = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int splitTrack = 2130903545;
+			public const int shrinkMotionSpec = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int srcCompat = 2130903546;
+			public const int singleChoiceItemLayout = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int stackFromEnd = 2130903547;
+			public const int singleLine = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int startIconCheckable = 2130903548;
+			public const int singleSelection = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int startIconContentDescription = 2130903549;
+			public const int sliderStyle = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int startIconDrawable = 2130903550;
+			public const int snackbarButtonStyle = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int startIconTint = 2130903551;
+			public const int snackbarStyle = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int startIconTintMode = 2130903552;
+			public const int snackbarTextViewStyle = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int state_above_anchor = 2130903553;
+			public const int spanCount = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int state_collapsed = 2130903554;
+			public const int spinBars = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int state_collapsible = 2130903555;
+			public const int spinnerDropDownItemStyle = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int state_dragged = 2130903556;
+			public const int spinnerStyle = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int state_liftable = 2130903557;
+			public const int splitTrack = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int state_lifted = 2130903558;
+			public const int srcCompat = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int statusBarBackground = 2130903559;
+			public const int stackFromEnd = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int statusBarForeground = 2130903560;
+			public const int startIconCheckable = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int statusBarScrim = 2130903561;
+			public const int startIconContentDescription = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int strokeColor = 2130903562;
+			public const int startIconDrawable = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int strokeWidth = 2130903563;
+			public const int startIconTint = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int subMenuArrow = 2130903564;
+			public const int startIconTintMode = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int submitBackground = 2130903565;
+			public const int state_above_anchor = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int subtitle = 2130903566;
+			public const int state_collapsed = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int subtitleTextAppearance = 2130903567;
+			public const int state_collapsible = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int subtitleTextColor = 2130903568;
+			public const int state_dragged = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int subtitleTextStyle = 2130903569;
+			public const int state_liftable = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int suffixText = 2130903570;
+			public const int state_lifted = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int suffixTextAppearance = 2130903571;
+			public const int statusBarBackground = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int suffixTextColor = 2130903572;
+			public const int statusBarForeground = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int suggestionRowLayout = 2130903573;
+			public const int statusBarScrim = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903574;
+			public const int strokeColor = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int switchMinWidth = 2130903575;
+			public const int strokeWidth = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int switchPadding = 2130903576;
+			public const int subMenuArrow = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int switchStyle = 2130903577;
+			public const int submitBackground = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int switchTextAppearance = 2130903578;
+			public const int subtitle = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int tabBackground = 2130903579;
+			public const int subtitleTextAppearance = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int tabContentStart = 2130903580;
+			public const int subtitleTextColor = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int tabGravity = 2130903581;
+			public const int subtitleTextStyle = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int tabIconTint = 2130903582;
+			public const int suffixText = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int tabIconTintMode = 2130903583;
+			public const int suffixTextAppearance = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int tabIndicator = 2130903584;
+			public const int suffixTextColor = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int tabIndicatorAnimationDuration = 2130903585;
+			public const int suggestionRowLayout = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int tabIndicatorColor = 2130903586;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int tabIndicatorFullWidth = 2130903587;
+			public const int switchMinWidth = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int tabIndicatorGravity = 2130903588;
+			public const int switchPadding = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int tabIndicatorHeight = 2130903589;
+			public const int switchStyle = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int tabInlineLabel = 2130903590;
+			public const int switchTextAppearance = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int tabMaxWidth = 2130903591;
+			public const int tabBackground = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int tabMinWidth = 2130903592;
+			public const int tabContentStart = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int tabMode = 2130903593;
+			public const int tabGravity = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int tabPadding = 2130903594;
+			public const int tabIconTint = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int tabPaddingBottom = 2130903595;
+			public const int tabIconTintMode = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int tabPaddingEnd = 2130903596;
+			public const int tabIndicator = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int tabPaddingStart = 2130903597;
+			public const int tabIndicatorAnimationDuration = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int tabPaddingTop = 2130903598;
+			public const int tabIndicatorColor = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int tabRippleColor = 2130903599;
+			public const int tabIndicatorFullWidth = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int tabSelectedTextColor = 2130903600;
+			public const int tabIndicatorGravity = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int tabStyle = 2130903601;
+			public const int tabIndicatorHeight = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int tabTextAppearance = 2130903602;
+			public const int tabInlineLabel = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int tabTextColor = 2130903603;
+			public const int tabMaxWidth = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int tabUnboundedRipple = 2130903604;
+			public const int tabMinWidth = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int textAllCaps = 2130903605;
+			public const int tabMode = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int textAppearanceBody1 = 2130903606;
+			public const int tabPadding = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int textAppearanceBody2 = 2130903607;
+			public const int tabPaddingBottom = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int textAppearanceButton = 2130903608;
+			public const int tabPaddingEnd = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int textAppearanceCaption = 2130903609;
+			public const int tabPaddingStart = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int textAppearanceHeadline1 = 2130903610;
+			public const int tabPaddingTop = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int textAppearanceHeadline2 = 2130903611;
+			public const int tabRippleColor = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int textAppearanceHeadline3 = 2130903612;
+			public const int tabSelectedTextColor = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int textAppearanceHeadline4 = 2130903613;
+			public const int tabStyle = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int textAppearanceHeadline5 = 2130903614;
+			public const int tabTextAppearance = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int textAppearanceHeadline6 = 2130903615;
+			public const int tabTextColor = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int textAppearanceLargePopupMenu = 2130903616;
+			public const int tabUnboundedRipple = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int textAppearanceLineHeightEnabled = 2130903617;
+			public const int textAllCaps = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int textAppearanceListItem = 2130903618;
+			public const int textAppearanceBody1 = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int textAppearanceListItemSecondary = 2130903619;
+			public const int textAppearanceBody2 = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int textAppearanceListItemSmall = 2130903620;
+			public const int textAppearanceButton = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int textAppearanceOverline = 2130903621;
+			public const int textAppearanceCaption = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int textAppearancePopupMenuHeader = 2130903622;
+			public const int textAppearanceHeadline1 = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int textAppearanceSearchResultSubtitle = 2130903623;
+			public const int textAppearanceHeadline2 = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int textAppearanceSearchResultTitle = 2130903624;
+			public const int textAppearanceHeadline3 = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int textAppearanceSmallPopupMenu = 2130903625;
+			public const int textAppearanceHeadline4 = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int textAppearanceSubtitle1 = 2130903626;
+			public const int textAppearanceHeadline5 = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int textAppearanceSubtitle2 = 2130903627;
+			public const int textAppearanceHeadline6 = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int textColorAlertDialogListItem = 2130903628;
+			public const int textAppearanceLargePopupMenu = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int textColorSearchUrl = 2130903629;
+			public const int textAppearanceLineHeightEnabled = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int textEndPadding = 2130903630;
+			public const int textAppearanceListItem = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int textInputLayoutFocusedRectEnabled = 2130903631;
+			public const int textAppearanceListItemSecondary = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int textInputStyle = 2130903632;
+			public const int textAppearanceListItemSmall = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int textLocale = 2130903633;
+			public const int textAppearanceOverline = 2130903633;
 			
 			// aapt resource value: 0x7F030252
-			public const int textStartPadding = 2130903634;
+			public const int textAppearancePopupMenuHeader = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int theme = 2130903635;
+			public const int textAppearanceSearchResultSubtitle = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int themeLineHeight = 2130903636;
+			public const int textAppearanceSearchResultTitle = 2130903636;
 			
 			// aapt resource value: 0x7F030255
-			public const int thickness = 2130903637;
+			public const int textAppearanceSmallPopupMenu = 2130903637;
 			
 			// aapt resource value: 0x7F030256
-			public const int thumbColor = 2130903638;
+			public const int textAppearanceSubtitle1 = 2130903638;
 			
 			// aapt resource value: 0x7F030257
-			public const int thumbElevation = 2130903639;
+			public const int textAppearanceSubtitle2 = 2130903639;
 			
 			// aapt resource value: 0x7F030258
-			public const int thumbRadius = 2130903640;
+			public const int textColorAlertDialogListItem = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int thumbTextPadding = 2130903641;
+			public const int textColorSearchUrl = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int thumbTint = 2130903642;
+			public const int textEndPadding = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int thumbTintMode = 2130903643;
+			public const int textInputLayoutFocusedRectEnabled = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int tickColor = 2130903644;
+			public const int textInputStyle = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int tickColorActive = 2130903645;
+			public const int textLocale = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int tickColorInactive = 2130903646;
+			public const int textStartPadding = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int tickMark = 2130903647;
+			public const int theme = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int tickMarkTint = 2130903648;
+			public const int themeLineHeight = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int tickMarkTintMode = 2130903649;
+			public const int thickness = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int tint = 2130903650;
+			public const int thumbColor = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int tintMode = 2130903651;
+			public const int thumbElevation = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int title = 2130903652;
+			public const int thumbRadius = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int titleEnabled = 2130903653;
+			public const int thumbTextPadding = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int titleMargin = 2130903654;
+			public const int thumbTint = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int titleMarginBottom = 2130903655;
+			public const int thumbTintMode = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int titleMarginEnd = 2130903656;
-			
-			// aapt resource value: 0x7F03026B
-			public const int titleMargins = 2130903659;
+			public const int tickColor = 2130903656;
 			
 			// aapt resource value: 0x7F030269
-			public const int titleMarginStart = 2130903657;
+			public const int tickColorActive = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int titleMarginTop = 2130903658;
+			public const int tickColorInactive = 2130903658;
+			
+			// aapt resource value: 0x7F03026B
+			public const int tickMark = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int titleTextAppearance = 2130903660;
+			public const int tickMarkTint = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int titleTextColor = 2130903661;
+			public const int tickMarkTintMode = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int titleTextStyle = 2130903662;
+			public const int tint = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int toolbarId = 2130903663;
+			public const int tintMode = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int toolbarNavigationButtonStyle = 2130903664;
+			public const int title = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int toolbarStyle = 2130903665;
+			public const int titleEnabled = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int tooltipForegroundColor = 2130903666;
+			public const int titleMargin = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int tooltipFrameBackground = 2130903667;
+			public const int titleMarginBottom = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int tooltipStyle = 2130903668;
-			
-			// aapt resource value: 0x7F030275
-			public const int tooltipText = 2130903669;
-			
-			// aapt resource value: 0x7F030276
-			public const int track = 2130903670;
+			public const int titleMarginEnd = 2130903668;
 			
 			// aapt resource value: 0x7F030277
-			public const int trackColor = 2130903671;
+			public const int titleMargins = 2130903671;
+			
+			// aapt resource value: 0x7F030275
+			public const int titleMarginStart = 2130903669;
+			
+			// aapt resource value: 0x7F030276
+			public const int titleMarginTop = 2130903670;
 			
 			// aapt resource value: 0x7F030278
-			public const int trackColorActive = 2130903672;
+			public const int titleTextAppearance = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int trackColorInactive = 2130903673;
+			public const int titleTextColor = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int trackHeight = 2130903674;
+			public const int titleTextStyle = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int trackTint = 2130903675;
+			public const int toolbarId = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int trackTintMode = 2130903676;
+			public const int toolbarNavigationButtonStyle = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int transitionShapeAppearance = 2130903677;
+			public const int toolbarStyle = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int ttcIndex = 2130903678;
+			public const int tooltipForegroundColor = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int useCompatPadding = 2130903679;
+			public const int tooltipFrameBackground = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int useMaterialThemeColors = 2130903680;
+			public const int tooltipStyle = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int values = 2130903681;
+			public const int tooltipText = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int verticalOffset = 2130903682;
+			public const int track = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int viewInflaterClass = 2130903683;
+			public const int trackColor = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int voiceIcon = 2130903684;
+			public const int trackColorActive = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int windowActionBar = 2130903685;
+			public const int trackColorInactive = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int windowActionBarOverlay = 2130903686;
+			public const int trackHeight = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int windowActionModeOverlay = 2130903687;
+			public const int trackTint = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int windowFixedHeightMajor = 2130903688;
+			public const int trackTintMode = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int windowFixedHeightMinor = 2130903689;
+			public const int transitionShapeAppearance = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int windowFixedWidthMajor = 2130903690;
+			public const int ttcIndex = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int windowFixedWidthMinor = 2130903691;
+			public const int useCompatPadding = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int windowMinWidthMajor = 2130903692;
+			public const int useMaterialThemeColors = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int windowMinWidthMinor = 2130903693;
+			public const int values = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int windowNoTitle = 2130903694;
+			public const int verticalOffset = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int yearSelectedStyle = 2130903695;
+			public const int viewInflaterClass = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int yearStyle = 2130903696;
+			public const int voiceIcon = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int yearTodayStyle = 2130903697;
+			public const int windowActionBar = 2130903697;
+			
+			// aapt resource value: 0x7F030292
+			public const int windowActionBarOverlay = 2130903698;
+			
+			// aapt resource value: 0x7F030293
+			public const int windowActionModeOverlay = 2130903699;
+			
+			// aapt resource value: 0x7F030294
+			public const int windowFixedHeightMajor = 2130903700;
+			
+			// aapt resource value: 0x7F030295
+			public const int windowFixedHeightMinor = 2130903701;
+			
+			// aapt resource value: 0x7F030296
+			public const int windowFixedWidthMajor = 2130903702;
+			
+			// aapt resource value: 0x7F030297
+			public const int windowFixedWidthMinor = 2130903703;
+			
+			// aapt resource value: 0x7F030298
+			public const int windowMinWidthMajor = 2130903704;
+			
+			// aapt resource value: 0x7F030299
+			public const int windowMinWidthMinor = 2130903705;
+			
+			// aapt resource value: 0x7F03029A
+			public const int windowNoTitle = 2130903706;
+			
+			// aapt resource value: 0x7F03029B
+			public const int yearSelectedStyle = 2130903707;
+			
+			// aapt resource value: 0x7F03029C
+			public const int yearStyle = 2130903708;
+			
+			// aapt resource value: 0x7F03029D
+			public const int yearTodayStyle = 2130903709;
 			
 			static Attribute()
 			{
@@ -11815,310 +14526,322 @@ namespace BooksApp.Droid
 			public const int begin_again = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int big_fiv = 2131165314;
+			public const int bifa = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int big_little_lies = 2131165315;
+			public const int big_fiv = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int bookclub2 = 2131165316;
+			public const int big_little_lies = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int btn_checkbox_checked_mtrl = 2131165317;
+			public const int bookclub2 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165318;
+			public const int btn_checkbox_checked_mtrl = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int btn_checkbox_unchecked_mtrl = 2131165319;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165320;
+			public const int btn_checkbox_unchecked_mtrl = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int btn_radio_off_mtrl = 2131165321;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165322;
+			public const int btn_radio_off_mtrl = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int btn_radio_on_mtrl = 2131165323;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165324;
+			public const int btn_radio_on_mtrl = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int calendar = 2131165325;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int clear_button_icon = 2131165326;
+			public const int calendar = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int crawdads = 2131165327;
+			public const int check2 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int crooked_house = 2131165328;
+			public const int clear_button_icon = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int death_nile = 2131165329;
+			public const int crawdads = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int design_bottom_navigation_item_background = 2131165330;
+			public const int creion = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int design_fab_background = 2131165331;
+			public const int creion2 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int design_ic_visibility = 2131165332;
+			public const int crooked_house = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int design_ic_visibility_off = 2131165333;
+			public const int death_nile = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int design_password_eye = 2131165334;
+			public const int design_bottom_navigation_item_background = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int design_snackbar_background = 2131165335;
+			public const int design_fab_background = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int facebook = 2131165336;
+			public const int design_ic_visibility = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int factfulness = 2131165337;
+			public const int design_ic_visibility_off = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int five_love = 2131165338;
+			public const int design_password_eye = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int hate_u_give = 2131165339;
+			public const int design_snackbar_background = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int home2 = 2131165340;
+			public const int facebook = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int homo_deus = 2131165341;
+			public const int factfulness = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int hope = 2131165342;
+			public const int five_love = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int hopeless = 2131165343;
+			public const int hate_u_give = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int how_to_stop_time = 2131165344;
+			public const int home2 = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_mtrl_checked_circle = 2131165345;
+			public const int homo_deus = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_mtrl_chip_checked_black = 2131165346;
+			public const int hope = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_mtrl_chip_checked_circle = 2131165347;
+			public const int hopeless = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_mtrl_chip_close_circle = 2131165348;
-			
-			// aapt resource value: 0x7F0700A6
-			public const int inputlayout_togglecollapseicon = 2131165350;
-			
-			// aapt resource value: 0x7F0700A7
-			public const int inputlayout_togglevisibleicon = 2131165351;
+			public const int how_to_stop_time = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int input_layout_drop_down_icon = 2131165349;
+			public const int ic_mtrl_checked_circle = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int ic_mtrl_chip_checked_black = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int ic_mtrl_chip_checked_circle = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int instagram = 2131165352;
-			
-			// aapt resource value: 0x7F0700A9
-			public const int kite_runner = 2131165353;
+			public const int ic_mtrl_chip_close_circle = 2131165352;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int lean_in = 2131165354;
+			public const int inputlayout_togglecollapseicon = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int lessons = 2131165355;
+			public const int inputlayout_togglevisibleicon = 2131165355;
 			
-			// aapt resource value: 0x7F0700AD
-			public const int mans_search = 2131165357;
+			// aapt resource value: 0x7F0700A9
+			public const int input_layout_drop_down_icon = 2131165353;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int man_brown_suite = 2131165356;
+			public const int instagram = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int kite_runner = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int material_ic_calendar_black_24dp = 2131165358;
+			public const int lean_in = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int material_ic_clear_black_24dp = 2131165359;
-			
-			// aapt resource value: 0x7F0700B0
-			public const int material_ic_edit_black_24dp = 2131165360;
+			public const int lessons = 2131165359;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165361;
+			public const int mans_search = 2131165361;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int man_brown_suite = 2131165360;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165362;
+			public const int material_ic_calendar_black_24dp = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165363;
+			public const int material_ic_clear_black_24dp = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165364;
+			public const int material_ic_edit_black_24dp = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int memories_of_a_gheisa = 2131165365;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int midnight_library = 2131165366;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int mtrl_dialog_background = 2131165367;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int mtrl_dropdown_arrow = 2131165368;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int mtrl_ic_arrow_drop_down = 2131165369;
+			public const int memories_of_a_gheisa = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int mtrl_ic_arrow_drop_up = 2131165370;
+			public const int midnight_library = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int mtrl_ic_cancel = 2131165371;
+			public const int mtrl_dialog_background = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int mtrl_ic_error = 2131165372;
+			public const int mtrl_dropdown_arrow = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int mtrl_popupmenu_background = 2131165373;
+			public const int mtrl_ic_arrow_drop_down = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int mtrl_popupmenu_background_dark = 2131165374;
+			public const int mtrl_ic_arrow_drop_up = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int mtrl_tabs_default_indicator = 2131165375;
+			public const int mtrl_ic_cancel = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int murder_announced = 2131165376;
+			public const int mtrl_ic_error = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int navigation_empty_icon = 2131165377;
+			public const int mtrl_popupmenu_background = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int nervous_planet = 2131165378;
+			public const int mtrl_popupmenu_background_dark = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int new1 = 2131165379;
+			public const int mtrl_tabs_default_indicator = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int notification_action_background = 2131165380;
+			public const int murder_announced = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int notification_bg = 2131165381;
+			public const int navigation_empty_icon = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int notification_bg_low = 2131165382;
+			public const int nervous_planet = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int notification_bg_low_normal = 2131165383;
+			public const int new1 = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int notification_bg_low_pressed = 2131165384;
+			public const int notification_action_background = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int notification_bg_normal = 2131165385;
+			public const int notification_bg = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int notification_bg_normal_pressed = 2131165386;
+			public const int notification_bg_low = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int notification_icon_background = 2131165387;
+			public const int notification_bg_low_normal = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int notification_template_icon_bg = 2131165388;
+			public const int notification_bg_low_pressed = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int notification_template_icon_low_bg = 2131165389;
+			public const int notification_bg_normal = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int notification_tile_bg = 2131165390;
+			public const int notification_bg_normal_pressed = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int notify_panel_notification_icon_bg = 2131165391;
+			public const int notification_icon_background = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int orient_express = 2131165392;
+			public const int notification_template_icon_bg = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int outliers = 2131165393;
+			public const int notification_template_icon_low_bg = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int profile = 2131165394;
+			public const int notification_tile_bg = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int reasons_to_stay = 2131165395;
+			public const int notify_panel_notification_icon_bg = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int rich_dad = 2131165396;
+			public const int orient_express = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int sageata = 2131165397;
+			public const int outliers = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int sapiens = 2131165398;
+			public const int profile = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int secrets_of_millionaire = 2131165399;
+			public const int reasons_to_stay = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int seven_days = 2131165400;
+			public const int rich_dad = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int seven_husbands = 2131165401;
+			public const int sageata = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int silent_patient = 2131165402;
+			public const int sapiens = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int slammed = 2131165403;
+			public const int secrets_of_millionaire = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int small_fry = 2131165404;
+			public const int seven_days = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int test_custom_background = 2131165405;
+			public const int seven_husbands = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int the_humans = 2131165406;
+			public const int silent_patient = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int the_man_happy = 2131165407;
+			public const int slammed = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int the_molecule_of_more = 2131165408;
+			public const int small_fry = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int think_like_a_monk = 2131165409;
+			public const int test_custom_background = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int tooltip_frame_dark = 2131165410;
+			public const int the_humans = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int tooltip_frame_light = 2131165411;
+			public const int the_man_happy = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int top = 2131165412;
+			public const int the_molecule_of_more = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int twitter = 2131165413;
+			public const int think_like_a_monk = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ugly_love = 2131165414;
+			public const int tooltip_frame_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int why_cafe = 2131165415;
+			public const int tooltip_frame_light = 2131165415;
+			
+			// aapt resource value: 0x7F0700E8
+			public const int top = 2131165416;
+			
+			// aapt resource value: 0x7F0700E9
+			public const int twitter = 2131165417;
+			
+			// aapt resource value: 0x7F0700EA
+			public const int ugly_love = 2131165418;
+			
+			// aapt resource value: 0x7F0700EB
+			public const int why_cafe = 2131165419;
 			
 			static Drawable()
 			{
@@ -12479,547 +15202,556 @@ namespace BooksApp.Droid
 			public const int enterAlwaysCollapsed = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int exitUntilCollapsed = 2131230841;
-			
-			// aapt resource value: 0x7F08007B
-			public const int expanded_menu = 2131230843;
+			public const int exact = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int expand_activities_button = 2131230842;
+			public const int exitUntilCollapsed = 2131230842;
 			
 			// aapt resource value: 0x7F08007C
-			public const int fade = 2131230844;
+			public const int expanded_menu = 2131230844;
+			
+			// aapt resource value: 0x7F08007B
+			public const int expand_activities_button = 2131230843;
 			
 			// aapt resource value: 0x7F08007D
-			public const int fill = 2131230845;
-			
-			// aapt resource value: 0x7F080080
-			public const int filled = 2131230848;
+			public const int fade = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int fill_horizontal = 2131230846;
-			
-			// aapt resource value: 0x7F08007F
-			public const int fill_vertical = 2131230847;
+			public const int fill = 2131230846;
 			
 			// aapt resource value: 0x7F080081
-			public const int fitToContents = 2131230849;
+			public const int filled = 2131230849;
+			
+			// aapt resource value: 0x7F08007F
+			public const int fill_horizontal = 2131230847;
+			
+			// aapt resource value: 0x7F080080
+			public const int fill_vertical = 2131230848;
 			
 			// aapt resource value: 0x7F080082
-			public const int @fixed = 2131230850;
+			public const int fitToContents = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int floating = 2131230851;
+			public const int @fixed = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int flyoutcontent_appbar = 2131230852;
+			public const int floating = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int forever = 2131230853;
+			public const int flyoutcontent_appbar = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int fragment_container_view_tag = 2131230854;
+			public const int forever = 2131230854;
+			
+			// aapt resource value: 0x7F080087
+			public const int fragment_container_view_tag = 2131230855;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F080087
-			public const int ghost_view = 2131230855;
-			
 			// aapt resource value: 0x7F080088
-			public const int ghost_view_holder = 2131230856;
+			public const int ghost_view = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int gone = 2131230857;
+			public const int ghost_view_holder = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int group_divider = 2131230858;
+			public const int gone = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int hideable = 2131230859;
+			public const int group_divider = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int home = 2131230860;
+			public const int half = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int homeAsUp = 2131230861;
+			public const int hideable = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int icon = 2131230862;
+			public const int home = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int icon_group = 2131230863;
+			public const int homeAsUp = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int ifRoom = 2131230864;
+			public const int icon = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int image = 2131230865;
+			public const int icon_group = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int info = 2131230866;
+			public const int ifRoom = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int italic = 2131230867;
+			public const int image = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int item_touch_helper_previous_elevation = 2131230868;
+			public const int info = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int labeled = 2131230869;
+			public const int italic = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int largeLabel = 2131230870;
+			public const int item_touch_helper_previous_elevation = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int left = 2131230871;
+			public const int labeled = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int line1 = 2131230872;
+			public const int largeLabel = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int line3 = 2131230873;
+			public const int left = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int listMode = 2131230874;
+			public const int line1 = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int list_item = 2131230875;
+			public const int line3 = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int main_appbar = 2131230876;
+			public const int listMode = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int main_tablayout = 2131230877;
+			public const int list_item = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int main_toolbar = 2131230878;
+			public const int main_appbar = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int main_viewpager = 2131230879;
+			public const int main_tablayout = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int masked = 2131230880;
+			public const int main_toolbar = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int media_actions = 2131230881;
+			public const int main_viewpager = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int media_controller_compat_view_tag = 2131230882;
+			public const int masked = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int message = 2131230883;
+			public const int media_actions = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int media_controller_compat_view_tag = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int message = 2131230885;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F0800A4
-			public const int middle = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int mini = 2131230885;
-			
 			// aapt resource value: 0x7F0800A6
-			public const int month_grid = 2131230886;
+			public const int middle = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int month_navigation_bar = 2131230887;
+			public const int mini = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int month_navigation_fragment_toggle = 2131230888;
+			public const int month_grid = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int month_navigation_next = 2131230889;
+			public const int month_navigation_bar = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int month_navigation_previous = 2131230890;
+			public const int month_navigation_fragment_toggle = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int month_title = 2131230891;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int mtrl_calendar_days_of_week = 2131230893;
+			public const int month_navigation_next = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int mtrl_calendar_day_selector_frame = 2131230892;
+			public const int month_navigation_previous = 2131230892;
 			
-			// aapt resource value: 0x7F0800AE
-			public const int mtrl_calendar_frame = 2131230894;
+			// aapt resource value: 0x7F0800AD
+			public const int month_title = 2131230893;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int mtrl_calendar_main_pane = 2131230895;
+			public const int mtrl_calendar_days_of_week = 2131230895;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int mtrl_calendar_day_selector_frame = 2131230894;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int mtrl_calendar_months = 2131230896;
+			public const int mtrl_calendar_frame = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int mtrl_calendar_selection_frame = 2131230897;
+			public const int mtrl_calendar_main_pane = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int mtrl_calendar_text_input_frame = 2131230898;
+			public const int mtrl_calendar_months = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int mtrl_calendar_year_selector_frame = 2131230899;
+			public const int mtrl_calendar_selection_frame = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int mtrl_card_checked_layer_id = 2131230900;
+			public const int mtrl_calendar_text_input_frame = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int mtrl_child_content_container = 2131230901;
+			public const int mtrl_calendar_year_selector_frame = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int mtrl_internal_children_alpha_tag = 2131230902;
+			public const int mtrl_card_checked_layer_id = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int mtrl_motion_snapshot_view = 2131230903;
+			public const int mtrl_child_content_container = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int mtrl_picker_fullscreen = 2131230904;
+			public const int mtrl_internal_children_alpha_tag = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int mtrl_picker_header = 2131230905;
+			public const int mtrl_motion_snapshot_view = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int mtrl_picker_header_selection_text = 2131230906;
+			public const int mtrl_picker_fullscreen = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int mtrl_picker_header_title_and_selection = 2131230907;
+			public const int mtrl_picker_header = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int mtrl_picker_header_toggle = 2131230908;
+			public const int mtrl_picker_header_selection_text = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int mtrl_picker_text_input_date = 2131230909;
+			public const int mtrl_picker_header_title_and_selection = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int mtrl_picker_text_input_range_end = 2131230910;
+			public const int mtrl_picker_header_toggle = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int mtrl_picker_text_input_range_start = 2131230911;
+			public const int mtrl_picker_text_input_date = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int mtrl_picker_title_text = 2131230912;
+			public const int mtrl_picker_text_input_range_end = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int multiply = 2131230913;
+			public const int mtrl_picker_text_input_range_start = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int navigation_header_container = 2131230914;
+			public const int mtrl_picker_title_text = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int never = 2131230915;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int none = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int normal = 2131230918;
+			public const int multiply = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int noScroll = 2131230916;
+			public const int navigation_header_container = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int never = 2131230917;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int notification_background = 2131230919;
+			public const int none = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int notification_main_column = 2131230920;
+			public const int normal = 2131230920;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int noScroll = 2131230918;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int notification_main_column_container = 2131230921;
+			public const int notification_background = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int off = 2131230922;
+			public const int notification_main_column = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int on = 2131230923;
+			public const int notification_main_column_container = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int outline = 2131230924;
+			public const int off = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int parallax = 2131230925;
+			public const int on = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int parentPanel = 2131230926;
+			public const int outline = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int parent_matrix = 2131230927;
+			public const int parallax = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int password_toggle = 2131230928;
+			public const int parentPanel = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int peekHeight = 2131230929;
+			public const int parent_matrix = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int pin = 2131230930;
+			public const int password_toggle = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int progress_circular = 2131230931;
+			public const int peekHeight = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int progress_horizontal = 2131230932;
+			public const int pin = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int radio = 2131230933;
+			public const int progress_circular = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int right = 2131230934;
+			public const int progress_horizontal = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int right_icon = 2131230935;
+			public const int radio = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int right_side = 2131230936;
+			public const int right = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int rounded = 2131230937;
+			public const int right_icon = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int row_index_key = 2131230938;
+			public const int right_side = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int save_non_transition_alpha = 2131230939;
+			public const int rounded = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int save_overlay_view = 2131230940;
+			public const int row_index_key = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int scale = 2131230941;
+			public const int save_non_transition_alpha = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int screen = 2131230942;
+			public const int save_overlay_view = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int scroll = 2131230943;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int scrollable = 2131230947;
+			public const int scale = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int scrollIndicatorDown = 2131230944;
+			public const int screen = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int scrollIndicatorUp = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int scrollView = 2131230946;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int search_badge = 2131230948;
+			public const int scroll = 2131230945;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int search_bar = 2131230949;
+			public const int scrollable = 2131230949;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int scrollIndicatorDown = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int scrollIndicatorUp = 2131230947;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int scrollView = 2131230948;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int search_button = 2131230950;
+			public const int search_badge = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int search_close_btn = 2131230951;
+			public const int search_bar = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int search_edit_frame = 2131230952;
+			public const int search_button = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int search_go_btn = 2131230953;
+			public const int search_close_btn = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int search_mag_icon = 2131230954;
+			public const int search_edit_frame = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int search_plate = 2131230955;
+			public const int search_go_btn = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int search_src_text = 2131230956;
+			public const int search_mag_icon = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int search_voice_btn = 2131230957;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int selected = 2131230959;
+			public const int search_plate = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int select_dialog_listview = 2131230958;
+			public const int search_src_text = 2131230958;
 			
-			// aapt resource value: 0x7F0800F0
-			public const int shellcontent_appbar = 2131230960;
+			// aapt resource value: 0x7F0800EF
+			public const int search_voice_btn = 2131230959;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int shellcontent_toolbar = 2131230961;
+			public const int selected = 2131230961;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int select_dialog_listview = 2131230960;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int shellcontent_appbar = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int shellcontent_toolbar = 2131230963;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHIFT = 2131230726;
 			
-			// aapt resource value: 0x7F0800F2
-			public const int shortcut = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int showCustom = 2131230963;
-			
 			// aapt resource value: 0x7F0800F4
-			public const int showHome = 2131230964;
+			public const int shortcut = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int showTitle = 2131230965;
+			public const int showCustom = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int skipCollapsed = 2131230966;
+			public const int showHome = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int slide = 2131230967;
+			public const int showTitle = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int sliding_tabs = 2131230968;
+			public const int skipCollapsed = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int smallLabel = 2131230969;
+			public const int slide = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int snackbar_action = 2131230970;
+			public const int sliding_tabs = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int snackbar_text = 2131230971;
+			public const int smallLabel = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int snap = 2131230972;
+			public const int snackbar_action = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int snapMargins = 2131230973;
+			public const int snackbar_text = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int spacer = 2131230974;
+			public const int snap = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int split_action_bar = 2131230975;
+			public const int snapMargins = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int src_atop = 2131230976;
+			public const int spacer = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int src_in = 2131230977;
+			public const int split_action_bar = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int src_over = 2131230978;
+			public const int src_atop = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int start = 2131230979;
+			public const int src_in = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int status_bar_latest_event_content = 2131230980;
+			public const int src_over = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int stretch = 2131230981;
+			public const int standard = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int submenuarrow = 2131230982;
+			public const int start = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int submit_area = 2131230983;
+			public const int status_bar_latest_event_content = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int stretch = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int submenuarrow = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int submit_area = 2131230986;
 			
 			// aapt resource value: 0x7F080007
 			public const int SYM = 2131230727;
 			
-			// aapt resource value: 0x7F080108
-			public const int tabMode = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int tag_accessibility_actions = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int tag_accessibility_clickable_spans = 2131230986;
-			
 			// aapt resource value: 0x7F08010B
-			public const int tag_accessibility_heading = 2131230987;
+			public const int tabMode = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int tag_accessibility_pane_title = 2131230988;
+			public const int tag_accessibility_actions = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int tag_screen_reader_focusable = 2131230989;
+			public const int tag_accessibility_clickable_spans = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int tag_transition_group = 2131230990;
+			public const int tag_accessibility_heading = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int tag_unhandled_key_event_manager = 2131230991;
+			public const int tag_accessibility_pane_title = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int tag_unhandled_key_listeners = 2131230992;
+			public const int tag_screen_reader_focusable = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int test_checkbox_android_button_tint = 2131230993;
+			public const int tag_transition_group = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int test_checkbox_app_button_tint = 2131230994;
+			public const int tag_unhandled_key_event_manager = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int test_radiobutton_android_button_tint = 2131230995;
+			public const int tag_unhandled_key_listeners = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int test_radiobutton_app_button_tint = 2131230996;
+			public const int test_checkbox_android_button_tint = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int text = 2131230997;
+			public const int test_checkbox_app_button_tint = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int text2 = 2131230998;
+			public const int test_radiobutton_android_button_tint = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int textEnd = 2131230999;
-			
-			// aapt resource value: 0x7F08011D
-			public const int textinput_counter = 2131231005;
-			
-			// aapt resource value: 0x7F08011E
-			public const int textinput_error = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int textinput_helper_text = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int textinput_placeholder = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int textinput_prefix_text = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int textinput_suffix_text = 2131231010;
+			public const int test_radiobutton_app_button_tint = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int textSpacerNoButtons = 2131231000;
+			public const int text = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int textSpacerNoTitle = 2131231001;
+			public const int text2 = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int textStart = 2131231002;
+			public const int textEnd = 2131231002;
 			
-			// aapt resource value: 0x7F08011B
-			public const int text_input_end_icon = 2131231003;
+			// aapt resource value: 0x7F080120
+			public const int textinput_counter = 2131231008;
 			
-			// aapt resource value: 0x7F08011C
-			public const int text_input_start_icon = 2131231004;
+			// aapt resource value: 0x7F080121
+			public const int textinput_error = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int textinput_helper_text = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int time = 2131231011;
+			public const int textinput_placeholder = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int title = 2131231012;
+			public const int textinput_prefix_text = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int titleDividerNoCustom = 2131231013;
+			public const int textinput_suffix_text = 2131231013;
+			
+			// aapt resource value: 0x7F08011B
+			public const int textSpacerNoButtons = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int textSpacerNoTitle = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int textStart = 2131231005;
+			
+			// aapt resource value: 0x7F08011E
+			public const int text_input_end_icon = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int text_input_start_icon = 2131231007;
 			
 			// aapt resource value: 0x7F080126
-			public const int title_template = 2131231014;
+			public const int time = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int toolbar = 2131231015;
+			public const int title = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int top = 2131231016;
+			public const int titleDividerNoCustom = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int topPanel = 2131231017;
+			public const int title_template = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int toolbar = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int top = 2131231019;
+			
+			// aapt resource value: 0x7F08012C
+			public const int topPanel = 2131231020;
 			
 			// aapt resource value: 0x7F080008
 			public const int TOP_END = 2131230728;
@@ -13027,65 +15759,65 @@ namespace BooksApp.Droid
 			// aapt resource value: 0x7F080009
 			public const int TOP_START = 2131230729;
 			
-			// aapt resource value: 0x7F08012A
-			public const int touch_outside = 2131231018;
-			
-			// aapt resource value: 0x7F08012B
-			public const int transition_current_scene = 2131231019;
-			
-			// aapt resource value: 0x7F08012C
-			public const int transition_layout_save = 2131231020;
-			
 			// aapt resource value: 0x7F08012D
-			public const int transition_position = 2131231021;
+			public const int touch_outside = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int transition_scene_layoutid_cache = 2131231022;
+			public const int transition_current_scene = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int transition_transform = 2131231023;
+			public const int transition_layout_save = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int @unchecked = 2131231024;
+			public const int transition_position = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int uniform = 2131231025;
+			public const int transition_scene_layoutid_cache = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int unlabeled = 2131231026;
+			public const int transition_transform = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int up = 2131231027;
+			public const int @unchecked = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int useLogo = 2131231028;
+			public const int uniform = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int view_offset_helper = 2131231029;
+			public const int unlabeled = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int view_tree_lifecycle_owner = 2131231030;
+			public const int up = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int view_tree_saved_state_registry_owner = 2131231031;
+			public const int useLogo = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int visible = 2131231032;
+			public const int view_offset_helper = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int visible_removing_fragment_view_tag = 2131231033;
-			
-			// aapt resource value: 0x7F08013B
-			public const int withinBounds = 2131231035;
+			public const int view_tree_lifecycle_owner = 2131231033;
 			
 			// aapt resource value: 0x7F08013A
-			public const int withText = 2131231034;
+			public const int view_tree_saved_state_registry_owner = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int visible = 2131231035;
 			
 			// aapt resource value: 0x7F08013C
-			public const int wrap_content = 2131231036;
+			public const int visible_removing_fragment_view_tag = 2131231036;
+			
+			// aapt resource value: 0x7F08013E
+			public const int withinBounds = 2131231038;
 			
 			// aapt resource value: 0x7F08013D
-			public const int zero_corner_chip = 2131231037;
+			public const int withText = 2131231037;
+			
+			// aapt resource value: 0x7F08013F
+			public const int wrap_content = 2131231039;
+			
+			// aapt resource value: 0x7F080140
+			public const int zero_corner_chip = 2131231040;
 			
 			static Id()
 			{
@@ -13757,145 +16489,148 @@ namespace BooksApp.Droid
 			public const int item_view_role_description = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int material_slider_range_end = 2131623981;
+			public const int library_name = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int material_slider_range_start = 2131623982;
+			public const int material_slider_range_end = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int mtrl_badge_numberless_content_description = 2131623983;
+			public const int material_slider_range_start = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int mtrl_chip_close_icon_content_description = 2131623984;
+			public const int mtrl_badge_numberless_content_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int mtrl_exceed_max_badge_number_content_description = 2131623985;
+			public const int mtrl_chip_close_icon_content_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int mtrl_exceed_max_badge_number_suffix = 2131623986;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int mtrl_picker_a11y_next_month = 2131623987;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int mtrl_picker_a11y_prev_month = 2131623988;
+			public const int mtrl_picker_a11y_next_month = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int mtrl_picker_announce_current_selection = 2131623989;
+			public const int mtrl_picker_a11y_prev_month = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int mtrl_picker_cancel = 2131623990;
+			public const int mtrl_picker_announce_current_selection = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int mtrl_picker_confirm = 2131623991;
+			public const int mtrl_picker_cancel = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int mtrl_picker_date_header_selected = 2131623992;
+			public const int mtrl_picker_confirm = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int mtrl_picker_date_header_title = 2131623993;
+			public const int mtrl_picker_date_header_selected = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int mtrl_picker_date_header_unselected = 2131623994;
+			public const int mtrl_picker_date_header_title = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int mtrl_picker_day_of_week_column_header = 2131623995;
+			public const int mtrl_picker_date_header_unselected = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int mtrl_picker_invalid_format = 2131623996;
+			public const int mtrl_picker_day_of_week_column_header = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int mtrl_picker_invalid_format_example = 2131623997;
+			public const int mtrl_picker_invalid_format = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int mtrl_picker_invalid_format_use = 2131623998;
+			public const int mtrl_picker_invalid_format_example = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int mtrl_picker_invalid_range = 2131623999;
+			public const int mtrl_picker_invalid_format_use = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int mtrl_picker_navigate_to_year_description = 2131624000;
+			public const int mtrl_picker_invalid_range = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int mtrl_picker_out_of_range = 2131624001;
+			public const int mtrl_picker_navigate_to_year_description = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int mtrl_picker_range_header_only_end_selected = 2131624002;
+			public const int mtrl_picker_out_of_range = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int mtrl_picker_range_header_only_start_selected = 2131624003;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_picker_range_header_selected = 2131624004;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_picker_range_header_title = 2131624005;
+			public const int mtrl_picker_range_header_selected = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_picker_range_header_unselected = 2131624006;
+			public const int mtrl_picker_range_header_title = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_picker_save = 2131624007;
+			public const int mtrl_picker_range_header_unselected = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_text_input_date_hint = 2131624008;
+			public const int mtrl_picker_save = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624009;
+			public const int mtrl_picker_text_input_date_hint = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624010;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_text_input_day_abbr = 2131624011;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_text_input_month_abbr = 2131624012;
+			public const int mtrl_picker_text_input_day_abbr = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_text_input_year_abbr = 2131624013;
+			public const int mtrl_picker_text_input_month_abbr = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624014;
+			public const int mtrl_picker_text_input_year_abbr = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_toggle_to_day_selection = 2131624015;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624016;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_toggle_to_year_selection = 2131624017;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int overflow_tab_title = 2131624018;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int password_toggle_content_description = 2131624019;
+			public const int overflow_tab_title = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int path_password_eye = 2131624020;
+			public const int password_toggle_content_description = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int path_password_eye_mask_strike_through = 2131624021;
+			public const int path_password_eye = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int path_password_eye_mask_visible = 2131624022;
+			public const int path_password_eye_mask_strike_through = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int path_password_strike_through = 2131624023;
+			public const int path_password_eye_mask_visible = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int search_menu_title = 2131624024;
+			public const int path_password_strike_through = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int sfcalendar_inlineviewalldaytext = 2131624025;
+			public const int search_menu_title = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int sfcalendar_inlineviewnoappointmenttext = 2131624026;
+			public const int sfcalendar_inlineviewalldaytext = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int status_bar_notification_info_overflow = 2131624027;
+			public const int sfcalendar_inlineviewnoappointmenttext = 2131624027;
+			
+			// aapt resource value: 0x7F0E005C
+			public const int status_bar_notification_info_overflow = 2131624028;
 			
 			static String()
 			{
@@ -16032,7 +18767,7 @@ namespace BooksApp.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300D4,0x7F0300DD,0x7F0300DE,0x7F0300F2,0x7F030130,0x7F030136,0x7F03013C,0x7F03013D,0x7F030140,0x7F03014A,0x7F030157,0x7F03018B,0x7F0301AC,0x7F0301C5,0x7F0301CC,0x7F0301CD,0x7F03020E,0x7F030211,0x7F030264,0x7F03026E }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300D4,0x7F0300DD,0x7F0300DE,0x7F0300F2,0x7F030130,0x7F030136,0x7F03013C,0x7F03013D,0x7F030140,0x7F03014A,0x7F030157,0x7F03018B,0x7F0301AC,0x7F0301C5,0x7F0301CC,0x7F0301CD,0x7F03021A,0x7F03021D,0x7F030270,0x7F03027A }
 			public static int[] ActionBar = new int[] {
 					2130903092,
 					2130903099,
@@ -16059,10 +18794,10 @@ namespace BooksApp.Droid
 					2130903493,
 					2130903500,
 					2130903501,
-					2130903566,
-					2130903569,
-					2130903652,
-					2130903662};
+					2130903578,
+					2130903581,
+					2130903664,
+					2130903674};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -16169,14 +18904,14 @@ namespace BooksApp.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F030097,0x7F030130,0x7F030211,0x7F03026E }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F030097,0x7F030130,0x7F03021D,0x7F03027A }
 			public static int[] ActionMode = new int[] {
 					2130903092,
 					2130903099,
 					2130903191,
 					2130903344,
-					2130903569,
-					2130903662};
+					2130903581,
+					2130903674};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -16207,7 +18942,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030066,0x7F030067,0x7F030180,0x7F030181,0x7F0301A9,0x7F0301EC,0x7F0301EE }
+			// aapt resource value: { 0x10100F2,0x7F030066,0x7F030067,0x7F030180,0x7F030181,0x7F0301A9,0x7F0301F8,0x7F0301FA }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903142,
@@ -16215,8 +18950,8 @@ namespace BooksApp.Droid
 					2130903424,
 					2130903425,
 					2130903465,
-					2130903532,
-					2130903534};
+					2130903544,
+					2130903546};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -16299,7 +19034,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300F2,0x7F030106,0x7F030178,0x7F030179,0x7F030208 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300F2,0x7F030106,0x7F030178,0x7F030179,0x7F030214 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
@@ -16308,14 +19043,14 @@ namespace BooksApp.Droid
 					2130903302,
 					2130903416,
 					2130903417,
-					2130903560};
+					2130903572};
 			
-			// aapt resource value: { 0x7F030202,0x7F030203,0x7F030205,0x7F030206 }
+			// aapt resource value: { 0x7F03020E,0x7F03020F,0x7F030211,0x7F030212 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903554,
-					2130903555,
-					2130903557,
-					2130903558};
+					2130903566,
+					2130903567,
+					2130903569,
+					2130903570};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -16364,12 +19099,12 @@ namespace BooksApp.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F0301FA,0x7F030262,0x7F030263 }
+			// aapt resource value: { 0x1010119,0x7F030206,0x7F03026E,0x7F03026F }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903546,
-					2130903650,
-					2130903651};
+					2130903558,
+					2130903662,
+					2130903663};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -16383,12 +19118,12 @@ namespace BooksApp.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F03025F,0x7F030260,0x7F030261 }
+			// aapt resource value: { 0x1010142,0x7F03026B,0x7F03026C,0x7F03026D }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903647,
-					2130903648,
-					2130903649};
+					2130903659,
+					2130903660,
+					2130903661};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -16433,7 +19168,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F03011C,0x7F03011F,0x7F030127,0x7F03016B,0x7F03017A,0x7F030235,0x7F030251 }
+			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F03011C,0x7F03011F,0x7F030127,0x7F03016B,0x7F03017A,0x7F030241,0x7F03025D }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903087,
@@ -16454,8 +19189,8 @@ namespace BooksApp.Droid
 					2130903335,
 					2130903403,
 					2130903418,
-					2130903605,
-					2130903633};
+					2130903617,
+					2130903645};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -16520,7 +19255,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F03004F,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030068,0x7F030069,0x7F030074,0x7F03007B,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300AB,0x7F0300AC,0x7F0300B2,0x7F0300C1,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DF,0x7F0300E1,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F03013C,0x7F030149,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301C4,0x7F0301C6,0x7F0301D0,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301F7,0x7F0301F8,0x7F030219,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024C,0x7F03024D,0x7F030270,0x7F030271,0x7F030272,0x7F030273,0x7F030283,0x7F030285,0x7F030286,0x7F030287,0x7F030288,0x7F030289,0x7F03028A,0x7F03028B,0x7F03028C,0x7F03028D,0x7F03028E }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F03004F,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030068,0x7F030069,0x7F030074,0x7F03007B,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300AB,0x7F0300AC,0x7F0300B2,0x7F0300C1,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DF,0x7F0300E1,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F03013C,0x7F030149,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301C4,0x7F0301C6,0x7F0301D0,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F030203,0x7F030204,0x7F030225,0x7F03024C,0x7F03024E,0x7F03024F,0x7F030250,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030258,0x7F030259,0x7F03027C,0x7F03027D,0x7F03027E,0x7F03027F,0x7F03028F,0x7F030291,0x7F030292,0x7F030293,0x7F030294,0x7F030295,0x7F030296,0x7F030297,0x7F030298,0x7F030299,0x7F03029A }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -16615,38 +19350,38 @@ namespace BooksApp.Droid
 					2130903506,
 					2130903507,
 					2130903508,
-					2130903518,
-					2130903519,
-					2130903520,
-					2130903521,
-					2130903543,
-					2130903544,
-					2130903577,
-					2130903616,
-					2130903618,
-					2130903619,
-					2130903620,
-					2130903622,
-					2130903623,
-					2130903624,
-					2130903625,
+					2130903530,
+					2130903531,
+					2130903532,
+					2130903533,
+					2130903555,
+					2130903556,
+					2130903589,
 					2130903628,
-					2130903629,
-					2130903664,
-					2130903665,
-					2130903666,
-					2130903667,
-					2130903683,
-					2130903685,
-					2130903686,
-					2130903687,
-					2130903688,
-					2130903689,
-					2130903690,
-					2130903691,
-					2130903692,
-					2130903693,
-					2130903694};
+					2130903630,
+					2130903631,
+					2130903632,
+					2130903634,
+					2130903635,
+					2130903636,
+					2130903637,
+					2130903640,
+					2130903641,
+					2130903676,
+					2130903677,
+					2130903678,
+					2130903679,
+					2130903695,
+					2130903697,
+					2130903698,
+					2130903699,
+					2130903700,
+					2130903701,
+					2130903702,
+					2130903703,
+					2130903704,
+					2130903705,
+					2130903706};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -17023,7 +19758,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F03013E,0x7F0301A3,0x7F0301AE,0x7F030282 }
+			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F03013E,0x7F0301A3,0x7F0301AE,0x7F03028E }
 			public static int[] Badge = new int[] {
 					2130903093,
 					2130903103,
@@ -17031,7 +19766,7 @@ namespace BooksApp.Droid
 					2130903358,
 					2130903459,
 					2130903470,
-					2130903682};
+					2130903694};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -17152,7 +19887,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F03003D,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03012B,0x7F0301E3,0x7F0301E6 }
+			// aapt resource value: { 0x1010440,0x7F03003D,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03012B,0x7F0301EF,0x7F0301F2 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
 					2130903101,
@@ -17165,8 +19900,8 @@ namespace BooksApp.Droid
 					2130903116,
 					2130903117,
 					2130903339,
-					2130903523,
-					2130903526};
+					2130903535,
+					2130903538};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -17269,7 +20004,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300FD,0x7F030135,0x7F030141,0x7F030145,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F0301EA,0x7F03024E,0x7F030252 }
+			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300FD,0x7F030135,0x7F030141,0x7F030145,0x7F0301E3,0x7F0301EF,0x7F0301F2,0x7F0301F6,0x7F03025A,0x7F03025E }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842904,
@@ -17306,22 +20041,22 @@ namespace BooksApp.Droid
 					2130903349,
 					2130903361,
 					2130903365,
-					2130903511,
 					2130903523,
-					2130903526,
-					2130903530,
-					2130903630,
-					2130903634};
+					2130903535,
+					2130903538,
+					2130903542,
+					2130903642,
+					2130903646};
 			
-			// aapt resource value: { 0x7F030076,0x7F030087,0x7F030088,0x7F030089,0x7F0301E2,0x7F0301EF,0x7F0301F0 }
+			// aapt resource value: { 0x7F030076,0x7F030087,0x7F030088,0x7F030089,0x7F0301EE,0x7F0301FB,0x7F0301FC }
 			public static int[] ChipGroup = new int[] {
 					2130903158,
 					2130903175,
 					2130903176,
 					2130903177,
-					2130903522,
-					2130903535,
-					2130903536};
+					2130903534,
+					2130903547,
+					2130903548};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -17467,7 +20202,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 40
 			public const int Chip_textStartPadding = 40;
 			
-			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F0300C0,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F0301A5,0x7F0301D8,0x7F0301DA,0x7F030209,0x7F030264,0x7F030265,0x7F03026F }
+			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F0300C0,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F0301A5,0x7F0301E4,0x7F0301E6,0x7F030215,0x7F030270,0x7F030271,0x7F03027B }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903194,
 					2130903195,
@@ -17480,12 +20215,12 @@ namespace BooksApp.Droid
 					2130903308,
 					2130903309,
 					2130903461,
-					2130903512,
-					2130903514,
-					2130903561,
-					2130903652,
-					2130903653,
-					2130903663};
+					2130903524,
+					2130903526,
+					2130903573,
+					2130903664,
+					2130903665,
+					2130903675};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -17583,10 +20318,10 @@ namespace BooksApp.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F030167,0x7F030207 }
+			// aapt resource value: { 0x7F030167,0x7F030213 }
 			public static int[] CoordinatorLayout = new int[] {
 					2130903399,
-					2130903559};
+					2130903571};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -17625,7 +20360,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F03009D,0x7F0300E6,0x7F03012A,0x7F0301F6,0x7F030255 }
+			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F03009D,0x7F0300E6,0x7F03012A,0x7F030202,0x7F030261 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903084,
 					2130903085,
@@ -17633,8 +20368,8 @@ namespace BooksApp.Droid
 					2130903197,
 					2130903270,
 					2130903338,
-					2130903542,
-					2130903637};
+					2130903554,
+					2130903649};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -17667,13 +20402,13 @@ namespace BooksApp.Droid
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F0300F2,0x7F03010E,0x7F030135,0x7F0301EA,0x7F0301ED }
+			// aapt resource value: { 0x7F0300F2,0x7F03010E,0x7F030135,0x7F0301F6,0x7F0301F9 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
 					2130903282,
 					2130903310,
 					2130903349,
-					2130903530,
-					2130903533};
+					2130903542,
+					2130903545};
 			
 			// aapt resource value: { 0x7F030043,0x7F030044 }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -17701,7 +20436,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 4
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 4;
 			
-			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F03004E,0x7F0300F2,0x7F0300FD,0x7F030115,0x7F030116,0x7F030135,0x7F03013F,0x7F0301A4,0x7F0301CB,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F0301EA,0x7F03027F }
+			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F03004E,0x7F0300F2,0x7F0300FD,0x7F030115,0x7F030116,0x7F030135,0x7F03013F,0x7F0301A4,0x7F0301CB,0x7F0301E3,0x7F0301EF,0x7F0301F2,0x7F0301F6,0x7F03028B }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903101,
@@ -17715,11 +20450,11 @@ namespace BooksApp.Droid
 					2130903359,
 					2130903460,
 					2130903499,
-					2130903511,
 					2130903523,
-					2130903526,
-					2130903530,
-					2130903679};
+					2130903535,
+					2130903538,
+					2130903542,
+					2130903691};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -17799,7 +20534,7 @@ namespace BooksApp.Droid
 					2130903332,
 					2130903333};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03011E,0x7F030126,0x7F030127,0x7F030128,0x7F03027E }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03011E,0x7F030126,0x7F030127,0x7F030128,0x7F03028A }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -17810,7 +20545,7 @@ namespace BooksApp.Droid
 					2130903334,
 					2130903335,
 					2130903336,
-					2130903678};
+					2130903690};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -17985,7 +20720,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300DE,0x7F0300E0,0x7F0301A6,0x7F0301E9 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300DE,0x7F0300E0,0x7F0301A6,0x7F0301F5 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -17995,7 +20730,7 @@ namespace BooksApp.Droid
 					2130903262,
 					2130903264,
 					2130903462,
-					2130903529};
+					2130903541};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -18103,7 +20838,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300C8,0x7F0300F2,0x7F030140,0x7F030142,0x7F030143,0x7F030144,0x7F030146,0x7F030147,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300C8,0x7F0300F2,0x7F030140,0x7F030142,0x7F030143,0x7F030144,0x7F030146,0x7F030147,0x7F0301E3,0x7F0301EF,0x7F0301F2,0x7F030216,0x7F030217 }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -18121,17 +20856,17 @@ namespace BooksApp.Droid
 					2130903364,
 					2130903366,
 					2130903367,
-					2130903511,
 					2130903523,
-					2130903526,
-					2130903562,
-					2130903563};
+					2130903535,
+					2130903538,
+					2130903574,
+					2130903575};
 			
-			// aapt resource value: { 0x7F030075,0x7F0301E2,0x7F0301F0 }
+			// aapt resource value: { 0x7F030075,0x7F0301EE,0x7F0301FC }
 			public static int[] MaterialButtonToggleGroup = new int[] {
 					2130903157,
-					2130903522,
-					2130903536};
+					2130903534,
+					2130903548};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -18205,7 +20940,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0301D1,0x7F03028F,0x7F030290,0x7F030291 }
+			// aapt resource value: { 0x101020D,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0301D1,0x7F03029B,0x7F03029C,0x7F03029D }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
 					2130903253,
@@ -18213,9 +20948,9 @@ namespace BooksApp.Droid
 					2130903255,
 					2130903256,
 					2130903505,
-					2130903695,
-					2130903696,
-					2130903697};
+					2130903707,
+					2130903708,
+					2130903709};
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030150,0x7F030159,0x7F03015A,0x7F030161,0x7F030162,0x7F030166 }
 			public static int[] MaterialCalendarItem = new int[] {
@@ -18287,18 +21022,18 @@ namespace BooksApp.Droid
 			// aapt resource value: 8
 			public const int MaterialCalendar_yearTodayStyle = 8;
 			
-			// aapt resource value: { 0x10101E5,0x7F03006F,0x7F030077,0x7F030079,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F030204,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x10101E5,0x7F03006F,0x7F030077,0x7F030079,0x7F0301E3,0x7F0301EF,0x7F0301F2,0x7F030210,0x7F030216,0x7F030217 }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130903151,
 					2130903159,
 					2130903161,
-					2130903511,
 					2130903523,
-					2130903526,
-					2130903556,
-					2130903562,
-					2130903563};
+					2130903535,
+					2130903538,
+					2130903568,
+					2130903574,
+					2130903575};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -18330,10 +21065,10 @@ namespace BooksApp.Droid
 			// aapt resource value: 9
 			public const int MaterialCardView_strokeWidth = 9;
 			
-			// aapt resource value: { 0x7F03006A,0x7F030280 }
+			// aapt resource value: { 0x7F03006A,0x7F03028C }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903146,
-					2130903680};
+					2130903692};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -18341,10 +21076,10 @@ namespace BooksApp.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F03006A,0x7F030280 }
+			// aapt resource value: { 0x7F03006A,0x7F03028C }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903146,
-					2130903680};
+					2130903692};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -18352,10 +21087,10 @@ namespace BooksApp.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F0301E3,0x7F0301E6 }
+			// aapt resource value: { 0x7F0301EF,0x7F0301F2 }
 			public static int[] MaterialShape = new int[] {
-					2130903523,
-					2130903526};
+					2130903535,
+					2130903538};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -18416,7 +21151,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300B4,0x7F030146,0x7F030147,0x7F0301AF,0x7F0301E8,0x7F030275 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300B4,0x7F030146,0x7F030147,0x7F0301AF,0x7F0301F4,0x7F030281 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -18439,8 +21174,8 @@ namespace BooksApp.Droid
 					2130903366,
 					2130903367,
 					2130903471,
-					2130903528,
-					2130903669};
+					2130903540,
+					2130903681};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -18511,7 +21246,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301CA,0x7F03020C }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301CA,0x7F030218 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -18521,7 +21256,7 @@ namespace BooksApp.Droid
 					16843056,
 					16843057,
 					2130903498,
-					2130903564};
+					2130903576};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -18643,9 +21378,9 @@ namespace BooksApp.Droid
 					16843465,
 					2130903472};
 			
-			// aapt resource value: { 0x7F030201 }
+			// aapt resource value: { 0x7F03020D }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903553};
+					2130903565};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -18659,9 +21394,9 @@ namespace BooksApp.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030281 }
+			// aapt resource value: { 0x7F03028D }
 			public static int[] RangeSlider = new int[] {
-					2130903681};
+					2130903693};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_values = 0;
@@ -18677,7 +21412,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03016D,0x7F0301D6,0x7F0301F5,0x7F0301FB }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03016D,0x7F0301E2,0x7F030201,0x7F030207 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
@@ -18688,9 +21423,9 @@ namespace BooksApp.Droid
 					2130903322,
 					2130903323,
 					2130903405,
-					2130903510,
-					2130903541,
-					2130903547};
+					2130903522,
+					2130903553,
+					2130903559};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -18742,14 +21477,14 @@ namespace BooksApp.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F0301DB }
+			// aapt resource value: { 0x7F0301E7 }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903515};
+					2130903527};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030090,0x7F0300B3,0x7F0300D9,0x7F03012C,0x7F030148,0x7F03016C,0x7F0301CE,0x7F0301CF,0x7F0301DC,0x7F0301DD,0x7F03020D,0x7F030215,0x7F030284 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030090,0x7F0300B3,0x7F0300D9,0x7F03012C,0x7F030148,0x7F03016C,0x7F0301CE,0x7F0301CF,0x7F0301E8,0x7F0301E9,0x7F030219,0x7F030221,0x7F030290 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -18763,11 +21498,11 @@ namespace BooksApp.Droid
 					2130903404,
 					2130903502,
 					2130903503,
-					2130903516,
-					2130903517,
-					2130903565,
-					2130903573,
-					2130903684};
+					2130903528,
+					2130903529,
+					2130903577,
+					2130903585,
+					2130903696};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -18820,12 +21555,63 @@ namespace BooksApp.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F0301E3,0x7F0301E6,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0 }
+			public static int[] SfRating = new int[] {
+					2130903509,
+					2130903510,
+					2130903511,
+					2130903512,
+					2130903513,
+					2130903514,
+					2130903515,
+					2130903516,
+					2130903517,
+					2130903518,
+					2130903519,
+					2130903520};
+			
+			// aapt resource value: 0
+			public const int SfRating_ratingControlValue = 0;
+			
+			// aapt resource value: 1
+			public const int SfRating_ratingEnableAutoSize = 1;
+			
+			// aapt resource value: 2
+			public const int SfRating_ratingItemCount = 2;
+			
+			// aapt resource value: 3
+			public const int SfRating_ratingItemSize = 3;
+			
+			// aapt resource value: 4
+			public const int SfRating_ratingItemSpacing = 4;
+			
+			// aapt resource value: 5
+			public const int SfRating_ratingPrecision = 5;
+			
+			// aapt resource value: 6
+			public const int SfRating_ratingRatedFill = 6;
+			
+			// aapt resource value: 7
+			public const int SfRating_ratingRatedStroke = 7;
+			
+			// aapt resource value: 8
+			public const int SfRating_ratingRatedStrokeWidth = 8;
+			
+			// aapt resource value: 9
+			public const int SfRating_ratingUnratedFill = 9;
+			
+			// aapt resource value: 10
+			public const int SfRating_ratingUnratedStroke = 10;
+			
+			// aapt resource value: 11
+			public const int SfRating_ratingUnratedStrokeWidth = 11;
+			
+			// aapt resource value: { 0x7F0301EF,0x7F0301F2,0x7F030216,0x7F030217 }
 			public static int[] ShapeableImageView = new int[] {
-					2130903523,
-					2130903526,
-					2130903562,
-					2130903563};
+					2130903535,
+					2130903538,
+					2130903574,
+					2130903575};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_shapeAppearance = 0;
@@ -18882,7 +21668,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03012D,0x7F03012E,0x7F030168,0x7F030169,0x7F030256,0x7F030257,0x7F030258,0x7F03025C,0x7F03025D,0x7F03025E,0x7F030277,0x7F030278,0x7F030279,0x7F03027A }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03012D,0x7F03012E,0x7F030168,0x7F030169,0x7F030262,0x7F030263,0x7F030264,0x7F030268,0x7F030269,0x7F03026A,0x7F030283,0x7F030284,0x7F030285,0x7F030286 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
@@ -18893,16 +21679,16 @@ namespace BooksApp.Droid
 					2130903342,
 					2130903400,
 					2130903401,
-					2130903638,
-					2130903639,
-					2130903640,
-					2130903644,
-					2130903645,
-					2130903646,
-					2130903671,
-					2130903672,
-					2130903673,
-					2130903674};
+					2130903650,
+					2130903651,
+					2130903652,
+					2130903656,
+					2130903657,
+					2130903658,
+					2130903683,
+					2130903684,
+					2130903685,
+					2130903686};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -18961,11 +21747,11 @@ namespace BooksApp.Droid
 			// aapt resource value: 18
 			public const int Slider_trackHeight = 18;
 			
-			// aapt resource value: { 0x7F0301F2,0x7F0301F3,0x7F0301F4 }
+			// aapt resource value: { 0x7F0301FE,0x7F0301FF,0x7F030200 }
 			public static int[] Snackbar = new int[] {
-					2130903538,
-					2130903539,
-					2130903540};
+					2130903550,
+					2130903551,
+					2130903552};
 			
 			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F0300F2,0x7F0301A1 }
 			public static int[] SnackbarLayout = new int[] {
@@ -19068,29 +21854,29 @@ namespace BooksApp.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F030216 }
+			// aapt resource value: { 0x7F030222 }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903574};
+					2130903586};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301EB,0x7F0301F9,0x7F030217,0x7F030218,0x7F03021A,0x7F030259,0x7F03025A,0x7F03025B,0x7F030276,0x7F03027B,0x7F03027C }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301F7,0x7F030205,0x7F030223,0x7F030224,0x7F030226,0x7F030265,0x7F030266,0x7F030267,0x7F030282,0x7F030287,0x7F030288 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903531,
-					2130903545,
-					2130903575,
-					2130903576,
-					2130903578,
-					2130903641,
-					2130903642,
-					2130903643,
-					2130903670,
-					2130903675,
-					2130903676};
+					2130903543,
+					2130903557,
+					2130903587,
+					2130903588,
+					2130903590,
+					2130903653,
+					2130903654,
+					2130903655,
+					2130903682,
+					2130903687,
+					2130903688};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -19134,9 +21920,9 @@ namespace BooksApp.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030280 }
+			// aapt resource value: { 0x7F03028C }
 			public static int[] SwitchMaterial = new int[] {
-					2130903680};
+					2130903692};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -19156,20 +21942,8 @@ namespace BooksApp.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030232,0x7F030233,0x7F030234 }
+			// aapt resource value: { 0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023E,0x7F03023F,0x7F030240 }
 			public static int[] TabLayout = new int[] {
-					2130903579,
-					2130903580,
-					2130903581,
-					2130903582,
-					2130903583,
-					2130903584,
-					2130903585,
-					2130903586,
-					2130903587,
-					2130903588,
-					2130903589,
-					2130903590,
 					2130903591,
 					2130903592,
 					2130903593,
@@ -19180,9 +21954,21 @@ namespace BooksApp.Droid
 					2130903598,
 					2130903599,
 					2130903600,
+					2130903601,
 					2130903602,
 					2130903603,
-					2130903604};
+					2130903604,
+					2130903605,
+					2130903606,
+					2130903607,
+					2130903608,
+					2130903609,
+					2130903610,
+					2130903611,
+					2130903612,
+					2130903614,
+					2130903615,
+					2130903616};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -19259,7 +22045,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03011F,0x7F030127,0x7F030235,0x7F030251 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03011F,0x7F030127,0x7F030241,0x7F03025D }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -19275,8 +22061,8 @@ namespace BooksApp.Droid
 					16844165,
 					2130903327,
 					2130903335,
-					2130903605,
-					2130903633};
+					2130903617,
+					2130903645};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -19326,14 +22112,14 @@ namespace BooksApp.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x7F03024F }
+			// aapt resource value: { 0x7F03025B }
 			public static int[] TextInputEditText = new int[] {
-					2130903631};
+					2130903643};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301E3,0x7F0301E6,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030212,0x7F030213,0x7F030214 }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301EF,0x7F0301F2,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03021E,0x7F03021F,0x7F030220 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -19387,16 +22173,16 @@ namespace BooksApp.Droid
 					2130903495,
 					2130903496,
 					2130903497,
-					2130903523,
-					2130903526,
-					2130903548,
-					2130903549,
-					2130903550,
-					2130903551,
-					2130903552,
-					2130903570,
-					2130903571,
-					2130903572};
+					2130903535,
+					2130903538,
+					2130903560,
+					2130903561,
+					2130903562,
+					2130903563,
+					2130903564,
+					2130903582,
+					2130903583,
+					2130903584};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -19599,7 +22385,7 @@ namespace BooksApp.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030065,0x7F030098,0x7F030099,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F03018B,0x7F03018C,0x7F0301A2,0x7F0301A7,0x7F0301AA,0x7F0301AB,0x7F0301C5,0x7F03020E,0x7F03020F,0x7F030210,0x7F030264,0x7F030266,0x7F030267,0x7F030268,0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030065,0x7F030098,0x7F030099,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F03018B,0x7F03018C,0x7F0301A2,0x7F0301A7,0x7F0301AA,0x7F0301AB,0x7F0301C5,0x7F03021A,0x7F03021B,0x7F03021C,0x7F030270,0x7F030272,0x7F030273,0x7F030274,0x7F030275,0x7F030276,0x7F030277,0x7F030278,0x7F030279 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -19619,18 +22405,18 @@ namespace BooksApp.Droid
 					2130903466,
 					2130903467,
 					2130903493,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903652,
-					2130903654,
-					2130903655,
-					2130903656,
-					2130903657,
-					2130903658,
-					2130903659,
-					2130903660,
-					2130903661};
+					2130903578,
+					2130903579,
+					2130903580,
+					2130903664,
+					2130903666,
+					2130903667,
+					2130903668,
+					2130903669,
+					2130903670,
+					2130903671,
+					2130903672,
+					2130903673};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -19753,13 +22539,13 @@ namespace BooksApp.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301B3,0x7F0301B6,0x7F030253 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301B3,0x7F0301B6,0x7F03025F }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
 					2130903475,
 					2130903478,
-					2130903635};
+					2130903647};
 			
 			// aapt resource value: { 0x10100D4,0x7F03003D,0x7F03003E }
 			public static int[] ViewBackgroundHelper = new int[] {

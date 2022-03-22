@@ -67,6 +67,7 @@
                     <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
                 </StackLayout>
             </Grid>
+            
         </Grid>
     </StackLayout>
 </ContentPage>

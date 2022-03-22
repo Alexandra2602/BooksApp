@@ -7,6 +7,7 @@ namespace BooksApp
 {
     public partial class App : Application
     {
+        public static string DatabaseLocation { get; internal set; }
         #region Constructors
         public App()
         {

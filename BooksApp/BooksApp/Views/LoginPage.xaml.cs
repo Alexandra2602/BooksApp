@@ -1,4 +1,5 @@
-﻿using BooksApp.Tables;
+﻿using BooksApp.Models;
+using BooksApp.Tables;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,6 @@ namespace BooksApp.Views
             EntryUser.Text = Preferences.Get("RandomText", string.Empty);
             EntryPassword.Text = Preferences.Get("RandomText", string.Empty);
             RandomSwitch.IsToggled = Preferences.Get("RandomSwitch", false);
-
         }
 
         private void Login_Clicked(object sender, EventArgs e)

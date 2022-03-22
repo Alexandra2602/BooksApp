@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamForms.Controls;
@@ -19,11 +18,11 @@ namespace BooksApp.Views
 
 
             XamForms.Controls.Calendar calendar = new XamForms.Controls.Calendar();
-        
+
         }
-         async void Calendar_DateClicked(Object sender, XamForms.Controls.DateTimeEventArgs e)
+        async void Calendar_DateClicked(Object sender, XamForms.Controls.DateTimeEventArgs e)
         {
-            string result = await DisplayPromptAsync("SpecialEvent", "Create a new Event:");
+            string result = await DisplayPromptAsync("New Book", "Add a book that you finished:");
 
             if (result == null)
             {
@@ -47,6 +46,7 @@ namespace BooksApp.Views
 
             calendar.SpecialDates = specialDates;
             calendar.ForceRedraw();
+            
 
         }
         async void Top_Clicked(object sender, EventArgs e)
@@ -70,5 +70,6 @@ namespace BooksApp.Views
             await Navigation.PushAsync(new ProfilePage());
         }
 
+       
     }
 }
