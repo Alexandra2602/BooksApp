@@ -1,81 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:BooksApp.ViewModels"
              x:Class="BooksApp.Views.ProfilePage">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="Save" Text="Save" Clicked="Save_Clicked"/>
-    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        
-            
-            <Grid BackgroundColor="Wheat">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="60"/>
-            </Grid.RowDefinitions>
-
-            <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="2">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                
-                
-                <StackLayout Spacing="0" Grid.Column="0" BackgroundColor="#e0cc94" >
-                    <Button Image="home2.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Home_Clicked"/>
-                    <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="1" BackgroundColor="#e0cc94" >
-                    <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="65"  Margin="0,-8,0,0" Clicked="Top_Clicked"/>
-                    <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="2" BackgroundColor="#e0cc94" >
-                    <Button Image="new1.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="New_Clicked"/>
-                    <Label Text="New" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="3" BackgroundColor="#e0cc94" >
-                    <Button Image="calendar.png"  HeightRequest="68" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Calendar_Clicked"/>
-                    <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-15,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="4" BackgroundColor="#e0cc94" >
-                    <Button Image="profile.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Profile_Clicked"/>
-                    <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
-                </StackLayout>
-
-              
-            </Grid>
-            <StackLayout>
-                <Grid>
+        <Grid BackgroundColor="Wheat" HeightRequest="100">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="2">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="110"/>
-                        <ColumnDefinition Width="2*"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
-                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="160"/>
-                    </Grid.RowDefinitions>
-                    <Button Text="pick image" Clicked="Image_Clicked" Grid.Row="1" Grid.Column="0"/>
-                    <Button Text="Take Image " Clicked="Image2_Clicked" Grid.Row="2" Grid.Column="0"/>
-                    <Image x:Name="resultImage" Source="{Binding ImagePath}" Grid.Row="1" Grid.Column="0"/>
-
-                    <Label Text="About me" Grid.Row="0" Grid.Column="1" FontSize="17" TextColor="#855438" Margin="15,5,-10,0"/>
-                    <Image Source="creion2" Grid.Row="0" Grid.Column="2"  />
-                    <Image Source="bifa" Grid.Row="0" Grid.Column="3" WidthRequest="50"/>
-                    
-                    
-                    <Frame Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Padding="5" Margin="5,5"  CornerRadius="15" BackgroundColor="#e8ddbe">
-                        <Editor x:Name="editor" Grid.Row="1" Grid.Column="1" HeightRequest="120"  MaxLength="200" FontSize="13" CharacterSpacing="2" />
-                    </Frame>
+                    <StackLayout Spacing="0" Grid.Column="0" BackgroundColor="#e0cc94" >
+                        <Button Image="home2.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Home_Clicked"/>
+                        <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="1" BackgroundColor="#e0cc94" >
+                        <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="65"  Margin="0,-8,0,0" Clicked="Top_Clicked"/>
+                        <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="2" BackgroundColor="#e0cc94" >
+                        <Button Image="new1.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="New_Clicked"/>
+                        <Label Text="New" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="3" BackgroundColor="#e0cc94" >
+                        <Button Image="calendar.png"  HeightRequest="68" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Calendar_Clicked"/>
+                        <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-15,0,0"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="4" BackgroundColor="#e0cc94" >
+                        <Button Image="profile.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Profile_Clicked"/>
+                        <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
+                    </StackLayout>
                 </Grid>
-            </StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="250"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="250"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+
+            <Frame CornerRadius="20" Margin="30,30,30,30" HeightRequest="60" WidthRequest="60" BackgroundColor="Beige" Grid.Row="0" >
+                    <Image HeightRequest="40" WidthRequest="40" BackgroundColor="Beige" Source="iconp.png" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="My_Profile_Tapped" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+            <Label Text="MY PROFILE" TextColor="#855438" Grid.Row="1" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-20"/>
+                <Frame CornerRadius="20" Margin="30,30,30,30" HeightRequest="60" WidthRequest="60" BackgroundColor="Beige" Grid.Row="2">
+                    <Button HeightRequest="40" WidthRequest="40" BackgroundColor="Beige" Text="LOGOUT" TextColor="#855438" FontAttributes="Bold" FontSize="25">
+                        
+                            <Button.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Logout_Tapped" NumberOfTapsRequired="1" />
+                            </Button.GestureRecognizers>
+                        </Button>
+                </Frame>
+            </Grid>
         </Grid>
-        
+ 
     </ContentPage.Content>
+
 </ContentPage>

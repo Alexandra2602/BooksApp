@@ -4,17 +4,17 @@
              x:Class="BooksApp.Views.LoginPage">
     <ContentPage.Content>
         <ScrollView >
-            <StackLayout Padding="5">
+            <StackLayout Padding="5" BackgroundColor="Wheat">
                 <Image Source="bookclub2.png"  Aspect="AspectFit" WidthRequest="130" HeightRequest="130"/>
                 <Grid Margin="10,0" VerticalOptions="CenterAndExpand">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="2*"/>
                     </Grid.ColumnDefinitions>
-                    <Label Text="E-mail"  VerticalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0" />
-                    <Entry Placeholder="Enter your email... " x:Name="EntryUser" Margin="-7" Keyboard="Email" Grid.Row="0" Grid.Column="1" Text="{Binding Email,Mode=TwoWay}"/>
-                    <Label Text="Password" VerticalOptions="Center" FontSize="18" Grid.Row="1" Grid.Column="0"/>
-                    <Entry Placeholder="Enter your password.. " x:Name="EntryPassword" Margin="-7" IsPassword="True" Grid.Row="1" Grid.Column="1" Text="{Binding Password,Mode=TwoWay}"/>
+                    <Label Text="E-mail"  VerticalOptions="Center" FontSize="18" TextColor="#855438" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
+                    <Entry Placeholder="Enter your email... " x:Name="EntryUser" Margin="-7" Keyboard="Email" TextColor="#855438"  Grid.Row="0" Grid.Column="1" Text="{Binding Email,Mode=TwoWay}"/>
+                    <Label Text="Password" VerticalOptions="Center" FontSize="18" TextColor="#855438" FontAttributes="Bold"  Grid.Row="1" Grid.Column="0"/>
+                    <Entry Placeholder="Enter your password.. " x:Name="EntryPassword" Margin="-7" IsPassword="True" TextColor="#855438" Grid.Row="1" Grid.Column="1" Text="{Binding Password,Mode=TwoWay}"/>
                 </Grid>
                 <ActivityIndicator VerticalOptions="CenterAndExpand" IsRunning="{Binding IsRunning, Mode=TwoWay }">
                 </ActivityIndicator>
