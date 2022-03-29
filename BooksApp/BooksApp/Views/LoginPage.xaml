@@ -4,8 +4,8 @@
              x:Class="BooksApp.Views.LoginPage">
     <ContentPage.Content>
         <ScrollView >
-            <StackLayout Padding="5" BackgroundColor="Wheat">
-                <Image Source="bookclub2.png"  Aspect="AspectFit" WidthRequest="130" HeightRequest="130"/>
+            <StackLayout Padding="5" BackgroundColor="Beige">
+                <Image Source="logo.png"  Aspect="AspectFit" WidthRequest="230" HeightRequest="230"/>
                 <Grid Margin="10,0" VerticalOptions="CenterAndExpand">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
