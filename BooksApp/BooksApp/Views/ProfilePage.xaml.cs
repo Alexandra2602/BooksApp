@@ -44,7 +44,7 @@ namespace BooksApp.Views
         }
         async void Logout_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MyProfile());
+            await Navigation.PushAsync(new LoginPage());
 
         }
     }

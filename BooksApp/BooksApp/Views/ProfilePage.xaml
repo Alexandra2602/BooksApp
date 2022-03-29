@@ -59,7 +59,7 @@
                     <Button HeightRequest="40" WidthRequest="40" BackgroundColor="Beige" Text="LOGOUT" TextColor="#855438" FontAttributes="Bold" FontSize="25">
                         
                             <Button.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="Logout_Tapped" NumberOfTapsRequired="1" />
+                                <TapGestureRecognizer Tapped="Logout_Tapped" />
                             </Button.GestureRecognizers>
                         </Button>
                 </Frame>
