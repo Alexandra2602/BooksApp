@@ -9,7 +9,6 @@ namespace BooksApp.ViewModels
         #region Attributes
         private string email;
         private string password;
-        private bool isRunning;
         private bool isEnabled;
         #endregion
 

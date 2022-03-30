@@ -1,4 +1,5 @@
 ﻿using BooksApp.Models;
+using BooksApp.ViewModels;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace BooksApp.Views
         public MyProfile()
         {
             InitializeComponent();
-            BindingContext = this;
+            BindingContext = new PickerViewModel();
 
             var assembly = typeof(BooksPage).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream("BooksApp.books.json");
@@ -33,9 +34,9 @@ namespace BooksApp.Views
                 List<Book> mylist = JsonConvert.DeserializeObject<List<Book>>(json);
                 myrootobject = new ObservableCollection<Book>(mylist);
                 MyList.ItemsSource = myrootobject;
-
             }
         }
+       
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             popupView.IsVisible = true;
