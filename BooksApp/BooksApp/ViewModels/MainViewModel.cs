@@ -6,23 +6,7 @@ namespace BooksApp.ViewModels
 {
     public class MainViewModel
     {
-        #region ViewModels
-  
 
-        public BooksViewModel Books
-        {
-            get;
-            set;
-        }
-     
-        #endregion
-        #region Constructors
-        /*public MainViewModel()
-        {
-            instance = this;
-            this.Login = new LoginViewModel();
-        } */
-        #endregion
 
         #region Singleton
         private static MainViewModel instance;

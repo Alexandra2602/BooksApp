@@ -6,26 +6,26 @@ using System.Text;
 
 namespace BooksApp.ViewModels
 {
-   
-        public class BaseViewModel : INotifyPropertyChanged
+
+    public class BaseViewModel : INotifyPropertyChanged
+    {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            public event PropertyChangedEventHandler PropertyChanged;
 
-            protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+        protected void SetValue<T>(ref T backingField, T value, [CallerMemberName] string propertyName = null)
+        {
+            if (EqualityComparer<T>.Default.Equals(backingField, value))
             {
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+                return;
             }
 
-            protected void SetValue<T>(ref T backingField, T value, [CallerMemberName] string propertyName = null)
-            {
-                if (EqualityComparer<T>.Default.Equals(backingField, value))
-                {
-                    return;
-                }
-
-                backingField = value;
-                OnPropertyChanged(propertyName);
-            }
+            backingField = value;
+            OnPropertyChanged(propertyName);
         }
     }
+}
 

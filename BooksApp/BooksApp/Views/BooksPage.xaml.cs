@@ -49,7 +49,6 @@ namespace BooksApp.Views
             Book tappedbook = e.Item as Book;
             if (tappedbook == null)
                 return;
-
         }
 
         async void MyListView_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)

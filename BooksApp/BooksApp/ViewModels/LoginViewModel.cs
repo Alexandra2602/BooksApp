@@ -6,13 +6,11 @@ namespace BooksApp.ViewModels
 {
     class LoginViewModel : BaseViewModel
     {
-        #region Attributes
+        
         private string email;
         private string password;
         private bool isEnabled;
-        #endregion
-
-        #region Properties
+        
         public string Email
         {
             get { return this.email; }
@@ -33,8 +31,6 @@ namespace BooksApp.ViewModels
             get;
             set;
         }
-
-        #endregion
 
     }
 }

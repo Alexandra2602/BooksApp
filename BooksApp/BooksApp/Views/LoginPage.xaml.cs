@@ -34,7 +34,7 @@ namespace BooksApp.Views
             {
                 App.Current.MainPage = new NavigationPage(new BooksPage());
             }
-            else 
+            else
             {
                 Device.BeginInvokeOnMainThread(async () =>
                 {
@@ -64,10 +64,5 @@ namespace BooksApp.Views
             button.TextColor = Color.Red;
         }
 
-     
-
     }
-
-
-
 }

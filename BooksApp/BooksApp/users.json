@@ -1,0 +1,16 @@
+[
+  {
+    "UserId": 1,
+    "UserName": "Alexandra2001",
+    "Password": "Ale",
+    "Email": "ale@yahoo.com",
+    "Phone number": "0748165857"
+  },
+  {
+    "UserId": 2,
+    "UserName": "admin",
+    "Password": "admin",
+    "Email": "admin@yahoo.com",
+    "Phone number": "0722363686"
+  }
+]

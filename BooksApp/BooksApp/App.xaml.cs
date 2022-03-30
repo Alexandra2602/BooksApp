@@ -8,15 +8,14 @@ namespace BooksApp
     public partial class App : Application
     {
         public static string DatabaseLocation { get; internal set; }
-        #region Constructors
+       
         public App()
         {
             InitializeComponent();
 
             this.MainPage = new NavigationPage(new LoginPage());
         }
-        #endregion
-        #region Methods
+      
         protected override void OnStart()
         {
         }
@@ -28,6 +27,6 @@ namespace BooksApp
         protected override void OnResume()
         {
         }
-        #endregion
+       
     }
 }
