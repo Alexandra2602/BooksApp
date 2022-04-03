@@ -12,12 +12,12 @@
                 <Label Text="About me"   FontSize="18" TextColor="#855438" Margin="15,5,-10,0" AbsoluteLayout.LayoutBounds="150,10,100,100"/>
                 <Image Source="creion2" AbsoluteLayout.LayoutBounds="300,10,25,30">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Creion" NumberOfTapsRequired="1" />
+                        <TapGestureRecognizer NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>
                 <Image Source="bifa" WidthRequest="50" AbsoluteLayout.LayoutBounds="330,10,25,30">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Bifa" NumberOfTapsRequired="1" />
+                        <TapGestureRecognizer NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>
                 <Frame Padding="5" Margin="5,5"  CornerRadius="15" BackgroundColor="#e8ddbe" WidthRequest="200" AbsoluteLayout.LayoutBounds="130,60">
@@ -65,7 +65,7 @@
                         <TapGestureRecognizer Tapped="TapGestureRecognizer3_Tapped" NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>
-                <ContentView x:Name="popupView" BackgroundColor="Transparent" Padding="10,0" IsVisible="false" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                <ContentView x:Name="popupView2" BackgroundColor="Transparent" Padding="10,0" IsVisible="false" AbsoluteLayout.LayoutBounds="130,530" AbsoluteLayout.LayoutFlags="All">
                     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                         <Frame CornerRadius="15" Padding="0" BorderColor="LightGray">
                             <StackLayout Orientation="Vertical" HeightRequest="550" WidthRequest="280" BackgroundColor="Beige">

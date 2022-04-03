@@ -24,7 +24,6 @@ namespace BooksApp.Views
         {
             InitializeComponent();
             BindingContext = new PickerViewModel();
-
             var assembly = typeof(BooksPage).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream("BooksApp.books.json");
 
@@ -39,27 +38,18 @@ namespace BooksApp.Views
        
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            popupView.IsVisible = true;
+            popupView2.IsVisible = true;
 
         }
         private void TapGestureRecognizer2_Tapped(object sender, EventArgs e)
         {
-            popupView.IsVisible = true;
+            popupView2.IsVisible = true;
 
         }
         private void TapGestureRecognizer3_Tapped(object sender, EventArgs e)
         {
-            popupView.IsVisible = true;
+            popupView2.IsVisible = true;
 
-        }
-
-        private void Creion(object sender, EventArgs e)
-        {
-
-        }
-        private void Bifa(object sender, EventArgs e)
-        {
-      
         }
         void OnEditorTextChanged(object sender, TextChangedEventArgs e)
         {

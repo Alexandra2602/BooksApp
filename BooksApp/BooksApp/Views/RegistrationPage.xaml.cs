@@ -23,28 +23,36 @@ namespace BooksApp.Views
 
         private void Handle_Clicked(object sender, EventArgs e)
         {
-            var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
-            var db = new SQLiteConnection(dbpath);
-            db.CreateTable<RegUserTable>();
-
             var item = new RegUserTable()
             {
-                UserName = EntryUserName.Text,
-                Password = EntryUserPassword.Text,
-                Email = EntryUserEmail.Text,
-                PhoneNumber = EntryUserPhoneNumber.Text
-
+                Name = nameEntry.Text,
+                LastName = lastnameEntry.Text,
+                Email = emailEntry.Text,
+                Password = passwordEntry.Text,
+                PhoneNumber = phonenumberEntry.Text,
+                Address = addressEntry.Text
             };
-
-            db.Insert(item);
-            Device.BeginInvokeOnMainThread(async () =>
+            if (nameEntry.Text != null & lastnameEntry.Text != null & emailEntry.Text != null & passwordEntry.Text != null & phonenumberEntry.Text != null & addressEntry.Text != null)
             {
-                var result = await this.DisplayAlert("Congratulation", "You have successfully registered", "Yes", "Cancel");
+                var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
+                var db = new SQLiteConnection(dbpath);
+                db.CreateTable<RegUserTable>();
 
-                if (result)
+                db.Insert(item);
+                Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await Navigation.PushAsync(new LoginPage());
-                }
+                    var result = await this.DisplayAlert("Congratulation", "You have successfully registered", "ok","cancel");
+
+                    if (result)
+                    {
+                        await Navigation.PushAsync(new LoginPage());
+                    }
+                });
+            }
+            else Device.BeginInvokeOnMainThread(async () =>
+            {
+                await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
+
             });
 
 

@@ -1,6 +1,11 @@
-﻿using System;
+﻿using BooksApp.Models;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -12,16 +17,18 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CalendarPage : ContentPage
     {
+      
         public CalendarPage()
         {
             InitializeComponent();
-
+            BindingContext = this;
 
             XamForms.Controls.Calendar calendar = new XamForms.Controls.Calendar();
 
         }
         async void Calendar_DateClicked(Object sender, XamForms.Controls.DateTimeEventArgs e)
         {
+            
             string result = await DisplayPromptAsync("New Book", "Add a book that you finished:");
 
             if (result == null)

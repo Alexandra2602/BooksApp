@@ -8,6 +8,7 @@ using Java.Security;
 using System.Threading.Tasks;
 using System.IO;
 using Android.Content;
+using Plugin.FacebookClient;
 
 namespace BooksApp.Droid
 {
@@ -22,6 +23,7 @@ namespace BooksApp.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+          
            
 
         }
@@ -32,7 +34,9 @@ namespace BooksApp.Droid
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
-        
-        
+      
+
+
+
     }
 }

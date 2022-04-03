@@ -12,7 +12,6 @@ namespace BooksApp
         public App()
         {
             InitializeComponent();
-
             this.MainPage = new NavigationPage(new LoginPage());
         }
       
