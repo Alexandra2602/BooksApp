@@ -17,7 +17,7 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CalendarPage : ContentPage
     {
-      
+
         public CalendarPage()
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace BooksApp.Views
         }
         async void Calendar_DateClicked(Object sender, XamForms.Controls.DateTimeEventArgs e)
         {
-            
+
             string result = await DisplayPromptAsync("New Book", "Add a book that you finished:");
 
             if (result == null)
@@ -53,7 +53,7 @@ namespace BooksApp.Views
 
             calendar.SpecialDates = specialDates;
             calendar.ForceRedraw();
-            
+
 
         }
         async void Top_Clicked(object sender, EventArgs e)
@@ -77,6 +77,6 @@ namespace BooksApp.Views
             await Navigation.PushAsync(new ProfilePage());
         }
 
-       
+
     }
 }

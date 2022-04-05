@@ -44,11 +44,12 @@
 
             <StackLayout>
                 <Label HorizontalOptions="CenterAndExpand" TextColor="#855438" Padding="5,5,5,15" FontSize="15" VerticalOptions="CenterAndExpand" Text="Keep track of the books that you finished"/>
-                <controls:Calendar x:Name="calendar" MinDate="01.01.2021" MaxDate="01.01.2023"  DatesTextColor="#855438" DatesBackgroundColorOutsideMonth="Wheat"   DatesTextColorOutsideMonth="#bbbbb9" DatesBackgroundColor="Wheat" OuterBorderWidth="0" MinimumHeightRequest="500" WeekdaysTextColor="DarkSlateGray" WeekdaysFontSize="18" WeekdaysShow="True"  BorderColor="Transparent" VerticalOptions="StartAndExpand"  Padding="10,0,10,0" HorizontalOptions="FillAndExpand" StartDay="Monday" SelectedBorderWidth="4"  BorderWidth="1" DateClicked="Calendar_DateClicked" DateCommand="{Binding DateChosen}" SelectedDate="{Binding Date}" ShowNumberOfWeek="false"   SpecialDates="{Binding Attendances}" TitleLeftArrowTextColor="#855438" TitleRightArrowTextColor="#855438" TitleLabelTextColor="#855438" TitleLabelFontAttributes="None" />
-                
+                <controls:Calendar x:Name="calendar" MinDate="01.01.2021" MaxDate="12.01.2022"  DatesTextColor="#855438" DatesBackgroundColorOutsideMonth="Wheat"   DatesTextColorOutsideMonth="#bbbbb9" DatesBackgroundColor="Wheat" OuterBorderWidth="3" MinimumHeightRequest="400" WeekdaysTextColor="DarkSlateGray" WeekdaysFontSize="18" WeekdaysShow="True"  BorderColor="Transparent" VerticalOptions="StartAndExpand"  Padding="10,0,10,0" HorizontalOptions="FillAndExpand" StartDay="Monday" SelectedBorderWidth="4"  BorderWidth="1" DateClicked="Calendar_DateClicked" DateCommand="{Binding DateChosen}" SelectedDate="{Binding Date}" ShowNumberOfWeek="false"   SpecialDates="{Binding Attendances}" TitleLeftArrowTextColor="#855438" TitleRightArrowTextColor="#855438" TitleLabelTextColor="#855438" TitleLabelFontAttributes="None" />
+                <Label Text="{Binding result}" TextColor="Black" FontSize="20"/>
             </StackLayout>
+           
 
-            
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>
