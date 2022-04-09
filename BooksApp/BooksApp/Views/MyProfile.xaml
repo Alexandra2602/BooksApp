@@ -7,7 +7,7 @@
         <ScrollView>
             <AbsoluteLayout BackgroundColor="Wheat">
                 <Button Text="Add a profile image" Clicked="Image_Clicked"  Margin="5,10,0,10" HeightRequest="170" WidthRequest="120"/>
-                <Image x:Name="resultImage" Source="{Binding ImagePath}" Margin="5,10,0,10" HeightRequest="170" WidthRequest="120"/>
+                <Image x:Name="resultImage" Source="{Binding resultImage}" Margin="5,10,0,10" HeightRequest="170" WidthRequest="120"/>
 
                 <Label Text="About me"   FontSize="18" TextColor="#855438" Margin="15,5,-10,0" AbsoluteLayout.LayoutBounds="150,10,100,100"/>
                 <Image Source="creion2" AbsoluteLayout.LayoutBounds="300,10,25,30">

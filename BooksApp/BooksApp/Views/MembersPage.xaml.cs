@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BooksApp.Models;
+using SQLite;
+using System; 
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +14,22 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MembersPage : ContentPage
     {
-       
 
         public MembersPage()
         {
             InitializeComponent();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<User>();
+                var users = conn.Table<User>().ToList();
+                usersListView.ItemsSource = users;
+            }
         }
     }
 }

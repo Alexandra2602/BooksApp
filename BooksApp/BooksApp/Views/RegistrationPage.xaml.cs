@@ -1,4 +1,4 @@
-﻿using BooksApp.Tables;
+﻿using BooksApp.Models;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -17,13 +17,12 @@ namespace BooksApp.Views
     {
         public RegistrationPage()
         {
-            SetValue(NavigationPage.HasNavigationBarProperty, false);
             InitializeComponent();
         }
 
-        private void Handle_Clicked(object sender, EventArgs e)
+        private void RegisterButton_Clicked(object sender, EventArgs e)
         {
-            var item = new RegUserTable()
+            User user = new User()
             {
                 Name = nameEntry.Text,
                 LastName = lastnameEntry.Text,
@@ -32,32 +31,31 @@ namespace BooksApp.Views
                 PhoneNumber = phonenumberEntry.Text,
                 Address = addressEntry.Text
             };
-            if (nameEntry.Text != null & lastnameEntry.Text != null & emailEntry.Text != null & passwordEntry.Text != null & phonenumberEntry.Text != null & addressEntry.Text != null)
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
-                var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
-                var db = new SQLiteConnection(dbpath);
-                db.CreateTable<RegUserTable>();
-
-                db.Insert(item);
-                Device.BeginInvokeOnMainThread(async () =>
+                if (nameEntry.Text != null & lastnameEntry.Text != null & emailEntry.Text != null & passwordEntry.Text != null & phonenumberEntry.Text != null & addressEntry.Text != null)
                 {
-                    var result = await this.DisplayAlert("Congratulation", "You have successfully registered", "ok","cancel");
-
-                    if (result)
+                    conn.CreateTable<User>();
+                    int rowsAdded = conn.Insert(user);
+                    Device.BeginInvokeOnMainThread(async () =>
                     {
-                        await Navigation.PushAsync(new LoginPage());
-                    }
+                        var result = await this.DisplayAlert("Congratulation", "You have successfully registered", "Yes", "Cancel");
+
+                        if (result)
+                        {
+                            await Navigation.PushAsync(new LoginPage());
+                        }
+                    });
+                }
+                else Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
+
                 });
+
             }
-            else Device.BeginInvokeOnMainThread(async () =>
-            {
-                await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
-
-            });
-
 
 
         }
-    
-}
+    }
 }

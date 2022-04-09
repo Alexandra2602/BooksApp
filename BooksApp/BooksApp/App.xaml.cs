@@ -7,14 +7,21 @@ namespace BooksApp
 {
     public partial class App : Application
     {
-        public static string DatabaseLocation { get; internal set; }
+        public static string FilePath;
        
         public App()
         {
             InitializeComponent();
-            this.MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new LoginPage());
         }
-      
+        public App(string filePath)
+        {
+            InitializeComponent();
+            FilePath = filePath;
+            MainPage = new NavigationPage(new LoginPage());
+
+        }
+
         protected override void OnStart()
         {
         }

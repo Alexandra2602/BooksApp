@@ -45,25 +45,26 @@
                     <RowDefinition Height="10"/>
                     <RowDefinition Height="250"/>
                     <RowDefinition Height="10"/>
+                    <RowDefinition Height="250"/>
                 </Grid.RowDefinitions>
-
+            
             <Frame CornerRadius="20" Margin="50,50,50,50" HeightRequest="50" WidthRequest="50" BackgroundColor="Beige" Grid.Row="0" >
                     <Image HeightRequest="20" WidthRequest="20" BackgroundColor="Beige" Source="iconp.png" >
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="My_Profile_Tapped" NumberOfTapsRequired="1"/>
                         </Image.GestureRecognizers>
                     </Image>
-                </Frame>
-                <Label Text="MY PROFILE" TextColor="#855438" Grid.Row="1" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-40"/>
-            <Label Text="MEMBERS" TextColor="#855438" Grid.Row="4" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-40"/>
-                <Frame CornerRadius="20" Margin="50,50,50,50" HeightRequest="50" WidthRequest="50" BackgroundColor="Beige" Padding="0" Grid.Row="2" >
-                    <Image HeightRequest="50" WidthRequest="50" BackgroundColor="Beige" Source="members.png" >
+            </Frame>
+            <Label Text="MY PROFILE" TextColor="#855438" Grid.Row="1" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-40"/>
+            <Frame CornerRadius="20" Margin="50,50,50,50" HeightRequest="50" WidthRequest="50" BackgroundColor="Beige" Padding="0" Grid.Row="2" >
+                    <Image HeightRequest="20" WidthRequest="20" BackgroundColor="Beige" Source="members.png" >
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Members_Tapped" NumberOfTapsRequired="1"/>
                         </Image.GestureRecognizers>
                     </Image>
-                </Frame>
-                
+            </Frame>
+            <Label Text="MEMBERS" TextColor="#855438" Grid.Row="4" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-60"/>
+               
             </Grid>
         </Grid>
  

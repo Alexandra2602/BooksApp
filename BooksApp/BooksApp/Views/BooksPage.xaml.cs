@@ -60,7 +60,7 @@ namespace BooksApp.Views
 
         async void Top_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TopPage());
+            await Navigation.PushAsync(new MembersPage());
         }
         async void Home_Clicked(object sender, EventArgs e)
         {

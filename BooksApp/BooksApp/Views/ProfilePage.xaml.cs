@@ -10,12 +10,10 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfilePage : ContentPage
     {
-        private ObservableCollection<Book> myrootobject;
         public ProfilePage()
         {
             InitializeComponent();
         }
-
         async void Top_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TopPage());
@@ -42,10 +40,10 @@ namespace BooksApp.Views
             await Navigation.PushAsync(new MyProfile());
 
         }
+    
         async void Members_Tapped(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MembersPage());
-
         }
     }
 }
