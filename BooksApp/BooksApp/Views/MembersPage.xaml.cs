@@ -12,6 +12,8 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MembersPage : ContentPage
     {
+       
+
         public MembersPage()
         {
             InitializeComponent();
