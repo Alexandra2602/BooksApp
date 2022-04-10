@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BooksApp.Models
 {
-    class User
+    public class User
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }

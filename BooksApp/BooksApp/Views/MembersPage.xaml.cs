@@ -31,5 +31,14 @@ namespace BooksApp.Views
                 usersListView.ItemsSource = users;
             }
         }
+
+         public void usersListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var selectedUser = usersListView.SelectedItem as User;
+            if (selectedUser !=null)
+            {
+                Navigation.PushAsync(new UserDetailPage(selectedUser));
+            }
+        }
     }
 }

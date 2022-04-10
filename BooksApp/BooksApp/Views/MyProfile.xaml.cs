@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Reflection;
+using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -14,7 +15,7 @@ using Xamarin.Forms.Xaml;
 namespace BooksApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    
+
     public partial class MyProfile : ContentPage
     {
         private ObservableCollection<Book> myrootobject;
@@ -33,7 +34,7 @@ namespace BooksApp.Views
                 MyList.ItemsSource = myrootobject;
             }
         }
-       
+
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             popupView2.IsVisible = true;
@@ -63,24 +64,63 @@ namespace BooksApp.Views
         {
             MainLabel.Text = Slider.Value.ToString();
         }
-        async void Image_Clicked(object sender, EventArgs e)
+        readonly SQLiteAsyncConnection database;
+        private async void Image_Clicked(object sender, EventArgs e)
         {
-            var result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
+            await PickerPhotoAsync();
+        }
+        string PhotoPath = null;
+        async Task PickerPhotoAsync()
+        {
+            try
             {
-                Title = "Please pick a photo"
-            });
-            if (result != null)
+                var photo = await MediaPicker.PickPhotoAsync();
+                await LoadPhotoAsync(photo);
+                Console.WriteLine($"CapturePhotoAsync COMPLETED: {PhotoPath}");
+            }
+            catch (FeatureNotSupportedException fnsEx)
             {
-                var stream = await result.OpenReadAsync();
-                resultImage.Source = ImageSource.FromStream(() => stream);
-                
+                // Feature is not supported on the device
+            }
+            catch (PermissionException pEx)
+            {
+                // Permissions not granted
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"CapturePhotoAsync THREW: {ex.Message}");
+            }
+        }
+        async Task LoadPhotoAsync(FileResult photo)
+        {
+            //canceled
+            if (photo == null)
+            {
+                PhotoPath = null;
+                return;
+
+            }
+            //save the file into local storage
+            var newFile = Path.Combine(FileSystem.CacheDirectory, photo.FileName);
+            using (Stream stream = await photo.OpenReadAsync())
+            using (var newStream = File.OpenWrite(newFile))
+            {
+                await stream.CopyToAsync(newStream);
+
+            }
+            PhotoPath = newFile;
+        }
+
+        private void Save_Clicked(object sender, EventArgs e)
+        {
+            if(PhotoPath!=null)
+            {
+                var user = new User();
+                user.ImagePath = PhotoPath;
+                //SaveNoteAsync(user);
             }
 
-
-            
         }
-      
-
     }
 
 }

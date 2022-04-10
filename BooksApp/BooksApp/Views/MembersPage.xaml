@@ -4,7 +4,7 @@
              x:Class="BooksApp.Views.MembersPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#e0cc94">
-            <ListView x:Name="usersListView">
+            <ListView x:Name="usersListView" ItemSelected="usersListView_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
