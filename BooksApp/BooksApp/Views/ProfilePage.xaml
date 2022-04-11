@@ -31,21 +31,25 @@
                         <Label Text="New" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
                     </StackLayout>
                     <StackLayout Spacing="0" Grid.Column="3" BackgroundColor="#e0cc94" >
-                        <Button Image="calendar.png"  HeightRequest="68" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Calendar_Clicked"/>
-                        <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-15,0,0"/>
+                        <Button Image="calendar.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Calendar_Clicked"/>
+                        <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-16,0,0"/>
                     </StackLayout>
                     <StackLayout Spacing="0" Grid.Column="4" BackgroundColor="#e0cc94" >
                         <Button Image="profile.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Profile_Clicked"/>
                         <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
                     </StackLayout>
-                </Grid>
+                <StackLayout Spacing="0" Grid.Column="5" BackgroundColor="#e0cc94" >
+                    <Button Image="people2.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-10,0,0" Clicked="Members_Clicked"/>
+                    <Label Text="Comunity" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-16,0,0"/>
+                </StackLayout>
+            </Grid>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="250"/>
                     <RowDefinition Height="10"/>
                     <RowDefinition Height="250"/>
                     <RowDefinition Height="10"/>
-                    <RowDefinition Height="250"/>
+                   
                 </Grid.RowDefinitions>
             
             <Frame CornerRadius="20" Margin="50,50,50,50" HeightRequest="50" WidthRequest="50" BackgroundColor="Beige" Grid.Row="0" >
@@ -55,16 +59,8 @@
                         </Image.GestureRecognizers>
                     </Image>
             </Frame>
-            <Label Text="MY PROFILE" TextColor="#855438" Grid.Row="1" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-40"/>
-            <Frame CornerRadius="20" Margin="50,50,50,50" HeightRequest="50" WidthRequest="50" BackgroundColor="Beige" Padding="0" Grid.Row="2" >
-                    <Image HeightRequest="20" WidthRequest="20" BackgroundColor="Beige" Source="members.png" >
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="Members_Tapped" NumberOfTapsRequired="1"/>
-                        </Image.GestureRecognizers>
-                    </Image>
-            </Frame>
-            <Label Text="MEMBERS" TextColor="#855438" Grid.Row="4" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-60"/>
-               
+                <Label Text="MY PROFILE" TextColor="#855438" Grid.Row="1" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="18" Margin="0,-40"/>
+                <Button Margin="50,50,50,50" CornerRadius="20" ImageSource="logout.png" Grid.Row="2" BackgroundColor="Beige" HeightRequest="50" WidthRequest="50" Clicked="Logout_Clicked"/>
             </Grid>
         </Grid>
  

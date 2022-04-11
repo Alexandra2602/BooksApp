@@ -7,7 +7,7 @@ namespace BooksApp
 {
     public partial class App : Application
     {
-        public static string FilePath;
+        public static string FilePath = string.Empty;
        
         public App()
         {

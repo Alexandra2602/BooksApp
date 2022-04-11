@@ -34,6 +34,10 @@ namespace BooksApp.Views
         {
             await Navigation.PushAsync(new ProfilePage());
         }
+        async void Members_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MembersPage());
+        }
 
         async void My_Profile_Tapped(object sender, EventArgs e)
         {
@@ -41,10 +45,11 @@ namespace BooksApp.Views
 
         }
     
-        async void Members_Tapped(object sender, EventArgs e)
+        async void Logout_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MembersPage());
+            await Navigation.PushAsync(new LoginPage());
         }
+       
     }
 }
     

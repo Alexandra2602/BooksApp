@@ -29,6 +29,7 @@ namespace BooksApp.Views
                 conn.CreateTable<User>();
                 var users = conn.Table<User>().ToList();
                 usersListView.ItemsSource = users;
+                
             }
         }
 
@@ -39,6 +40,30 @@ namespace BooksApp.Views
             {
                 Navigation.PushAsync(new UserDetailPage(selectedUser));
             }
+        }
+        async void Top_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TopPage());
+        }
+        async void Home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BooksPage());
+        }
+        async void New_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NewsPage());
+        }
+        async void Calendar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalendarPage());
+        }
+        async void Profile_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage());
+        }
+        async void Members_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MembersPage());
         }
     }
 }

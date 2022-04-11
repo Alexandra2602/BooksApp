@@ -36,7 +36,7 @@ namespace BooksApp.Views
                 if (nameEntry.Text != null & lastnameEntry.Text != null & emailEntry.Text != null & passwordEntry.Text != null & phonenumberEntry.Text != null & addressEntry.Text != null)
                 {
                     conn.CreateTable<User>();
-                    int rowsAdded = conn.Insert(user);
+                    int rowsAdded = conn.Insert(user);       
                     Device.BeginInvokeOnMainThread(async () =>
                     {
                         var result = await this.DisplayAlert("Congratulation", "You have successfully registered", "Yes", "Cancel");

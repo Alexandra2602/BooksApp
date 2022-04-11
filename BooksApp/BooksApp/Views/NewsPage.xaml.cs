@@ -36,6 +36,10 @@ namespace BooksApp.Views
         {
             await Navigation.PushAsync(new ProfilePage());
         }
+        async void Members_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MembersPage());
+        }
 
     }
 }

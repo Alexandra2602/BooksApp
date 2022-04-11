@@ -19,6 +19,7 @@ namespace BooksApp.Views
     public partial class MyProfile : ContentPage
     {
         private ObservableCollection<Book> myrootobject;
+        User user;
         public MyProfile()
         {
             InitializeComponent();
@@ -35,7 +36,21 @@ namespace BooksApp.Views
             }
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private void Edit_Tapped(object sender, EventArgs e)
+        {
+            if (user != null)
+            {
+                Navigation.PushAsync(new DescriptionPage(user));
+            }
+
+        }
+        private void Save_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+
+            private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             popupView2.IsVisible = true;
 

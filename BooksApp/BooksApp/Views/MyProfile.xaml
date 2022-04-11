@@ -13,16 +13,16 @@
                 <Label Text="About me"   FontSize="18" TextColor="#855438" Margin="15,5,-10,0" AbsoluteLayout.LayoutBounds="150,10,100,100"/>
                 <Image Source="creion2" AbsoluteLayout.LayoutBounds="300,10,25,30">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer NumberOfTapsRequired="1" />
+                        <TapGestureRecognizer Tapped="Edit_Tapped" NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>
                 <Image Source="bifa" WidthRequest="50" AbsoluteLayout.LayoutBounds="330,10,25,30">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer NumberOfTapsRequired="1" />
+                        <TapGestureRecognizer Tapped="Save_Tapped" NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>
                 <Frame Padding="5" Margin="5,5"  CornerRadius="15" BackgroundColor="#e8ddbe" WidthRequest="200" AbsoluteLayout.LayoutBounds="130,60">
-                <Editor x:Name="editor" Grid.Row="1" Grid.Column="1" HeightRequest="100"  MaxLength="100" FontSize="13" TextChanged="OnEditorTextChanged" Completed="OnEditorCompleted"  />
+                <Label x:Name="Description" Grid.Row="1" Grid.Column="1" HeightRequest="100" FontSize="13"  />
                 </Frame>
                 
                

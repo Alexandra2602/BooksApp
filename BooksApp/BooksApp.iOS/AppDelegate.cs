@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 using Foundation;
@@ -24,6 +25,12 @@ namespace BooksApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            string fileName = "users_db.db3";
+            string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal),"..","Library");
+            string completePath = Path.Combine(folderPath, fileName);
+
+            LoadApplication(new App(completePath));
 
             return base.FinishedLaunching(app, options);
         }

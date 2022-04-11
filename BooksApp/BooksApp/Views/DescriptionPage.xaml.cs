@@ -12,23 +12,22 @@ using Xamarin.Forms.Xaml;
 namespace BooksApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class UserDetailPage : ContentPage
+    public partial class DescriptionPage : ContentPage
     {
-        User selectedUser;
-        public UserDetailPage(User selectedUser)
+        User user;
+        public DescriptionPage(User user)
         {
             InitializeComponent();
-            this.selectedUser = selectedUser;
-            nameEntry.Text = selectedUser.Name;
+            this.user = user;
+            DescriptionEditor.Text = user.Description;
         }
-
-        void Update_Clicked(object sender, System.EventArgs e)
+        void Edit_Tapped(object sender, System.EventArgs e)
         {
-            selectedUser.Name = nameEntry.Text;
-            using (SQLiteConnection conn= new SQLiteConnection(App.FilePath))
+           user.Description = DescriptionEditor.Text;
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<User>();
-                int rowsAdded = conn.Update(selectedUser);
+                int rowsAdded = conn.Update(user);
                 if (rowsAdded > 0)
                     DisplayAlert("Succes", "User succesfull updated", "Ok");
                 else
@@ -36,12 +35,12 @@ namespace BooksApp.Views
 
             }
         }
-        void Delete_Clicked(object sender, System.EventArgs e)
+        void Save_Tapped(object sender, System.EventArgs e)
         {
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<User>();
-                int rowsAdded = conn.Delete(selectedUser);
+                int rowsAdded = conn.Delete(user);
                 if (rowsAdded > 0)
                     DisplayAlert("Succes", "User succesfull deleted", "Ok");
                 else
