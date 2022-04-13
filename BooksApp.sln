@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApp.iOS", "BooksApp\Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksApp", "BooksApp\BooksApp\BooksApp.csproj", "{7D2ADCD7-94AB-4C62-8362-15C5EC8BFD24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookAPI", "BookAPI\BookAPI.csproj", "{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{7D2ADCD7-94AB-4C62-8362-15C5EC8BFD24}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{7D2ADCD7-94AB-4C62-8362-15C5EC8BFD24}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{7D2ADCD7-94AB-4C62-8362-15C5EC8BFD24}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Release|iPhone.Build.0 = Release|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E8ACD012-4100-4D0B-958C-3C2B692BAD3B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
