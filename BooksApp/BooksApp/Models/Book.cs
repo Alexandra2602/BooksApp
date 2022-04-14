@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,6 +8,7 @@ namespace BooksApp.Models
 {
     public class Book
     {
+        [PrimaryKey, AutoIncrement]
         public int BookId { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
@@ -14,13 +16,7 @@ namespace BooksApp.Models
         public int NumberOfPages { get; set; }
         public int YearPublished { get; set; }
         public string Image { get; set; }
-        
 
-    }
-
-    public class BookList
-    {
-        public List <Book> books { get; set; }
 
     }
 }
