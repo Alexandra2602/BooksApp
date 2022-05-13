@@ -13,10 +13,12 @@ namespace BooksApp.Data
         readonly SQLiteAsyncConnection _database;
         public BookListDatabase(string dbPath)
         {
-
             _database = new SQLiteAsyncConnection(dbPath);
             _database.CreateTableAsync<Book>().Wait();
-            
+            _database.CreateTableAsync<Review>().Wait();
+            _database.CreateTableAsync<ListReview>().Wait();
+            _database.CreateTableAsync<RatingModel>().Wait();
+            _database.CreateTableAsync<ListRating>().Wait();
         }
         public Task<List<Book>> GetBookListsAsync()
         {
@@ -43,5 +45,82 @@ namespace BooksApp.Data
         {
             return _database.DeleteAsync(blist);
         }
+        public Task<int> SaveReviewAsync(Review review)
+        {
+            if (review.ID != 0)
+            {
+                return _database.UpdateAsync(review);
+            }
+            else
+            {
+                return _database.InsertAsync(review);
+            }
+        }
+        public Task<int> DeleteReviewAsync(Review review)
+        {
+            return _database.DeleteAsync(review);
+        }
+        public Task<List<Review>> GetReviewsAsync()
+        {
+            return _database.Table<Review>().ToListAsync();
+        }
+        public Task<int> SaveListReviewAsync(ListReview listp)
+        {
+            if (listp.ID != 0)
+            {
+                return _database.UpdateAsync(listp);
+            }
+            else
+            {
+                return _database.InsertAsync(listp);
+            }
+        }
+        public Task<List<Review>> GetListReviewsAsync(int reviewid)
+        {
+            return _database.QueryAsync<Review>(
+            "select R.ID, R.Description from Review R"
+            + " inner join ListReview LR"
+            + " on R.ID = LR.ReviewID where LR.BookID = ?",
+            reviewid);
+        }
+        public Task<int> SaveRatingAsync(RatingModel rating)
+        {
+            if (rating.ID != 0)
+            {
+                return _database.UpdateAsync(rating);
+            }
+            else
+            {
+                return _database.InsertAsync(rating);
+            }
+        }
+        public Task<int> DeleteRatingAsync(RatingModel rating)
+        {
+            return _database.DeleteAsync(rating);
+        }
+        public Task<List<RatingModel>> GetRatingsAsync()
+        {
+            return _database.Table<RatingModel>().ToListAsync();
+        }
+        public Task<int> SaveListRatingAsync(ListRating listp)
+        {
+            if (listp.ID != 0)
+            {
+                return _database.UpdateAsync(listp);
+            }
+            else
+            {
+                return _database.InsertAsync(listp);
+            }
+        }
+        public Task<List<RatingModel>> GetListRatingsAsync(int ratingid)
+        {
+            return _database.QueryAsync<RatingModel>(
+            "select M.ID, M.Description from RatingModel M"
+            + " inner join ListRating LM"
+            + " on M.ID = LM.RatingID where LM.BookID = ?",
+            ratingid);
+        }
     }
 }
+

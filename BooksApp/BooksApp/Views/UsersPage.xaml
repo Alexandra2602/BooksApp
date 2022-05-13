@@ -2,11 +2,33 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.UsersPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add user" Clicked="AddUserClicked"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout BackgroundColor="#e0cc94">
+        <ListView x:Name="userslistview" Margin="20" RowHeight="100" ItemSelected="OnListViewItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Padding="0" Margin="5,5"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
+                            <Grid VerticalOptions="CenterAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="*"/>
+
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="0">
+                                    <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="130" WidthRequest="130" Aspect="AspectFit"  ></Image>
+                                </StackLayout>
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="{Binding Name}" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
+                                    <Label Text="{Binding LastName}" FontSize="16" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-5,-5,0,0"/>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

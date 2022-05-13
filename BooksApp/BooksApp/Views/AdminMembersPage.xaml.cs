@@ -1,5 +1,4 @@
 ﻿using BooksApp.Models;
-using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +11,9 @@ using Xamarin.Forms.Xaml;
 namespace BooksApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class UsersPage : ContentPage
+    public partial class AdminMembersPage : ContentPage
     {
-        public UsersPage()
+        public AdminMembersPage()
         {
             InitializeComponent();
         }
@@ -23,25 +22,36 @@ namespace BooksApp.Views
             base.OnAppearing();
             //userslistview.ItemsSource = await App.Database.GetUserListsAsync();
         }
-        async void AddUserClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new RegistrationPage
-            {
-                BindingContext = new User()
-            });
-        }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new UsersDetailPage()
+                await Navigation.PushAsync(new AdminEditMembersPage()
                 {
                     BindingContext = e.SelectedItem as User
                 });
             }
         }
+        async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AdminMembersPage());
 
+        }
 
+        async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AdminMainPage());
+        }
 
+        async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AdminRatingPage());
+        }
+
+        async void Button_Clicked_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AdminReviewPage());
+
+        }
     }
 }

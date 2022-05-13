@@ -18,73 +18,57 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BooksPage : ContentPage
     {
-        private ObservableCollection<Book> myrootobject;
-        public BooksPage()
-        {
-            InitializeComponent();
-            BindingContext = this;
-
-            var assembly = typeof(BooksPage).GetTypeInfo().Assembly;
-            Stream stream = assembly.GetManifestResourceStream("BooksApp.books.json");
-
-            using (var reader = new System.IO.StreamReader(stream))
+            
+            public BooksPage()
             {
-                var json = reader.ReadToEnd();
-                List<Book> mylist = JsonConvert.DeserializeObject<List<Book>>(json);
-                myrootobject = new ObservableCollection<Book>(mylist);
-                MyListView.ItemsSource = myrootobject;
-               
+
+                InitializeComponent();
+                
             }
-        }
+            protected override async void OnAppearing()
+            {
+                base.OnAppearing();
+                listView.ItemsSource = await App.Database.GetBookListsAsync();
+            }
 
-        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            var searchresult = myrootobject.Where(c => c.Title.ToLower().Contains(Search1.Text.ToLower()) || c.Author.ToLower().Contains(Search1.Text.ToLower()));
+            async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+            {
+                if (e.SelectedItem != null)
+                {
+                    await Navigation.PushAsync(new DetailPage
+                    {
+                        BindingContext = e.SelectedItem as Book
+                    });
+                }
+            }
+            async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+            {
+                var search = Search1.Text.ToLower();
+                //var searchresult= App.Database.SearchBookAsync(search);
+                //listView.ItemsSource = await App.Database.SearchBookAsync(search);
 
-            MyListView.ItemsSource = searchresult;
-        }
+            }
+            async void Top_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new TopPage());
+            }
+            async void Home_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new BooksPage());
+            }
+         
+            async void Calendar_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new CalendarPage());
+            }
+            async void Profile_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new ProfilePage());
+            }
+            async void Members_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new UsersPage());
+            }
 
-        async private void MyListView_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
-        {
-            Book tappedbook = e.Item as Book;
-            if (tappedbook == null)
-                return;
         }
-
-        async void MyListView_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
-        {
-            var bookDetailPage = new BookDetailPage(e.SelectedItem as Book);
-            await Navigation.PushAsync(bookDetailPage);
-
-        }
-
-        async void Top_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new TopPage());
-        }
-        async void Home_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new BooksPage());
-        }
-        async void New_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new NewsPage());
-        }
-        async void Calendar_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new CalendarPage());
-        }
-        async void Profile_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProfilePage());
-        }
-        async void Members_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MembersPage());
-        }
-
-
     }
-}
-        
-    

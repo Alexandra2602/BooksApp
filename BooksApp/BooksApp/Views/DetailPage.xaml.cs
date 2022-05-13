@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BooksApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,25 @@ namespace BooksApp.Views
         public DetailPage()
         {
             InitializeComponent();
+
+        }
+        async void OnChooseButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ReviewPage((Book)
+           this.BindingContext)
+            {
+                BindingContext = new Review()
+            });
+
+        }
+        async void OnChooseButtonClicked2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RatingPage((Book)
+           this.BindingContext)
+            {
+                BindingContext = new RatingModel()
+            });
+
         }
     }
 }

@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BooksApp.Views.BooksPage">
-
+             x:Class="BooksApp.Views.AdminMainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add Books" Clicked="OnShopListAddedClicked" />
+    </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="Wheat">
-        <SearchBar  x:Name="Search1" Placeholder="Search.." TextChanged="SearchBar_TextChanged" CancelButtonColor="LightPink" PlaceholderColor="Black"  TextColor="Black">
-        </SearchBar>
-
         <ListView x:Name="listView" Margin="10" RowHeight="150" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -43,28 +42,25 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+
                 </Grid.ColumnDefinitions>
                 <StackLayout Spacing="0" Grid.Column="0"  >
-                    <Button Image="home2.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Home_Clicked" />
-                    <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                    <Button Image="admin_book.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_1"   />
+                    <Label Text="Books" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
                 <StackLayout Spacing="0" Grid.Column="1" >
-                    <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="30"   Clicked="Top_Clicked" />
-                    <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center"/>
+                    <Button Image="admin_people.png" BackgroundColor="Transparent"  HeightRequest="30" Clicked="Button_Clicked"   />
+                    <Label Text="Members" FontSize="10"  TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
                 <StackLayout Spacing="0" Grid.Column="2" >
-                    <Button Image="calendar.png"  HeightRequest="32" BackgroundColor="Transparent" Clicked="Calendar_Clicked"/>
-                    <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
+                    <Button Image="admin_ratings.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_2"/>
+                    <Label Text="Ratings" FontSize="10" TextColor="#855438" HorizontalOptions="Center" Margin="-1"/>
                 </StackLayout>
                 <StackLayout Spacing="0" Grid.Column="3"  >
-                    <Button Image="profile.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Profile_Clicked" />
-                    <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                    <Button Image="admin_reviews.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_3"   />
+                    <Label Text="Reviews" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="4" >
-                    <Button Image="people2.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Members_Clicked" />
-                    <Label Text="Comunity" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
-                </StackLayout>
+
             </Grid>
         </Grid>
     </StackLayout>

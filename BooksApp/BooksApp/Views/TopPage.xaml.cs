@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BooksApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,27 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TopPage : ContentPage
     {
+        User ul;
+        Book bl;
         public TopPage()
         {
             InitializeComponent();
         }
-
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            listViewTop.ItemsSource = await App.Database.GetBookListsAsync();
+        }
+        async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem != null)
+            {
+                await Navigation.PushAsync(new ReviewDetailsPage
+                {
+                    BindingContext = e.SelectedItem as Book
+                });
+            }
+        }
         async void Top_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TopPage());
@@ -25,10 +42,7 @@ namespace BooksApp.Views
         {
             await Navigation.PushAsync(new BooksPage());
         }
-        async void New_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new NewsPage());
-        }
+        
         async void Calendar_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CalendarPage());
@@ -39,8 +53,7 @@ namespace BooksApp.Views
         }
         async void Members_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MembersPage());
+            await Navigation.PushAsync(new UsersPage());
         }
-
     }
 }

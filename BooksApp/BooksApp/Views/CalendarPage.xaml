@@ -1,60 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.CalendarPage">
     <ContentPage.Content>
-
-        <Grid BackgroundColor="Wheat">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="60"/>
-            </Grid.RowDefinitions>
-
-            <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="2">
+        <StackLayout  BackgroundColor="Wheat">
+            <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <StackLayout Spacing="0" Grid.Column="0" BackgroundColor="#e0cc94" >
-                    <Button Image="home2.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Home_Clicked"/>
-                    <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+
+                <Label Text="Finished Books" TextColor="#855438" FontFamily="cursive" FontSize="45" Margin="0,20" HorizontalTextAlignment="Center" FontAttributes="Bold" Grid.Row="0" Grid.ColumnSpan="2" />
+                <Label Text="The day you started the book:" Margin="6,5,0,0" TextColor="Black" FontSize="15" Grid.Column="0" Grid.Row="1"/>
+                <DatePicker x:Name="startDatePicker" Format="D" Margin="5,0,0,30" FontSize="15" DateSelected="OnDateSelected" Grid.Column="1" Grid.Row="1"/>
+
+                <Label Text="The day you finished the book:" Margin="6,5,0,0" TextColor="Black" FontSize="15" Grid.Column="0" Grid.Row="2"/>
+                <DatePicker x:Name="endDatePicker" MinimumDate="{Binding Source={x:Reference startDatePicker}, Path=Date}" FontSize="15" Format="D" Margin="5,0,0,30" DateSelected="OnDateSelected" Grid.Column="1" Grid.Row="2"/>
+                <StackLayout Orientation="Horizontal" Margin="35,0,0,30" Grid.Row="3" Grid.ColumnSpan="2" >
+                    <Label Text="Including the start and the end date:" TextColor="Black" FontSize="14" VerticalOptions="Center"/>
+                    <Switch x:Name="includeSwitch" Toggled="includeSwitch_Toggled"/>
                 </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="1" BackgroundColor="#e0cc94" >
-                    <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="65"  Margin="0,-8,0,0" Clicked="Top_Clicked"/>
-                    <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="2" BackgroundColor="#e0cc94" >
-                    <Button Image="new1.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="New_Clicked"/>
-                    <Label Text="New" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="3" BackgroundColor="#e0cc94" >
-                    <Button Image="calendar.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Calendar_Clicked"/>
-                    <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-16,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="4" BackgroundColor="#e0cc94" >
-                    <Button Image="profile.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-8,0,0" Clicked="Profile_Clicked"/>
-                    <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-17,0,0"/>
-                </StackLayout>
-                <StackLayout Spacing="0" Grid.Column="5" BackgroundColor="#e0cc94" >
-                    <Button Image="people2.png"  HeightRequest="65" BackgroundColor="Transparent" Margin="0,-10,0,0" Clicked="Members_Clicked"/>
-                    <Label Text="Comunity" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="0,-16,0,0"/>
-                </StackLayout>
+                <Label x:Name="resultLabel" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.Row="4" Grid.ColumnSpan="2"/>
+                <Button Text="Choose the book that you finished" Clicked="Button_Clicked" CornerRadius="15" Margin="25,0,20,25" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.ColumnSpan="2" />
+
             </Grid>
-            
+            <ListView x:Name="listView" Margin="5" RowHeight="100" IsVisible="false" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
 
-            <StackLayout>
-                <Label HorizontalOptions="CenterAndExpand" TextColor="#855438" Padding="5,5,5,15" FontSize="15" VerticalOptions="CenterAndExpand" Text="Keep track of the books that you finished"/>
-                <controls:Calendar x:Name="calendar" MinDate="01.01.2021" MaxDate="12.01.2022"  DatesTextColor="#855438" DatesBackgroundColorOutsideMonth="Wheat"   DatesTextColorOutsideMonth="#bbbbb9" DatesBackgroundColor="Wheat" OuterBorderWidth="3" MinimumHeightRequest="400" WeekdaysTextColor="DarkSlateGray" WeekdaysFontSize="18" WeekdaysShow="True"  BorderColor="Transparent" VerticalOptions="StartAndExpand"  Padding="10,0,10,0" HorizontalOptions="FillAndExpand" StartDay="Monday" SelectedBorderWidth="4"  BorderWidth="1" DateClicked="Calendar_DateClicked" DateCommand="{Binding DateChosen}" SelectedDate="{Binding Date}" ShowNumberOfWeek="false"   SpecialDates="{Binding Attendances}" TitleLeftArrowTextColor="#855438" TitleRightArrowTextColor="#855438" TitleLabelTextColor="#855438" TitleLabelFontAttributes="None" />
-                <Label Text="{Binding result}" TextColor="Black" FontSize="20"/>
-            </StackLayout>
-           
+                                <Grid VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
 
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="80" WidthRequest="100" Aspect="AspectFit"  ></Image>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1">
+                                        <Label Text="{Binding Title}" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
+                                        <Label Text="{Binding Author}" FontSize="16" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-5,-5,0,0"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
-        </Grid>
+            <Grid BackgroundColor="#e0cc94" Margin="0,-20,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Spacing="0" Grid.Column="0"  >
+                        <Button Image="home2.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Home_Clicked" />
+                        <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="1" >
+                        <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="30"   Clicked="Top_Clicked" />
+                        <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Spacing="0" Grid.Column="2" >
+                        <Button Image="calendar.png"  HeightRequest="32" BackgroundColor="Transparent" Clicked="Calendar_Clicked"/>
+                        <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="3"  >
+                        <Button Image="profile.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Profile_Clicked" />
+                        <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="4" >
+                        <Button Image="people2.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Members_Clicked" />
+                        <Label Text="Comunity" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

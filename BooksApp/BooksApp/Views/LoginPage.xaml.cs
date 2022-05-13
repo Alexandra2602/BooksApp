@@ -28,6 +28,10 @@ namespace BooksApp.Views
         {
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
+                if (EntryUser.Text == "admin" && EntryPassword.Text == "admin")
+                {
+                    App.Current.MainPage = new NavigationPage(new AdminMainPage());
+                }
                 var myquery = conn.Table<User>().Where(u => u.Email.Equals(EntryUser.Text) && u.Password.Equals(EntryPassword.Text)).FirstOrDefault();
 
                 if (myquery != null)

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooksApp.Views.UsersDetailPage">
+
+
+        <ContentPage.Content>
+            <StackLayout BackgroundColor="#e0cc94">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0" >
+                        <Image Source="{Binding ImagePath}"  Margin="-12,10,0,0" HeightRequest="170" WidthRequest="150" Aspect="AspectFit"/>
+
+                    </StackLayout>
+                    <Label Text="{Binding Name}" TextTransform="Uppercase" TextColor="#855438" FontAttributes="Bold" FontSize="22" Margin="0,5,0,0" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="'S PROFILE" TextColor="#855438" FontSize="22" FontAttributes="Bold" HorizontalTextAlignment="Start" Margin="0,5,0,0" Grid.Row="0" Grid.Column="1"/>
+
+                </Grid>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>

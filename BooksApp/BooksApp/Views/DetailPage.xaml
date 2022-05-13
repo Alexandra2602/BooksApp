@@ -1,12 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.DetailPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout  BackgroundColor="#e0cc94">
+            <Frame VerticalOptions="CenterAndExpand" Padding="3" Margin="10,90,10,80"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe" HeightRequest="900">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0" >
+                        <Image Source="{Binding ImagePath}"  Margin="-12,10,0,0" HeightRequest="170" WidthRequest="150" Aspect="AspectFit"/>
+
+                    </StackLayout>
+                    <Label  TextColor="Black" FontAttributes="Bold" Margin="-17,10,0,0" Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand"  FontSize="16">Title:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,-105,0,0" Grid.Row="1" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Author:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,-70,0,0" Grid.Row="2" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Publisher:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,-25,0,0" Grid.Row="3" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Year Published:</Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Margin="-17,5,0,0" Grid.Row="4" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Number of pages :</Label>
+
+
+                    <Label Text="{Binding Title}" Grid.Row="0" Grid.Column="2"  Margin="-10,10,0,0"  TextColor="Black" FontSize="16" />
+                    <Label Text="{Binding Author}" Grid.Row="1" Grid.Column="2" Margin="-10,-105,0,0" TextColor="Black" FontSize="16"/>
+                    <Label Text="{Binding Publisher}" Grid.Row="2" Grid.Column="2" Margin="-10,-70,0,0" TextColor="Black" FontSize="16"/>
+                    <Label Text="{Binding YearPublished}" Grid.Row="3" Grid.Column="2" Margin="-10,-25,0,0" TextColor="Black" FontSize="16"/>
+                    <Label Text="{Binding NumberOfPages}" Grid.Row="4" Grid.Column="2" Margin="-10,5,0,10" TextColor="Black" FontSize="16"/>
+
+                    <Button Text="Add a review" Clicked="OnChooseButtonClicked" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="0"/>
+
+
+                    <Button Text="Add a rating" Clicked="OnChooseButtonClicked2" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+
+
+                </Grid>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

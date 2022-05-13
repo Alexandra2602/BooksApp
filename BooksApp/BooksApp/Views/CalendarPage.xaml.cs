@@ -17,70 +17,60 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CalendarPage : ContentPage
     {
-
-        public CalendarPage()
-        {
-            InitializeComponent();
-            BindingContext = this;
-
-            XamForms.Controls.Calendar calendar = new XamForms.Controls.Calendar();
-
-        }
-        async void Calendar_DateClicked(Object sender, XamForms.Controls.DateTimeEventArgs e)
-        {
-
-            string result = await DisplayPromptAsync("New Book", "Add a book that you finished:");
-
-            if (result == null)
+            User ul;
+            public CalendarPage()
             {
-                return;
+                InitializeComponent();
+
             }
-            var specialDates = calendar.SpecialDates;
-
-            SpecialDate newDate = new SpecialDate(e.DateTime)
+            protected override async void OnAppearing()
             {
-                Selectable = true,
-                BackgroundPattern = new BackgroundPattern(1)
-                {
-                    Pattern = new List<Pattern>
-                     {
-                         new Pattern { WidthPercent = 1f, HightPercent = 0.6f, Color = Color.Transparent },
-                         new Pattern{ WidthPercent = 1f, HightPercent = 0.4f, Color = Color.Transparent, Text = result, TextColor=Color.Black, TextSize=11, TextAlign=TextAlign.Middle},
-                     }
-                }
-            };
-            specialDates.Add(newDate);
+                base.OnAppearing();
+                listView.ItemsSource = await App.Database.GetBookListsAsync();
+            }
+            private void OnDateSelected(object sender, DateChangedEventArgs e)
+            {
+                Recalculate();
+            }
 
-            calendar.SpecialDates = specialDates;
-            calendar.ForceRedraw();
+            private void includeSwitch_Toggled(object sender, ToggledEventArgs e)
+            {
+                Recalculate();
+            }
+            void Recalculate()
+            {
+                TimeSpan timeSpan = endDatePicker.Date - startDatePicker.Date + (includeSwitch.IsToggled ? TimeSpan.FromDays(1) : TimeSpan.Zero);
+                resultLabel.Text = String.Format("You finished the book in {0} day{1}", timeSpan.Days, timeSpan.Days == 1 ? "" : "s");
 
+            }
+
+            private void Button_Clicked(object sender, EventArgs e)
+            {
+                listView.IsVisible = true;
+
+            }
+
+            async void Top_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new TopPage());
+            }
+            async void Home_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new BooksPage());
+            }
+           
+            async void Calendar_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new CalendarPage());
+            }
+            async void Profile_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new ProfilePage());
+            }
+            async void Members_Clicked(object sender, EventArgs e)
+            {
+                await Navigation.PushAsync(new UsersPage());
+            }
 
         }
-        async void Top_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new TopPage());
-        }
-        async void Home_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new BooksPage());
-        }
-        async void New_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new NewsPage());
-        }
-        async void Calendar_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new CalendarPage());
-        }
-        async void Profile_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProfilePage());
-        }
-        async void Members_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MembersPage());
-        }
-
-
     }
-}
