@@ -18,9 +18,10 @@ namespace BooksApp.Views
         public LoginPage()
         {
             InitializeComponent();
-            EntryUser.Text = Preferences.Get("RandomText", string.Empty);
-            EntryPassword.Text = Preferences.Get("RandomText", string.Empty);
-            RandomSwitch.IsToggled = Preferences.Get("RandomSwitch", false);
+            EntryUser.Text = Preferences.Get("EntryUser", string.Empty);
+            EntryPassword.Text = Preferences.Get("EntryPassword", string.Empty);
+
+
         }
 
         private void Login_Clicked(object sender, EventArgs e)
@@ -49,21 +50,32 @@ namespace BooksApp.Views
             await Navigation.PushAsync(new RegistrationPage());
         }
 
-        void Remember_Clicked(object sender, EventArgs e)
+        void SaveUsername()
         {
-            Preferences.Set("RandomText", EntryUser.Text);
-            Preferences.Set("RandomText", EntryPassword.Text);
-            Preferences.Set("RandomSwitch", RandomSwitch.IsToggled);
-
-            var button = (Button)sender;
-            button.TextColor = Color.Red;
-        }
-        private void Not_Remember_Clicked(object sender, EventArgs e)
-        {
-            Preferences.Clear();
-            var button = (Button)sender;
-            button.TextColor = Color.Red;
+            if (checkbox.IsChecked == true)
+            {
+                Preferences.Set("EntryUser", EntryUser.Text);
+                Preferences.Set("EntryPassword", EntryPassword.Text);
+            }
+            else
+                Preferences.Clear();
         }
 
+        private void checkbox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+            if (checkbox.IsChecked == true)
+            {
+                Preferences.Set("EntryUser", EntryUser.Text);
+                Preferences.Set("EntryPassword", EntryPassword.Text);
+            }
+            checkbox2.IsEnabled = false;
+
+        }
+        private void checkbox2_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        { 
+                Preferences.Clear();
+            checkbox.IsEnabled = false;
+
+        }
     }
 }

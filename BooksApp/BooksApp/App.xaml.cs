@@ -1,5 +1,7 @@
-﻿using BooksApp.Views;
+﻿using BooksApp.Data;
+using BooksApp.Views;
 using System;
+using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,7 +10,19 @@ namespace BooksApp
     public partial class App : Application
     {
         public static string FilePath = string.Empty;
-       
+
+        static BookListDatabase database;
+        public static BookListDatabase Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new BookListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "BooksList.db3"));
+                }
+                return database;
+            }
+        }
         public App()
         {
             InitializeComponent();

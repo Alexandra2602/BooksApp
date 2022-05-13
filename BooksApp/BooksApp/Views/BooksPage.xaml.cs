@@ -33,7 +33,7 @@ namespace BooksApp.Views
                 List<Book> mylist = JsonConvert.DeserializeObject<List<Book>>(json);
                 myrootobject = new ObservableCollection<Book>(mylist);
                 MyListView.ItemsSource = myrootobject;
-
+               
             }
         }
 
