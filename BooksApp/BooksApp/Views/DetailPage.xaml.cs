@@ -13,10 +13,16 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetailPage : ContentPage
     {
-        public DetailPage()
+        User ul;
+        public DetailPage(User ulist)
         {
             InitializeComponent();
+            ul = ulist;
 
+        }
+        protected override async void OnAppearing()
+        {
+            label1.Text = ul.Name;
         }
         async void OnChooseButtonClicked(object sender, EventArgs e)
         {

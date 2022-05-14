@@ -3,6 +3,8 @@
              x:Class="BooksApp.Views.DetailPage">
     <ContentPage.Content>
         <StackLayout  BackgroundColor="#e0cc94">
+            <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
+            <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
             <Frame VerticalOptions="CenterAndExpand" Padding="3" Margin="10,90,10,80"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe" HeightRequest="900">
                 <Grid>
                     <Grid.ColumnDefinitions>

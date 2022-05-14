@@ -15,13 +15,12 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+        User ul;
         public LoginPage()
         {
             InitializeComponent();
             EntryUser.Text = Preferences.Get("EntryUser", string.Empty);
             EntryPassword.Text = Preferences.Get("EntryPassword", string.Empty);
-
-
         }
 
         private void Login_Clicked(object sender, EventArgs e)
@@ -36,7 +35,8 @@ namespace BooksApp.Views
 
                 if (myquery != null)
                 {
-                    App.Current.MainPage = new NavigationPage(new BooksPage());
+                    var user = myquery as User;
+                    App.Current.MainPage = new NavigationPage(new BooksPage( user ));
                 }
                 else
                 {

@@ -21,7 +21,13 @@ namespace BooksApp.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            //userslistview.ItemsSource = await App.Database.GetUserListsAsync();
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<User>();
+                var users = conn.Table<User>().ToList();
+                userslistview.ItemsSource = users;
+
+            }
         }
         async void AddUserClicked(object sender, EventArgs e)
         {

@@ -1,5 +1,6 @@
 ﻿using BooksApp.Models;
 using System;
+using SQLite;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,17 +21,29 @@ namespace BooksApp.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            //userslistview.ItemsSource = await App.Database.GetUserListsAsync();
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<User>();
+                var users = conn.Table<User>().ToList();
+                userslistview.ItemsSource = users;
+
+            }
         }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            if (e.SelectedItem != null)
+            var selectedUser = userslistview.SelectedItem as User;
+            if (selectedUser != null)
             {
-                await Navigation.PushAsync(new AdminEditMembersPage()
-                {
-                    BindingContext = e.SelectedItem as User
-                });
+                Navigation.PushAsync(new AdminEditMembersPage(selectedUser));
             }
+               
+        }
+        async void AddUserClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegistrationPage
+            {
+                BindingContext = new User()
+            });
         }
         async void Button_Clicked(object sender, EventArgs e)
         {

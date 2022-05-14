@@ -56,7 +56,7 @@ namespace BooksApp.Views
             }
             async void Home_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new BooksPage());
+                await Navigation.PushAsync(new BooksPage(ul));
             }
            
             async void Calendar_Clicked(object sender, EventArgs e)

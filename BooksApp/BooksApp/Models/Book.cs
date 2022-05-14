@@ -15,6 +15,7 @@ namespace BooksApp.Models
         public string Publisher { get; set; }
         public int NumberOfPages { get; set; }
         public int YearPublished { get; set; }
-        public string ImagePath{ get; set; }
+        public string ImagePath { get; set; }
+        public string Year_Month {get;set;}
     }
 }

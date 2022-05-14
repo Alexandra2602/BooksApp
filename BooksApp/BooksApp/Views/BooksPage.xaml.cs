@@ -18,24 +18,27 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BooksPage : ContentPage
     {
-            
-            public BooksPage()
-            {
 
-                InitializeComponent();
-                
-            }
+        User ul;
+        public BooksPage(User ulist)
+        {
+            InitializeComponent();
+            ul = ulist;
+        }
             protected override async void OnAppearing()
             {
                 base.OnAppearing();
                 listView.ItemsSource = await App.Database.GetBookListsAsync();
+            label1.Text = ul.Name;
+            
+            
             }
 
             async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
             {
                 if (e.SelectedItem != null)
                 {
-                    await Navigation.PushAsync(new DetailPage
+                    await Navigation.PushAsync(new DetailPage(ul)
                     {
                         BindingContext = e.SelectedItem as Book
                     });
@@ -54,7 +57,7 @@ namespace BooksApp.Views
             }
             async void Home_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new BooksPage());
+                await Navigation.PushAsync(new BooksPage(ul));
             }
          
             async void Calendar_Clicked(object sender, EventArgs e)

@@ -15,6 +15,7 @@ namespace BooksApp.Data
         {
             _database = new SQLiteAsyncConnection(dbPath);
             _database.CreateTableAsync<Book>().Wait();
+            _database.CreateTableAsync<User>().Wait();
             _database.CreateTableAsync<Review>().Wait();
             _database.CreateTableAsync<ListReview>().Wait();
             _database.CreateTableAsync<RatingModel>().Wait();
@@ -45,6 +46,30 @@ namespace BooksApp.Data
         {
             return _database.DeleteAsync(blist);
         }
+        public Task<List<User>> GetUserListsAsync()
+        {
+            return _database.Table<User>().ToListAsync();
+        }
+        public Task<User> GetUserListAsync(int id)
+        {
+            return _database.Table<User>().Where(i => i.Id == id).FirstOrDefaultAsync();
+        }
+        public Task<int> SaveUserListAsync(User ulist)
+        {
+            if (ulist.Id != 0)
+            {
+                return _database.UpdateAsync(ulist);
+            }
+            else
+            {
+                return _database.InsertAsync(ulist);
+            }
+        }
+        public Task<int> DeleteUserListAsync(User ulist)
+        {
+            return _database.DeleteAsync(ulist);
+        }
+
         public Task<int> SaveReviewAsync(Review review)
         {
             if (review.ID != 0)

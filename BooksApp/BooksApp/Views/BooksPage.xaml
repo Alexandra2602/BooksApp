@@ -2,11 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.BooksPage">
-
+    
     <StackLayout BackgroundColor="Wheat">
+        <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
+        <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
         <SearchBar  x:Name="Search1" Placeholder="Search.." TextChanged="SearchBar_TextChanged" CancelButtonColor="LightPink" PlaceholderColor="Black"  TextColor="Black">
         </SearchBar>
-
+        
         <ListView x:Name="listView" Margin="10" RowHeight="150" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
