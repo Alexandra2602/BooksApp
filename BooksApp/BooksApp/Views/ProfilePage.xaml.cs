@@ -136,10 +136,9 @@ namespace BooksApp.Views
            
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new ProfilePage(ul)
-                {
-                    BindingContext = e.SelectedItem as Book
-                });
+                BindingContext = e.SelectedItem as Book;
+                ul.FavoriteBook1 = e.SelectedItem.ToString();
+               
                 popuplistView.IsVisible = false;
             }
         }

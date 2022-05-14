@@ -26,7 +26,7 @@ namespace BooksApp.Models
 
         public string FavoriteGenre3 { get; set; }
 
-        public object FavoriteBook1 { get; set; }
+        public string FavoriteBook1 { get; set; }
         public string FavoriteBook2 { get; set; }
 
         public string FavoriteBook3 { get; set; }

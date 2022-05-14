@@ -39,8 +39,8 @@
                     <Label Text="{Binding FavoriteGenre3}" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Frame>
                 <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-35,10,110" Grid.Row="4" Grid.ColumnSpan="3"/>
-                
-                <Image Source="{Binding FavoriteBook1}" x:Name="resultImage" HeightRequest="130" WidthRequest="120" Margin="10,0,0,0" Aspect="AspectFill"  Grid.Column="0" Grid.Row="6"/>
+
+                <Image Source="{Binding FavoriteBook1}" HeightRequest="130" WidthRequest="120" Margin="10,0,0,0" Aspect="AspectFill" Grid.Column="0" Grid.Row="6"/>
 
             </Grid>
             </StackLayout>
