@@ -20,14 +20,14 @@ namespace BooksApp.Views
             ul = ulist;
 
         }
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             label1.Text = ul.Name;
         }
         async void OnChooseButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ReviewPage((Book)
-           this.BindingContext)
+          this.BindingContext)
             {
                 BindingContext = new Review()
             });

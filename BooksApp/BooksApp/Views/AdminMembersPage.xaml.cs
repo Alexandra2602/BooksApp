@@ -18,7 +18,7 @@ namespace BooksApp.Views
         {
             InitializeComponent();
         }
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))

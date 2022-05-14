@@ -6,6 +6,8 @@
         <ToolbarItem Text="Add user" Clicked="AddUserClicked"/>
     </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="#e0cc94">
+        <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
+        <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
         <ListView x:Name="userslistview" Margin="20" RowHeight="100" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -30,5 +32,40 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Grid BackgroundColor="#e0cc94" Margin="0,-20,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Spacing="0" Grid.Column="0"  >
+                    <Button Image="home2.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Home_Clicked" />
+                    <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Spacing="0" Grid.Column="1" >
+                    <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="30"   Clicked="Top_Clicked" />
+                    <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Spacing="0" Grid.Column="2" >
+                    <Button Image="calendar.png"  HeightRequest="32" BackgroundColor="Transparent" Clicked="Calendar_Clicked"/>
+                    <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
+                </StackLayout>
+                <StackLayout Spacing="0" Grid.Column="3"  >
+                    <Button Image="profile.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Profile_Clicked" />
+                    <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Spacing="0" Grid.Column="4" >
+                    <Button Image="people2.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Members_Clicked" />
+                    <Label Text="Comunity" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
     </StackLayout>
 </ContentPage>

@@ -14,13 +14,16 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class UsersPage : ContentPage
     {
-        public UsersPage()
+        User ul;
+        public UsersPage(User ulist)
         {
             InitializeComponent();
+            ul = ulist;
         }
-        protected override async void OnAppearing()
+        protected override  void OnAppearing()
         {
             base.OnAppearing();
+            label1.Text = ul.Name;
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<User>();
@@ -45,6 +48,27 @@ namespace BooksApp.Views
                     BindingContext = e.SelectedItem as User
                 });
             }
+        }
+        async void Top_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TopPage(ul));
+        }
+        async void Home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BooksPage(ul));
+        }
+
+        async void Calendar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalendarPage(ul));
+        }
+        async void Profile_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage(ul));
+        }
+        async void Members_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UsersPage(ul));
         }
 
 

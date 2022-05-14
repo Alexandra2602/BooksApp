@@ -53,7 +53,7 @@ namespace BooksApp.Views
             }
             async void Top_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new TopPage());
+                await Navigation.PushAsync(new TopPage(ul));
             }
             async void Home_Clicked(object sender, EventArgs e)
             {
@@ -62,15 +62,15 @@ namespace BooksApp.Views
          
             async void Calendar_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new CalendarPage());
+                await Navigation.PushAsync(new CalendarPage(ul));
             }
             async void Profile_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new ProfilePage());
+                await Navigation.PushAsync(new ProfilePage(ul));
             }
             async void Members_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new UsersPage());
+                await Navigation.PushAsync(new UsersPage(ul));
             }
 
         }

@@ -2,132 +2,185 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.ProfilePage">
-    <ContentPage.Content>
-        <ScrollView BackgroundColor="#e0cc94">
-            <AbsoluteLayout BackgroundColor="#e0cc94">
+    <StackLayout>
+        <ScrollView>
+            <StackLayout BackgroundColor="#e0cc94">
+                <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20" IsVisible="false"/>
+                <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
 
-                <Button Text="Add profile picture" TextColor="#855438" BackgroundColor="Wheat" x:Name="photo_button" Clicked="Button_Clicked"  Margin="5,10,0,10" HeightRequest="170" WidthRequest="120" AbsoluteLayout.LayoutBounds="10,10,100,150" />
-                <Editor Placeholder="Image Path" x:Name="imgpathentry" Text="{Binding ImagePath}" HeightRequest="50" IsVisible="false"/>
-                <Image Source="{Binding ImagePath}" x:Name="resultImage"  Margin="5,10,0,10" HeightRequest="170" WidthRequest="120" Aspect="AspectFill"  AbsoluteLayout.LayoutBounds="10,10,100,150" />
+                    </Grid.ColumnDefinitions>
 
-                <Entry Placeholder="City" AbsoluteLayout.LayoutBounds="25,135,90,50" PlaceholderColor="Black" FontSize="13" x:Name="cityEntry" TextColor="Black"/>
-                <Image Source="location" AbsoluteLayout.LayoutBounds="0,147,35,30"/>
-                <Label Text="About me"   FontSize="16" TextColor="#855438" Margin="0,5,-10,0" AbsoluteLayout.LayoutBounds="150,19,100,100"/>
-                <Image Source="creion" AbsoluteLayout.LayoutBounds="290,20,25,30"/>
-                <Image Source="bifa"  AbsoluteLayout.LayoutBounds="320,20,25,30"/>
-                <Frame Padding="5" Margin="5,5"  CornerRadius="15" BackgroundColor="Wheat" WidthRequest="200" AbsoluteLayout.LayoutBounds="130,45">
-                    <Editor x:Name="Description" Grid.Row="1" Grid.Column="1" HeightRequest="110" FontSize="13"  />
-                </Frame>
+                    <Button Text="Add profile picture" TextColor="#855438" FontSize="8" BackgroundColor="Wheat" x:Name="photo_button" CornerRadius="15" HeightRequest="10" Grid.Column="0" Grid.Row="1" Margin="15,-20,15,20" Clicked="Button_Clicked"/>
+                    <Editor Placeholder="Image Path" x:Name="imgpathentry" Text="{Binding ImagePath}" HeightRequest="50" IsVisible="false" Grid.Column="0" Grid.Row="2"  />
+                    <Image Source="{Binding ImagePath}" x:Name="resultImage" HeightRequest="130" WidthRequest="120" Margin="10,0,0,0" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
+                    <Image Source="location" Grid.Column="2" Grid.Row="1" Margin="-300,-19,10,20"/>
+                    <Editor Placeholder="City" FontSize="15" x:Name="cityEntry" TextColor="#855438" FontAttributes="Bold" HorizontalOptions="Start" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="1" Margin="40,-20,0,20"/>
+                    <Label Text="ABOUT ME" HorizontalOptions="Center"  FontSize="16" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Frame Padding="5"   CornerRadius="15" BackgroundColor="Wheat" Margin="10,25,10,10" WidthRequest="200" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2">
+                        <Editor x:Name="Description"  HeightRequest="100" FontSize="13"  />
+                    </Frame>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-20,10,140" Grid.Row="2" Grid.ColumnSpan="3"/>
 
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="340" Color="Black" Margin="15,15" AbsoluteLayout.LayoutBounds="0,180"/>
-                <Label Text="Favorite Genres"  HorizontalOptions="CenterAndExpand" FontSize="14" FontAttributes="Bold" TextColor="#855438" AbsoluteLayout.LayoutBounds="125,205"/>
-                <Picker x:Name="FirstPicker"  AbsoluteLayout.LayoutBounds="10,230,105,40" FontSize="14"/>
-                <Picker x:Name="SecondPicker"  AbsoluteLayout.LayoutBounds="130,230,105,40" FontSize="14"/>
-                <Picker x:Name="ThirdPicker"  AbsoluteLayout.LayoutBounds="251,230,105,40" FontSize="14"/>
+                    <Label Text="Favorite Genres"  HorizontalOptions="Center" FontSize="14" FontAttributes="Bold" Margin="0,-10,0,0" TextColor="#855438" Grid.Row="2" Grid.ColumnSpan="3"/>
+                    <Picker x:Name="FirstPicker" FontSize="14"  Grid.Row="2" Grid.Column="0" Margin="10,0,0,70"/>
+                    <Picker x:Name="SecondPicker" FontSize="14"  Grid.Row="2" Grid.Column="1" Margin="0,0,0,70"/>
+                    <Picker x:Name="ThirdPicker" FontSize="14"   Grid.Row="2" Grid.Column="2" Margin="0,0,10,70"/>
 
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="340" Color="Black" Margin="15,15" AbsoluteLayout.LayoutBounds="0,270"/>
-                <Image Source="books.jpg" WidthRequest="100" HeightRequest="90" AbsoluteLayout.LayoutBounds="14,300"/>
-                <Label Text="2022 READING" TextColor="Black" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="10,400"/>
-                <Label Text="CHALLENGE" TextColor="Black" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="13,420"/>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-70,10,190" Grid.Row="3" Grid.ColumnSpan="3"/>
+                    <Image Source="books.jpg" WidthRequest="100" HeightRequest="90" Grid.Row="3" Margin="10,-160,25,0"/>
+                    <Label Text="2022 READING" TextColor="Black" FontAttributes="Bold" Grid.Row="3" Margin="10,20,0,0" />
+                    <Label Text="CHALLENGE" TextColor="Black" FontAttributes="Bold" Grid.Row="3"  Margin="10,60,0,0"/>
+                    <Label Text="How many book do you want to read this year?" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,-50,0,0" TextColor="#855438" HorizontalOptions="Center"  />
+                    <Entry Text="10" TextColor="#855438" FontSize="14" Grid.Row="3" Grid.Column="2" Margin="0,-160,0,0" />
 
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="340" Color="Black" Margin="15,15" AbsoluteLayout.LayoutBounds="0,440"/>
-                <Label Text="FAVORITE BOOKS"  HorizontalOptions="CenterAndExpand" FontSize="16" FontAttributes="Bold" TextColor="#855438" AbsoluteLayout.LayoutBounds="100,460"/>
-                <Image Source="book.png" x:Name="book1" WidthRequest="120" HeightRequest="80" AbsoluteLayout.LayoutBounds="5,510">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
-                    </Image.GestureRecognizers>
-                </Image>
-                <Image Source="book.png" x:Name="book2" WidthRequest="120" HeightRequest="80" AbsoluteLayout.LayoutBounds="122,510">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped2"/>
-                    </Image.GestureRecognizers>
-                </Image>
-                <Image Source="book.png" x:Name="book3" WidthRequest="120" HeightRequest="80" AbsoluteLayout.LayoutBounds="245,510">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped3"/>
-                    </Image.GestureRecognizers>
-                </Image>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-30,10,150" Grid.Row="4" Grid.ColumnSpan="3"/>
+                    <Label Text="FAVORITE BOOKS"  HorizontalOptions="CenterAndExpand" FontSize="16" FontAttributes="Bold" TextColor="#855438" Grid.Row="4" Grid.ColumnSpan="3" Margin="0,-20,0,0"/>
+                    <Image Source="book.png" x:Name="book1" WidthRequest="100" HeightRequest="80" Grid.Row="4" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="book.png" x:Name="book2" WidthRequest="100" HeightRequest="80" Grid.Row="4" Grid.Column="1">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped2"/>
+                        </Image.GestureRecognizers>
+                    </Image>
 
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="340" Color="Black" Margin="15,15" AbsoluteLayout.LayoutBounds="0,590"/>
-                <Label Text="LOG OUT" AbsoluteLayout.LayoutBounds="140,610"  FontSize="16"  FontAttributes="Bold" TextColor="#855438" />
+                    <Image Source="book.png" x:Name="book3" WidthRequest="100" HeightRequest="80" Grid.Row="4" Grid.Column="2">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped3"/>
+                        </Image.GestureRecognizers>
 
-                <ListView x:Name="popuplistView" Margin="10" RowHeight="100" IsVisible="false" BackgroundColor="Ivory"   AbsoluteLayout.LayoutBounds="30,40,300,500" ItemSelected="popuplistView_ItemSelected" >
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell >
-                                <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
+                    </Image>
 
-                                    <Grid VerticalOptions="CenterAndExpand">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="auto"/>
-                                            <ColumnDefinition Width="*"/>
-
-                                        </Grid.ColumnDefinitions>
-                                        <StackLayout Grid.Column="0">
-                                            <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="90" WidthRequest="130" Aspect="AspectFit"  ></Image>
-                                        </StackLayout>
-                                        <StackLayout Grid.Column="1">
-                                            <Label Text="{Binding Title}" FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-30,-5,0,0" />
-                                            <Label Text="{Binding Author}" FontSize="14" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-30,-5,0,0"/>
-                                        </StackLayout>
-                                    </Grid>
-                                </Frame>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-                <ListView x:Name="popup2listView" Margin="10" RowHeight="100" IsVisible="false" BackgroundColor="Ivory"   AbsoluteLayout.LayoutBounds="30,40,300,500" >
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell >
-                                <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
-
-                                    <Grid VerticalOptions="CenterAndExpand">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="auto"/>
-                                            <ColumnDefinition Width="*"/>
-
-                                        </Grid.ColumnDefinitions>
-                                        <StackLayout Grid.Column="0">
-                                            <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="90" WidthRequest="130" Aspect="AspectFit"  ></Image>
-                                        </StackLayout>
-                                        <StackLayout Grid.Column="1">
-                                            <Label Text="{Binding Title}" FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-30,-5,0,0" />
-                                            <Label Text="{Binding Author}" FontSize="14" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-30,-5,0,0"/>
-                                        </StackLayout>
-                                    </Grid>
-                                </Frame>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-                <ListView x:Name="popup3listView" Margin="10" RowHeight="100" IsVisible="false" BackgroundColor="Ivory"   AbsoluteLayout.LayoutBounds="30,40,300,500" >
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell >
-                                <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
-
-                                    <Grid VerticalOptions="CenterAndExpand">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="auto"/>
-                                            <ColumnDefinition Width="*"/>
-
-                                        </Grid.ColumnDefinitions>
-                                        <StackLayout Grid.Column="0">
-                                            <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="90" WidthRequest="130" Aspect="AspectFit"  ></Image>
-                                        </StackLayout>
-                                        <StackLayout Grid.Column="1">
-                                            <Label Text="{Binding Title}" FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-30,-5,0,0" />
-                                            <Label Text="{Binding Author}" FontSize="14" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-30,-5,0,0"/>
-                                        </StackLayout>
-                                    </Grid>
-                                </Frame>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-
-            </AbsoluteLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-0,10,120" Grid.Row="5" Grid.ColumnSpan="3"/>
+                    <Label Text="LOG OUT"  FontSize="16"  FontAttributes="Bold" TextColor="#855438" Grid.Row="5" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand" Margin="10" />
+                    <Button Text="SAVE" Grid.Row="5" Grid.Column="0" Clicked="Button_Clicked_1"/>
+                </Grid>
+            </StackLayout>
         </ScrollView>
-    </ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="popuplistView" Margin="10" RowHeight="100" IsVisible="false" BackgroundColor="Ivory" ItemSelected="popuplistView_ItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
+
+                                <Grid VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="90" WidthRequest="130" Aspect="AspectFit"  ></Image>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1">
+                                        <Label Text="{Binding Title}" FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-30,-5,0,0" />
+                                        <Label Text="{Binding Author}" FontSize="14" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-30,-5,0,0"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView x:Name="popup2listView" Margin="10" RowHeight="100" IsVisible="false" BackgroundColor="Ivory" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
+
+                                <Grid VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="90" WidthRequest="130" Aspect="AspectFit"  ></Image>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1">
+                                        <Label Text="{Binding Title}" FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-30,-5,0,0" />
+                                        <Label Text="{Binding Author}" FontSize="14" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-30,-5,0,0"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView x:Name="popup3listView" Margin="10" RowHeight="100" IsVisible="false" BackgroundColor="Ivory" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
+
+                                <Grid VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="90" WidthRequest="130" Aspect="AspectFit"  ></Image>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1">
+                                        <Label Text="{Binding Title}" FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-30,-5,0,0" />
+                                        <Label Text="{Binding Author}" FontSize="14" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-30,-5,0,0"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid BackgroundColor="#e0cc94" Margin="0,-20,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Spacing="0" Grid.Column="0"  >
+                        <Button Image="home2.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Home_Clicked" />
+                        <Label Text="Home" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="1" >
+                        <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="30"   Clicked="Top_Clicked" />
+                        <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Spacing="0" Grid.Column="2" >
+                        <Button Image="calendar.png"  HeightRequest="32" BackgroundColor="Transparent" Clicked="Calendar_Clicked"/>
+                        <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="3"  >
+                        <Button Image="profile.png"  HeightRequest="30" BackgroundColor="Transparent"  Clicked="Profile_Clicked" />
+                        <Label Text="Profile" FontSize="10" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Grid.Column="4" >
+                        <Button Image="people2.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Members_Clicked" />
+                        <Label Text="Comunity" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

@@ -26,11 +26,8 @@ namespace BooksApp.Views
             phonenumberEntry.Text = selectedUser.PhoneNumber;
             addressEntry.Text = selectedUser.Address;
         }
-        async void OnSaveButtonClicked(object sender, EventArgs e)
+        public void OnSaveButtonClicked(object sender, EventArgs e)
         {
-            //var ulist = (User)BindingContext;
-            // await App.Database.SaveUserListAsync(ulist);
-            //await Navigation.PushAsync(new AdminMembersPage());
             selectedUser.Name = nameEntry.Text;
             selectedUser.LastName = lastnameEntry.Text;
             selectedUser.Email = emailEntry.Text;
@@ -47,11 +44,8 @@ namespace BooksApp.Views
                     DisplayAlert("Error", "User not succesfull updated", "Ok");
             }
         }
-        async void OnDeleteButtonClicked(object sender, EventArgs e)
+        public void OnDeleteButtonClicked(object sender, EventArgs e)
         {
-            //var ulist = (User)BindingContext;
-            // await App.Database.DeleteUserListAsync(ulist);
-            //await Navigation.PushAsync(new AdminMembersPage());
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<User>();

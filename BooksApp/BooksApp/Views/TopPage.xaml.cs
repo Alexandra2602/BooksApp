@@ -15,14 +15,16 @@ namespace BooksApp.Views
     {
         User ul;
         Book bl;
-        public TopPage()
+        public TopPage(User ulist)
         {
             InitializeComponent();
+            ul = ulist;
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             listViewTop.ItemsSource = await App.Database.GetBookListsAsync();
+            label1.Text = ul.Name;
         }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
@@ -36,7 +38,7 @@ namespace BooksApp.Views
         }
         async void Top_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TopPage());
+            await Navigation.PushAsync(new TopPage(ul));
         }
         async void Home_Clicked(object sender, EventArgs e)
         {
@@ -45,15 +47,15 @@ namespace BooksApp.Views
         
         async void Calendar_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CalendarPage());
+            await Navigation.PushAsync(new CalendarPage(ul));
         }
         async void Profile_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ProfilePage());
+            await Navigation.PushAsync(new ProfilePage(ul));
         }
         async void Members_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new UsersPage());
+            await Navigation.PushAsync(new UsersPage(ul));
         }
     }
 }

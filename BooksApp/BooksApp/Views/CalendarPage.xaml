@@ -4,6 +4,8 @@
              x:Class="BooksApp.Views.CalendarPage">
     <ContentPage.Content>
         <StackLayout  BackgroundColor="Wheat">
+            <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
+            <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="150" />
@@ -80,7 +82,6 @@
                         <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="30"   Clicked="Top_Clicked" />
                         <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center"/>
                     </StackLayout>
-
                     <StackLayout Spacing="0" Grid.Column="2" >
                         <Button Image="calendar.png"  HeightRequest="32" BackgroundColor="Transparent" Clicked="Calendar_Clicked"/>
                         <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>

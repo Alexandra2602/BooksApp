@@ -20,7 +20,7 @@ namespace BooksApp.Views
             InitializeComponent();
         }
 
-       async void RegisterButton_Clicked(object sender, EventArgs e)
+       public void RegisterButton_Clicked(object sender, EventArgs e)
         {
        
             User user = new User()

@@ -4,6 +4,8 @@
              x:Class="BooksApp.Views.TopPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="Wheat">
+            <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
+            <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
             <ListView x:Name="listViewTop" Margin="0,0,0,0" RowHeight="160" ItemSelected="OnListViewItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>

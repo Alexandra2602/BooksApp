@@ -18,16 +18,18 @@ namespace BooksApp.Views
     public partial class CalendarPage : ContentPage
     {
             User ul;
-            public CalendarPage()
+            public CalendarPage(User ulist)
             {
                 InitializeComponent();
+                ul = ulist;
 
             }
             protected override async void OnAppearing()
             {
                 base.OnAppearing();
                 listView.ItemsSource = await App.Database.GetBookListsAsync();
-            }
+                label1.Text = ul.Name;
+        }
             private void OnDateSelected(object sender, DateChangedEventArgs e)
             {
                 Recalculate();
@@ -52,7 +54,7 @@ namespace BooksApp.Views
 
             async void Top_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new TopPage());
+                await Navigation.PushAsync(new TopPage(ul));
             }
             async void Home_Clicked(object sender, EventArgs e)
             {
@@ -61,15 +63,15 @@ namespace BooksApp.Views
            
             async void Calendar_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new CalendarPage());
+                await Navigation.PushAsync(new CalendarPage(ul));
             }
             async void Profile_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new ProfilePage());
+                await Navigation.PushAsync(new ProfilePage(ul));
             }
             async void Members_Clicked(object sender, EventArgs e)
             {
-                await Navigation.PushAsync(new UsersPage());
+                await Navigation.PushAsync(new UsersPage(ul));
             }
 
         }

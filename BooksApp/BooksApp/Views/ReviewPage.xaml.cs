@@ -14,10 +14,12 @@ namespace BooksApp.Views
     public partial class ReviewPage : ContentPage
     {
         Book bl;
+        User ul;
         public ReviewPage(Book blist)
         {
             InitializeComponent();
             bl = blist;
+            
         }
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {

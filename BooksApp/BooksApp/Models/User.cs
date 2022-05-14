@@ -20,5 +20,17 @@ namespace BooksApp.Models
 
         public string Description { get; set; }
         public string ImagePath { get; set; }
+
+        public string FavoriteGenre1 { get; set; }
+        public string FavoriteGenre2 { get; set; }
+
+        public string FavoriteGenre3 { get; set; }
+
+        public object FavoriteBook1 { get; set; }
+        public string FavoriteBook2 { get; set; }
+
+        public string FavoriteBook3 { get; set; }
+
+        public string Goal { get; set; }
     }
 }

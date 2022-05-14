@@ -1,4 +1,5 @@
 ﻿using BooksApp.Models;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,14 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfilePage : ContentPage
     {
-        public ProfilePage()
+        User ul;
+        public ProfilePage(User ul)
         {
             InitializeComponent();
+            this.ul = ul;
+            imgpathentry.Text = ul.ImagePath;
+            
+            //ImagePath = ul.ImagePath;
             FirstPicker.Items.Add("Biography");
             FirstPicker.Items.Add("Business");
             FirstPicker.Items.Add("Classics");
@@ -69,7 +75,7 @@ namespace BooksApp.Views
             ThirdPicker.Items.Add("Spirituality");
             ThirdPicker.Items.Add("Thriller");
             ThirdPicker.Items.Add("Young Adult");
-        }
+         }
         string ImagePath;
         private async void Button_Clicked(object sender, EventArgs e)
         {
@@ -80,27 +86,64 @@ namespace BooksApp.Views
 
             if (result != null)
             {
-                photo_button.IsVisible = false;
                 var stream = await result.OpenReadAsync();
                 resultImage.Source = ImageSource.FromStream(() => stream);
                 ImagePath = result.FullPath;
                 imgpathentry.Text = ImagePath;
-
             }
+        }
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            ul.ImagePath = imgpathentry.Text;
+            ul.Description = Description.Text;
+            ul.FavoriteGenre1 = (string)FirstPicker.SelectedItem.ToString();
+            ul.FavoriteGenre2 = (string)SecondPicker.SelectedItem.ToString();
+            ul.FavoriteGenre3 = (string)ThirdPicker.SelectedItem.ToString();
+            
+           
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<User>();
+                int rowsAdded = conn.Update(ul);
+                if (rowsAdded > 0)
+                    DisplayAlert("Succes", "User succesfull updated", "Ok");
+                else
+                    DisplayAlert("Error", "User not succesfull updated", "Ok");
+            }
+
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            label1.Text = ul.Name;
+            resultImage.Source = ul.ImagePath;
+            cityEntry.Text = ul.Address;
+            Description.Text = ul.Description;
+            FirstPicker.SelectedItem = ul.FavoriteGenre1;
+            SecondPicker.SelectedItem = ul.FavoriteGenre2;
+            ThirdPicker.SelectedItem = ul.FavoriteGenre3;
+            //book1.Source = ul.FavoriteBook1;
             popuplistView.ItemsSource = await App.Database.GetBookListsAsync();
             popup2listView.ItemsSource = await App.Database.GetBookListsAsync();
             popup3listView.ItemsSource = await App.Database.GetBookListsAsync();
-
         }
-        async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             popuplistView.IsVisible = true;
-
         }
+        async void popuplistView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+           
+            if (e.SelectedItem != null)
+            {
+                await Navigation.PushAsync(new ProfilePage(ul)
+                {
+                    BindingContext = e.SelectedItem as Book
+                });
+                popuplistView.IsVisible = false;
+            }
+        }
+
         async void TapGestureRecognizer_Tapped2(object sender, EventArgs e)
         {
             popup2listView.IsVisible = true;
@@ -111,17 +154,33 @@ namespace BooksApp.Views
             popup3listView.IsVisible = true;
 
         }
+      
 
-        private void popuplistView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+
+
+
+        async void Top_Clicked(object sender, EventArgs e)
         {
-            if (e.SelectedItem != null)
-            {
-                BindingContext = e.SelectedItem as Book;
-                book1.Source = "{Binding ImagePath}";
-                popuplistView.IsVisible = false;
-            }
-
-
+            await Navigation.PushAsync(new TopPage(ul));
         }
+        async void Home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BooksPage(ul));
+        }
+
+        async void Calendar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalendarPage(ul));
+        }
+        async void Profile_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage(ul));
+        }
+        async void Members_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UsersPage(ul));
+        }
+
+       
     }
 }
