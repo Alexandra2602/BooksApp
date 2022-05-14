@@ -19,7 +19,7 @@ namespace BooksApp.Models
         public string Address { get; set; }
 
         public string Description { get; set; }
-        public string ImagePath { get; set; }
+        public string ImagePath2 { get; set; }
 
         public string FavoriteGenre1 { get; set; }
         public string FavoriteGenre2 { get; set; }

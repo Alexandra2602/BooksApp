@@ -20,7 +20,7 @@
                 </Grid.ColumnDefinitions>
                 <Label Text="{Binding Name}" TextTransform="Uppercase" TextColor="#855438" FontAttributes="Bold" FontSize="18" Margin="0,5,0,0" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
                 <Label Text="'S PROFILE" TextColor="#855438" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Start" Margin="0,5,0,0" Grid.Row="0" Grid.Column="2" />
-                <Image Source="{Binding ImagePath}" HeightRequest="160" WidthRequest="100" Margin="10,0,0,0" Aspect="AspectFill"  Grid.Column="0" Grid.Row="1"/>
+                <Image Source="{Binding ImagePath2}" HeightRequest="160" WidthRequest="100" Margin="10,0,0,0" Aspect="AspectFill"  Grid.Column="0" Grid.Row="1"/>
                 <Frame Padding="5"   CornerRadius="15" BackgroundColor="Wheat" Margin="10,25,10,10" WidthRequest="200" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
                     <Editor x:Name="Description" Text="{Binding Description}"  HeightRequest="100" FontSize="13" IsReadOnly="True"  />
                 </Frame>

@@ -19,7 +19,7 @@ namespace BooksApp.Views
         {
             InitializeComponent();
             this.ul = ul;
-            imgpathentry.Text = ul.ImagePath;
+            imgpathentry.Text = ul.ImagePath2;
             
             //ImagePath = ul.ImagePath;
             FirstPicker.Items.Add("Biography");
@@ -76,7 +76,7 @@ namespace BooksApp.Views
             ThirdPicker.Items.Add("Thriller");
             ThirdPicker.Items.Add("Young Adult");
          }
-        string ImagePath;
+        string ImagePath2;
         private async void Button_Clicked(object sender, EventArgs e)
         {
             var result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
@@ -88,13 +88,13 @@ namespace BooksApp.Views
             {
                 var stream = await result.OpenReadAsync();
                 resultImage.Source = ImageSource.FromStream(() => stream);
-                ImagePath = result.FullPath;
-                imgpathentry.Text = ImagePath;
+                ImagePath2 = result.FullPath;
+                imgpathentry.Text = ImagePath2;
             }
         }
         private void Button_Clicked_1(object sender, EventArgs e)
         {
-            ul.ImagePath = imgpathentry.Text;
+            ul.ImagePath2 = imgpathentry.Text;
             ul.Description = Description.Text;
             ul.FavoriteGenre1 = (string)FirstPicker.SelectedItem.ToString();
             ul.FavoriteGenre2 = (string)SecondPicker.SelectedItem.ToString();
@@ -116,7 +116,7 @@ namespace BooksApp.Views
         {
             base.OnAppearing();
             label1.Text = ul.Name;
-            resultImage.Source = ul.ImagePath;
+            resultImage.Source = ul.ImagePath2;
             cityEntry.Text = ul.Address;
             Description.Text = ul.Description;
             FirstPicker.SelectedItem = ul.FavoriteGenre1;
