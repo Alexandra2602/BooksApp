@@ -25,15 +25,14 @@ namespace BooksApp.Views
             InitializeComponent();
             ul = ulist;
         }
-            protected override async void OnAppearing()
-            {
-                base.OnAppearing();
-                listView.ItemsSource = await App.Database.GetBookListsAsync();
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            listView.ItemsSource = await App.Database.GetBookListsAsync();
             label1.Text = ul.Name;
             
             
-            }
-
+        }
             async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
             {
                 if (e.SelectedItem != null)
@@ -47,8 +46,8 @@ namespace BooksApp.Views
             async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
             {
                 var search = Search1.Text.ToLower();
-                //var searchresult= App.Database.SearchBookAsync(search);
-                //listView.ItemsSource = await App.Database.SearchBookAsync(search);
+                var searchresult= App.Database.SearchBookAsync(search);
+                listView.ItemsSource = await App.Database.SearchBookAsync(search);
 
             }
             async void Top_Clicked(object sender, EventArgs e)

@@ -29,7 +29,7 @@ namespace BooksApp.Views
 
             }
         }
-        async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var selectedUser = userslistview.SelectedItem as User;
             if (selectedUser != null)

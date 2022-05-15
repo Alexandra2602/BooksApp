@@ -25,7 +25,7 @@ namespace BooksApp.Views
             await Navigation.PopAsync();
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();
             var shopl = (Book)BindingContext;

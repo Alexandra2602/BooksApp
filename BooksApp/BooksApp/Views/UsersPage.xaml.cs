@@ -32,13 +32,6 @@ namespace BooksApp.Views
 
             }
         }
-        async void AddUserClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new RegistrationPage
-            {
-                BindingContext = new User()
-            });
-        }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

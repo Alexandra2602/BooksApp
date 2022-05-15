@@ -46,6 +46,8 @@ namespace BooksApp.Data
         {
             return _database.DeleteAsync(blist);
         }
+
+
         public Task<List<User>> GetUserListsAsync()
         {
             return _database.Table<User>().ToListAsync();
