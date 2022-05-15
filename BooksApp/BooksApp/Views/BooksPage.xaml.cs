@@ -33,44 +33,63 @@ namespace BooksApp.Views
             
             
         }
-            async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem != null)
             {
-                if (e.SelectedItem != null)
+                await Navigation.PushAsync(new DetailPage(ul)
                 {
-                    await Navigation.PushAsync(new DetailPage(ul)
-                    {
-                        BindingContext = e.SelectedItem as Book
-                    });
-                }
+                    BindingContext = e.SelectedItem as Book
+                });
             }
-            async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        }
+        async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchValue = Search1.Text;
+            if(!String.IsNullOrEmpty(searchValue))
             {
-                var search = Search1.Text.ToLower();
-                var searchresult= App.Database.SearchBookAsync(search);
-                listView.ItemsSource = await App.Database.SearchBookAsync(search);
-
+                var books = await App.Database.GetBooksByTitle(searchValue);
+                listView.ItemsSource = null;
+                listView.ItemsSource = books;
             }
-            async void Top_Clicked(object sender, EventArgs e)
+            else
             {
-                await Navigation.PushAsync(new TopPage(ul));
+                OnAppearing();
             }
-            async void Home_Clicked(object sender, EventArgs e)
+        }
+        async void Search1_SearchButtonPressed(object sender, EventArgs e)
+        {
+            string searchValue = Search1.Text;
+            if (!String.IsNullOrEmpty(searchValue))
             {
-                await Navigation.PushAsync(new BooksPage(ul));
+                var books = await App.Database.GetBooksByTitle(searchValue);
+                listView.ItemsSource = null;
+                listView.ItemsSource = books;
             }
-         
-            async void Calendar_Clicked(object sender, EventArgs e)
+            else
             {
-                await Navigation.PushAsync(new CalendarPage(ul));
+                OnAppearing();
             }
-            async void Profile_Clicked(object sender, EventArgs e)
-            {
-                await Navigation.PushAsync(new ProfilePage(ul));
-            }
-            async void Members_Clicked(object sender, EventArgs e)
-            {
-                await Navigation.PushAsync(new UsersPage(ul));
-            }
-
+        }
+        async void Top_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TopPage(ul));
+        }
+        async void Home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BooksPage(ul));
+        }
+        async void Calendar_Clicked(object sender, EventArgs e)
+        {
+             await Navigation.PushAsync(new CalendarPage(ul));
+        }
+        async void Profile_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage(ul));
+        }
+        async void Members_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UsersPage(ul));
         }
     }
+}

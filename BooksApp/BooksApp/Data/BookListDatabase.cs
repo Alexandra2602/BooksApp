@@ -47,7 +47,20 @@ namespace BooksApp.Data
             return _database.DeleteAsync(blist);
         }
 
-
+        public Task<Book> SearchBookListAsync(string word)
+        {
+            return _database.Table<Book>()
+            .Where(u => u.Title.Contains(word) || u.Author.Contains(word))
+           .FirstOrDefaultAsync();
+        }
+        public Task<Book> SearchBookAsync(string search)
+        {
+            return _database.Table<Book>().Where(c => c.Title.ToLower().Contains(search) || c.Author.ToLower().Contains(search)).FirstOrDefaultAsync();
+        }
+        public  Task <List<Book>>GetBooksByTitle(string title)
+        {
+            return _database.Table<Book>().Where(c=>c.Title.ToLower().Contains(title.ToLower()) || c.Author.ToLower().Contains(title.ToLower())).ToListAsync();
+        }
         public Task<List<User>> GetUserListsAsync()
         {
             return _database.Table<User>().ToListAsync();
