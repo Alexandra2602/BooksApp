@@ -29,7 +29,8 @@ namespace BooksApp.Views
         {
             base.OnAppearing();
             listView.ItemsSource = await App.Database.GetBookListsAsync();
-            label1.Text = ul.Name;
+
+            toolbaritem.Text = "You are logged in as " + ul.Name;
             
             
         }

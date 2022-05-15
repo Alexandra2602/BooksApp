@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.BooksPage">
-    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbaritem"/>
+
+    </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="Wheat">
-        <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
-        <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
-        <SearchBar  x:Name="Search1" Placeholder="Search.." TextChanged="SearchBar_TextChanged" SearchButtonPressed="Search1_SearchButtonPressed" CancelButtonColor="LightPink" PlaceholderColor="Black"  TextColor="Black">
+        <SearchBar  x:Name="Search1" Placeholder="Search a book by title or author..." FontSize="18" TextChanged="SearchBar_TextChanged" Margin="0,0,0,-10" SearchButtonPressed="Search1_SearchButtonPressed" CancelButtonColor="LightPink" PlaceholderColor="Black"  TextColor="Black">
         </SearchBar>
         
         <ListView x:Name="listView" Margin="10" RowHeight="150" ItemSelected="OnListViewItemSelected">
@@ -22,13 +23,13 @@
 
                                 </Grid.ColumnDefinitions>
                                 <StackLayout Grid.Column="0">
-                                    <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="130" WidthRequest="130" Aspect="AspectFit"  ></Image>
+                                    <Image Source="{Binding ImagePath}" Margin="0" HorizontalOptions="StartAndExpand" HeightRequest="135" WidthRequest="90" Aspect="AspectFill"  ></Image>
                                 </StackLayout>
                                 <StackLayout Grid.Column="1">
-                                    <Label Text="{Binding Title}" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
+                                    <Label Text="{Binding Title}" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,15,0,0" />
                                     <Label Text="{Binding Author}" FontSize="16" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-5,-5,0,0"/>
-                                    <Frame BackgroundColor="Maroon" HorizontalOptions="End" CornerRadius="15" HeightRequest="10" Margin="0" VerticalOptions="End">
-                                        <Label Text="{Binding Year_Month}" FontSize="15" TextColor="Ivory" Margin="-10,-5,-10,-5"/>
+                                    <Frame BackgroundColor="#855438" HorizontalOptions="End" CornerRadius="15" HeightRequest="4" Margin="0,10,0,0" VerticalOptions="End">
+                                        <Label Text="{Binding Year_Month}" FontSize="15" TextColor="Ivory" Margin="-10,-10,-10,-7"/>
                                     </Frame>
                                 </StackLayout>
                             </Grid>
