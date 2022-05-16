@@ -26,7 +26,7 @@ namespace BooksApp.Views
             {
                 if (e.SelectedItem != null)
                 {
-                    await Navigation.PushAsync(new AdminReviewDetailsPage()
+                    await Navigation.PushAsync(new AdminReviewDetailsPage
                     {
                         BindingContext = e.SelectedItem as Book
                     });

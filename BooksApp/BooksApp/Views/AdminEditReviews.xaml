@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooksApp.Views.AdminEditReviews">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e0cc94">
+            <Label Text="Edit or delete a review" FontSize="23" FontAttributes="Bold" TextColor="#855438" HorizontalOptions="CenterAndExpand" Margin="10"/>
+            <Editor x:Name="edit" Text="{Binding Description}" Margin="20"/>
+            <Button Text="Save changes" Clicked="Button_Clicked" TextColor="Beige" BackgroundColor="#855438" BorderRadius="25" HeightRequest="46" Margin="25,0,25,0" />
+            <Button Grid.Column="1" Text="Delete review" Clicked="Button_Clicked_1" TextColor="Beige" BackgroundColor="#855438" BorderRadius="25" HeightRequest="46" Margin="25,0,25,0"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

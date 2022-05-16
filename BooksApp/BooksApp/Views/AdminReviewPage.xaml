@@ -29,15 +29,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="reviewlistView" Margin="25,-79,0,0" IsVisible="false" SelectionMode="None">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Label Text="{Binding Description}" TextColor="Black"/>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
         <Grid BackgroundColor="#e0cc94" Margin="0,-20,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>

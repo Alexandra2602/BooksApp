@@ -23,6 +23,7 @@ namespace BooksApp.Views
             var shopl = (Book)BindingContext;
 
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
+            ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
         }
 
         private void Button_Clicked(object sender, EventArgs e)
@@ -34,11 +35,12 @@ namespace BooksApp.Views
             feedbutton.TextColor = Color.Ivory;
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
             ratingbutton.TextColor = Color.Ivory;
+            ratingListView.IsVisible = false;
 
         }
         private void Button2_Clicked(object sender, EventArgs e)
         {
-
+            ratingListView.IsVisible = true;
             ratingbutton.BackgroundColor = Color.Ivory;
             ratingbutton.TextColor = Color.FromHex("#855438");
             reviewbutton.BackgroundColor = Color.FromHex("#855438");
@@ -46,6 +48,7 @@ namespace BooksApp.Views
             feedbutton.BackgroundColor = Color.FromHex("#855438");
             feedbutton.TextColor = Color.Ivory;
             reviewlistView.IsVisible = false;
+
 
         }
         private void Button3_Clicked(object sender, EventArgs e)
@@ -58,6 +61,7 @@ namespace BooksApp.Views
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
             ratingbutton.TextColor = Color.Ivory;
             reviewlistView.IsVisible = false;
+            ratingListView.IsVisible = false;
 
         }
     }
