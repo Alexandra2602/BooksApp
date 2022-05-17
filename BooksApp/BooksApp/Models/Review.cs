@@ -11,7 +11,6 @@ namespace BooksApp.Models
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string Description { get; set; }
-
         [OneToMany]
         public List<ListReview> ListReviews { get; set; }
     }

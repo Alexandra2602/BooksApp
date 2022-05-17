@@ -37,7 +37,7 @@
                     </ListView.ItemTemplate>
                 </ListView>
 
-                <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="ratingListView" Margin="20" IsVisible="false" SelectionMode="None">
+                <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="ratingListView" Margin="25,-79,0,0" IsVisible="false" SelectionMode="None">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

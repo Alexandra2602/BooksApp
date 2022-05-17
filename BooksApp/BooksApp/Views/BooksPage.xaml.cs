@@ -30,7 +30,7 @@ namespace BooksApp.Views
             base.OnAppearing();
             listView.ItemsSource = await App.Database.GetBookListsAsync();
 
-            toolbaritem.Text = "You are logged in as " + ul.Name;
+            toolbaritem.Text = "Logged in as " + ul.Name;
             
             
         }

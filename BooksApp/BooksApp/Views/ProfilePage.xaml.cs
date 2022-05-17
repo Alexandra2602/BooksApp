@@ -100,9 +100,9 @@ namespace BooksApp.Views
             ul.ImagePath2 = imgpathentry.Text;
             ul.Description = Description.Text;
             resultImage.Source = ul.ImagePath2;
-            ul.FavoriteGenre1 = (string)FirstPicker.SelectedItem.ToString();
-            ul.FavoriteGenre2 = (string)SecondPicker.SelectedItem.ToString();
-            ul.FavoriteGenre3 = (string)ThirdPicker.SelectedItem.ToString();
+            ul.FavoriteGenre1 = (string)FirstPicker.SelectedItem;
+            ul.FavoriteGenre2 = (string)SecondPicker.SelectedItem;
+            ul.FavoriteGenre3 = (string)ThirdPicker.SelectedItem;
             ul.FavoriteBook1 = imgpathbook1.Text;
             ul.FavoriteBook2 = imgpathbook2.Text;
             ul.FavoriteBook3 = imgpathbook3.Text;
@@ -128,7 +128,6 @@ namespace BooksApp.Views
         protected override  void OnAppearing()
         {
             base.OnAppearing();
-            label1.Text = ul.Name;
             resultImage.Source = ul.ImagePath2;
             cityEntry.Text = ul.Address;
             Description.Text = ul.Description;
@@ -138,6 +137,7 @@ namespace BooksApp.Views
             book1.Source = ul.FavoriteBook1;
             book2.Source = ul.FavoriteBook2;
             book3.Source = ul.FavoriteBook3;
+            toolbaritem.Text = "You are logged in as " + ul.Name;
 
         }
         string FavoriteBook1;

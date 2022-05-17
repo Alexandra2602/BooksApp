@@ -51,10 +51,18 @@ namespace BooksApp.Views
         }
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
+            if (TitleEntry.Text != null && AuthorEntry.Text != null && PublisherEntry.Text != null && YearPublishedEntry.Text != null && NumberOfPagesEntry.Text != null && YearAndMonthEntry.Text != null && imgpathentry.Text != null)
+            {
+                var blist = (Book)BindingContext;
+                await App.Database.SaveBookListAsync(blist);
+                await Navigation.PopAsync();
+            }
+            
+                else Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
 
-            var blist = (Book)BindingContext;
-            await App.Database.SaveBookListAsync(blist);
-            await Navigation.PopAsync();
+                });
 
         }
 

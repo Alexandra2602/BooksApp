@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooksApp.Views.AdminAddUser">
+    <ContentPage.Content>
+        <StackLayout Padding="15" BackgroundColor="Beige">
+            <Grid Margin="10,0" VerticalOptions="CenterAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Register your account" HorizontalOptions="CenterAndExpand" FontSize="35" TextColor="#855438" FontAttributes="Bold" FontFamily="cursive" Margin="0,0,0,10" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label Text="Name:" Grid.Row="1" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
+                <Entry x:Name="nameEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" FontSize="18" Grid.Row="1" Grid.Column="1" />
+                <Label Text="Last name:" Grid.Row="2" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
+                <Entry x:Name="lastnameEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" Grid.Row="2" Grid.Column="1" />
+                <Label Text="Email:" Grid.Row="3" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
+                <Entry x:Name="emailEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="Password:" Grid.Row="4" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
+                <Entry x:Name="passwordEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="Phone number:" Grid.Row="5" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
+                <Entry x:Name="phonenumberEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="City:" Grid.Row="6" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
+                <Entry x:Name="addressEntry" TextColor="Black" PlaceholderColor="Gray" FontSize="15" Margin="10" Grid.Row="6" Grid.Column="1"/>
+
+            </Grid>
+            <Button Text="Add user" x:Name="RegisterButton" Clicked="RegisterButton_Clicked" TextColor="Beige" BackgroundColor="#855438" BorderRadius="25" HeightRequest="46"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

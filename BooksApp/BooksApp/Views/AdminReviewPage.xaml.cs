@@ -15,7 +15,7 @@ namespace BooksApp.Views
     {
             public AdminReviewPage()
             {
-                InitializeComponent();
+            InitializeComponent();
             }
             protected override async void OnAppearing()
             {
@@ -53,5 +53,7 @@ namespace BooksApp.Views
                 await Navigation.PushAsync(new AdminReviewPage());
 
             }
-        }
+
+  
+    }
     }

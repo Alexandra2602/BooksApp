@@ -5,12 +5,12 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="Wheat">
-                <Editor Placeholder="Title" Text="{Binding Title}" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
-                <Editor Placeholder="Author" Text="{Binding Author}" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
-                <Editor Placeholder="Publisher" Text="{Binding Publisher}" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
-                <Editor Placeholder="Number of Pages" Text="{Binding NumberOfPages}" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
-                <Editor Placeholder="Year Published" Text="{Binding YearPublished}" HeightRequest="50" TextColor="Black" Margin="20,5,20,5"/>
-                <Editor Placeholder=" Year and Month " Text="{Binding Year_Month}" HeightRequest="50" TextColor="Black" Margin="20,5,20,5"/>
+                <Editor Placeholder="Title" Text="{Binding Title}" x:Name="TitleEntry" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
+                <Editor Placeholder="Author" Text="{Binding Author}" x:Name="AuthorEntry" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
+                <Editor Placeholder="Publisher" Text="{Binding Publisher}" x:Name="PublisherEntry" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
+                <Editor Placeholder="Number of Pages" Text="{Binding NumberOfPages}" x:Name="NumberOfPagesEntry" HeightRequest="50" TextColor="Black" Margin="20,5,20,5" />
+                <Editor Placeholder="Year Published" Text="{Binding YearPublished}" x:Name="YearPublishedEntry" HeightRequest="50" TextColor="Black" Margin="20,5,20,5"/>
+                <Editor Placeholder=" Year and Month " Text="{Binding Year_Month}" x:Name="YearAndMonthEntry" HeightRequest="50" TextColor="Black" Margin="20,5,20,5"/>
                 <Editor Placeholder="Image Path" x:Name="imgpathentry" Text="{Binding ImagePath}" HeightRequest="50" IsVisible="false"/>
                 <Button Text="Add image" Clicked="Button_Clicked" BackgroundColor="Beige" TextColor="#855438" BorderRadius="23" HeightRequest="42" HorizontalOptions="FillAndExpand" Margin="50,-10,50,0" />
                 <Image Source="{Binding ImagePath}" x:Name="resultImage" HeightRequest="150" WidthRequest="150"/>

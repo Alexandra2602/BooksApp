@@ -22,7 +22,7 @@ namespace BooksApp.Views
         }
         protected override void OnAppearing()
         {
-            label1.Text = ul.Name;
+            toolbaritem.Text = "Logged in as " + ul.Name;
         }
         async void OnChooseButtonClicked(object sender, EventArgs e)
         {
@@ -42,5 +42,20 @@ namespace BooksApp.Views
             });
 
         }
+        async void Read_Clicked(object sender, EventArgs e)
+        {
+            button_read.BackgroundColor=Color.FromHex("#855438");
+            button_read.TextColor = Color.Ivory;
+
+        }
+        async void Reading_Clicked(object sender, EventArgs e)
+        {
+
+        }
+        async void Dropped_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

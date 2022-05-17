@@ -39,9 +39,14 @@ namespace BooksApp.Views
                 conn.CreateTable<User>();
                 int rowsAdded = conn.Update(selectedUser);
                 if (rowsAdded > 0)
+                {
                     DisplayAlert("Succes", "User succesfull updated", "Ok");
+                    Navigation.PushAsync(new AdminMembersPage());
+                }
                 else
+                {
                     DisplayAlert("Error", "User not succesfull updated", "Ok");
+                }
             }
         }
         public void OnDeleteButtonClicked(object sender, EventArgs e)
@@ -51,8 +56,12 @@ namespace BooksApp.Views
                 conn.CreateTable<User>();
                 int rowsAdded = conn.Delete(selectedUser);
                 if (rowsAdded > 0)
+                {
                     DisplayAlert("Succes", "User succesfull deleted", "Ok");
+                    Navigation.PushAsync(new AdminMembersPage());
+                }
                 else
+                
                     DisplayAlert("Error", "User not succesfull deleted", "Ok");
 
             }

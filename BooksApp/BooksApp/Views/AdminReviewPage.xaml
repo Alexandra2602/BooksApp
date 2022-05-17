@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.AdminReviewPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Reviews"  />
+    </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="Wheat">
         <ListView x:Name="listViewTop" Margin="0,0,0,0" RowHeight="160" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
@@ -18,11 +21,12 @@
                                 <RowDefinition Height="auto"/>
 
                             </Grid.RowDefinitions>
-                            <Image Source="{Binding ImagePath}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="StartAndExpand" HeightRequest="130" Margin="0,0,0,10" WidthRequest="120" Aspect="AspectFit"  ></Image>
-                            <Label Text="{Binding Number}" Grid.Column="1" Grid.Row="0" FontSize="18" HorizontalTextAlignment="Start" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
-                            <Label Text="{Binding Title}" Grid.Column="1"  Grid.Row="1"  FontSize="18"  HorizontalTextAlignment="Start" TextColor="black" FontAttributes="Bold" Margin="0,-5,0,-5" />
-                            <Label Text="{Binding Author}" Grid.Column="1"  Grid.Row="2"  FontSize="16" TextColor="black" HorizontalTextAlignment="Start"  Margin="0,10,0,0"/>
-                            <BoxView Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" HeightRequest="1" WidthRequest="100" Color="Black" HorizontalOptions="FillAndExpand" Margin="15,90,15,0" />
+                            <Image Source="{Binding ImagePath}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="StartAndExpand" HeightRequest="130" Margin="0,5,0,10" WidthRequest="120" Aspect="AspectFit"  ></Image>
+                            <Label Text="{Binding Number}" Grid.Column="1" Grid.Row="0" FontSize="18" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
+                            <Label Text="{Binding Title}" Grid.Column="1"  Grid.Row="1"  FontSize="17"  HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="0,-5,0,-5" />
+                            <Label Text="{Binding Author}" Grid.Column="1"  Grid.Row="2"  FontSize="15" TextColor="black" HorizontalTextAlignment="Center"  Margin="0,10,0,0"/>
+                        
+                            <BoxView Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" HeightRequest="1" WidthRequest="100" Color="Black" HorizontalOptions="FillAndExpand" Margin="15,109,15,0" />
 
                         </Grid>
                     </ViewCell>
