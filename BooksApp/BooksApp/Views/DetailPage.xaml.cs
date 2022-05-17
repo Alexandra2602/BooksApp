@@ -46,14 +46,29 @@ namespace BooksApp.Views
         {
             button_read.BackgroundColor=Color.FromHex("#855438");
             button_read.TextColor = Color.Ivory;
+            button_reading.BackgroundColor = Color.Ivory;
+            button_reading.TextColor = Color.FromHex("#855438");
+            button_dropped.BackgroundColor = Color.Ivory;
+            button_dropped.TextColor = Color.FromHex("#855438");
 
         }
         async void Reading_Clicked(object sender, EventArgs e)
         {
-
+            button_reading.BackgroundColor = Color.FromHex("#855438");
+            button_reading.TextColor = Color.Ivory;
+            button_read.BackgroundColor = Color.Ivory;
+            button_read.TextColor = Color.FromHex("#855438");
+            button_dropped.BackgroundColor = Color.Ivory;
+            button_dropped.TextColor = Color.FromHex("#855438");
         }
         async void Dropped_Clicked(object sender, EventArgs e)
         {
+            button_dropped.BackgroundColor = Color.FromHex("#855438");
+            button_dropped.TextColor = Color.Ivory;
+            button_read.BackgroundColor = Color.Ivory;
+            button_read.TextColor = Color.FromHex("#855438");
+            button_reading.BackgroundColor = Color.Ivory;
+            button_reading.TextColor = Color.FromHex("#855438");
 
         }
 

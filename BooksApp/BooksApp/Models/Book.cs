@@ -17,5 +17,7 @@ namespace BooksApp.Models
         public int YearPublished { get; set; }
         public string ImagePath { get; set; }
         public string Year_Month {get;set;}
+
+        public string Average_Rating { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace BooksApp.Models
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
-        public string Description { get; set; }
+        public int Description { get; set; }
         [OneToMany]
         public List<ListRating> ListRatings { get; set; }
     }

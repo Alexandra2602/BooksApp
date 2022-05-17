@@ -62,7 +62,8 @@ namespace BooksApp.Views
             ratingbutton.TextColor = Color.Ivory;
             reviewlistView.IsVisible = false;
             ratingListView.IsVisible = false;
-
         }
+
+       
     }
 }
