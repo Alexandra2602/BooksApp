@@ -14,5 +14,6 @@ namespace BooksApp.Models
         [ForeignKey(typeof(Book))]
         public int BookID { get; set; }
         public int RatingID { get; set; }
+        
     }
 }

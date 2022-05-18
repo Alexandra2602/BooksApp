@@ -2,11 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.TopPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbaritem"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout BackgroundColor="Wheat">
-            <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
-            <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
-            <ListView x:Name="listViewTop" Margin="0,0,0,0" RowHeight="160" ItemSelected="OnListViewItemSelected">
+           
+            <ListView x:Name="listViewTop" Margin="0,10,0,0" RowHeight="150" ItemSelected="OnListViewItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell >
@@ -19,15 +21,38 @@
                                     <RowDefinition Height="auto"/>
                                     <RowDefinition Height="auto"/>
                                     <RowDefinition Height="auto"/>
-
+                                    <RowDefinition Height="auto"/>
                                 </Grid.RowDefinitions>
-                                <Image Source="{Binding ImagePath}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="StartAndExpand" HeightRequest="130" Margin="0,0,0,10" WidthRequest="120" Aspect="AspectFit"  ></Image>
-                                <Label Text="{Binding Number}" Grid.Column="1" Grid.Row="0" FontSize="18" HorizontalTextAlignment="Start" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
-                                <Label Text="{Binding Title}" Grid.Column="1"  Grid.Row="1"  FontSize="18"  HorizontalTextAlignment="Start" TextColor="black" FontAttributes="Bold" Margin="0,-5,0,-5" />
-                                <Label Text="{Binding Author}" Grid.Column="1"  Grid.Row="2"  FontSize="16" TextColor="black" HorizontalTextAlignment="Start"  Margin="0,10,0,0"/>
-                                <BoxView Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" HeightRequest="1" WidthRequest="100" Color="Black" HorizontalOptions="FillAndExpand" Margin="15,90,15,0" />
-
+                                <Image Source="admin_rating.png" x:Name="star1" Grid.Column="1" Grid.Row="0" Margin="10,0,20,10" IsVisible="false"  />
+                                <Image Source="admin_rating.png" x:Name="star2"  Grid.Column="1" Grid.Row="0" Margin="50,0,20,10" IsVisible="false" />
+                                <Image Source="admin_rating.png" x:Name="star3"  Grid.Column="1" Grid.Row="0" Margin="90,0,20,10" IsVisible="false" />
+                                <Image Source="admin_rating.png" x:Name="star4"  Grid.Column="1" Grid.Row="0" Margin="130,0,20,10"  IsVisible="false"/>
+                                <Image Source="admin_rating.png" x:Name="star5"  Grid.Column="1" Grid.Row="0" Margin="170,0,20,10" IsVisible="false"/>
+                                <Image Source="{Binding ImagePath}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="StartAndExpand" HeightRequest="130" Margin="5,0,0,5" WidthRequest="110" Aspect="AspectFit"  ></Image>
+                                
+                                <Label Text="{Binding Title}" Grid.Column="1"  Grid.Row="1" Grid.RowSpan="2" FontSize="18"  HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="0,10,0,0" />
+                                <Label Text="{Binding Author}" Grid.Column="1"  Grid.Row="2"  FontSize="17" TextColor="black" HorizontalTextAlignment="Center"  Margin="0,60,0,0"/>
+                                <BoxView Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" HeightRequest="1" WidthRequest="100" Color="Black" HorizontalOptions="FillAndExpand" Margin="15,130,15,0" />
                             </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="reviewlistView" Margin="25,-79,0,0" IsVisible="false" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Description}" TextColor="Black"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="ratingListView" Margin="25,-79,0,0" IsVisible="false" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Description}"/>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

@@ -23,7 +23,8 @@ namespace BooksApp.Views
         protected override  void OnAppearing()
         {
             base.OnAppearing();
-            label1.Text = ul.Name;
+            
+            toolbaritem.Text = "Logged in as " + ul.Name;
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<User>();

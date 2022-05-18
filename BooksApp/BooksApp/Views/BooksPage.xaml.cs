@@ -20,6 +20,7 @@ namespace BooksApp.Views
     {
 
         User ul;
+        
         public BooksPage(User ulist)
         {
             InitializeComponent();

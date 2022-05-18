@@ -25,10 +25,21 @@ namespace BooksApp.Data
         {
             return _database.Table<Book>().ToListAsync();
         }
+        public Task<List<Book>> GetBookByRating()
+        {
+            return _database.Table<Book>().OrderByDescending(x => x.Average_Rating).ToListAsync();
+        }
         public Task<Book> GetBookListAsync(int id)
         {
             return _database.Table<Book>()
             .Where(i => i.ID == id)
+           .FirstOrDefaultAsync();
+        }
+
+        public Task<Book> GetBookListByRating(float rating)
+        {
+            return _database.Table<Book>()
+            .Where(i => i.Average_Rating == rating)
            .FirstOrDefaultAsync();
         }
         public Task<int> SaveBookListAsync(Book blist)
@@ -50,6 +61,8 @@ namespace BooksApp.Data
         {
             return _database.Table<Book>().Where(c=>c.Title.ToLower().Contains(title.ToLower()) || c.Author.ToLower().Contains(title.ToLower())).ToListAsync();
         }
+
+
         public Task<List<User>> GetUserListsAsync()
         {
             return _database.Table<User>().ToListAsync();
@@ -58,6 +71,7 @@ namespace BooksApp.Data
         {
             return _database.Table<User>().Where(i => i.Id == id).FirstOrDefaultAsync();
         }
+
         public Task<int> SaveUserListAsync(User ulist)
         {
             if (ulist.Id != 0)

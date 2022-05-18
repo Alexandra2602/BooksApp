@@ -19,9 +19,15 @@ namespace BooksApp.Views
 
             InitializeComponent();
             bl = blist;
+            
         }
+        int nr = 0;
+        int sum=0;
+        int medie=0;
+       
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
+            bl.Average_Rating = 0;
             var rating = (RatingModel)BindingContext;
             await App.Database.SaveRatingAsync(rating);
             listView2.ItemsSource = await App.Database.GetRatingsAsync();
@@ -34,19 +40,14 @@ namespace BooksApp.Views
                     BookID = bl.ID,
                     RatingID = r.ID
                 };
-                await App.Database.SaveListRatingAsync(lp);
-                r.ListRatings = new List<ListRating> { lp };
-
-                await Navigation.PopAsync();
-
+               await App.Database.SaveListRatingAsync(lp);
+                    r.ListRatings = new List<ListRating> { lp };
+                    await Navigation.PopAsync();
+                
+               
             }
         }
-        async void OnDeleteButtonClicked(object sender, EventArgs e)
-        {
-            var rating = (RatingModel)BindingContext;
-            await App.Database.DeleteRatingAsync(rating);
-            listView2.ItemsSource = await App.Database.GetRatingsAsync();
-        }
+        
         protected override async void OnAppearing()
         {
             base.OnAppearing();

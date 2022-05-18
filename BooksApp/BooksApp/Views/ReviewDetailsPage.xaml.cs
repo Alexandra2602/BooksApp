@@ -15,16 +15,74 @@ namespace BooksApp.Views
     {
         public ReviewDetailsPage()
         {
-            InitializeComponent();
+            InitializeComponent();   
         }
+    
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             var shopl = (Book)BindingContext;
-
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
             ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
+           if( shopl.Average_Rating ==5)
+            {
+                star1.IsVisible = true;
+                star2.IsVisible = true;
+                star3.IsVisible = true;
+                star4.IsVisible = true;
+                star5.IsVisible = true;
+            }
+            if (shopl.Average_Rating == 4)
+            {
+                
+                star2.IsVisible = true;
+                star3.IsVisible = true;
+                star4.IsVisible = true;
+                star5.IsVisible = true;
+            }
+            if (shopl.Average_Rating == 3)
+            {
+              
+                star3.IsVisible = true;
+                star4.IsVisible = true;
+                star5.IsVisible = true;
+            }
+            if (shopl.Average_Rating == 2)
+            {
+                star4.IsVisible = true;
+                star5.IsVisible = true;
+            }
+            if (shopl.Average_Rating == 1)
+            {
+                star5.IsVisible = true;
+            }
+
+            int nr = 0;
+            int sum = 0;
+            int medie = 0;
+            foreach (RatingModel rating1 in ratingListView.ItemsSource)
+            {
+                nr = nr + 1;
+                sum = sum + rating1.Description;
+            }
+            if (nr != 0)
+            {
+                medie = medie + sum / nr;
+                shopl.Average_Rating = medie;
+                shopl.Number = nr;
+                await App.Database.SaveBookListAsync(shopl);
+            }
+            else
+            {
+                shopl.Average_Rating = 0;
+                shopl.Number = 0;
+                await App.Database.SaveBookListAsync(shopl);
+
+            }
+
+
         }
+
 
         private void Button_Clicked(object sender, EventArgs e)
         {
@@ -36,7 +94,6 @@ namespace BooksApp.Views
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
             ratingbutton.TextColor = Color.Ivory;
             ratingListView.IsVisible = false;
-
         }
         private void Button2_Clicked(object sender, EventArgs e)
         {
@@ -48,7 +105,6 @@ namespace BooksApp.Views
             feedbutton.BackgroundColor = Color.FromHex("#855438");
             feedbutton.TextColor = Color.Ivory;
             reviewlistView.IsVisible = false;
-
 
         }
         private void Button3_Clicked(object sender, EventArgs e)

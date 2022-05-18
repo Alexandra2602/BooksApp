@@ -4,7 +4,7 @@
              x:Class="BooksApp.Views.UsersDetailPage">
 
 
-        <ContentPage.Content>
+    <ContentPage.Content>
             <StackLayout BackgroundColor="#e0cc94">
             <Grid>
                 <Grid.RowDefinitions>
