@@ -121,9 +121,9 @@ namespace BooksApp.Data
         public Task<List<Review>> GetListReviewsAsync(int reviewid)
         {
             return _database.QueryAsync<Review>(
-            "select R.ID, R.Description from Review R"
+            "select R.ID, R.Description, R.UserName from Review R"
             + " inner join ListReview LR"
-            + " on R.ID = LR.ReviewID where LR.BookID = ?",
+            + " on R.ID = LR.ReviewID where  LR.BookID = ?",
             reviewid);
         }
         public Task<int> SaveRatingAsync(RatingModel rating)
@@ -159,7 +159,7 @@ namespace BooksApp.Data
         public Task<List<RatingModel>> GetListRatingsAsync(int ratingid)
         {
             return _database.QueryAsync<RatingModel>(
-            "select M.ID, M.Description from RatingModel M"
+            "select M.ID, M.Description, M.UserName from RatingModel M"
             + " inner join ListRating LM"
             + " on M.ID = LM.RatingID where LM.BookID = ?",
             ratingid);

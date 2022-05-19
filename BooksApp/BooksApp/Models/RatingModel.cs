@@ -12,6 +12,7 @@ namespace BooksApp.Models
         public int ID { get; set; }
         public int Description { get; set; }
         [OneToMany]
+     public string UserName { get; set; }
         public List<ListRating> ListRatings { get; set; }
     }
 }

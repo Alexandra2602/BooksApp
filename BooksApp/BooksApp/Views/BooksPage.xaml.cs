@@ -20,7 +20,7 @@ namespace BooksApp.Views
     {
 
         User ul;
-        
+        Book bl;
         public BooksPage(User ulist)
         {
             InitializeComponent();
@@ -37,9 +37,11 @@ namespace BooksApp.Views
         }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new DetailPage(ul)
+                Book bl = (Book) e.SelectedItem;
+                await Navigation.PushAsync(new DetailPage(ul,bl)
                 {
                     BindingContext = e.SelectedItem as Book
                 });

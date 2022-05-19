@@ -2,17 +2,28 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.ReviewPage">
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbaritem"/>
+    </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="#e0cc94">
         <Frame Padding="0" Margin="15,60,15,10" HeightRequest="250" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
             <Editor Placeholder="Leave a review" PlaceholderColor="#855438" AutoSize="TextChanges" Margin="20" Text="{Binding Description}" HeightRequest="50" />
         </Frame>
+        <Label x:Name="user_name" FontSize="20"/>
         <Button Text="Add Review" CornerRadius="15" Margin="60,0,60,0" BackgroundColor="#855438" TextColor="Wheat" Clicked="OnSaveButtonClicked"  />
-        <Button Grid.Column="1" Text="Delete" Clicked="OnDeleteButtonClicked"/>
-        <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="listView" Margin="20" IsVisible="False">
+       
+        <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="listView" Margin="20" IsVisible="false">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Description}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+
+                        </Grid.RowDefinitions>
+                        <Label Text="{Binding Description}" Grid.Row="0"/>
+                        <Label Text="{Binding UserName}" Grid.Row="1"/>
+                    </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

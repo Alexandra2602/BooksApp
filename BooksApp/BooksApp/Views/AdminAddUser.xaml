@@ -9,7 +9,7 @@
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
-                <Label Text="Register your account" HorizontalOptions="CenterAndExpand" FontSize="35" TextColor="#855438" FontAttributes="Bold" FontFamily="cursive" Margin="0,0,0,10" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label Text="Add an account" HorizontalOptions="CenterAndExpand" FontSize="35" TextColor="#855438" FontAttributes="Bold" FontFamily="cursive" Margin="0,0,0,10" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
                 <Label Text="Name:" Grid.Row="1" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
                 <Entry x:Name="nameEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" FontSize="18" Grid.Row="1" Grid.Column="1" />
                 <Label Text="Last name:" Grid.Row="2" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>

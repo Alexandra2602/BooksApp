@@ -15,14 +15,24 @@ namespace BooksApp.Views
     {
         Book bl;
         User ul;
-        public ReviewPage(Book blist)
+        public ReviewPage(User ulist, Book blist)
         {
             InitializeComponent();
             bl = blist;
+            ul = ulist;
             
         }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            listView.ItemsSource = await App.Database.GetReviewsAsync(); 
+            toolbaritem.Text = "Logged in as " + ul.Name;
+            user_name.Text=ul.Name;
+        }
+     
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
+            
             var review = (Review)BindingContext;
             await App.Database.SaveReviewAsync(review);
             listView.ItemsSource = await App.Database.GetReviewsAsync();
@@ -30,14 +40,18 @@ namespace BooksApp.Views
             if (review != null)
             {
                 r = review as Review;
+                r.UserName = user_name.Text;
+                await App.Database.SaveReviewAsync(r);
                 var lp = new ListReview()
                 {
                     BookID = bl.ID,
-                    ReviewID = r.ID
+                    ReviewID = r.ID,
+                    UserID=ul.Id
                 };
+                
                 await App.Database.SaveListReviewAsync(lp);
                 r.ListReviews = new List<ListReview> { lp };
-
+                
                 await Navigation.PopAsync();
 
             }
@@ -48,11 +62,7 @@ namespace BooksApp.Views
             await App.Database.DeleteReviewAsync(review);
             listView.ItemsSource = await App.Database.GetReviewsAsync();
         }
-        protected override async void OnAppearing()
-        {
-            base.OnAppearing();
-            listView.ItemsSource = await App.Database.GetReviewsAsync();
-        }
+       
 
     }
 }

@@ -13,17 +13,23 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ReviewDetailsPage : ContentPage
     {
-        public ReviewDetailsPage()
+        User ul;
+        Book bl;
+        public ReviewDetailsPage(User ulist, Book blist)
         {
-            InitializeComponent();   
+            InitializeComponent();
+            ul = ulist;
+            bl = blist;
         }
     
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            toolbaritem.Text = "Logged in as " + ul.Name ;
             var shopl = (Book)BindingContext;
+            
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
-            ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
+            ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);          
            if( shopl.Average_Rating ==5)
             {
                 star1.IsVisible = true;
@@ -34,7 +40,6 @@ namespace BooksApp.Views
             }
             if (shopl.Average_Rating == 4)
             {
-                
                 star2.IsVisible = true;
                 star3.IsVisible = true;
                 star4.IsVisible = true;
@@ -42,7 +47,6 @@ namespace BooksApp.Views
             }
             if (shopl.Average_Rating == 3)
             {
-              
                 star3.IsVisible = true;
                 star4.IsVisible = true;
                 star5.IsVisible = true;
@@ -64,12 +68,14 @@ namespace BooksApp.Views
             {
                 nr = nr + 1;
                 sum = sum + rating1.Description;
+                
             }
             if (nr != 0)
             {
                 medie = medie + sum / nr;
                 shopl.Average_Rating = medie;
                 shopl.Number = nr;
+                
                 await App.Database.SaveBookListAsync(shopl);
             }
             else
@@ -79,11 +85,7 @@ namespace BooksApp.Views
                 await App.Database.SaveBookListAsync(shopl);
 
             }
-
-
         }
-
-
         private void Button_Clicked(object sender, EventArgs e)
         {
             reviewlistView.IsVisible = true;

@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.ReviewDetailsPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbaritem"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView BackgroundColor="#e0cc94">
             <StackLayout BackgroundColor="#e0cc94">
@@ -34,12 +37,33 @@
                     <Button Text="Feed" BackgroundColor="#855438" x:Name="feedbutton" FontSize="15" TextColor="Ivory" FontAttributes="Bold" CharacterSpacing="2" Grid.Row="4" Grid.Column="2" Margin="-5,-99,20,99" Clicked="Button3_Clicked"/>
 
                 </Grid>
-                <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="reviewlistView" Margin="25,-79,0,0" IsVisible="false" SelectionMode="None">
+
+                 <ListView Grid.Row="2" Grid.ColumnSpan="2" HasUnevenRows="True"  x:Name="reviewlistView" Margin="20,-79,0,0" IsVisible="False" SelectionMode="None" >
+                    
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Label Text="{Binding Description}" TextColor="Black"/>
+                                
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition Width="auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Label Text="{Binding Description}" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" TextColor="Black" FontSize="16" Margin="15,0,10,0"/>
+
+                                    <Label Text="{Binding UserName}" Grid.Column="0" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0"/>
+                                    <Label Text="added a review :" Grid.Column="1" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0" />
+                                </Grid>
+
+                                
                             </ViewCell>
+                                
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>

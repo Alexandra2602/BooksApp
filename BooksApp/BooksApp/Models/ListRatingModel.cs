@@ -6,13 +6,15 @@ using System.Text;
 
 namespace BooksApp.Models
 {
-    public class Review
+    public class ListRatingModel
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
-        public string Description { get; set; }
-        public string UserName { get; set; }
-        [OneToMany]
-        public List<ListReview> ListReviews { get; set; }
+
+        [ForeignKey(typeof(Book))]
+        public int BookID { get; set; }
+        [ForeignKey(typeof(User))]
+        public int UserID { get; set; }
+        public int RatingID { get; set; }
     }
 }

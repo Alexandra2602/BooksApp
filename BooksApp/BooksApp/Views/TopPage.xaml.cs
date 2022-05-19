@@ -20,9 +20,6 @@ namespace BooksApp.Views
         {
             InitializeComponent();
             ul = ulist;
-            
-
-
         }
         
         protected override async void OnAppearing()
@@ -36,7 +33,8 @@ namespace BooksApp.Views
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new ReviewDetailsPage
+                Book bl = (Book)e.SelectedItem;
+                await Navigation.PushAsync(new ReviewDetailsPage(ul,bl)
                 {
                     BindingContext = e.SelectedItem as Book
                 });

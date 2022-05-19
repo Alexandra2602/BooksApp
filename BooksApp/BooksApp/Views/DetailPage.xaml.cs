@@ -14,10 +14,12 @@ namespace BooksApp.Views
     public partial class DetailPage : ContentPage
     {
         User ul;
-        public DetailPage(User ulist)
+        Book bl;
+        public DetailPage(User ulist, Book blist)
         {
             InitializeComponent();
             ul = ulist;
+            bl = blist;
 
         }
         protected override void OnAppearing()
@@ -26,8 +28,7 @@ namespace BooksApp.Views
         }
         async void OnChooseButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ReviewPage((Book)
-          this.BindingContext)
+            await Navigation.PushAsync(new ReviewPage(ul, bl)
             {
                 BindingContext = new Review()
             });
@@ -35,8 +36,8 @@ namespace BooksApp.Views
         }
         async void OnChooseButtonClicked2(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RatingPage((Book)
-           this.BindingContext)
+            await Navigation.PushAsync(new RatingPage(ul,bl)
+           
             {
                 BindingContext = new RatingModel()
             });

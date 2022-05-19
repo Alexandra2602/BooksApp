@@ -14,17 +14,20 @@ namespace BooksApp.Views
     public partial class RatingPage : ContentPage
     {
         Book bl;
-        public RatingPage(Book blist)
+        User ul;
+        public RatingPage(User ulist, Book blist)
         {
-
             InitializeComponent();
             bl = blist;
-            
+            ul = ulist;    
         }
-        int nr = 0;
-        int sum=0;
-        int medie=0;
-       
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            listView2.ItemsSource = await App.Database.GetRatingsAsync();
+            toolbaritem.Text = "Logged in as " + ul.Name;
+            user_name.Text = ul.Name;
+        }
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             bl.Average_Rating = 0;
@@ -35,26 +38,18 @@ namespace BooksApp.Views
             if (rating != null)
             {
                 r = rating as RatingModel;
+                r.UserName = user_name.Text;
+                await App.Database.SaveRatingAsync(r);
                 var lp = new ListRating()
                 {
                     BookID = bl.ID,
-                    RatingID = r.ID
+                    RatingID = r.ID,
+                    UserID=ul.Id
                 };
-               await App.Database.SaveListRatingAsync(lp);
-                    r.ListRatings = new List<ListRating> { lp };
-                    await Navigation.PopAsync();
-                
-               
+                await App.Database.SaveListRatingAsync(lp);
+                r.ListRatings = new List<ListRating> { lp };
+                await Navigation.PopAsync(); 
             }
         }
-        
-        protected override async void OnAppearing()
-        {
-            base.OnAppearing();
-            listView2.ItemsSource = await App.Database.GetRatingsAsync();
-        }
-
-
-
     }
 }
