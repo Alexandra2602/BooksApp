@@ -22,7 +22,7 @@ namespace BooksApp.Views
             base.OnAppearing();
             var shopl = (Book)BindingContext;
 
-            ratinglistView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
+            ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
         }
 
         async void ratinglistView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

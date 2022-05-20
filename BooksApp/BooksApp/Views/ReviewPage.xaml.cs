@@ -56,13 +56,6 @@ namespace BooksApp.Views
 
             }
         }
-        async void OnDeleteButtonClicked(object sender, EventArgs e)
-        {
-            var review = (Review)BindingContext;
-            await App.Database.DeleteReviewAsync(review);
-            listView.ItemsSource = await App.Database.GetReviewsAsync();
-        }
-       
-
+ 
     }
 }

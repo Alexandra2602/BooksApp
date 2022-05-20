@@ -15,7 +15,7 @@
                     <Label Text="E-mail"  VerticalOptions="Center"  FontSize="17" TextColor="Black" Grid.Row="1" Grid.Column="0" Margin="0,12,0,0" />
                     <Entry Placeholder="Enter your email... " x:Name="EntryUser" FontSize="16" Margin="-20,0,10,0" Keyboard="Email" TextColor="Black"  Grid.Row="1" Grid.Column="1" Text="{Binding Email,Mode=TwoWay}"/>
                     <Label Text="Password" VerticalOptions="Center" FontSize="16" TextColor="Black" Grid.Row="2" Grid.Column="0" Margin="0,12,0,0"/>
-                    <Entry Placeholder="Enter your password.. " x:Name="EntryPassword" Margin="-20,0,10,0" FontSize="16"  IsPassword="True" TextColor="#855438" Grid.Row="2" Grid.Column="1" Text="{Binding Password,Mode=TwoWay}"/>
+                    <Entry Placeholder="Enter your password.. " x:Name="EntryPassword" Margin="-20,0,10,0" FontSize="16"  IsPassword="True" TextColor="Black" Grid.Row="2" Grid.Column="1" Text="{Binding Password,Mode=TwoWay}"/>
                 </Grid>
                 <Button Text="Login" Margin="50,-10,50,0" BackgroundColor="#855438" TextColor="White" BorderRadius="23" HeightRequest="42" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" IsEnabled="{Binding IsEnabled, Mode=TwoWay}" Clicked="Login_Clicked">
                 </Button>

@@ -109,6 +109,7 @@ namespace BooksApp.Views
             book1.Source = ul.FavoriteBook1;
             book2.Source = ul.FavoriteBook2;
             book3.Source = ul.FavoriteBook3;
+            ul.Goal = goal_label.Text;
 
 
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
@@ -137,7 +138,8 @@ namespace BooksApp.Views
             book1.Source = ul.FavoriteBook1;
             book2.Source = ul.FavoriteBook2;
             book3.Source = ul.FavoriteBook3;
-            toolbaritem.Text = "You are logged in as " + ul.Name;
+            goal_label.Text = ul.Goal;
+            toolbaritem.Text = "Logged in as " + ul.Name;
 
         }
         string FavoriteBook1;

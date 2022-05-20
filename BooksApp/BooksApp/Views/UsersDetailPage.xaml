@@ -24,8 +24,8 @@
                 <Frame Padding="5"   CornerRadius="15" BackgroundColor="Wheat" Margin="10,25,10,10" WidthRequest="200" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
                     <Editor x:Name="Description" Text="{Binding Description}"  HeightRequest="100" FontSize="13" IsReadOnly="True"  />
                 </Frame>
-                <Editor FontSize="15" Text="{Binding Address}" TextColor="#855438" FontAttributes="Bold" HorizontalOptions="Start" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="1" Margin="40,-20,0,70"/>
-                <Image Source="location" Grid.Column="2" Grid.Row="2" Margin="-80,-20,-10,70"/>
+                <Editor FontSize="15" Text="{Binding Address}" TextColor="#855438" FontAttributes="Bold" HorizontalOptions="Start" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="1" Margin="15,-20,0,70"/>
+                <Image Source="location" Grid.Column="2" Grid.Row="2" Margin="-120,-20,-10,70"/>
 
                 <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-60,10,156" Grid.Row="3" Grid.ColumnSpan="3"/>
                 <Label Text="Favorite Genres"  HorizontalOptions="Center" FontSize="18" FontAttributes="Bold" Margin="0, 50,0,0" TextColor="#855438" Grid.Row="2" Grid.ColumnSpan="3"/>

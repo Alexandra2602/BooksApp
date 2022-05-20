@@ -6,6 +6,7 @@
         <ToolbarItem Text="Add user" Clicked="AddUserClicked"/>
     </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="#e0cc94">
+        <Button Text="LOGOUT" CornerRadius="15" Margin="50,5,50,-10" BackgroundColor="#855438" TextColor="Ivory" Clicked="Button_Clicked_4"/>
         <ListView x:Name="userslistview" Margin="20" RowHeight="100" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>

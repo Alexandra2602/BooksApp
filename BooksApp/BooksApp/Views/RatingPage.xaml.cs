@@ -24,7 +24,7 @@ namespace BooksApp.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            listView2.ItemsSource = await App.Database.GetRatingsAsync();
+            ratingListView.ItemsSource = await App.Database.GetRatingsAsync();
             toolbaritem.Text = "Logged in as " + ul.Name;
             user_name.Text = ul.Name;
         }
@@ -33,7 +33,7 @@ namespace BooksApp.Views
             bl.Average_Rating = 0;
             var rating = (RatingModel)BindingContext;
             await App.Database.SaveRatingAsync(rating);
-            listView2.ItemsSource = await App.Database.GetRatingsAsync();
+            ratingListView.ItemsSource = await App.Database.GetRatingsAsync();
             RatingModel r;
             if (rating != null)
             {

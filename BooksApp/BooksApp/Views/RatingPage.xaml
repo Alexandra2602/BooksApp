@@ -10,18 +10,24 @@
         <Frame Padding="0" Margin="15,60,15,10" HeightRequest="250" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
             <Editor Placeholder="Add a rating from 1 to 5 " PlaceholderColor="#855438" AutoSize="TextChanges" Margin="20" Text="{Binding Description}" HeightRequest="50" />
         </Frame>
-        <Label x:Name="user_name" FontSize="20"/>
+        <Label x:Name="user_name" FontSize="20" IsVisible="false"/>
         <Button Text="Add Rating" CornerRadius="15" Margin="60,0,60,0" BackgroundColor="#855438" TextColor="Wheat" Clicked="OnSaveButtonClicked"  />
-        <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="listView2" Margin="20" IsVisible="False">
+        <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="ratingListView" HasUnevenRows="True" Margin="20,-79,0,0" IsVisible="False" SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
-                        <Label Text="{Binding Description}" Grid.Row="0"/>
-                        <Label Text="{Binding UserName}" Grid.Row="1"/>
+                        <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" TextColor="Black" FontSize="16" Margin="15,0,10,0"/>
+                        <Label Text="{Binding UserName}" Grid.Column="0" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0"/>
+                        <Label Text="added a rating :" Grid.Column="1" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0" />
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>

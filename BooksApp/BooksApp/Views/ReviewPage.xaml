@@ -9,7 +9,7 @@
         <Frame Padding="0" Margin="15,60,15,10" HeightRequest="250" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
             <Editor Placeholder="Leave a review" PlaceholderColor="#855438" AutoSize="TextChanges" Margin="20" Text="{Binding Description}" HeightRequest="50" />
         </Frame>
-        <Label x:Name="user_name" FontSize="20"/>
+        <Label x:Name="user_name" FontSize="20" IsVisible="false"/>
         <Button Text="Add Review" CornerRadius="15" Margin="60,0,60,0" BackgroundColor="#855438" TextColor="Wheat" Clicked="OnSaveButtonClicked"  />
        
         <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="listView" Margin="20" IsVisible="false">

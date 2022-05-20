@@ -8,11 +8,24 @@
                 <Image Source="{Binding ImagePath}" HeightRequest="240" WidthRequest="240" Margin="10" HorizontalOptions="CenterAndExpand"/>
                 <BoxView HeightRequest="4" Color="Wheat" HorizontalOptions="FillAndExpand" Margin="0,0,0,0"/>
                 <Label Text="Ratings" FontSize="23" FontAttributes="Bold" TextColor="#855438" HorizontalOptions="CenterAndExpand"/>
-                <ListView  x:Name="ratinglistView" IsVisible="true" Margin="14" ItemSelected="ratinglistView_ItemSelected">
+                <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="ratingListView" HasUnevenRows="True" Margin="14" IsVisible="true" ItemSelected="ratinglistView_ItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Label Text="{Binding Description}" TextColor="Black" FontSize="16"/>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" TextColor="Black" FontSize="16" Margin="15,0,10,0"/>
+                                    <Label Text="{Binding UserName}" Grid.Column="0" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0"/>
+                                    <Label Text="added a rating :" Grid.Column="1" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0" />
+                                </Grid>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>

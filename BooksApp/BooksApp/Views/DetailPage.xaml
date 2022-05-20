@@ -7,7 +7,7 @@
     
     <ContentPage.Content>
         <StackLayout  BackgroundColor="#e0cc94">
-            <Frame VerticalOptions="CenterAndExpand" Padding="3" Margin="10,90,10,80"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe" HeightRequest="900">
+            <Frame VerticalOptions="CenterAndExpand" Padding="3" Margin="10,90,10,120"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe" HeightRequest="600">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto"/>
@@ -41,12 +41,10 @@
                     <Label Text="{Binding YearPublished}" Grid.Row="3" Grid.Column="2" Margin="-10,-25,0,0" TextColor="Black" FontSize="16"/>
                     <Label Text="{Binding NumberOfPages}" Grid.Row="4" Grid.Column="2" Margin="-10,5,0,10" TextColor="Black" FontSize="16"/>
 
-                    <Button Text="Add a review" Clicked="OnChooseButtonClicked" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="0" Margin="10,0,-10,0"/>
-                    <Button Text="Add a rating" Clicked="OnChooseButtonClicked2" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="30,0,20,0"/>
+                    <Button Text="Add a review" Clicked="OnChooseButtonClicked" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="0" Margin="10,20,-10,0"/>
+                    <Button Text="Add a rating" Clicked="OnChooseButtonClicked2" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="30,20,20,0"/>
 
-                    <Button  Text="Read" x:Name="button_read" CornerRadius="20" BackgroundColor="Ivory" TextColor="#855438" Grid.Row="6" Grid.Column="0" Margin="10,30,35,40" Clicked="Read_Clicked" />
-                    <Button  Text="Reading" x:Name="button_reading" CornerRadius="20" BackgroundColor="Ivory" TextColor="#855438" Grid.Row="6" Grid.Column="1" Margin="-30,30,20,40" Clicked="Reading_Clicked"/>
-                    <Button  Text="Dropped" x:Name="button_dropped" CornerRadius="20" BackgroundColor="Ivory" TextColor="#855438" Grid.Row="6" Grid.Column="2" Margin="-10,30,15,40" Clicked="Dropped_Clicked"/>
+                    
                 </Grid>
             </Frame>
         </StackLayout>

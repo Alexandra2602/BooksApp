@@ -21,16 +21,14 @@ namespace BooksApp.Views
             ul = ulist;
             bl = blist;
         }
-    
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             toolbaritem.Text = "Logged in as " + ul.Name ;
             var shopl = (Book)BindingContext;
-            
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
             ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);          
-           if( shopl.Average_Rating ==5)
+            if( shopl.Average_Rating ==5)
             {
                 star1.IsVisible = true;
                 star2.IsVisible = true;
@@ -68,14 +66,12 @@ namespace BooksApp.Views
             {
                 nr = nr + 1;
                 sum = sum + rating1.Description;
-                
             }
             if (nr != 0)
             {
                 medie = medie + sum / nr;
                 shopl.Average_Rating = medie;
                 shopl.Number = nr;
-                
                 await App.Database.SaveBookListAsync(shopl);
             }
             else
@@ -91,8 +87,7 @@ namespace BooksApp.Views
             reviewlistView.IsVisible = true;
             reviewbutton.BackgroundColor = Color.Ivory;
             reviewbutton.TextColor = Color.FromHex("#855438");
-            feedbutton.BackgroundColor = Color.FromHex("#855438");
-            feedbutton.TextColor = Color.Ivory;
+            
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
             ratingbutton.TextColor = Color.Ivory;
             ratingListView.IsVisible = false;
@@ -104,16 +99,14 @@ namespace BooksApp.Views
             ratingbutton.TextColor = Color.FromHex("#855438");
             reviewbutton.BackgroundColor = Color.FromHex("#855438");
             reviewbutton.TextColor = Color.Ivory;
-            feedbutton.BackgroundColor = Color.FromHex("#855438");
-            feedbutton.TextColor = Color.Ivory;
+           
             reviewlistView.IsVisible = false;
 
         }
         private void Button3_Clicked(object sender, EventArgs e)
         {
 
-            feedbutton.BackgroundColor = Color.Ivory;
-            feedbutton.TextColor = Color.FromHex("#855438");
+            
             reviewbutton.BackgroundColor = Color.FromHex("#855438");
             reviewbutton.TextColor = Color.Ivory;
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
