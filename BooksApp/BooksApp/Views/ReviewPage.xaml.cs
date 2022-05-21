@@ -53,7 +53,6 @@ namespace BooksApp.Views
                 r.ListReviews = new List<ListReview> { lp };
                 
                 await Navigation.PopAsync();
-
             }
         }
  

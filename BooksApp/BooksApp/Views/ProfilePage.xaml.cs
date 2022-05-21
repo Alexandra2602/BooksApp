@@ -15,6 +15,7 @@ namespace BooksApp.Views
     public partial class ProfilePage : ContentPage
     {
         User ul;
+        Book bl;
         public ProfilePage(User ul)
         {
             InitializeComponent();
@@ -119,16 +120,18 @@ namespace BooksApp.Views
                 if (rowsAdded > 0)
                 {
                     DisplayAlert("Succes", "User succesfull updated", "Ok");
-                    
+
                 }
                 else
                     DisplayAlert("Error", "User not succesfull updated", "Ok");
             }
 
         }
-        protected override  void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
+            //var user1 = (User)BindingContext;
+            finishedlistView.ItemsSource = await App.Database.GetListFinishedsAsync(ul.Id) ;
             resultImage.Source = ul.ImagePath2;
             cityEntry.Text = ul.Address;
             Description.Text = ul.Description;
@@ -139,7 +142,7 @@ namespace BooksApp.Views
             book2.Source = ul.FavoriteBook2;
             book3.Source = ul.FavoriteBook3;
             goal_label.Text = ul.Goal;
-            toolbaritem.Text = "Logged in as " + ul.Name;
+            toolbaritem.Text = "Logged in as " + ul.Id;
 
         }
         string FavoriteBook1;
@@ -159,7 +162,7 @@ namespace BooksApp.Views
                 FavoriteBook1 = result.FullPath;
                 imgpathbook1.Text = FavoriteBook1;
                 ul.FavoriteBook1 = imgpathbook1.Text;
-                book1.Source = ul.FavoriteBook1; 
+                book1.Source = ul.FavoriteBook1;
             }
         }
         async void fav_book2_Clicked(object sender, EventArgs e)
@@ -198,32 +201,46 @@ namespace BooksApp.Views
         }
 
         async void Top_Clicked(object sender, EventArgs e)
-            {
-                await Navigation.PushAsync(new TopPage(ul));
-            }
-            async void Home_Clicked(object sender, EventArgs e)
-            {
-                await Navigation.PushAsync(new BooksPage(ul));
-            }
+        {
+            await Navigation.PushAsync(new TopPage(ul));
+        }
+        async void Home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BooksPage(ul));
+        }
 
-            async void Calendar_Clicked(object sender, EventArgs e)
-            {
-                await Navigation.PushAsync(new CalendarPage(ul));
-            }
-            async void Profile_Clicked(object sender, EventArgs e)
-            {
-                await Navigation.PushAsync(new ProfilePage(ul));
-            }
-            async void Members_Clicked(object sender, EventArgs e)
-            {
-                await Navigation.PushAsync(new UsersPage(ul));
-            }
+        async void Calendar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalendarPage(ul));
+        }
+        async void Profile_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage(ul));
+        }
+        async void Members_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UsersPage(ul));
+        }
 
         async void Button_Clicked_2(object sender, EventArgs e)
         {
 
             await Navigation.PushAsync(new LoginPage());
         }
+
+        async void Button_Clicked_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new FinishedBooks(ul,bl)
+
+            {
+                BindingContext = new Finished()
+            });
+        }
+
+        async void Button_Clicked_4(object sender, EventArgs e)
+        {
+            finishedlistView.IsVisible = true;
+        }
     }
-    }
+}
 

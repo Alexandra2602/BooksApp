@@ -47,7 +47,9 @@
                     <Frame Padding="5"   CornerRadius="15" BackgroundColor="Wheat" Margin="-70,20,140,100" WidthRequest="200" Grid.Row="3" Grid.Column="2" >
                         <Entry Text="10" x:Name="goal_label" TextColor="#855438" FontSize="14" Grid.Row="3" Grid.Column="2" />
                     </Frame>
-                   
+                    <Button Text="+" Grid.Row="3" Grid.Column="2" HeightRequest="10" WidthRequest="10" CornerRadius="200" Margin="30,30,30,110" Clicked="Button_Clicked_3"  />
+                    <Button Text="View finished books" Grid.Row="3" Grid.Column="2" HeightRequest="10" WidthRequest="10" Margin="-130,10,170,110" Clicked="Button_Clicked_4"/>
+
 
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-100,10,280" Grid.Row="4" Grid.ColumnSpan="3"/>
                     <Label Text="FAVORITE BOOKS"  HorizontalOptions="CenterAndExpand" FontSize="16" FontAttributes="Bold" TextColor="#855438" Grid.Row="4" Grid.ColumnSpan="3" Margin="0,-90,0,0"/>
@@ -65,8 +67,24 @@
                     
                     <Button Text="SAVE" BackgroundColor="#855438" TextColor="Ivory" CornerRadius="15" Grid.Row="5" Grid.Column="0"  Margin="30,0,-30,120" Clicked="Button_Clicked_1"/>
                     <Button Text="LOG OUT" BackgroundColor="#855438" TextColor="Ivory" CornerRadius="15" Grid.Row="5" Grid.Column="2"  Margin="-30,0,30,120" Clicked="Button_Clicked_2"/>
-                    
+
+                    <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="finishedlistView" Margin="20" IsVisible="true" BackgroundColor="Black">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition Height="auto"/>
+
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Title}" Grid.Row="0"/>
+                                    <Label Text="{Binding Author}" Grid.Row="1"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </Grid>
+                
             </StackLayout>
         </ScrollView>
         <StackLayout>

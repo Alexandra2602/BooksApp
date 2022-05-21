@@ -1,67 +1,497 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Xamarin.Plugin.Calendar.Controls;assembly=Xamarin.Plugin.Calendar"
              x:Class="BooksApp.Views.CalendarPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbaritem"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout  BackgroundColor="Wheat">
-            <Label x:Name="label2" Text="You are logged in as: " TextColor="Black" HorizontalOptions="Start" FontSize="18" Margin="10,0,20,-20"/>
-            <Label x:Name="label1" TextColor="Black" HorizontalOptions="End" FontSize="18" Margin="10,-12,10,-10"/>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="150" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="100"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="Wheat">
+            <StackLayout BackgroundColor="Wheat">
+                <Grid Margin="20" IsVisible="false" x:Name="january">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="stanga" HeightRequest="15" WidthRequest="15" Grid.Column="0" Grid.Row="0" Margin="-5" >
+                        
+                    </Image>
+                    <Image Source="dreapta" HeightRequest="15" WidthRequest="15" Grid.Column="6" Grid.Row="0" Margin="-5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label  Text="January 2022" FontSize="19" TextColor="#855438" FontAttributes="Bold" Grid.Row="0"  Grid.Column="2" Grid.ColumnSpan="3" HorizontalOptions="Center"/>
+                    <Label Text="L" Grid.Row="1" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="J" Grid.Row="1" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="V" Grid.Row="1" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="S" Grid.Row="1" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="D" Grid.Row="1" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="1" Grid.Row="2" Grid.Column="5" FontSize="18" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="2" Grid.Row="2" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="3" Grid.Row="3" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="4" Grid.Row="3" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="5" Grid.Row="3" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="6" Grid.Row="3" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="7" Grid.Row="3" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="8" Grid.Row="3" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="9" Grid.Row="3" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="10" Grid.Row="4" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="11" Grid.Row="4" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="12" Grid.Row="4" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="13" Grid.Row="4" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="14" Grid.Row="4" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="15" Grid.Row="4" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="16" Grid.Row="4" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="17" Grid.Row="5" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="18" Grid.Row="5" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="19" Grid.Row="5" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="20" Grid.Row="5" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="21" Grid.Row="5" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="22" Grid.Row="5" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="23" Grid.Row="5" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
 
+                    <Label Text="24" Grid.Row="6" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="25" Grid.Row="6" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="26" Grid.Row="6" Grid.Column="2" FontSize="18" HorizontalOptions="Center" Margin="5" />
+                    <Label Text="27" Grid.Row="6" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="28" Grid.Row="6" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="29" Grid.Row="6" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="30" Grid.Row="6" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="31" Grid.Row="7" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
 
-                <Label Text="Finished Books" TextColor="#855438" FontFamily="cursive" FontSize="45" Margin="0,20" HorizontalTextAlignment="Center" FontAttributes="Bold" Grid.Row="0" Grid.ColumnSpan="2" />
-                <Label Text="The day you started the book:" Margin="6,5,0,0" TextColor="Black" FontSize="15" Grid.Column="0" Grid.Row="1"/>
-                <DatePicker x:Name="startDatePicker" Format="D" Margin="5,0,0,30" FontSize="15" DateSelected="OnDateSelected" Grid.Column="1" Grid.Row="1"/>
-
-                <Label Text="The day you finished the book:" Margin="6,5,0,0" TextColor="Black" FontSize="15" Grid.Column="0" Grid.Row="2"/>
-                <DatePicker x:Name="endDatePicker" MinimumDate="{Binding Source={x:Reference startDatePicker}, Path=Date}" FontSize="15" Format="D" Margin="5,0,0,30" DateSelected="OnDateSelected" Grid.Column="1" Grid.Row="2"/>
-                <StackLayout Orientation="Horizontal" Margin="35,0,0,30" Grid.Row="3" Grid.ColumnSpan="2" >
-                    <Label Text="Including the start and the end date:" TextColor="Black" FontSize="14" VerticalOptions="Center"/>
-                    <Switch x:Name="includeSwitch" Toggled="includeSwitch_Toggled"/>
-                </StackLayout>
-                <Label x:Name="resultLabel" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.Row="4" Grid.ColumnSpan="2"/>
-                <Button Text="Choose the book that you finished" Clicked="Button_Clicked" CornerRadius="15" Margin="25,0,20,25" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.ColumnSpan="2" />
+                    <Label Text="Books of the month" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="7" HorizontalOptions="Center" TextColor="#855438" FontSize="15" FontAttributes="Bold"/>
+                    <Image Source="all_those_things.jpg" x:Name="book1" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90"/>
+                    <Image Source="and_then_were_none.jpg" x:Name="book2"  Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="20,10,-20,-90" />
+                    <Image Source="atomic_habits.jpg" Grid.Row="9" x:Name="book3" Grid.Column="5" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90" />
 
             </Grid>
-            <ListView x:Name="listView" Margin="5" RowHeight="100" IsVisible="false" >
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell >
-                            <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
+                <Grid Margin="20" IsVisible="false" x:Name="february">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="stanga" HeightRequest="15" WidthRequest="15" Grid.Column="0" Grid.Row="0" Margin="-5" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped2" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="dreapta" HeightRequest="15" WidthRequest="15" Grid.Column="6" Grid.Row="0" Margin="-5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped3" NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="February 2022" FontSize="19" TextColor="#855438" FontAttributes="Bold" Grid.Row="0" Margin="0,0,-5,0" Grid.Column="2" Grid.ColumnSpan="3" HorizontalOptions="Center"/>
+                    <Label Text="L" Grid.Row="1" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="J" Grid.Row="1" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="V" Grid.Row="1" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="S" Grid.Row="1" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="D" Grid.Row="1" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="1" Grid.Row="2" Grid.Column="1" FontSize="18" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="2" Grid.Row="2" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="3" Grid.Row="2" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="4" Grid.Row="2" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="5" Grid.Row="2" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="6" Grid.Row="2" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="7" Grid.Row="3" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="8" Grid.Row="3" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="9" Grid.Row="3" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="10" Grid.Row="3" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="11" Grid.Row="3" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="12" Grid.Row="3" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="13" Grid.Row="3" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="14" Grid.Row="4" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="15" Grid.Row="4" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="16" Grid.Row="4" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="17" Grid.Row="4" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="18" Grid.Row="4" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="19" Grid.Row="4" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="20" Grid.Row="4" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="21" Grid.Row="5" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="22" Grid.Row="5" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="23" Grid.Row="5" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
 
-                                <Grid VerticalOptions="CenterAndExpand">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="auto"/>
-                                        <ColumnDefinition Width="*"/>
+                    <Label Text="24" Grid.Row="5" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="25" Grid.Row="5" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="26" Grid.Row="5" Grid.Column="5" FontSize="18" HorizontalOptions="Center" Margin="5" />
+                    <Label Text="27" Grid.Row="5" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="28" Grid.Row="6" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
 
-                                    </Grid.ColumnDefinitions>
-                                    <StackLayout Grid.Column="0">
-                                        <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="80" WidthRequest="100" Aspect="AspectFit"  ></Image>
-                                    </StackLayout>
-                                    <StackLayout Grid.Column="1">
-                                        <Label Text="{Binding Title}" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
-                                        <Label Text="{Binding Author}" FontSize="16" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-5,-5,0,0"/>
-                                    </StackLayout>
-                                </Grid>
-                            </Frame>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                    <Label Text="Books of the month" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="7" HorizontalOptions="Center" TextColor="#855438" FontSize="15" FontAttributes="Bold"/>
+                    <Image Source="abc_murders" x:Name="book4" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90" IsVisible="false" />
+                    <Image Source="how_to_stop_time" x:Name="book5" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="20,10,-20,-90" IsVisible="false" />
+                    <Image Source="homo_deus.jpg" x:Name="book6" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90" IsVisible="false" />
 
-            <Grid BackgroundColor="#e0cc94" Margin="0,-20,0,0">
+                </Grid>
+                <Grid Margin="20" IsVisible="false" x:Name="march">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="stanga" HeightRequest="15" WidthRequest="15" Grid.Column="0" Grid.Row="0" Margin="-5" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped4" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="dreapta" HeightRequest="15" WidthRequest="15" Grid.Column="6" Grid.Row="0" Margin="-5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped5" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="March 2022" FontSize="19" TextColor="#855438" FontAttributes="Bold" Grid.Row="0"  Grid.Column="2" Grid.ColumnSpan="3" HorizontalOptions="Center"/>
+                    <Label Text="L" Grid.Row="1" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="J" Grid.Row="1" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="V" Grid.Row="1" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="S" Grid.Row="1" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="D" Grid.Row="1" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="1" Grid.Row="2" Grid.Column="1" FontSize="18" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="2" Grid.Row="2" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="3" Grid.Row="2" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="4" Grid.Row="2" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="5" Grid.Row="2" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="6" Grid.Row="2" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="7" Grid.Row="3" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="8" Grid.Row="3" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="9" Grid.Row="3" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="10" Grid.Row="3" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="11" Grid.Row="3" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="12" Grid.Row="3" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="13" Grid.Row="3" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="14" Grid.Row="4" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="15" Grid.Row="4" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="16" Grid.Row="4" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="17" Grid.Row="4" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="18" Grid.Row="4" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="19" Grid.Row="4" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="20" Grid.Row="4" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="21" Grid.Row="5" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="22" Grid.Row="5" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="23" Grid.Row="5" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+
+                    <Label Text="24" Grid.Row="5" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="25" Grid.Row="5" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="26" Grid.Row="5" Grid.Column="5" FontSize="18" HorizontalOptions="Center" Margin="5" />
+                    <Label Text="27" Grid.Row="5" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="28" Grid.Row="6" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="29" Grid.Row="6" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="30" Grid.Row="6" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="31" Grid.Row="6" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+
+                    <Label Text="Books of the month" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="7" HorizontalOptions="Center" TextColor="#855438" FontSize="15" FontAttributes="Bold"/>
+                    <Image Source="big_little_lies" x:Name="book7" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-100" IsVisible="false" />
+                    <Image Source="hopeless" x:Name="book8" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="20,10,-20,-100" IsVisible="false" />
+                    <Image Source="hate_u_give.jpg" x:Name="book9" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-100" IsVisible="false" />
+
+                </Grid>
+                <Grid Margin="20" IsVisible="false" x:Name="april">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="stanga" HeightRequest="15" WidthRequest="15" Grid.Column="0" Grid.Row="0" Margin="-5" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped6" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="dreapta" HeightRequest="15" WidthRequest="15" Grid.Column="6" Grid.Row="0" Margin="-5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped7" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="April 2022" FontSize="19" TextColor="#855438" FontAttributes="Bold" Grid.Row="0"  Grid.Column="2" Grid.ColumnSpan="3" HorizontalOptions="Center"/>
+                    <Label Text="L" Grid.Row="1" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="J" Grid.Row="1" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="V" Grid.Row="1" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="S" Grid.Row="1" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="D" Grid.Row="1" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="1" Grid.Row="2" Grid.Column="4" FontSize="18" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="2" Grid.Row="2" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="3" Grid.Row="2" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="4" Grid.Row="3" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="5" Grid.Row="3" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="6" Grid.Row="3" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="7" Grid.Row="3" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="8" Grid.Row="3" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="9" Grid.Row="3" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="10" Grid.Row="3" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="11" Grid.Row="4" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="12" Grid.Row="4" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="13" Grid.Row="4" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="14" Grid.Row="4" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="15" Grid.Row="4" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="16" Grid.Row="4" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="17" Grid.Row="4" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="18" Grid.Row="5" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="19" Grid.Row="5" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="20" Grid.Row="5" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="21" Grid.Row="5" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="22" Grid.Row="5" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="23" Grid.Row="5" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+
+                    <Label Text="24" Grid.Row="5" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="25" Grid.Row="6" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="26" Grid.Row="6" Grid.Column="1" FontSize="18" HorizontalOptions="Center" Margin="5" />
+                    <Label Text="27" Grid.Row="6" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="28" Grid.Row="6" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="29" Grid.Row="6" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="30" Grid.Row="6" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+
+                    <Label Text="Books of the month" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="7" HorizontalOptions="Center" TextColor="#855438" FontSize="15" FontAttributes="Bold"/>
+                    <Image Source="hope" x:Name="book10" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90" IsVisible="false" />
+                    <Image Source="death_nile" x:Name="book11" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="20,10,-20,-90" IsVisible="false" />
+                    <Image Source="seven_husbands" x:Name="book12" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90" IsVisible="false" />
+
+                </Grid>
+                <Grid Margin="20" IsVisible="false" x:Name="may">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="stanga" HeightRequest="15" WidthRequest="15" Grid.Column="0" Grid.Row="0" Margin="-5" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped8" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="dreapta" HeightRequest="15" WidthRequest="15" Grid.Column="6" Grid.Row="0" Margin="-5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped9" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="May 2022" FontSize="19" TextColor="#855438" FontAttributes="Bold" Grid.Row="0"  Grid.Column="2" Grid.ColumnSpan="3" HorizontalOptions="Center"/>
+                    <Label Text="L" Grid.Row="1" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="J" Grid.Row="1" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="V" Grid.Row="1" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="S" Grid.Row="1" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="D" Grid.Row="1" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="1" Grid.Row="2" Grid.Column="6" FontSize="18" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="2" Grid.Row="3" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="3" Grid.Row="3" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="4" Grid.Row="3" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="5" Grid.Row="3" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="6" Grid.Row="3" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="7" Grid.Row="3" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="8" Grid.Row="3" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="9" Grid.Row="4" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="10" Grid.Row="4" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="11" Grid.Row="4" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="12" Grid.Row="4" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="13" Grid.Row="4" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="14" Grid.Row="4" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="15" Grid.Row="4" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="16" Grid.Row="5" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="17" Grid.Row="5" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="18" Grid.Row="5" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="19" Grid.Row="5" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="20" Grid.Row="5" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="21" Grid.Row="5" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="22" Grid.Row="5" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="23" Grid.Row="6" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+
+                    <Label Text="24" Grid.Row="6" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="25" Grid.Row="6" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="26" Grid.Row="6" Grid.Column="3" FontSize="18" HorizontalOptions="Center" Margin="5" />
+                    <Label Text="27" Grid.Row="6" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="28" Grid.Row="6" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="29" Grid.Row="6" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="30" Grid.Row="7" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="31" Grid.Row="7" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+
+                    <Label Text="Books of the month" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="7" HorizontalOptions="Center" TextColor="#855438" FontSize="15" FontAttributes="Bold"/>
+                    <Image Source="factfulness" x:Name="book13" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,20,0,-100" IsVisible="false" />
+                    <Image Source="small_fry" x:Name="book14" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="20,20,-20,-100" IsVisible="false" />
+                    <Image Source="crawdads" x:Name="book15" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,20,0,-100" IsVisible="false" />
+
+                </Grid>
+
+                <Grid Margin="20" IsVisible="true" x:Name="june">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="stanga" HeightRequest="15" WidthRequest="15" Grid.Column="0" Grid.Row="0" Margin="-5" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped10" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="dreapta" HeightRequest="15" WidthRequest="15" Grid.Column="6" Grid.Row="0" Margin="-5">
+                        
+                    </Image>
+                    <Label Text="June 2022" FontSize="19" TextColor="#855438" FontAttributes="Bold" Grid.Row="0"  Grid.Column="2" Grid.ColumnSpan="3" HorizontalOptions="Center"/>
+                    <Label Text="L" Grid.Row="1" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="M" Grid.Row="1" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="J" Grid.Row="1" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="V" Grid.Row="1" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="S" Grid.Row="1" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="D" Grid.Row="1" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="1" Grid.Row="2" Grid.Column="2" FontSize="18" HorizontalOptions="Center" Margin="5"/>
+                    <Label Text="2" Grid.Row="2" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="3" Grid.Row="2" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="4" Grid.Row="2" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="5" Grid.Row="2" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="6" Grid.Row="3" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="7" Grid.Row="3" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="8" Grid.Row="3" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="9" Grid.Row="3" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="10" Grid.Row="3" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="11" Grid.Row="3" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/> 
+                    <Label Text="12" Grid.Row="3" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="13" Grid.Row="4" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="14" Grid.Row="4" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="15" Grid.Row="4" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="16" Grid.Row="4" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="17" Grid.Row="4" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="18" Grid.Row="4" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="19" Grid.Row="4" Grid.Column="6" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="20" Grid.Row="5" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="21" Grid.Row="5" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="22" Grid.Row="5" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="23" Grid.Row="5" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="24" Grid.Row="5" Grid.Column="4" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="25" Grid.Row="5" Grid.Column="5" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="26" Grid.Row="5" Grid.Column="6" FontSize="18" HorizontalOptions="Center" Margin="5" />
+                    <Label Text="27" Grid.Row="6" Grid.Column="0" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="28" Grid.Row="6" Grid.Column="1" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="29" Grid.Row="6" Grid.Column="2" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+                    <Label Text="30" Grid.Row="6" Grid.Column="3" FontSize="18" HorizontalOptions="Center"  Margin="5"/>
+
+                    <Label Text="Books of the month" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="7" HorizontalOptions="Center" TextColor="#855438" FontSize="15" FontAttributes="Bold"/>
+                    <Image Source="memories_of_a_gheisa" x:Name="book16" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90" IsVisible="true" />
+                    <Image Source="a_thousand_suns" x:Name="book17" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="20,10,-20,-90" IsVisible="true" />
+                    <Image Source="ugly_love" x:Name="book18" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="2" HorizontalOptions="Center" Margin="0,10,0,-90" IsVisible="true" />
+                    
+
+                </Grid>
+               
+
+                <ListView x:Name="booklistView" Margin="10" RowHeight="150" IsVisible="false" BackgroundColor="Ivory">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell >
+                                <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e0cc94">
+
+                                    <Grid VerticalOptions="CenterAndExpand">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+                                        <StackLayout Grid.Column="0">
+                                            <Image Source="{Binding ImagePath}" Margin="0" HorizontalOptions="StartAndExpand" HeightRequest="135" WidthRequest="90" Aspect="AspectFill"  ></Image>
+                                        </StackLayout>
+                                        <StackLayout Grid.Column="1">
+                                            <Label Text="{Binding Title}" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,15,0,0" />
+                                            <Label Text="{Binding Author}" FontSize="16" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-5,-5,0,0"/>
+                                        </StackLayout>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+            </StackLayout>
+
+        <StackLayout>
+            <Grid BackgroundColor="#e0cc94" Margin="0,110,0,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
@@ -82,6 +512,7 @@
                         <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="30"   Clicked="Top_Clicked" />
                         <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center"/>
                     </StackLayout>
+
                     <StackLayout Spacing="0" Grid.Column="2" >
                         <Button Image="calendar.png"  HeightRequest="32" BackgroundColor="Transparent" Clicked="Calendar_Clicked"/>
                         <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>
@@ -96,7 +527,7 @@
                     </StackLayout>
                 </Grid>
             </Grid>
-
+        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

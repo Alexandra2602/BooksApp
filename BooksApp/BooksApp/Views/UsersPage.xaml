@@ -6,8 +6,9 @@
         <ToolbarItem x:Name="toolbaritem"/>
     </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="#e0cc94">
-       
-        <ListView x:Name="userslistview" Margin="20" RowHeight="100" ItemSelected="OnListViewItemSelected">
+        <Label Text="Meet the members of " FontSize="22" HorizontalOptions="Center" TextColor="#855438" FontAttributes="Bold" />
+        <Label Text="the bookclub" FontSize="22" HorizontalOptions="Center" TextColor="#855438" FontAttributes="Bold"  />
+        <ListView x:Name="userslistview" Margin="15,5,15,5" RowHeight="100" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooksApp.Views.FinishedBooks">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbaritem"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout BackgroundColor="#e0cc94">
+        <Editor Placeholder="Did you finished this book?" PlaceholderColor="#855438" AutoSize="TextChanges" Margin="20" Text="{Binding Description}" HeightRequest="50" />
+        
+        
+        <Label x:Name="user_name" FontSize="20" IsVisible="false"/>
+        <Button Text="Add Book" CornerRadius="15" Margin="60,0,60,0" BackgroundColor="#855438" TextColor="Wheat" Clicked="Button_Clicked"  />
+
+        <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="listView" Margin="20" IsVisible="false">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+
+                        </Grid.RowDefinitions>
+                        <Label Text="{Binding Description}" Grid.Row="0"/>
+                        <Label Text="{Binding UserName}" Grid.Row="1"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>

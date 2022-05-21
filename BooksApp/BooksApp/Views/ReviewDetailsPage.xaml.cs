@@ -26,8 +26,10 @@ namespace BooksApp.Views
             base.OnAppearing();
             toolbaritem.Text = "Logged in as " + ul.Name ;
             var shopl = (Book)BindingContext;
+            finishedListView.ItemsSource = await App.Database.GetListFinishedsAsync(shopl.ID);
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
-            ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);          
+            ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
+            
             if( shopl.Average_Rating ==5)
             {
                 star1.IsVisible = true;
@@ -90,7 +92,10 @@ namespace BooksApp.Views
             
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
             ratingbutton.TextColor = Color.Ivory;
+            feedbutton.BackgroundColor = Color.FromHex("#855438");
+            feedbutton.TextColor = Color.Ivory;
             ratingListView.IsVisible = false;
+            finishedListView.IsVisible = false;
         }
         private void Button2_Clicked(object sender, EventArgs e)
         {
@@ -99,14 +104,19 @@ namespace BooksApp.Views
             ratingbutton.TextColor = Color.FromHex("#855438");
             reviewbutton.BackgroundColor = Color.FromHex("#855438");
             reviewbutton.TextColor = Color.Ivory;
-           
+            feedbutton.BackgroundColor = Color.FromHex("#855438");
+            feedbutton.TextColor = Color.Ivory;
+
             reviewlistView.IsVisible = false;
+            finishedListView.IsVisible = false;
 
         }
         private void Button3_Clicked(object sender, EventArgs e)
         {
+            finishedListView.IsVisible = true;
+            feedbutton.BackgroundColor = Color.Ivory;
+            feedbutton.TextColor = Color.FromHex("#855438");
 
-            
             reviewbutton.BackgroundColor = Color.FromHex("#855438");
             reviewbutton.TextColor = Color.Ivory;
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
@@ -114,7 +124,5 @@ namespace BooksApp.Views
             reviewlistView.IsVisible = false;
             ratingListView.IsVisible = false;
         }
-
-       
     }
 }

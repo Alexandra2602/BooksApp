@@ -20,6 +20,9 @@ namespace BooksApp.Data
             _database.CreateTableAsync<ListReview>().Wait();
             _database.CreateTableAsync<RatingModel>().Wait();
             _database.CreateTableAsync<ListRating>().Wait();
+            _database.CreateTableAsync<Finished>().Wait();
+            _database.CreateTableAsync<ListFinished>().Wait();
+
         }
         public Task<List<Book>> GetBookListsAsync()
         {
@@ -164,6 +167,47 @@ namespace BooksApp.Data
             + " on M.ID = LM.RatingID where LM.BookID = ?",
             ratingid);
         }
+
+        public Task<int> SaveFinishedAsync(Finished finished)
+        {
+            if (finished.ID != 0)
+            {
+                return _database.UpdateAsync(finished);
+            }
+            else
+            {
+                return _database.InsertAsync(finished);
+            }
+        }
+        public Task<int> DeleteFinishedAsync(Finished finished)
+        {
+            return _database.DeleteAsync(finished);
+        }
+        public Task<List<Finished>> GetFinishedAsync()
+        {
+            return _database.Table<Finished>().ToListAsync();
+        }
+        public Task<int> SaveListFinishedAsync(ListFinished listp)
+        {
+            if (listp.ID != 0)
+            {
+                return _database.UpdateAsync(listp);
+            }
+            else
+            {
+                return _database.InsertAsync(listp);
+            }
+        }
+        public Task<List<Finished>> GetListFinishedsAsync(int finishedid)
+        {
+            return _database.QueryAsync<Finished>(
+            "select M.ID, M.Name, M.Author, M.Title, M.ImagePath from Finished M"
+            + " inner join ListFinished LM"
+            + " on M.ID = LM.FinishedID where LM.UserID = ?",
+            finishedid);
+        }
+
+
     }
 }
 
