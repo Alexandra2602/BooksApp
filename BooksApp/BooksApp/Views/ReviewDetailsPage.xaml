@@ -92,7 +92,7 @@
                     </ListView.ItemTemplate>
                 </ListView>
 
-                <ListView  x:Name="finishedListView" HasUnevenRows="True" Margin="20,-90,0,0" IsVisible="false" SelectionMode="None">
+                <ListView  x:Name="finishedListView" HasUnevenRows="True" Margin="20,-90,0,0" IsVisible="false" SelectionMode="None" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -106,9 +106,9 @@
                                         <RowDefinition Height="auto"/>
                                         <RowDefinition Height="auto"/>
                                     </Grid.RowDefinitions>
-                                    <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" TextColor="Black" FontSize="16" Margin="15,0,10,0"/>
+                                    
                                     <Label Text="{Binding UserName}" Grid.Column="0" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0"/>
-                                    <Label Text="added a book to finished :" Grid.Column="1" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0" />
+                                    <Label Text="finished this book" Grid.Column="1" Grid.Row="0" FontSize="18" TextColor="#855438" Margin="0,0,0,0" />
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>

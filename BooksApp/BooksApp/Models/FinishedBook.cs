@@ -6,14 +6,14 @@ using System.Text;
 
 namespace BooksApp.Models
 {
-    public class Finished
+    public class FinishedBook
     {
-
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string Description { get; set; }
         public string UserName { get; set; }
         [OneToMany]
-        public List<ListFinished> ListFinisheds { get; set; }
+        public List<ListFinishedBook> ListFinishedBooks { get; set; }
+
     }
 }

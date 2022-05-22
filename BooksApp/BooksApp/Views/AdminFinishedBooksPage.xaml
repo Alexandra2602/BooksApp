@@ -1,32 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BooksApp.Views.AdminMembersPage">
+             x:Class="BooksApp.Views.AdminFinishedBooksPage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add user" Clicked="AddUserClicked"/>
+        <ToolbarItem Text="Finished books"  />
     </ContentPage.ToolbarItems>
-    <StackLayout BackgroundColor="#e0cc94">
-        <Button Text="LOGOUT" CornerRadius="15" Margin="50,5,50,-10" BackgroundColor="#855438" TextColor="Ivory" Clicked="Button_Clicked_4"/>
-        <ListView x:Name="userslistview" Margin="20" RowHeight="100" ItemSelected="OnListViewItemSelected">
+    <StackLayout BackgroundColor="Wheat">
+        <ListView x:Name="listViewTop" Margin="0,0,0,0" RowHeight="160" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
-                        <Frame Padding="0" Margin="5,5"  CornerRadius="15" HasShadow="False" BackgroundColor="#e8ddbe">
-                            <Grid VerticalOptions="CenterAndExpand">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="auto"/>
-                                    <ColumnDefinition Width="*"/>
+                    <ViewCell >
+                        <Grid VerticalOptions="CenterAndExpand">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
 
-                                </Grid.ColumnDefinitions>
-                                <StackLayout Grid.Column="0">
-                                    <Image Source="{Binding ImagePath2}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="130" WidthRequest="130" Aspect="AspectFit"  ></Image>
-                                </StackLayout>
-                                <StackLayout Grid.Column="1">
-                                    <Label Text="{Binding Name}" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="-5,-5,0,0" />
-                                    <Label Text="{Binding LastName}" FontSize="16" TextColor="black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  Margin="-5,-5,0,0"/>
-                                </StackLayout>
-                            </Grid>
-                        </Frame>
+                            </Grid.RowDefinitions>
+                            <Image Source="{Binding ImagePath}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="StartAndExpand" HeightRequest="130" Margin="0,5,0,10" WidthRequest="120" Aspect="AspectFit"  ></Image>
+                            <Label Text="{Binding Title}" Grid.Column="1"  Grid.Row="1"  FontSize="17"  HorizontalTextAlignment="Center" TextColor="black" FontAttributes="Bold" Margin="0,-5,0,-5" />
+                            <Label Text="{Binding Author}" Grid.Column="1"  Grid.Row="2"  FontSize="15" TextColor="black" HorizontalTextAlignment="Center"  Margin="0,10,0,0"/>
+
+                            <BoxView Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" HeightRequest="1" WidthRequest="100" Color="Black" HorizontalOptions="FillAndExpand" Margin="15,109,15,0" />
+
+                        </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
@@ -62,9 +63,10 @@
                     <Label Text="Reviews" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
                 <StackLayout Spacing="0" Grid.Column="4"  >
-                    <Button Image="finished.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_5"   />
+                    <Button Image="finished.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_4"   />
                     <Label Text="Read" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
+
 
             </Grid>
         </Grid>

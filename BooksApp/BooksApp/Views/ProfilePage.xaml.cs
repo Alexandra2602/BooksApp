@@ -131,7 +131,7 @@ namespace BooksApp.Views
         {
             base.OnAppearing();
             //var user1 = (User)BindingContext;
-            finishedlistView.ItemsSource = await App.Database.GetListFinishedsAsync(ul.Id) ;
+           
             resultImage.Source = ul.ImagePath2;
             cityEntry.Text = ul.Address;
             Description.Text = ul.Description;
@@ -228,19 +228,7 @@ namespace BooksApp.Views
             await Navigation.PushAsync(new LoginPage());
         }
 
-        async void Button_Clicked_3(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new FinishedBooks(ul,bl)
-
-            {
-                BindingContext = new Finished()
-            });
-        }
-
-        async void Button_Clicked_4(object sender, EventArgs e)
-        {
-            finishedlistView.IsVisible = true;
-        }
+        
     }
 }
 

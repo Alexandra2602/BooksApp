@@ -46,16 +46,18 @@ namespace BooksApp.Views
             });
 
         }
-
         async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new FinishedBooks(ul, bl)
+            await Navigation.PushAsync(new FinishedBookPage(ul, bl)
 
             {
-                BindingContext = new Finished()
+                BindingContext = new FinishedBook()
             });
 
         }
+
+
+
     }
 
 }

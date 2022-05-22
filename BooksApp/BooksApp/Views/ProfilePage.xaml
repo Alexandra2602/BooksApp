@@ -47,10 +47,7 @@
                     <Frame Padding="5"   CornerRadius="15" BackgroundColor="Wheat" Margin="-70,20,140,100" WidthRequest="200" Grid.Row="3" Grid.Column="2" >
                         <Entry Text="10" x:Name="goal_label" TextColor="#855438" FontSize="14" Grid.Row="3" Grid.Column="2" />
                     </Frame>
-                    <Button Text="+" Grid.Row="3" Grid.Column="2" HeightRequest="10" WidthRequest="10" CornerRadius="200" Margin="30,30,30,110" Clicked="Button_Clicked_3"  />
-                    <Button Text="View finished books" Grid.Row="3" Grid.Column="2" HeightRequest="10" WidthRequest="10" Margin="-130,10,170,110" Clicked="Button_Clicked_4"/>
-
-
+                    
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-100,10,280" Grid.Row="4" Grid.ColumnSpan="3"/>
                     <Label Text="FAVORITE BOOKS"  HorizontalOptions="CenterAndExpand" FontSize="16" FontAttributes="Bold" TextColor="#855438" Grid.Row="4" Grid.ColumnSpan="3" Margin="0,-90,0,0"/>
                     <Button Text="Add your favorite books" TextColor="#855438" FontSize="8" BackgroundColor="Wheat" x:Name="fav_book1" CornerRadius="15" HeightRequest="10" Grid.Column="0" Grid.Row="5" Margin="10,-80,10,210" Clicked="fav_book1_Clicked"/>

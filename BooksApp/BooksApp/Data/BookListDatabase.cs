@@ -20,8 +20,9 @@ namespace BooksApp.Data
             _database.CreateTableAsync<ListReview>().Wait();
             _database.CreateTableAsync<RatingModel>().Wait();
             _database.CreateTableAsync<ListRating>().Wait();
-            _database.CreateTableAsync<Finished>().Wait();
-            _database.CreateTableAsync<ListFinished>().Wait();
+            _database.CreateTableAsync<FinishedBook>().Wait();
+            _database.CreateTableAsync<ListFinishedBook>().Wait();
+
 
         }
         public Task<List<Book>> GetBookListsAsync()
@@ -167,27 +168,26 @@ namespace BooksApp.Data
             + " on M.ID = LM.RatingID where LM.BookID = ?",
             ratingid);
         }
-
-        public Task<int> SaveFinishedAsync(Finished finished)
+        public Task<int> SaveFinishedBookAsync(FinishedBook finishedbook)
         {
-            if (finished.ID != 0)
+            if (finishedbook.ID != 0)
             {
-                return _database.UpdateAsync(finished);
+                return _database.UpdateAsync(finishedbook);
             }
             else
             {
-                return _database.InsertAsync(finished);
+                return _database.InsertAsync(finishedbook);
             }
         }
-        public Task<int> DeleteFinishedAsync(Finished finished)
+        public Task<int> DeleteFinishedBookAsync(FinishedBook finishedbook)
         {
-            return _database.DeleteAsync(finished);
+            return _database.DeleteAsync(finishedbook);
         }
-        public Task<List<Finished>> GetFinishedAsync()
+        public Task<List<FinishedBook>> GetFinishedBooksAsync()
         {
-            return _database.Table<Finished>().ToListAsync();
+            return _database.Table<FinishedBook>().ToListAsync();
         }
-        public Task<int> SaveListFinishedAsync(ListFinished listp)
+        public Task<int> SaveListFinishedBookAsync(ListFinishedBook listp)
         {
             if (listp.ID != 0)
             {
@@ -198,15 +198,14 @@ namespace BooksApp.Data
                 return _database.InsertAsync(listp);
             }
         }
-        public Task<List<Finished>> GetListFinishedsAsync(int finishedid)
+        public Task<List<FinishedBook>> GetListFinishedBooksAsync(int finishedbookid)
         {
-            return _database.QueryAsync<Finished>(
-            "select M.ID, M.Name, M.Author, M.Title, M.ImagePath from Finished M"
-            + " inner join ListFinished LM"
-            + " on M.ID = LM.FinishedID where LM.UserID = ?",
-            finishedid);
+            return _database.QueryAsync<FinishedBook>(
+            "select F.ID, F.Description, F.UserName from FinishedBook F"
+            + " inner join ListFinishedBook LF"
+            + " on F.ID = LF.FinishedID where LF.BookID = ?",
+            finishedbookid);
         }
-
 
     }
 }

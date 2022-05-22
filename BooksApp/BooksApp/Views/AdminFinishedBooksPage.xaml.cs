@@ -1,6 +1,5 @@
 ﻿using BooksApp.Models;
 using System;
-using SQLite;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,38 +11,26 @@ using Xamarin.Forms.Xaml;
 namespace BooksApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AdminMembersPage : ContentPage
+    public partial class AdminFinishedBooksPage : ContentPage
     {
-        public AdminMembersPage()
+        public AdminFinishedBooksPage()
         {
             InitializeComponent();
         }
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
-            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
-            {
-                conn.CreateTable<User>();
-                var users = conn.Table<User>().ToList();
-                userslistview.ItemsSource = users;
-
-            }
+            listViewTop.ItemsSource = await App.Database.GetBookListsAsync();
         }
-        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var selectedUser = userslistview.SelectedItem as User;
-            if (selectedUser != null)
+            if (e.SelectedItem != null)
             {
-                Navigation.PushAsync(new AdminEditMembersPage(selectedUser));
+                await Navigation.PushAsync(new AdminFInishedBooksDetailsPage
+                {
+                    BindingContext = e.SelectedItem as Book
+                });
             }
-               
-        }
-        async void AddUserClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new AdminAddUser
-            {
-                BindingContext = new User()
-            });
         }
         async void Button_Clicked(object sender, EventArgs e)
         {
@@ -66,13 +53,7 @@ namespace BooksApp.Views
             await Navigation.PushAsync(new AdminReviewPage());
 
         }
-
         async void Button_Clicked_4(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new LoginPage());
-
-        }
-        async void Button_Clicked_5(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminFinishedBooksPage());
 

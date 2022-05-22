@@ -43,7 +43,7 @@
 
                     <Button Text="Add a review" Clicked="OnChooseButtonClicked" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="0" Margin="10,20,-10,0"/>
                     <Button Text="Add a rating" Clicked="OnChooseButtonClicked2" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="30,20,20,0"/>
-                    <Button Text="Finished" Clicked="Button_Clicked" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Margin="30,20,20,0"/>
+                    <Button Text="Finished this book"  CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Margin="70,20,-30,0" Clicked="Button_Clicked" />
                 </Grid>
                 
             </Frame>

@@ -26,9 +26,10 @@ namespace BooksApp.Views
             base.OnAppearing();
             toolbaritem.Text = "Logged in as " + ul.Name ;
             var shopl = (Book)BindingContext;
-            finishedListView.ItemsSource = await App.Database.GetListFinishedsAsync(shopl.ID);
+            finishedListView.ItemsSource = await App.Database.GetListFinishedBooksAsync(shopl.ID);
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
             ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
+           
             
             if( shopl.Average_Rating ==5)
             {

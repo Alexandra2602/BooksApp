@@ -42,6 +42,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
 
                 </Grid.ColumnDefinitions>
                 <StackLayout Spacing="0" Grid.Column="0"  >
@@ -61,6 +62,11 @@
                     <Button Image="admin_reviews.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_3"   />
                     <Label Text="Reviews" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
+                <StackLayout Spacing="0" Grid.Column="4"  >
+                    <Button Image="finished.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_4"   />
+                    <Label Text="Read" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
+                </StackLayout>
+
 
             </Grid>
         </Grid>
