@@ -6,7 +6,7 @@
         <ToolbarItem Text="Add user" Clicked="AddUserClicked"/>
     </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="#e0cc94">
-        <Button Text="LOGOUT" CornerRadius="15" Margin="50,5,50,-10" BackgroundColor="#855438" TextColor="Ivory" Clicked="Button_Clicked_4"/>
+        <Button Text="LOGOUT" CornerRadius="15" Margin="70,5,70,-10" BackgroundColor="#855438" TextColor="Ivory" Clicked="Button_Clicked_4"/>
         <ListView x:Name="userslistview" Margin="20" RowHeight="100" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -35,7 +35,6 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
-
             <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -43,7 +42,6 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-
                 </Grid.ColumnDefinitions>
                 <StackLayout Spacing="0" Grid.Column="0"  >
                     <Button Image="admin_book.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_1"   />
@@ -65,7 +63,6 @@
                     <Button Image="finished.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_5"   />
                     <Label Text="Read" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
-
             </Grid>
         </Grid>
     </StackLayout>

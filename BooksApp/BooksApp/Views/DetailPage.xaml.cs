@@ -20,15 +20,12 @@ namespace BooksApp.Views
             InitializeComponent();
             ul = ulist;
             bl = blist;
-
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            
             toolbaritem.Text = "Logged in as " + ul.Name;
         }
-     
         async void OnChooseButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ReviewPage(ul, bl)
@@ -40,24 +37,16 @@ namespace BooksApp.Views
         async void OnChooseButtonClicked2(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new RatingPage(ul, bl)
-
             {
                 BindingContext = new RatingModel()
             });
-
         }
         async void Button_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new FinishedBookPage(ul, bl)
-
             {
                 BindingContext = new FinishedBook()
             });
-
         }
-
-
-
     }
-
 }

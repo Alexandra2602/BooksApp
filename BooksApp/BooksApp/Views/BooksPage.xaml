@@ -4,23 +4,19 @@
              x:Class="BooksApp.Views.BooksPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="toolbaritem"/>
-
     </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="Wheat">
         <SearchBar  x:Name="Search1" Placeholder="Search a book by title or author..." FontSize="18" TextChanged="SearchBar_TextChanged" Margin="0,0,0,-10" SearchButtonPressed="Search1_SearchButtonPressed" CancelButtonColor="LightPink" PlaceholderColor="Black"  TextColor="Black">
         </SearchBar>
-        
         <ListView x:Name="listView" Margin="10" RowHeight="150" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell >
                         <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e0cc94">
-
                             <Grid VerticalOptions="CenterAndExpand">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="auto"/>
                                     <ColumnDefinition Width="*"/>
-
                                 </Grid.ColumnDefinitions>
                                 <StackLayout Grid.Column="0">
                                     <Image Source="{Binding ImagePath}" Margin="0" HorizontalOptions="StartAndExpand" HeightRequest="135" WidthRequest="90" Aspect="AspectFill"  ></Image>
@@ -42,7 +38,6 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
-
             <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>

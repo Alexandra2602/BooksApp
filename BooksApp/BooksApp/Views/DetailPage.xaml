@@ -28,24 +28,20 @@
                     <StackLayout Grid.Column="0" >
                         <Image Source="{Binding ImagePath}" x:Name="image"  Margin="-12,10,0,0" HeightRequest="170" WidthRequest="150" Aspect="AspectFit"/>
                     </StackLayout>
-                    
                     <Label  TextColor="Black" FontAttributes="Bold" Margin="-17,10,0,0" Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand"  FontSize="16">Title:</Label>
                     <Label TextColor="Black" FontAttributes="Bold" Margin="-17,-105,0,0" Grid.Row="1" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Author:</Label>
                     <Label TextColor="Black" FontAttributes="Bold" Margin="-17,-70,0,0" Grid.Row="2" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Publisher:</Label>
                     <Label TextColor="Black" FontAttributes="Bold" Margin="-17,-25,0,0" Grid.Row="3" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Year Published:</Label>
                     <Label TextColor="Black" FontAttributes="Bold" Margin="-17,5,0,0" Grid.Row="4" Grid.Column="1" HorizontalOptions="StartAndExpand" FontSize="16">Number of pages :</Label>
-
                     <Label Text="{Binding Title}" x:Name="title" Grid.Row="0" Grid.Column="2"  Margin="-10,10,0,0"  TextColor="Black" FontSize="16" />
                     <Label Text="{Binding Author}" x:Name="author" Grid.Row="1" Grid.Column="2" Margin="-10,-105,0,0" TextColor="Black" FontSize="16"/>
                     <Label Text="{Binding Publisher}"  Grid.Row="2" Grid.Column="2" Margin="-10,-70,0,0" TextColor="Black" FontSize="16"/>
                     <Label Text="{Binding YearPublished}"  Grid.Row="3" Grid.Column="2" Margin="-10,-25,0,0" TextColor="Black" FontSize="16"/>
                     <Label Text="{Binding NumberOfPages}" Grid.Row="4" Grid.Column="2" Margin="-10,5,0,10" TextColor="Black" FontSize="16"/>
-
                     <Button Text="Add a review" Clicked="OnChooseButtonClicked" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="0" Margin="10,20,-10,0"/>
                     <Button Text="Add a rating" Clicked="OnChooseButtonClicked2" CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="30,20,20,0"/>
                     <Button Text="Finished this book"  CornerRadius="20" BackgroundColor="#855438" TextColor="Ivory" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Margin="70,20,-30,0" Clicked="Button_Clicked" />
                 </Grid>
-                
             </Frame>
         </StackLayout>
     </ContentPage.Content>

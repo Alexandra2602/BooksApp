@@ -5,7 +5,6 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#e0cc94">
             <Label Text="Do you want to delete this book ?" FontSize="23" FontAttributes="Bold" TextColor="#855438" HorizontalOptions="CenterAndExpand" Margin="10"/>
-            
             <Button Grid.Column="1" Text="Delete book" Clicked="Button_Clicked_1" TextColor="Beige" BackgroundColor="#855438" BorderRadius="25" HeightRequest="46" Margin="25,0,25,0"  />
         </StackLayout>
     </ContentPage.Content>

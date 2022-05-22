@@ -21,7 +21,6 @@
             <Entry x:Name="phonenumberEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" Grid.Row="5" Grid.Column="1"/>
             <Label Text="City:" Grid.Row="6" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
             <Entry x:Name="addressEntry" TextColor="Black" PlaceholderColor="Gray" FontSize="15" Margin="10" Grid.Row="6" Grid.Column="1"/>
-
         </Grid>
         <Button Text="Register" x:Name="RegisterButton" Clicked="RegisterButton_Clicked" TextColor="Beige" BackgroundColor="#855438" BorderRadius="25" HeightRequest="46"  />
     </StackLayout>

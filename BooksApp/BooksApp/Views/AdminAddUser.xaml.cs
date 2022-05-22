@@ -19,8 +19,7 @@ namespace BooksApp.Views
             InitializeComponent();
         }
         public void RegisterButton_Clicked(object sender, EventArgs e)
-        {
-
+        { 
             User user = new User()
             {
                 Name = nameEntry.Text,
@@ -39,7 +38,6 @@ namespace BooksApp.Views
                     Device.BeginInvokeOnMainThread(async () =>
                     {
                         var result = await this.DisplayAlert("Congratulation", "You have successfully registered", "Yes", "Cancel");
-
                         if (result)
                         {
                             await Navigation.PushAsync(new AdminMembersPage());
@@ -51,10 +49,7 @@ namespace BooksApp.Views
                     await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
 
                 });
-
             }
-
-
         }
     }
 }

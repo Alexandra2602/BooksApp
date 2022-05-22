@@ -18,7 +18,6 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BooksPage : ContentPage
     {
-
         User ul;
         Book bl;
         public BooksPage(User ulist)
@@ -30,14 +29,10 @@ namespace BooksApp.Views
         {
             base.OnAppearing();
             listView.ItemsSource = await App.Database.GetBookListsAsync();
-
-            toolbaritem.Text = "Logged in as " + ul.Name;
-            
-            
+            toolbaritem.Text = "Logged in as " + ul.Name;   
         }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            
             if (e.SelectedItem != null)
             {
                 Book bl = (Book) e.SelectedItem;

@@ -22,20 +22,17 @@ namespace BooksApp.Views
             base.OnAppearing();
             var rating1 = (RatingModel)BindingContext;
         }
-
         async void Button_Clicked(object sender, EventArgs e)
         {
             var rlist = (RatingModel)BindingContext;
             await App.Database.SaveRatingAsync(rlist);
             await Navigation.PopAsync();
         }
-
         async void Button_Clicked_1(object sender, EventArgs e)
         {
             var rlist = (RatingModel)BindingContext;
             await App.Database.DeleteRatingAsync(rlist);
             await Navigation.PopAsync();
-
         }
     }
 }

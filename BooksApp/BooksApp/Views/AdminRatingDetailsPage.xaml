@@ -6,6 +6,8 @@
         <ScrollView BackgroundColor="#e0cc94">
             <StackLayout BackgroundColor="#e0cc94" >
                 <Image Source="{Binding ImagePath}" HeightRequest="240" WidthRequest="240" Margin="10" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding Title}" HorizontalOptions="Center" FontSize="19" TextColor="Black" FontAttributes="Bold"/>
+                <Label Text="{Binding Author}" HorizontalOptions="CenterAndExpand" FontSize="17" TextColor="Black"/>
                 <BoxView HeightRequest="4" Color="Wheat" HorizontalOptions="FillAndExpand" Margin="0,0,0,0"/>
                 <Label Text="Ratings" FontSize="23" FontAttributes="Bold" TextColor="#855438" HorizontalOptions="CenterAndExpand"/>
                 <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="ratingListView" HasUnevenRows="True" Margin="14" IsVisible="true" ItemSelected="ratinglistView_ItemSelected">

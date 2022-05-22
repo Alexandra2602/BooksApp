@@ -11,12 +11,10 @@
                 <DataTemplate>
                     <ViewCell >
                         <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e0cc94">
-
                             <Grid VerticalOptions="CenterAndExpand">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="auto"/>
                                     <ColumnDefinition Width="*"/>
-
                                 </Grid.ColumnDefinitions>
                                 <StackLayout Grid.Column="0">
                                     <Image Source="{Binding ImagePath}" Margin="-12" HorizontalOptions="StartAndExpand" HeightRequest="130" WidthRequest="130" Aspect="AspectFit"  ></Image>
@@ -35,7 +33,6 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
-
             <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -43,11 +40,9 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-
                 </Grid.ColumnDefinitions>
                 <StackLayout Spacing="0" Grid.Column="0"  >
                     <Button Image="admin_book.png" x:Name="book_image"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_1"   />
-                   
                     <Label Text="Books" x:Name="books_label" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
                 <StackLayout Spacing="0" Grid.Column="1" >
@@ -66,8 +61,6 @@
                     <Button Image="finished.png"  HeightRequest="30" BackgroundColor="Transparent" Clicked="Button_Clicked_4"   />
                     <Label Text="Read" FontSize="10" TextColor="#855438" HorizontalOptions="Center"/>
                 </StackLayout>
-
-
             </Grid>
         </Grid>
     </StackLayout>

@@ -19,8 +19,7 @@ namespace BooksApp.Views
         {
             InitializeComponent();
             bl = blist;
-            ul = ulist;
-            
+            ul = ulist;     
         }
         protected override async void OnAppearing()
         {
@@ -29,10 +28,8 @@ namespace BooksApp.Views
             toolbaritem.Text = "Logged in as " + ul.Name;
             user_name.Text=ul.Name;
         }
-     
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
-            
             var review = (Review)BindingContext;
             await App.Database.SaveReviewAsync(review);
             listView.ItemsSource = await App.Database.GetReviewsAsync();
@@ -48,13 +45,10 @@ namespace BooksApp.Views
                     ReviewID = r.ID,
                     UserID=ul.Id
                 };
-                
                 await App.Database.SaveListReviewAsync(lp);
                 r.ListReviews = new List<ListReview> { lp };
-                
                 await Navigation.PopAsync();
             }
         }
- 
     }
 }

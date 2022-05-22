@@ -21,7 +21,6 @@ namespace BooksApp.Views
         {
             base.OnAppearing();
             var shopl = (Book)BindingContext;
-
             finishedListView.ItemsSource = await App.Database.GetListFinishedBooksAsync(shopl.ID);
         }
         async void finishedListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -33,10 +32,6 @@ namespace BooksApp.Views
                     BindingContext = e.SelectedItem as FinishedBook
                 });
             }
-
         }
- 
-
-    
     }
 }

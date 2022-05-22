@@ -11,7 +11,6 @@
         </Frame>
         <Label x:Name="user_name" FontSize="20" IsVisible="false"/>
         <Button Text="Add Review" CornerRadius="15" Margin="60,0,60,0" BackgroundColor="#855438" TextColor="Wheat" Clicked="OnSaveButtonClicked"  />
-       
         <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="listView" Margin="20" IsVisible="false">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -19,7 +18,6 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
-
                         </Grid.RowDefinitions>
                         <Label Text="{Binding Description}" Grid.Row="0"/>
                         <Label Text="{Binding UserName}" Grid.Row="1"/>
@@ -27,7 +25,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
     </StackLayout>
-
 </ContentPage>

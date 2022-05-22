@@ -22,7 +22,6 @@ namespace BooksApp.Views
             EntryUser.Text = Preferences.Get("EntryUser", string.Empty);
             EntryPassword.Text = Preferences.Get("EntryPassword", string.Empty);
         }
-
         private void Login_Clicked(object sender, EventArgs e)
         {
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
@@ -32,7 +31,6 @@ namespace BooksApp.Views
                     App.Current.MainPage = new NavigationPage(new AdminMainPage());
                 }
                 var myquery = conn.Table<User>().Where(u => u.Email.Equals(EntryUser.Text) && u.Password.Equals(EntryPassword.Text)).FirstOrDefault();
-
                 if (myquery != null)
                 {
                     var user = myquery as User;
@@ -43,17 +41,14 @@ namespace BooksApp.Views
                     Device.BeginInvokeOnMainThread(async () =>
                     {
                         var result = await this.DisplayAlert("Error", "You have to enter an username and a password", "Ok", "Cancel");
-
                     });
                 }
-
             }
         }
         async void Register_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new RegistrationPage());
         }
-
         void SaveUsername()
         {
             if (checkbox.IsChecked == true)
@@ -64,7 +59,6 @@ namespace BooksApp.Views
             else
                 Preferences.Clear();
         }
-
         private void checkbox_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
             if (checkbox.IsChecked == true)
@@ -73,13 +67,11 @@ namespace BooksApp.Views
                 Preferences.Set("EntryPassword", EntryPassword.Text);
             }
             checkbox2.IsEnabled = false;
-
         }
         private void checkbox2_CheckedChanged(object sender, CheckedChangedEventArgs e)
         { 
                 Preferences.Clear();
             checkbox.IsEnabled = false;
-
         }
     }
 }

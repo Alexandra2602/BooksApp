@@ -4,12 +4,10 @@
              x:Class="BooksApp.Views.ProfilePage">
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="toolbaritem"/>
-
     </ContentPage.ToolbarItems>
     <StackLayout>
         <ScrollView>
             <StackLayout BackgroundColor="#e0cc94">
-                
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -20,9 +18,7 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
-
                     </Grid.ColumnDefinitions>
-
                     <Button Text="Add profile picture" TextColor="#855438" FontSize="8" BackgroundColor="Wheat" x:Name="photo_button" CornerRadius="15" HeightRequest="10" Grid.Column="0" Grid.Row="1" Margin="15,-20,15,20" Clicked="Button_Clicked"/>
                     <Editor Placeholder="Image Path" x:Name="imgpathentry" Text="{Binding ImagePath2}" HeightRequest="50" IsVisible="false" Grid.Column="0" Grid.Row="2"  />
                     <Image Source="{Binding ImagePath2}" x:Name="resultImage" HeightRequest="130" WidthRequest="120" Margin="10,0,0,0" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
@@ -33,21 +29,19 @@
                         <Editor x:Name="Description"  HeightRequest="100" FontSize="13"  />
                     </Frame>
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-20,10,200" Grid.Row="2" Grid.ColumnSpan="3"/>
-
                     <Label Text="FAVORITE GENRES"  HorizontalOptions="Center" FontSize="14" FontAttributes="Bold" Margin="0,-10,0,0" TextColor="#855438" Grid.Row="2" Grid.ColumnSpan="3"/>
                     <Picker x:Name="FirstPicker" FontSize="14"  Grid.Row="2" Grid.Column="0" Margin="10,20,0,80"/>
                     <Picker x:Name="SecondPicker" FontSize="14"  Grid.Row="2" Grid.Column="1" Margin="0,20,0,80"/>
                     <Picker x:Name="ThirdPicker" FontSize="14"   Grid.Row="2" Grid.Column="2" Margin="0,20,10,80"/>
-
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-70,10,250" Grid.Row="3" Grid.ColumnSpan="3"/>
                     <Image Source="books.jpg" WidthRequest="100" HeightRequest="90" Grid.Row="3" Margin="10,-200,25,0"/>
                     <Label Text="2022 READING" TextColor="Black" FontAttributes="Bold" Grid.Row="3" Margin="10,20,0,0" />
                     <Label Text="CHALLENGE" TextColor="Black" FontAttributes="Bold" Grid.Row="3"  Margin="10,60,0,0"/>
                     <Label Text="How many book do you want to read this year?" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="-10,-40,0,0" FontSize="17" TextColor="#855438" FontAttributes="Bold" HorizontalOptions="Center"/>
-                    <Frame Padding="5"   CornerRadius="15" BackgroundColor="Wheat" Margin="-70,20,140,100" WidthRequest="200" Grid.Row="3" Grid.Column="2" >
-                        <Entry Text="10" x:Name="goal_label" TextColor="#855438" FontSize="14" Grid.Row="3" Grid.Column="2" />
-                    </Frame>
-                    
+                    <Entry Text="10" x:Name="goal_label" TextColor="Black" FontSize="17" FontAttributes="Bold" Grid.Row="3" Grid.Column="2" Margin="20,-190,50,0" />
+                    <Label Text="You read" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="-180,-170,0,0" FontSize="17" TextColor="#855438" FontAttributes="Bold" HorizontalOptions="Center"/>
+                    <Label Text="{Binding Number_of_books}" x:Name="books_label" FontSize="17" TextColor="Black" FontAttributes="Bold" Grid.Row="4" Grid.Column="2" Margin="-45,-170,0,0" />
+                    <Label Text="books this year" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="90,-170,0,0" FontSize="17" TextColor="#855438" FontAttributes="Bold" HorizontalOptions="Center"/>
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-100,10,280" Grid.Row="4" Grid.ColumnSpan="3"/>
                     <Label Text="FAVORITE BOOKS"  HorizontalOptions="CenterAndExpand" FontSize="16" FontAttributes="Bold" TextColor="#855438" Grid.Row="4" Grid.ColumnSpan="3" Margin="0,-90,0,0"/>
                     <Button Text="Add your favorite books" TextColor="#855438" FontSize="8" BackgroundColor="Wheat" x:Name="fav_book1" CornerRadius="15" HeightRequest="10" Grid.Column="0" Grid.Row="5" Margin="10,-80,10,210" Clicked="fav_book1_Clicked"/>
@@ -59,12 +53,9 @@
                     <Button Text="Add your favorite books" TextColor="#855438" FontSize="8" BackgroundColor="Wheat" x:Name="fav_book3" CornerRadius="15" HeightRequest="10" Grid.Column="2" Grid.Row="5" Margin="10,-80,10,210"  Clicked="fav_book3_Clicked"  />
                     <Image Source="{Binding FavoriteBook3}" x:Name="book3" HeightRequest="100" WidthRequest="100" Margin="10,-250,10,270" Aspect="AspectFill"  Grid.Column="2" Grid.Row="5"/>
                     <Editor x:Name="imgpathbook3" Text="{Binding FavoriteBook3}" HeightRequest="50" IsVisible="false" Grid.Column="2" Grid.Row="2"  />
-                    
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-10,10,190" Grid.Row="5" Grid.ColumnSpan="3"/>
-                    
                     <Button Text="SAVE" BackgroundColor="#855438" TextColor="Ivory" CornerRadius="15" Grid.Row="5" Grid.Column="0"  Margin="30,0,-30,120" Clicked="Button_Clicked_1"/>
                     <Button Text="LOG OUT" BackgroundColor="#855438" TextColor="Ivory" CornerRadius="15" Grid.Row="5" Grid.Column="2"  Margin="-30,0,30,120" Clicked="Button_Clicked_2"/>
-
                     <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="finishedlistView" Margin="20" IsVisible="true" BackgroundColor="Black">
                         <ListView.ItemTemplate>
                             <DataTemplate>
@@ -72,7 +63,6 @@
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="auto"/>
                                         <RowDefinition Height="auto"/>
-
                                     </Grid.RowDefinitions>
                                     <Label Text="{Binding Title}" Grid.Row="0"/>
                                     <Label Text="{Binding Author}" Grid.Row="1"/>
@@ -81,7 +71,6 @@
                         </ListView.ItemTemplate>
                     </ListView>
                 </Grid>
-                
             </StackLayout>
         </ScrollView>
         <StackLayout>
@@ -89,7 +78,6 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
-
                 <Grid ColumnSpacing="0" RowSpacing="0" Grid.Row="0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -106,7 +94,6 @@
                         <Button Image="top.png" BackgroundColor="Transparent"  HeightRequest="30"   Clicked="Top_Clicked" />
                         <Label Text="Top" FontSize="10"  TextColor="White" HorizontalOptions="Center"/>
                     </StackLayout>
-
                     <StackLayout Spacing="0" Grid.Column="2" >
                         <Button Image="calendar.png"  HeightRequest="32" BackgroundColor="Transparent" Clicked="Calendar_Clicked"/>
                         <Label Text="Calendar" FontSize="10" TextColor="White" HorizontalOptions="Center" Margin="-1"/>

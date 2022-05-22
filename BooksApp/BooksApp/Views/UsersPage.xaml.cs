@@ -22,15 +22,13 @@ namespace BooksApp.Views
         }
         protected override  void OnAppearing()
         {
-            base.OnAppearing();
-            
+            base.OnAppearing();  
             toolbaritem.Text = "Logged in as " + ul.Name;
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<User>();
                 var users = conn.Table<User>().ToList();
                 userslistview.ItemsSource = users;
-
             }
         }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -64,8 +62,5 @@ namespace BooksApp.Views
         {
             await Navigation.PushAsync(new UsersPage(ul));
         }
-
-
-
     }
 }

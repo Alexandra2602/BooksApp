@@ -20,7 +20,7 @@ namespace BooksApp.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            listViewRating.ItemsSource = await App.Database.GetBookListsAsync();
+            listViewRating.ItemsSource = await App.Database.GetBookByRating();
         }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
@@ -35,28 +35,22 @@ namespace BooksApp.Views
         async void Button_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminMembersPage());
-
         }
-
         async void Button_Clicked_1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminMainPage());
         }
-
         async void Button_Clicked_2(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminRatingPage());
         }
-
         async void Button_Clicked_3(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminReviewPage());
-
         }
         async void Button_Clicked_4(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AdminFinishedBooksPage());
-
         }
     }
 }

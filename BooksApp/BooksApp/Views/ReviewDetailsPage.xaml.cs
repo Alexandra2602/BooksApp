@@ -26,11 +26,10 @@ namespace BooksApp.Views
             base.OnAppearing();
             toolbaritem.Text = "Logged in as " + ul.Name ;
             var shopl = (Book)BindingContext;
+            //var user1 = (User)BindingContext;
             finishedListView.ItemsSource = await App.Database.GetListFinishedBooksAsync(shopl.ID);
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
             ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);
-           
-            
             if( shopl.Average_Rating ==5)
             {
                 star1.IsVisible = true;
@@ -61,7 +60,6 @@ namespace BooksApp.Views
             {
                 star5.IsVisible = true;
             }
-
             int nr = 0;
             int sum = 0;
             int medie = 0;
@@ -82,7 +80,6 @@ namespace BooksApp.Views
                 shopl.Average_Rating = 0;
                 shopl.Number = 0;
                 await App.Database.SaveBookListAsync(shopl);
-
             }
         }
         private void Button_Clicked(object sender, EventArgs e)
@@ -90,7 +87,6 @@ namespace BooksApp.Views
             reviewlistView.IsVisible = true;
             reviewbutton.BackgroundColor = Color.Ivory;
             reviewbutton.TextColor = Color.FromHex("#855438");
-            
             ratingbutton.BackgroundColor = Color.FromHex("#855438");
             ratingbutton.TextColor = Color.Ivory;
             feedbutton.BackgroundColor = Color.FromHex("#855438");
@@ -107,17 +103,14 @@ namespace BooksApp.Views
             reviewbutton.TextColor = Color.Ivory;
             feedbutton.BackgroundColor = Color.FromHex("#855438");
             feedbutton.TextColor = Color.Ivory;
-
             reviewlistView.IsVisible = false;
             finishedListView.IsVisible = false;
-
         }
         private void Button3_Clicked(object sender, EventArgs e)
         {
             finishedListView.IsVisible = true;
             feedbutton.BackgroundColor = Color.Ivory;
             feedbutton.TextColor = Color.FromHex("#855438");
-
             reviewbutton.BackgroundColor = Color.FromHex("#855438");
             reviewbutton.TextColor = Color.Ivory;
             ratingbutton.BackgroundColor = Color.FromHex("#855438");

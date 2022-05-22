@@ -21,10 +21,8 @@ namespace BooksApp.Views
         {
             base.OnAppearing();
             var shopl = (Book)BindingContext;
-
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
         }
-
         async void reviewlistView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)

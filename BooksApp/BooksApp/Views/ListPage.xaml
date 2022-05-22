@@ -14,8 +14,8 @@
                 <Editor Placeholder="Image Path" x:Name="imgpathentry" Text="{Binding ImagePath}" HeightRequest="50" IsVisible="false"/>
                 <Button Text="Add image" Clicked="Button_Clicked" BackgroundColor="Beige" TextColor="#855438" BorderRadius="23" HeightRequest="42" HorizontalOptions="FillAndExpand" Margin="50,-10,50,0" />
                 <Image Source="{Binding ImagePath}" x:Name="resultImage" HeightRequest="150" WidthRequest="150"/>
-                <Editor Placeholder="Rating" x:Name="avgrating" Text="{Binding Average_Rating}" HeightRequest="50" IsVisible="true" />
-                <Editor Placeholder="Number"  Text="{Binding Average_Rating}" HeightRequest="50" IsVisible="true"  />
+                <Editor Placeholder="Rating" x:Name="avgrating" Text="{Binding Average_Rating}" HeightRequest="50" IsVisible="false" />
+                <Editor Placeholder="Number"  Text="{Binding Average_Rating}" HeightRequest="50" IsVisible="false"  />
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
@@ -32,12 +32,10 @@
                         <DataTemplate>
                             <ViewCell >
                                 <Frame Padding="0" Margin="5,5" HeightRequest="30" WidthRequest="30"  CornerRadius="15" HasShadow="False" BackgroundColor="#e0cc94">
-
                                     <Grid VerticalOptions="CenterAndExpand">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="auto"/>
                                             <ColumnDefinition Width="*"/>
-
                                         </Grid.ColumnDefinitions>
                                         <StackLayout Grid.Column="0">
                                             <Image Source="{Binding ImagePath}" Margin="0" HorizontalOptions="StartAndExpand" HeightRequest="135" WidthRequest="90" Aspect="AspectFill"  ></Image>
@@ -55,7 +53,6 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

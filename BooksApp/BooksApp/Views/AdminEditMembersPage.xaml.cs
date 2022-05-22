@@ -65,7 +65,6 @@ namespace BooksApp.Views
                     DisplayAlert("Error", "User not succesfull deleted", "Ok");
 
             }
-
         }
     }
 }

@@ -10,7 +10,6 @@
         <Label x:Name="user_name" FontSize="20" IsVisible="false"/>
         <Button Text="YES" CornerRadius="15" Margin="70,0,70,0" FontSize="18" FontAttributes="Bold" BackgroundColor="Ivory" TextColor="#855438" Clicked="Button_Clicked"  />
         <Button Text="NO" CornerRadius="15" Margin="70,0,70,0" FontSize="18" FontAttributes="Bold" BackgroundColor="Ivory" TextColor="#855438" Clicked="Button2_Clicked"  />
-
         <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="listView" Margin="20" IsVisible="false">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -18,7 +17,6 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
-
                         </Grid.RowDefinitions>
                         <Label Text="{Binding Description}" Grid.Row="0"/>
                         <Label Text="{Binding UserName}" Grid.Row="1"/>
@@ -26,7 +24,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
     </StackLayout>
-
 </ContentPage>

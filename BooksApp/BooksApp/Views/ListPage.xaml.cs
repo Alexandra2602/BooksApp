@@ -17,21 +17,17 @@ namespace BooksApp.Views
         {
             InitializeComponent();
         }
-
         async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
             var blist = (Book)BindingContext;
             await App.Database.DeleteBookListAsync(blist);
             await Navigation.PopAsync();
         }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            var shopl = (Book)BindingContext;
-            
+            var shopl = (Book)BindingContext;  
         }
-
         string ImagePath;
         private async void Button_Clicked(object sender, EventArgs e)
         {
@@ -39,14 +35,12 @@ namespace BooksApp.Views
             {
                 Title = "Pick a photo"
             });
-
             if (result != null)
             {
                 var stream = await result.OpenReadAsync();
                 resultImage.Source = ImageSource.FromStream(() => stream);
                 ImagePath = result.FullPath;
                 imgpathentry.Text = ImagePath;
-
             }
         }
         async void OnSaveButtonClicked(object sender, EventArgs e)
@@ -57,16 +51,11 @@ namespace BooksApp.Views
                 await App.Database.SaveBookListAsync(blist);
                 await Navigation.PopAsync();
             }
-            
-                else Device.BeginInvokeOnMainThread(async () =>
-                {
-                    await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
+            else Device.BeginInvokeOnMainThread(async () =>
+            {
+                await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
 
-                });
-            
-
+            });
         }
-
-
     }
 }

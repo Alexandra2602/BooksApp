@@ -25,11 +25,12 @@ namespace BooksApp.Views
         {
             base.OnAppearing();
             listView.ItemsSource = await App.Database.GetFinishedBooksAsync();
-            toolbaritem.Text = "Logged in as" + ul.Name;
+            toolbaritem.Text = "Logged in as " + ul.Name;
             user_name.Text = ul.Name;
         }
         async void Button_Clicked(object sender, EventArgs e)
         {
+            int count = ul.Number_of_books;
             var finishedbook = (FinishedBook)BindingContext;
             await App.Database.SaveFinishedBookAsync(finishedbook);
             listView.ItemsSource = await App.Database.GetFinishedBooksAsync();
@@ -39,6 +40,15 @@ namespace BooksApp.Views
                 f = finishedbook as FinishedBook;
                 f.UserName = user_name.Text;
                 await App.Database.SaveFinishedBookAsync(f);
+                if (finishedbook.UserName == ul.Name)
+                {
+                    count = count + 1;
+                }
+                if (count != 0)
+                {
+                    ul.Number_of_books = count;
+                    await App.Database.SaveUserListAsync(ul);
+                }
                 var lp = new ListFinishedBook()
                 {
                     BookID = bl.ID,
@@ -49,12 +59,10 @@ namespace BooksApp.Views
                 f.ListFinishedBooks = new List<ListFinishedBook> { lp };
                 await Navigation.PopAsync();
             }
-
         }
         async void Button2_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
         }
-
     }
 }

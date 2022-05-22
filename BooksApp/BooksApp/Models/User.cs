@@ -32,5 +32,7 @@ namespace BooksApp.Models
         public string FavoriteBook3 { get; set; }
 
         public string Goal { get; set; }
+
+        public int Number_of_books { get; set; }
     }
 }

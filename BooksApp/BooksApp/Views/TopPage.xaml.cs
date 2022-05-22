@@ -15,19 +15,16 @@ namespace BooksApp.Views
     {
         User ul;
         Book bl;
-      
         public TopPage(User ulist)
         {
             InitializeComponent();
             ul = ulist;
         }
-        
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             listViewTop.ItemsSource = await App.Database.GetBookByRating();
             toolbaritem.Text = "Logged in as " + ul.Name;
-
         }
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
@@ -48,7 +45,6 @@ namespace BooksApp.Views
         {
             await Navigation.PushAsync(new BooksPage(ul));
         }
-        
         async void Calendar_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CalendarPage(ul));

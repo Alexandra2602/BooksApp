@@ -24,6 +24,7 @@ namespace BooksApp.Views
             imgpathbook1.Text = ul.FavoriteBook1;
             imgpathbook2.Text = ul.FavoriteBook2;
             imgpathbook3.Text = ul.FavoriteBook3;
+            books_label.Text = ul.Number_of_books.ToString();
             FirstPicker.Items.Add("Biography");
             FirstPicker.Items.Add("Business");
             FirstPicker.Items.Add("Classics");
@@ -85,7 +86,6 @@ namespace BooksApp.Views
             {
                 Title = "Pick a photo"
             });
-
             if (result != null)
             {
                 var stream = await result.OpenReadAsync();
@@ -111,8 +111,6 @@ namespace BooksApp.Views
             book2.Source = ul.FavoriteBook2;
             book3.Source = ul.FavoriteBook3;
             ul.Goal = goal_label.Text;
-
-
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<User>();
@@ -120,18 +118,14 @@ namespace BooksApp.Views
                 if (rowsAdded > 0)
                 {
                     DisplayAlert("Succes", "User succesfull updated", "Ok");
-
                 }
                 else
                     DisplayAlert("Error", "User not succesfull updated", "Ok");
             }
-
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            //var user1 = (User)BindingContext;
-           
             resultImage.Source = ul.ImagePath2;
             cityEntry.Text = ul.Address;
             Description.Text = ul.Description;
@@ -142,8 +136,7 @@ namespace BooksApp.Views
             book2.Source = ul.FavoriteBook2;
             book3.Source = ul.FavoriteBook3;
             goal_label.Text = ul.Goal;
-            toolbaritem.Text = "Logged in as " + ul.Id;
-
+            toolbaritem.Text = "Logged in as " + ul.Name;
         }
         string FavoriteBook1;
         string FavoriteBook2;
@@ -188,7 +181,6 @@ namespace BooksApp.Views
             {
                 Title = "Pick a photo"
             });
-
             if (result != null)
             {
                 var stream = await result.OpenReadAsync();
@@ -199,7 +191,6 @@ namespace BooksApp.Views
                 book3.Source = ul.FavoriteBook3;
             }
         }
-
         async void Top_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TopPage(ul));
@@ -208,7 +199,6 @@ namespace BooksApp.Views
         {
             await Navigation.PushAsync(new BooksPage(ul));
         }
-
         async void Calendar_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CalendarPage(ul));
@@ -221,14 +211,10 @@ namespace BooksApp.Views
         {
             await Navigation.PushAsync(new UsersPage(ul));
         }
-
         async void Button_Clicked_2(object sender, EventArgs e)
         {
-
             await Navigation.PushAsync(new LoginPage());
-        }
-
-        
+        }  
     }
 }
 

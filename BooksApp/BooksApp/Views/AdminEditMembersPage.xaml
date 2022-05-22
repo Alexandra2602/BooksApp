@@ -24,10 +24,7 @@
                 <Entry x:Name="phonenumberEntry" TextColor="Black" PlaceholderColor="Black" Margin="10" Grid.Row="5" Grid.Column="1" Text="{Binding PhoneNumber}"/>
                 <Label Text="Address:" Grid.Row="6" Grid.Column="0" Margin="0,22,0,10" FontSize="16" TextColor="Black"/>
                 <Entry x:Name="addressEntry" TextColor="Black" PlaceholderColor="Gray" FontSize="16" Margin="10" Grid.Row="6" Grid.Column="1" Text="{Binding Address}"/>
-
-
             </Grid>
-
             <Button Text="Save changes" Clicked="OnSaveButtonClicked" TextColor="Beige" BackgroundColor="#855438" BorderRadius="25" HeightRequest="46" Margin="25,0,25,0" />
             <Button Grid.Column="1" Text="Delete account" Clicked="OnDeleteButtonClicked" TextColor="Beige" BackgroundColor="#855438" BorderRadius="25" HeightRequest="46" Margin="25,0,25,0"  />
         </StackLayout>

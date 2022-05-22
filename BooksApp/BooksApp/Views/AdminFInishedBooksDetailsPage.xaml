@@ -8,7 +8,6 @@
                 <Image Source="{Binding ImagePath}" HeightRequest="240" WidthRequest="240" Margin="10" HorizontalOptions="CenterAndExpand"/>
                 <BoxView HeightRequest="4" Color="Wheat" HorizontalOptions="FillAndExpand" Margin="0,0,0,0"/>
                 <Label Text="Finished books" FontSize="23" FontAttributes="Bold" TextColor="#855438" HorizontalOptions="CenterAndExpand"/>
-
                 <ListView  x:Name="finishedListView" HasUnevenRows="True" Margin="20,0,0,0" IsVisible="true" ItemSelected="finishedListView_ItemSelected" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -23,15 +22,13 @@
                                         <RowDefinition Height="auto"/>
                                         <RowDefinition Height="auto"/>
                                     </Grid.RowDefinitions>
-
                                     <Label Text="{Binding UserName}" Grid.Column="0" Grid.Row="0" FontSize="18" TextColor="#855438" FontAttributes="Bold" Margin="0,0,0,0"/>
-                                    <Label Text="finished this book" Grid.Column="1" Grid.Row="0" FontSize="18" TextColor="#855438" Margin="0,0,0,0" />
+                                    <Label Text="finished this book" Grid.Column="1" Grid.Row="0" FontSize="18" TextColor="Black" Margin="0,0,0,0" />
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

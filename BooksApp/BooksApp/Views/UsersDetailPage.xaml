@@ -2,8 +2,9 @@
     <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.UsersDetailPage">
-
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbaritem"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
             <StackLayout BackgroundColor="#e0cc94">
             <Grid>
@@ -16,7 +17,6 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-
                 </Grid.ColumnDefinitions>
                 <Label Text="{Binding Name}" TextTransform="Uppercase" TextColor="#855438" FontAttributes="Bold" FontSize="18" Margin="0,5,0,0" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
                 <Label Text="'S PROFILE" TextColor="#855438" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Start" Margin="0,5,0,0" Grid.Row="0" Grid.Column="2" />
@@ -26,7 +26,6 @@
                 </Frame>
                 <Editor FontSize="15" Text="{Binding Address}" TextColor="#855438" FontAttributes="Bold" HorizontalOptions="Start" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="1" Margin="15,-20,0,70"/>
                 <Image Source="location" Grid.Column="2" Grid.Row="2" Margin="-120,-20,-10,70"/>
-
                 <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-60,10,156" Grid.Row="3" Grid.ColumnSpan="3"/>
                 <Label Text="Favorite Genres"  HorizontalOptions="Center" FontSize="18" FontAttributes="Bold" Margin="0, 50,0,0" TextColor="#855438" Grid.Row="2" Grid.ColumnSpan="3"/>
                 <Frame Padding="5" CornerRadius="15" BackgroundColor="Wheat" Margin="10,-10,10,40" Grid.Column="0" Grid.Row="3" >
@@ -39,12 +38,10 @@
                     <Label Text="{Binding FavoriteGenre3}" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Frame>
                 <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-35,10,131" Grid.Row="4" Grid.ColumnSpan="3"/>
-
                 <Label Text="Favorite Books"  HorizontalOptions="Center" FontSize="18" FontAttributes="Bold" Margin="0,-130,0,0" TextColor="#855438" Grid.Row="5" Grid.ColumnSpan="3"/>
                 <Image Source="{Binding FavoriteBook1}" HeightRequest="130" WidthRequest="120" Margin="10,-90,0,40" Aspect="AspectFill" Grid.Column="0" Grid.Row="5"/>
                 <Image Source="{Binding FavoriteBook2}" HeightRequest="130" WidthRequest="120" Margin="10,-90,0,40" Aspect="AspectFill" Grid.Column="1" Grid.Row="5"/>
                 <Image Source="{Binding FavoriteBook3}" HeightRequest="130" WidthRequest="120" Margin="10,-90,0,40" Aspect="AspectFill" Grid.Column="2" Grid.Row="5"/>
-
             </Grid>
             </StackLayout>
         </ContentPage.Content>

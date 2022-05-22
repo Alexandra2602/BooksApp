@@ -19,10 +19,8 @@ namespace BooksApp.Views
         {
             InitializeComponent();
         }
-
        public void RegisterButton_Clicked(object sender, EventArgs e)
         {
-       
             User user = new User()
             {
                 Name = nameEntry.Text,
@@ -53,10 +51,7 @@ namespace BooksApp.Views
                     await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
 
                 });
-
             }
-
-
         }
     }
 }
