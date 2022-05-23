@@ -56,6 +56,7 @@
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" WidthRequest="10" Color="Black" Margin="10,-10,10,190" Grid.Row="5" Grid.ColumnSpan="3"/>
                     <Button Text="SAVE" BackgroundColor="#855438" TextColor="Ivory" CornerRadius="15" Grid.Row="5" Grid.Column="0"  Margin="30,0,-30,120" Clicked="Button_Clicked_1"/>
                     <Button Text="LOG OUT" BackgroundColor="#855438" TextColor="Ivory" CornerRadius="15" Grid.Row="5" Grid.Column="2"  Margin="-30,0,30,120" Clicked="Button_Clicked_2"/>
+                    
                     <ListView Grid.Row="1" Grid.ColumnSpan="2" x:Name="finishedlistView" Margin="20" IsVisible="true" BackgroundColor="Black">
                         <ListView.ItemTemplate>
                             <DataTemplate>

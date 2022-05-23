@@ -21,6 +21,7 @@ namespace BooksApp.Views
             InitializeComponent();
             EntryUser.Text = Preferences.Get("EntryUser", string.Empty);
             EntryPassword.Text = Preferences.Get("EntryPassword", string.Empty);
+
         }
         private void Login_Clicked(object sender, EventArgs e)
         {
@@ -51,17 +52,18 @@ namespace BooksApp.Views
         }
         void SaveUsername()
         {
-            if (checkbox.IsChecked == true)
+            if (checkbox1.IsChecked == true)
             {
                 Preferences.Set("EntryUser", EntryUser.Text);
                 Preferences.Set("EntryPassword", EntryPassword.Text);
+                checkbox2.IsEnabled = false;
             }
             else
                 Preferences.Clear();
         }
         private void checkbox_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
-            if (checkbox.IsChecked == true)
+            if (checkbox1.IsChecked == true)
             {
                 Preferences.Set("EntryUser", EntryUser.Text);
                 Preferences.Set("EntryPassword", EntryPassword.Text);
@@ -69,9 +71,9 @@ namespace BooksApp.Views
             checkbox2.IsEnabled = false;
         }
         private void checkbox2_CheckedChanged(object sender, CheckedChangedEventArgs e)
-        { 
-                Preferences.Clear();
-            checkbox.IsEnabled = false;
+        {
+            Preferences.Clear();
+            checkbox1.IsEnabled = false;
         }
     }
 }
