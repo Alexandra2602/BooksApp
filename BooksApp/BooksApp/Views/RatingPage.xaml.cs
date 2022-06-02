@@ -30,13 +30,25 @@ namespace BooksApp.Views
         }
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
-            bl.Average_Rating = 0;
+            float media = bl.Average_Rating;
+            float nr = bl.Number;
+            float sum = bl.Total;
             var rating = (RatingModel)BindingContext;
             await App.Database.SaveRatingAsync(rating);
             ratingListView.ItemsSource = await App.Database.GetRatingsAsync();
             RatingModel r;
             if (rating != null)
             {
+                nr = nr + 1;
+                sum = sum + rating.Description;
+                if(nr!=0)
+                {
+                    media = sum / nr;
+                    bl.Number = nr;
+                    bl.Total = sum;
+                    bl.Average_Rating = media;
+                    await App.Database.SaveBookListAsync(bl);
+                }
                 r = rating as RatingModel;
                 r.UserName = user_name.Text;
                 await App.Database.SaveRatingAsync(r);

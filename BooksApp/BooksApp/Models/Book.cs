@@ -18,9 +18,11 @@ namespace BooksApp.Models
         public string ImagePath { get; set; }
         public string Year_Month { get; set; }
 
+
         public float Average_Rating { get; set; }
+        public float Total { get; set; }
         public float Number { get; set; }
-        public int Top { get; set; }
+     
     }
 }
 

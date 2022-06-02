@@ -13,9 +13,12 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AdminRatingDetailsPage : ContentPage
     {
-        public AdminRatingDetailsPage()
+        Book bl;
+        
+        public AdminRatingDetailsPage(Book blist)
         {
             InitializeComponent();
+            bl = blist;
         }
         protected override async void OnAppearing()
         {
@@ -27,7 +30,7 @@ namespace BooksApp.Views
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new AdminEditRatings
+                await Navigation.PushAsync(new AdminEditRatings(bl)
                 {
                     BindingContext = e.SelectedItem as RatingModel
                 });

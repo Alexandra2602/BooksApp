@@ -48,7 +48,7 @@ namespace BooksApp.Views
                 }
                 else Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await this.DisplayAlert("Error", "You have to complet all the fields", "Yes", "Cancel");
+                    await this.DisplayAlert("Error", "You have to complete all the fields", "Yes", "Cancel");
 
                 });
             }

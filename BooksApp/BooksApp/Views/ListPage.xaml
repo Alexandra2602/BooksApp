@@ -14,8 +14,10 @@
                 <Editor Placeholder="Image Path" x:Name="imgpathentry" Text="{Binding ImagePath}" HeightRequest="50" IsVisible="false"/>
                 <Button Text="Add image" Clicked="Button_Clicked" BackgroundColor="Beige" TextColor="#855438" BorderRadius="23" HeightRequest="42" HorizontalOptions="FillAndExpand" Margin="50,-10,50,0" />
                 <Image Source="{Binding ImagePath}" x:Name="resultImage" HeightRequest="150" WidthRequest="150"/>
-                <Editor Placeholder="Rating" x:Name="avgrating" Text="{Binding Average_Rating}" HeightRequest="50" IsVisible="false" />
-                <Editor Placeholder="Number"  Text="{Binding Average_Rating}" HeightRequest="50" IsVisible="false"  />
+                <Editor Placeholder="Rating" x:Name="avgrating" Text="{Binding Average_Rating}" HeightRequest="50" IsVisible="true" />
+                <Editor Placeholder="Number"  Text="{Binding Number}" HeightRequest="50" IsVisible="true"  />
+                <Editor Placeholder="Total"  Text="{Binding Total}" HeightRequest="50" IsVisible="true"  />
+                
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />

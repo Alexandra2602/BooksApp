@@ -13,6 +13,7 @@ namespace BooksApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AdminRatingPage : ContentPage
     {
+        Book bl;
         public AdminRatingPage()
         {
             InitializeComponent();
@@ -26,7 +27,7 @@ namespace BooksApp.Views
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new AdminRatingDetailsPage
+                await Navigation.PushAsync(new AdminRatingDetailsPage(bl)
                 {
                     BindingContext = e.SelectedItem as Book
                 });
