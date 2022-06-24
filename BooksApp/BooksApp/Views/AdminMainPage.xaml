@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooksApp.Views.AdminMainPage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add Books" Clicked="OnShopListAddedClicked" />
+        <ToolbarItem Text="Add Books" Clicked="OnBookListAddedClicked" />
     </ContentPage.ToolbarItems>
     <StackLayout BackgroundColor="Wheat">
         <ListView x:Name="listView" Margin="10" RowHeight="150" ItemSelected="OnListViewItemSelected">

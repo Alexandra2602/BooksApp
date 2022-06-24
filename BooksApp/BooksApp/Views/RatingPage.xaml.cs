@@ -1,10 +1,6 @@
 ﻿using BooksApp.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -34,8 +30,6 @@ namespace BooksApp.Views
             float nr = bl.Number;
             float sum = bl.Total;
             var rating = (RatingModel)BindingContext;
-            await App.Database.SaveRatingAsync(rating);
-            ratingListView.ItemsSource = await App.Database.GetRatingsAsync();
             RatingModel r;
             if (rating != null)
             {

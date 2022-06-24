@@ -1,10 +1,5 @@
 ﻿using BooksApp.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -26,7 +21,6 @@ namespace BooksApp.Views
             base.OnAppearing();
             toolbaritem.Text = "Logged in as " + ul.Name ;
             var shopl = (Book)BindingContext;
-            //var user1 = (User)BindingContext;
             finishedListView.ItemsSource = await App.Database.GetListFinishedBooksAsync(shopl.ID);
             reviewlistView.ItemsSource = await App.Database.GetListReviewsAsync(shopl.ID);
             ratingListView.ItemsSource = await App.Database.GetListRatingsAsync(shopl.ID);

@@ -1,8 +1,7 @@
 ﻿using SQLite;
-using System;
 using SQLiteNetExtensions.Attributes;
 using System.Collections.Generic;
-using System.Text;
+
 
 namespace BooksApp.Models
 {

@@ -1,10 +1,6 @@
 ﻿using BooksApp.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -31,8 +27,6 @@ namespace BooksApp.Views
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var review = (Review)BindingContext;
-            await App.Database.SaveReviewAsync(review);
-            listView.ItemsSource = await App.Database.GetReviewsAsync();
             Review r;
             if (review != null)
             {

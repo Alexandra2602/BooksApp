@@ -1,10 +1,5 @@
 ﻿using BooksApp.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,7 +17,7 @@ namespace BooksApp.Views
             base.OnAppearing();
             listView.ItemsSource = await App.Database.GetBookListsAsync();
         }
-        async void OnShopListAddedClicked(object sender, EventArgs e)
+        async void OnBookListAddedClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListPage
             {

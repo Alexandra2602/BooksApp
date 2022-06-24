@@ -1,10 +1,6 @@
 ﻿using BooksApp.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -32,8 +28,6 @@ namespace BooksApp.Views
         {
             int count = ul.Number_of_books;
             var finishedbook = (FinishedBook)BindingContext;
-            await App.Database.SaveFinishedBookAsync(finishedbook);
-            listView.ItemsSource = await App.Database.GetFinishedBooksAsync();
             FinishedBook f;
             if (finishedbook != null)
             {

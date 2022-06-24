@@ -1,9 +1,6 @@
 ﻿using BooksApp.Models;
-using Newtonsoft.Json;
 using SQLite;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace BooksApp.Data
@@ -22,8 +19,6 @@ namespace BooksApp.Data
             _database.CreateTableAsync<ListRating>().Wait();
             _database.CreateTableAsync<FinishedBook>().Wait();
             _database.CreateTableAsync<ListFinishedBook>().Wait();
-
-
         }
         public Task<List<Book>> GetBookListsAsync()
         {
@@ -39,7 +34,6 @@ namespace BooksApp.Data
             .Where(i => i.ID == id)
            .FirstOrDefaultAsync();
         }
-
         public Task<Book> GetBookListByRating(float rating)
         {
             return _database.Table<Book>()

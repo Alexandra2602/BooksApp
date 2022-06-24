@@ -1,11 +1,6 @@
 ﻿using BooksApp.Models;
 using SQLite;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -35,15 +30,15 @@ namespace BooksApp.Views
                 if (myquery != null)
                 {
                     var user = myquery as User;
-                    App.Current.MainPage = new NavigationPage(new BooksPage( user ));
+                    App.Current.MainPage = new NavigationPage(new BooksPage(user));
                 }
                 else
                 {
                     Device.BeginInvokeOnMainThread(async () =>
                     {
-                        var result = await this.DisplayAlert("Error", "You have to enter an username and a password", "Ok", "Cancel");
+                        var result = await this.DisplayAlert("Error", "Email or password is incorrect", "Ok", "Cancel");
                     });
-                }
+                } 
             }
         }
         async void Register_Clicked(object sender, EventArgs e)
